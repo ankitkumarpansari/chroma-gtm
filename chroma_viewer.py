@@ -14,7 +14,13 @@ st.set_page_config(page_title="Chroma Signal", page_icon="◈", layout="wide", i
 
 # === SIMPLE PASSWORD PROTECTION ===
 # Set password via Streamlit secrets or use default
-APP_PASSWORD = st.secrets.get("APP_PASSWORD", "chroma2024")
+def get_secret(key, default):
+    try:
+        return st.secrets[key]
+    except:
+        return default
+
+APP_PASSWORD = get_secret("APP_PASSWORD", "chroma2024")
 
 def check_password():
     """Simple password protection for internal use"""
@@ -130,9 +136,9 @@ st.markdown("""
 @st.cache_resource
 def get_client():
     return chromadb.CloudClient(
-        api_key=st.secrets.get("CHROMA_API_KEY", "ck-2i6neFLSKhd5pEqLP3jZKUkG6tX3yo4RVUZEeRxs4fHm"),
-        tenant=st.secrets.get("CHROMA_TENANT", "aa8f571e-03dc-4cd8-b888-723bd00b83f0"),
-        database=st.secrets.get("CHROMA_DATABASE", "customer")
+        api_key=get_secret("CHROMA_API_KEY", "ck-2i6neFLSKhd5pEqLP3jZKUkG6tX3yo4RVUZEeRxs4fHm"),
+        tenant=get_secret("CHROMA_TENANT", "aa8f571e-03dc-4cd8-b888-723bd00b83f0"),
+        database=get_secret("CHROMA_DATABASE", "customer")
     )
 
 @st.cache_data(ttl=10)
