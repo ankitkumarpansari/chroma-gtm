@@ -1,0 +1,83 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Chroma SEO Strategy</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap');
+      text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#2e2e33"/>
+  
+  <!-- Title -->
+  <text x="40" y="50" font-size="24" font-weight="600" fill="#ffffff">Chroma SEO Strategy</text>
+  <text x="40" y="75" font-size="13" fill="#888888">December 2025</text>
+  
+  <!-- Divider -->
+  <line x1="40" y1="100" x2="760" y2="100" stroke="#444444" stroke-width="1"/>
+
+  <!-- North Star -->
+  <text x="40" y="140" font-size="11" fill="#888888" letter-spacing="1">NORTH STAR</text>
+  <text x="40" y="170" font-size="16" fill="#ffffff">5x organic traffic → Product signups</text>
+  <text x="40" y="195" font-size="13" fill="#888888">Win the SEO war against Pinecone. Category dominance in 6 months.</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="230" x2="760" y2="230" stroke="#444444" stroke-width="1"/>
+
+  <!-- Strategy Pillars -->
+  <text x="40" y="270" font-size="11" fill="#888888" letter-spacing="1">STRATEGY PILLARS</text>
+
+  <!-- Pillar 1 -->
+  <text x="40" y="310" font-size="14" font-weight="500" fill="#ffffff">1. Keyword Ownership</text>
+  <text x="40" y="335" font-size="13" fill="#888888">Own 40 high-priority non-branded keywords</text>
+  <text x="40" y="358" font-size="12" fill="#666666">• vector database • RAG • embedding database • semantic search</text>
+  <text x="680" y="335" font-size="11" fill="#555555" text-anchor="end">→ 01_keywords.svg</text>
+
+  <!-- Pillar 2 -->
+  <text x="40" y="400" font-size="14" font-weight="500" fill="#ffffff">2. Programmatic SEO</text>
+  <text x="40" y="425" font-size="13" fill="#888888">Scale content at velocity (Airtable/Canva model)</text>
+  <text x="40" y="448" font-size="12" fill="#666666">• Comparison pages • Integration guides • Use case templates</text>
+  <text x="680" y="425" font-size="11" fill="#555555" text-anchor="end">→ 02_programmatic.svg</text>
+
+  <!-- Pillar 3 -->
+  <text x="40" y="490" font-size="14" font-weight="500" fill="#ffffff">3. AI Search (GEO)</text>
+  <text x="40" y="515" font-size="13" fill="#888888">Become the default citation in LLM responses</text>
+  <text x="40" y="538" font-size="12" fill="#666666">• ChatGPT • Perplexity • Google AI Overviews • Claude</text>
+  <text x="680" y="515" font-size="11" fill="#555555" text-anchor="end">→ 03_ai_search.svg</text>
+
+  <!-- Pillar 4 -->
+  <text x="40" y="580" font-size="14" font-weight="500" fill="#ffffff">4. Competitive Battle</text>
+  <text x="40" y="605" font-size="13" fill="#888888">Outrank Pinecone on every core keyword</text>
+  <text x="40" y="628" font-size="12" fill="#666666">• pinecone.io • qdrant.tech • weaviate.io • turbopuffer.com • vespa.ai</text>
+  <text x="680" y="605" font-size="11" fill="#555555" text-anchor="end">→ 04_competitive.svg</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="665" x2="760" y2="665" stroke="#444444" stroke-width="1"/>
+
+  <!-- Execution -->
+  <text x="40" y="705" font-size="11" fill="#888888" letter-spacing="1">EXECUTION</text>
+
+  <!-- Target Audience -->
+  <text x="40" y="745" font-size="14" font-weight="500" fill="#ffffff">Target Audience</text>
+  <text x="40" y="770" font-size="13" fill="#888888">AI/ML engineers at startups building LLM applications</text>
+  <text x="40" y="793" font-size="12" fill="#666666">• Technical founders • Backend engineers • ML practitioners</text>
+  <text x="680" y="770" font-size="11" fill="#555555" text-anchor="end">→ 05_audience.svg</text>
+
+  <!-- Success Metrics -->
+  <text x="40" y="835" font-size="14" font-weight="500" fill="#ffffff">Success Metrics</text>
+  <text x="40" y="860" font-size="13" fill="#888888">5x traffic • #1 rankings • 90-day pipeline impact • AI citations</text>
+  <text x="680" y="860" font-size="11" fill="#555555" text-anchor="end">→ 06_metrics.svg</text>
+
+  <!-- Timeline -->
+  <text x="40" y="902" font-size="14" font-weight="500" fill="#ffffff">Timeline</text>
+  <text x="40" y="927" font-size="13" fill="#888888">6-month roadmap: Foundation → Scale → Optimize</text>
+  <text x="680" y="927" font-size="11" fill="#555555" text-anchor="end">→ 07_timeline.svg</text>
+
+  <!-- Budget -->
+  <line x1="40" y1="960" x2="760" y2="960" stroke="#444444" stroke-width="1"/>
+  <text x="40" y="990" font-size="11" fill="#888888" letter-spacing="1">BUDGET</text>
+  <text x="120" y="990" font-size="13" fill="#ffffff">$10K/month</text>
+  <text x="230" y="990" font-size="12" fill="#666666">+ parallel SDR &amp; performance marketing</text>
+
+</svg>

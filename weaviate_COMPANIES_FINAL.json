@@ -1,0 +1,363 @@
+{
+  "channel": "Weaviate",
+  "channel_url": "https://www.youtube.com/@Weaviate/videos",
+  "total_videos": 260,
+  "total_companies": 93,
+  "companies": {
+    "customers": [
+      "ANN Benchmarks",
+      "AliBi and Self",
+      "Alltius AI",
+      "Applications of Nearest Neighbor Search",
+      "Arctic (Snowflake)",
+      "BAIK",
+      "Box AI",
+      "Cartesia AI",
+      "Cohere Embedding Models",
+      "Cohere Search AI",
+      "Contextual AI",
+      "Emissary",
+      "FeatureForm",
+      "Fine",
+      "Full Stack Deep Learning",
+      "GPT4All",
+      "Generative Search with Weaviate",
+      "Haize Labs",
+      "Information Retrieval Science",
+      "Kapa AI",
+      "Keenious",
+      "Kraftful",
+      "LLM Agents",
+      "Learning to Retrieve Passages without Supervision",
+      "Letta AI",
+      "Masterful AI",
+      "Mem",
+      "Metarank",
+      "Metro AG",
+      "Mixpeek",
+      "Mixpeek and the AI Landscape",
+      "Morningstar",
+      "MosaicML Cloud",
+      "Neum AI",
+      "Neural Search Frameworks",
+      "OpenVerkiezingenNL",
+      "Orchest",
+      "Patronus AI",
+      "PodcastGPT",
+      "Portkey",
+      "Pyversity",
+      "Quantization and FAISS",
+      "Question Answering with Haystack",
+      "Recommendation and Metarank",
+      "Retrieval",
+      "SWE-bench",
+      "Scientific Literature Mining",
+      "Super People",
+      "TARS",
+      "Tabular Machine Learning",
+      "Tactic",
+      "Tactic Generate",
+      "Unstructured",
+      "VL Adapter for Efficient CLIP Transfer",
+      "Vector Search in Production",
+      "VectorFlow",
+      "Vody",
+      "WPSolr",
+      "Weaviate User Experience",
+      "Weaviate and AWS",
+      "Weaviate and SAS",
+      "You.com",
+      "You.com and Spark",
+      "Zencastr"
+    ],
+    "partners": [
+      "AWS",
+      "Cohere",
+      "Confluent",
+      "DeepSeek",
+      "Deepset",
+      "GitHub",
+      "Google",
+      "Jina AI",
+      "Meta",
+      "MosaicML",
+      "Neural Magic",
+      "Nomic AI",
+      "OpenAI",
+      "SAS",
+      "Vertex AI",
+      "Voyage AI"
+    ],
+    "ai_tools": [
+      "BERTopic",
+      "ColBERT",
+      "DSPy",
+      "Gorilla",
+      "Haystack",
+      "Instructor",
+      "LMQL",
+      "LangChain",
+      "LlamaIndex",
+      "MemGPT",
+      "Ollama",
+      "RAGAS"
+    ],
+    "competitors": [
+      "FAISS"
+    ],
+    "all": [
+      "ANN Benchmarks",
+      "AWS",
+      "AliBi and Self",
+      "Alltius AI",
+      "Applications of Nearest Neighbor Search",
+      "Arctic (Snowflake)",
+      "BAIK",
+      "BERTopic",
+      "Box AI",
+      "Cartesia AI",
+      "Cohere",
+      "Cohere Embedding Models",
+      "Cohere Search AI",
+      "ColBERT",
+      "Confluent",
+      "Contextual AI",
+      "DSPy",
+      "DeepSeek",
+      "Deepset",
+      "Emissary",
+      "FAISS",
+      "FeatureForm",
+      "Fine",
+      "Full Stack Deep Learning",
+      "GPT4All",
+      "Generative Search with Weaviate",
+      "GitHub",
+      "Google",
+      "Gorilla",
+      "Haize Labs",
+      "Haystack",
+      "Information Retrieval Science",
+      "Instructor",
+      "Jina AI",
+      "Kapa AI",
+      "Keenious",
+      "Kraftful",
+      "LLM Agents",
+      "LMQL",
+      "LangChain",
+      "Learning to Retrieve Passages without Supervision",
+      "Letta AI",
+      "LlamaIndex",
+      "Masterful AI",
+      "Mem",
+      "MemGPT",
+      "Meta",
+      "Metarank",
+      "Metro AG",
+      "Mixpeek",
+      "Mixpeek and the AI Landscape",
+      "Morningstar",
+      "MosaicML",
+      "MosaicML Cloud",
+      "Neum AI",
+      "Neural Magic",
+      "Neural Search Frameworks",
+      "Nomic AI",
+      "Ollama",
+      "OpenAI",
+      "OpenVerkiezingenNL",
+      "Orchest",
+      "Patronus AI",
+      "PodcastGPT",
+      "Portkey",
+      "Pyversity",
+      "Quantization and FAISS",
+      "Question Answering with Haystack",
+      "RAGAS",
+      "Recommendation and Metarank",
+      "Retrieval",
+      "SAS",
+      "SWE-bench",
+      "Scientific Literature Mining",
+      "Super People",
+      "TARS",
+      "Tabular Machine Learning",
+      "Tactic",
+      "Tactic Generate",
+      "Unstructured",
+      "VL Adapter for Efficient CLIP Transfer",
+      "Vector Search in Production",
+      "VectorFlow",
+      "Vertex AI",
+      "Vody",
+      "Voyage AI",
+      "WPSolr",
+      "Weaviate User Experience",
+      "Weaviate and AWS",
+      "Weaviate and SAS",
+      "You.com",
+      "You.com and Spark",
+      "Zencastr"
+    ]
+  },
+  "videos_with_companies": {
+    "Pyversity with Thomas van Dongen - Weaviate Podcast #132!": [
+      "Pyversity"
+    ],
+    "DSPy Boston - 10/15/2025": [
+      "DSPy"
+    ],
+    "AI Assistant for Cyclists: Meet BAIK": [
+      "BAIK"
+    ],
+    "AI-Powered Resumes with Super People & Weaviate": [
+      "Super People"
+    ],
+    "Saurabh Mishra and Bob van Luijt on Weaviate and SAS - Weaviate Podcast #129!": [
+      "SAS",
+      "Weaviate and SAS"
+    ],
+    "Building AI Agents with TARS & Weaviate": [
+      "TARS"
+    ],
+    "DSPy GEPA Example: Listwise Reranker": [
+      "DSPy"
+    ],
+    "Patronus AI with Anand Kannappan - Weaviate Podcast #122!": [
+      "Patronus AI"
+    ],
+    "Haize Labs with Leonard Tang - Weaviate Podcast #121!": [
+      "Haize Labs"
+    ],
+    "Box AI with Ben Kus and Bob van Luijt - Weaviate Podcast #120!": [
+      "Box AI"
+    ],
+    "Letta AI with Sarah Wooders - Weaviate Podcast #117!": [
+      "Letta AI"
+    ],
+    "Contextual AI with Amanpreet Singh - Weaviate Podcast #114!": [
+      "Contextual AI"
+    ],
+    "Think Deepseek-R1 was trained like other top LLMs? Think again.": [
+      "DeepSeek"
+    ],
+    "Cartesia AI with Karan Goel - Weaviate Podcast #113!": [
+      "Cartesia AI"
+    ],
+    "Vertex AI RAG Engine with Lewis Liu and Bob van Luijt - Weaviate Podcast #112!": [
+      "Vertex AI"
+    ],
+    "Morningstar Intelligence Engine with Aravind Kesiraju - Weaviate Podcast #111!": [
+      "Morningstar"
+    ],
+    "Arctic Embed with Luke Merrick, Puxuan Yu, and Charles Pierse - Weaviate Podcast #110!": [
+      "Arctic (Snowflake)"
+    ],
+    "SWE-bench with John Yang and Carlos E. Jimenez - Weaviate Podcast #107!": [
+      "SWE-bench"
+    ],
+    "Hack Night at GitHub with Weaviate": [
+      "GitHub"
+    ],
+    "MIPRO and DSPy with Krista Opsahl-Ong! - Weaviate Podcast #103": [
+      "DSPy"
+    ],
+    "Chat with your code: RAG with Weaviate and LlamaIndex": [
+      "LlamaIndex"
+    ],
+    "Open Source RAG running LLMs locally with Ollama": [
+      "Ollama"
+    ],
+    "DSPy End-to-End: Meetup in San Francisco": [
+      "DSPy"
+    ],
+    "Google Cloud Marketplace with Dai Vu and Bob van Luijt - Weaviate Podcast #95!": [
+      "Google"
+    ],
+    "Tengyu Ma on Voyage AI - Weaviate Podcast #91!": [
+      "Voyage AI"
+    ],
+    "Self-Discover in DSPy with Chris Dossman - Weaviate Podcast #90!": [
+      "DSPy"
+    ],
+    "DSPy + Weaviate for the Next Generation of LLM Apps": [
+      "DSPy"
+    ],
+    "Instructor with Jason Liu - Weaviate Podcast #88!": [
+      "Instructor"
+    ],
+    "XMC.dspy with Karel D'Oosterlinck - Weaviate Podcast #87!": [
+      "DSPy"
+    ],
+    "DSPy and ColBERT with Omar Khattab! - Weaviate Podcast #85": [
+      "DSPy",
+      "ColBERT"
+    ],
+    "Rudy Lai on Tactic Generate - Weaviate Podcast #78!": [
+      "Tactic Generate",
+      "Tactic"
+    ],
+    "RAGAS with Jithin James, Shahul Es, and Erika Cardenas - Weaviate Podcast #77!": [
+      "RAGAS"
+    ],
+    "Patrick Lewis on Retrieval-Augmented Generation - Weaviate Podcast #76!": [
+      "Retrieval"
+    ],
+    "Tanmay Chopra on Emissary - Weaviate Podcast #75!": [
+      "Emissary"
+    ],
+    "Simba Khadder on FeatureForm - Weaviate Podcast #74!": [
+      "FeatureForm"
+    ],
+    "Charles Packer on MemGPT - Weaviate Podcast #73!": [
+      "Mem",
+      "MemGPT"
+    ],
+    "Madelon Hulsebos on Tabular Machine Learning - Weaviate Podcast #72!": [
+      "Tabular Machine Learning"
+    ],
+    "Vibs Abhishek on Alltius AI - Weaviate Podcast #71!": [
+      "Alltius AI"
+    ],
+    "MemGPT Explained!": [
+      "Mem",
+      "MemGPT"
+    ],
+    "Kevin Cohen on Neum AI - Weaviate Podcast #70!": [
+      "Neum AI"
+    ],
+    "Charles Pierse on Tactic Generate - Weaviate Podcast #69!": [
+      "Tactic Generate",
+      "Tactic"
+    ],
+    "Episode 3: RAG Techniques in LlamaIndex": [
+      "LlamaIndex"
+    ],
+    "Make Real-Time AI a Reality with Weaviate + Confluent": [
+      "Confluent"
+    ],
+    "Weights and Biases on Fine-Tuning LLMs - Weaviate Podcast #68!": [
+      "Fine"
+    ],
+    "Farshad Farahbakhshian and Etienne Dilocker on Weaviate and AWS - Weaviate Podcast #67!": [
+      "Weaviate and AWS",
+      "AWS"
+    ],
+    "Weaviate Gorilla Part 1: GraphQL APIs!": [
+      "Gorilla"
+    ],
+    "David Garnitz on VectorFlow - Weaviate Podcast #66!": [
+      "VectorFlow"
+    ],
+    "Ofir Press on AliBi and Self-Ask - Weaviate Podcast #65!": [
+      "AliBi and Self"
+    ],
+    "Shishir Patil and Tianjun Zhang on Gorilla - Weaviate Podcast #64!": [
+      "Gorilla"
+    ],
+    "Gorilla LLMs Explained!": [
+      "Gorilla"
+    ]
+  }
+}

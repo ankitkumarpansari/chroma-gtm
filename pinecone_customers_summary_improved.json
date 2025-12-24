@@ -1,0 +1,9 @@
+{
+  "total_videos_processed": 3,
+  "total_unique_customers": 0,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "min_confidence": 0.5,
+  "customers": {},
+  "top_customers": []
+}

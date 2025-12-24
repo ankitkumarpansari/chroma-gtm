@@ -1,0 +1,266 @@
+{
+  "channel": "Qdrant",
+  "channel_url": "https://www.youtube.com/@qdrant/videos",
+  "total_videos": 179,
+  "total_titles_analyzed": 125,
+  "total_companies": 44,
+  "companies": {
+    "customers": [
+      "Antz AI",
+      "Arize AI",
+      "AskNews",
+      "AugmentCode",
+      "Baseten",
+      "Camel AI",
+      "Cheshire Cat AI",
+      "Cognee",
+      "Delivery Hero",
+      "Dust",
+      "Equal",
+      "GoodData",
+      "Indexify",
+      "KI Reply",
+      "Lettria",
+      "Linkup",
+      "Quotient",
+      "Razroo",
+      "Sentrev",
+      "Superlinked",
+      "Tensorlake",
+      "Twelve Labs",
+      "TwelveLabs",
+      "Unstructured",
+      "VirtualBrain",
+      "bakdata",
+      "iCompetence",
+      "n8n"
+    ],
+    "partners": [
+      "Apache Kafka",
+      "Cohere",
+      "Google",
+      "Google DeepMind",
+      "Google Gemini",
+      "Groq",
+      "Jina AI",
+      "Mistral",
+      "Neo4j",
+      "OpenAI",
+      "deepset"
+    ],
+    "ai_tools": [
+      "ColPali",
+      "DSPy",
+      "Haystack",
+      "LangChain",
+      "LlamaIndex"
+    ],
+    "competitors": [],
+    "all": [
+      "Antz AI",
+      "Apache Kafka",
+      "Arize AI",
+      "AskNews",
+      "AugmentCode",
+      "Baseten",
+      "Camel AI",
+      "Cheshire Cat AI",
+      "Cognee",
+      "Cohere",
+      "ColPali",
+      "DSPy",
+      "Delivery Hero",
+      "Dust",
+      "Equal",
+      "GoodData",
+      "Google",
+      "Google DeepMind",
+      "Google Gemini",
+      "Groq",
+      "Haystack",
+      "Indexify",
+      "Jina AI",
+      "KI Reply",
+      "LangChain",
+      "Lettria",
+      "Linkup",
+      "LlamaIndex",
+      "Mistral",
+      "Neo4j",
+      "OpenAI",
+      "Quotient",
+      "Razroo",
+      "Sentrev",
+      "Superlinked",
+      "Tensorlake",
+      "Twelve Labs",
+      "TwelveLabs",
+      "Unstructured",
+      "VirtualBrain",
+      "bakdata",
+      "deepset",
+      "iCompetence",
+      "n8n"
+    ]
+  },
+  "videos_with_companies": {
+    "Building a News Sleuth for the Deep Research Paradigm | AskNews | Robert Caulk": [
+      "AskNews"
+    ],
+    "High-Throughput, Low-Latency Embedding Pipelines for Real-World Applications | Baseten | Rachel Rapp": [
+      "Baseten"
+    ],
+    "Building Scalable AI Memory for Agents Across Graphs and Vectors | Cognee | Vasilije Markovic": [
+      "Cognee"
+    ],
+    "Vector Search with Gemini Embedding and Open EmbeddingGemma Models | Google DeepMind | Patrick L\u00f6ber": [
+      "Google DeepMind",
+      "Google",
+      "Google Gemini"
+    ],
+    "How to Cheat at Benchmarking Search Engines | Delivery Hero | Roman Grebennikov": [
+      "Delivery Hero"
+    ],
+    "Vision-Language Models: A New Architecture for Embedding Models | Jina AI | Michael G\u00fcnther": [
+      "Jina AI"
+    ],
+    "Beyond Web Search: Real-Time Web Intelligence for AI-Native Agents | Linkup | Philippe Mizrahi": [
+      "Linkup"
+    ],
+    "Vector Search Powers Workflow Engineering for Context-Rich AI Systems | LlamaIndex | Clelia Bertelli": [
+      "LlamaIndex"
+    ],
+    "Evaluate Your Qdrant-RAG Agents with No-Code n8n Evaluations | n8n | Marcel Claus-Ahrens": [
+      "n8n"
+    ],
+    "Beyond Text-Only: LlamaIndex Retriever with Superlinked\u2019s Mixture of Encoders | Filip Makraduli": [
+      "Superlinked",
+      "LlamaIndex"
+    ],
+    "Agent-Powered Retrieval with Haystack and Qdrant: Promises and Pitfalls | deepset | Bilge Y\u00fccel": [
+      "deepset",
+      "Haystack"
+    ],
+    "Self-Improving Evaluations for Agentic RAG: Tracing and Feedback Loops | Arize AI | Dat Ngo": [
+      "Arize AI"
+    ],
+    "Scaling Real\u2011Time RAG for Analytics with Qdrant | GoodData | Jan Soubusta": [
+      "GoodData"
+    ],
+    "Redefining Long-Term Memory Ingestion for Streaming, Autonomous Agents | Equal & Antz AI": [
+      "Equal",
+      "Antz AI"
+    ],
+    "Hands-On GraphRAG: Using Knowledge Graphs to Improve Retrieval Grounding | Neo4j | Martin O\u2019Hanlon": [
+      "Neo4j"
+    ],
+    "Practical Multimodal Embeddings: Video Recommendations and Cross-Modal Search | TwelveLabs | Yadav": [
+      "TwelveLabs",
+      "Twelve Labs"
+    ],
+    "Optimizing GDPR Compliance Retrieval with Hybrid Graph\u2011Augmented RAG Systems | KI Reply | Agrawal": [
+      "KI Reply"
+    ],
+    "Multimodal Vectors for Instant, Personalized Product Discovery | iCompetence | Lampe & Schulz": [
+      "iCompetence"
+    ],
+    "From Massive Text Streams to Searchable Knowledge with Apache Kafka and Qdrant | bakdata": [
+      "Apache Kafka",
+      "bakdata"
+    ],
+    "Stories from the AI Search Frontier | Superlinked | Daniel Svonava": [
+      "Superlinked"
+    ],
+    "Qdrant x Superlinked | Beyond Text: Mixture of Encoders": [
+      "Superlinked"
+    ],
+    "Qdrant x LlamaIndex | Advanced RAG Patters and Agent Workflows": [
+      "LlamaIndex"
+    ],
+    "Qdrant x Unstructured.io | Process and Vectorize Documents with Enterprise ETL and Vector Search": [
+      "Unstructured"
+    ],
+    "Qdrant x Camel AI | Multi-Agent Systems with Auto-Retrieval": [
+      "Camel AI"
+    ],
+    "Qdrant x Quotient | Inside RAG Monitoring and Evaluation": [
+      "Quotient"
+    ],
+    "Qdrant x Jina AI | Multivector and Late Interaction Embeddings": [
+      "Jina AI"
+    ],
+    "Qdrant x Haystack | Build Smarter Recommenders with Agentic Search": [
+      "Haystack"
+    ],
+    "Qdrant x Tensorlake | Improve Collection Querying with Knowledge Graphs": [
+      "Tensorlake"
+    ],
+    "Qdrant & Neo4j - Relevant and Diverse Vector Search - MMR and Context Engineering": [
+      "Neo4j"
+    ],
+    "Hybrid Search in Legal AI with Qdrant & n8n": [
+      "n8n"
+    ],
+    "Searching Messy Documents for Contextual Meaning | Mistral OCR and Qdrant Vector Search": [
+      "Mistral"
+    ],
+    "Operationalizing GraphRAG: Lettria\u2019s Scalable Architecture with Neo4j and Qdrant": [
+      "Lettria",
+      "Neo4j"
+    ],
+    "Rapid Prototyping RAG Agents with n8n & Qdrant": [
+      "n8n"
+    ],
+    "Introducing Qdrant's Official n8n Node: Hybrid Search Example": [
+      "n8n"
+    ],
+    "Vector Space Talk: How Qdrant helped Razroo Scale Synthetic Data Generation": [
+      "Razroo"
+    ],
+    "Vector Space Talk: Video Recommendations with Twelve Labs": [
+      "Twelve Labs"
+    ],
+    "Using MCP to Orchestrate AI Agents with OpenAI SDK, AugmentCode, and Qdrant": [
+      "OpenAI",
+      "AugmentCode"
+    ],
+    "GraphRAG with Qdrant & Neo4j: Combining Vector Search and Knowledge Graphs": [
+      "Neo4j"
+    ],
+    "Finding the Right Embedding Model for Your AI Application with Sentrev": [
+      "Sentrev"
+    ],
+    "Connecting to Qdrant With the n8n Self-Hosted AI Starter Kit": [
+      "n8n"
+    ],
+    "Optimizing Document Retrieval with ColPali and Qdrant's Binary Quantization": [
+      "ColPali"
+    ],
+    "RAG Movie Recommendations chatbot with Qdrant and n8n": [
+      "n8n"
+    ],
+    "How to meow on the long tail with Cheshire Cat AI? - Piero and Nicola | Vector Space Talks #018": [
+      "Cheshire Cat AI"
+    ],
+    "Chatbot with RAG, using LangChain, OpenAI, and Groq": [
+      "OpenAI",
+      "LangChain",
+      "Groq"
+    ],
+    "Best RAG to unleash the power of AI - Guillaume Marquis of VirtualBrain | Vector Space Talks #017": [
+      "VirtualBrain"
+    ],
+    "Getting started with DSPy tutorial": [
+      "DSPy"
+    ],
+    "Qdrant x Dust: How Vector Search helps make work work better - Stan Polu | Vector Space Talk #010": [
+      "Dust"
+    ],
+    "Indexify Unveiled - Diptanu Gon Choudhury | Vector Space Talk #009": [
+      "Indexify"
+    ],
+    "Cohere Embed V3 - Nils Reimers | Vector Space Talks #002": [
+      "Cohere"
+    ]
+  }
+}

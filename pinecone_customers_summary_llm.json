@@ -1,0 +1,262 @@
+{
+  "total_videos_processed": 5,
+  "total_unique_customers": 23,
+  "provider": "pattern",
+  "customers": {
+    "the audience": 1,
+    "pinecone database and build an llm chatbot with high": 1,
+    "pinecone monthly webinar": 1,
+    "pinecone assistant": 1,
+    "pinecone is": 1,
+    "pinecone database": 1,
+    "the end": 1,
+    "groqinc": 1,
+    "the san francisco yacht club": 1,
+    "with digital versions of experts such as arnold schwarzenegger": 1,
+    "agents": 1,
+    "delphi": 1,
+    "no apis go to production with vulnerabilities": 1,
+    "ai to de": 1,
+    "apisec discuss": 1,
+    "it couldn": 1,
+    "withdelphi": 1,
+    "summary to yourself": 1,
+    "engineer cory waddingham shows you how to": 1,
+    "rag": 1,
+    "domain": 1,
+    "the conversation": 1,
+    "vector databases": 1
+  },
+  "top_customers": [
+    [
+      "the audience",
+      [
+        {
+          "video_id": "pY_7RSUnotk",
+          "title": "Getting started with Pinecone monthly webinar (November 2025)",
+          "url": "https://www.youtube.com/watch?v=pY_7RSUnotk"
+        }
+      ]
+    ],
+    [
+      "pinecone database and build an llm chatbot with high",
+      [
+        {
+          "video_id": "pY_7RSUnotk",
+          "title": "Getting started with Pinecone monthly webinar (November 2025)",
+          "url": "https://www.youtube.com/watch?v=pY_7RSUnotk"
+        }
+      ]
+    ],
+    [
+      "pinecone monthly webinar",
+      [
+        {
+          "video_id": "pY_7RSUnotk",
+          "title": "Getting started with Pinecone monthly webinar (November 2025)",
+          "url": "https://www.youtube.com/watch?v=pY_7RSUnotk"
+        }
+      ]
+    ],
+    [
+      "pinecone assistant",
+      [
+        {
+          "video_id": "pY_7RSUnotk",
+          "title": "Getting started with Pinecone monthly webinar (November 2025)",
+          "url": "https://www.youtube.com/watch?v=pY_7RSUnotk"
+        }
+      ]
+    ],
+    [
+      "pinecone is",
+      [
+        {
+          "video_id": "pY_7RSUnotk",
+          "title": "Getting started with Pinecone monthly webinar (November 2025)",
+          "url": "https://www.youtube.com/watch?v=pY_7RSUnotk"
+        }
+      ]
+    ],
+    [
+      "pinecone database",
+      [
+        {
+          "video_id": "pY_7RSUnotk",
+          "title": "Getting started with Pinecone monthly webinar (November 2025)",
+          "url": "https://www.youtube.com/watch?v=pY_7RSUnotk"
+        }
+      ]
+    ],
+    [
+      "the end",
+      [
+        {
+          "video_id": "pY_7RSUnotk",
+          "title": "Getting started with Pinecone monthly webinar (November 2025)",
+          "url": "https://www.youtube.com/watch?v=pY_7RSUnotk"
+        }
+      ]
+    ],
+    [
+      "groqinc",
+      [
+        {
+          "video_id": "ju58amdX-OM",
+          "title": "Pinecone demo: AI-powered search and recommendation app",
+          "url": "https://www.youtube.com/watch?v=ju58amdX-OM"
+        }
+      ]
+    ],
+    [
+      "the san francisco yacht club",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "with digital versions of experts such as arnold schwarzenegger",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "agents",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "delphi",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "no apis go to production with vulnerabilities",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "ai to de",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "apisec discuss",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "it couldn",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "withdelphi",
+      [
+        {
+          "video_id": "OSvDO9VtypU",
+          "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+          "url": "https://www.youtube.com/watch?v=OSvDO9VtypU"
+        }
+      ]
+    ],
+    [
+      "summary to yourself",
+      [
+        {
+          "video_id": "7p71x3DGzwA",
+          "title": "Pinecone and Zapier AI automation workflow",
+          "url": "https://www.youtube.com/watch?v=7p71x3DGzwA"
+        }
+      ]
+    ],
+    [
+      "engineer cory waddingham shows you how to",
+      [
+        {
+          "video_id": "7p71x3DGzwA",
+          "title": "Pinecone and Zapier AI automation workflow",
+          "url": "https://www.youtube.com/watch?v=7p71x3DGzwA"
+        }
+      ]
+    ],
+    [
+      "rag",
+      [
+        {
+          "video_id": "9A0DlNyxrh8",
+          "title": "Pinecone Staff Developer Advocate, Jenna Pederson, talks hybrid search on Adventures in DevOps",
+          "url": "https://www.youtube.com/watch?v=9A0DlNyxrh8"
+        }
+      ]
+    ],
+    [
+      "domain",
+      [
+        {
+          "video_id": "9A0DlNyxrh8",
+          "title": "Pinecone Staff Developer Advocate, Jenna Pederson, talks hybrid search on Adventures in DevOps",
+          "url": "https://www.youtube.com/watch?v=9A0DlNyxrh8"
+        }
+      ]
+    ],
+    [
+      "the conversation",
+      [
+        {
+          "video_id": "9A0DlNyxrh8",
+          "title": "Pinecone Staff Developer Advocate, Jenna Pederson, talks hybrid search on Adventures in DevOps",
+          "url": "https://www.youtube.com/watch?v=9A0DlNyxrh8"
+        }
+      ]
+    ],
+    [
+      "vector databases",
+      [
+        {
+          "video_id": "9A0DlNyxrh8",
+          "title": "Pinecone Staff Developer Advocate, Jenna Pederson, talks hybrid search on Adventures in DevOps",
+          "url": "https://www.youtube.com/watch?v=9A0DlNyxrh8"
+        }
+      ]
+    ]
+  ]
+}

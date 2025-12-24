@@ -1,0 +1,30 @@
+{
+  "channel_url": "https://www.youtube.com/@pinecone-io/videos",
+  "channel_id": "UC02IWPisqHk2nsWfurnl-mQ",
+  "total_videos_claimed": 141,
+  "videos_found_via_rss": 15,
+  "note": "YouTube RSS feed only returns the 15 most recent videos. To get all 141 videos, you need to either:",
+  "options": [
+    "1. Use YouTube Data API v3 with pagination",
+    "2. Use browser automation to scroll through all videos on the page",
+    "3. Use a third-party tool like yt-dlp"
+  ],
+  "rss_feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC02IWPisqHk2nsWfurnl-mQ",
+  "recent_15_videos": [
+    "O-SoMYdmmRo",
+    "pY_7RSUnotk",
+    "k5dhtwMTxb8",
+    "vxKxpbQ3uvI",
+    "ju58amdX-OM",
+    "OSvDO9VtypU",
+    "-2-O49IrJpE",
+    "7p71x3DGzwA",
+    "9A0DlNyxrh8",
+    "xDfmaLLWSWI",
+    "S6xJ0Kkd7ss",
+    "Z8n8I9dDStM",
+    "buvRFJ-snAc",
+    "H6kCi7esgw0",
+    "VgXBS1esB2Y"
+  ]
+}

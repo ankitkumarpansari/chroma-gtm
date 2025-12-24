@@ -1,0 +1,33 @@
+{
+  "channel": "Vespa AI",
+  "channel_url": "https://www.youtube.com/@vespaai/videos",
+  "total_videos": 20,
+  "companies": {
+    "customers": [
+      "GenerativeAI",
+      "Vespa",
+      "Vinted"
+    ],
+    "competitors": [
+      "Elasticsearch"
+    ],
+    "technology_partners": [
+      "Colpali",
+      "Gigaom"
+    ],
+    "all": [
+      "Colpali",
+      "Elasticsearch",
+      "GenerativeAI",
+      "Gigaom",
+      "Vespa",
+      "Vinted"
+    ]
+  },
+  "summary": {
+    "total_companies": 6,
+    "customers_count": 3,
+    "competitors_count": 1,
+    "partners_count": 2
+  }
+}

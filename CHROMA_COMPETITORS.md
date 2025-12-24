@@ -1,4 +1,4 @@
-# Chroma Competitors
+What was the criteria?# Chroma Competitors
 
 ## Vector Databases (Core Competitors)
 
@@ -29,3 +29,4 @@
 | **LlamaIndex / LlamaCloud** | Framework | Data framework for LLM apps with vector capabilities |
 | **Haystack (Deepset)** | Framework | NLP framework with vector storage |
 | **Cohere** | Platform | AI platform with embedding and rerank services |
+

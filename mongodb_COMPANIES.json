@@ -1,0 +1,176 @@
+{
+  "channel": "MongoDB",
+  "channel_url": "https://www.youtube.com/@MongoDB",
+  "total_videos": 1003,
+  "companies": {
+    "enterprise_customers": {
+      "Votee": {
+        "context": "Build Open AI for Neglected Languages",
+        "industry": "AI / Language Tech"
+      },
+      "TeamSystem": {
+        "context": "Scales AI Innovation with MongoDB Atlas",
+        "industry": "Enterprise Software"
+      },
+      "iCapital": {
+        "context": "Building for Scale: Customer Spotlight with iCapital",
+        "industry": "Fintech / Wealth Management"
+      },
+      "Ceto AI": {
+        "context": "From Lost Data to Smart Ships - Maritime AI",
+        "industry": "Maritime / AI"
+      },
+      "iConstruye": {
+        "context": "Simplifies Architecture and Streamlines Processes",
+        "industry": "Construction Tech"
+      },
+      "Iguazio": {
+        "context": "Building Scalable, Secure and Reliable gen AI Apps",
+        "industry": "AI / MLOps"
+      },
+      "99minutos": {
+        "context": "Enabling Growth and Scalability",
+        "industry": "Logistics / Delivery"
+      },
+      "Neuron": {
+        "context": "Reinvents Commercial Insurance",
+        "industry": "Insurance Tech"
+      },
+      "Capgemini": {
+        "context": "AI Will Drive 50% of Business Decisions",
+        "industry": "Consulting"
+      },
+      "DevRev": {
+        "context": "Enhancing AI Data Platform Efficiency",
+        "industry": "Developer Tools"
+      },
+      "Botnoi": {
+        "context": "Powering AI Innovation with Google Cloud",
+        "industry": "AI / Chatbots"
+      },
+      "Novo Nordisk": {
+        "context": "Accelerates Time To Value with GenAI",
+        "industry": "Pharmaceutical"
+      },
+      "Dataworkz": {
+        "context": "Agentic AI in Customer Service",
+        "industry": "AI / Customer Service"
+      },
+      "Superlinked": {
+        "context": "Vector Search Over Complex Semi-Structured Data",
+        "industry": "AI / Vector Search"
+      },
+      "L'Or\u00e9al": {
+        "context": "Improving Application Performance and Developer Productivity",
+        "industry": "Consumer Goods / Beauty"
+      },
+      "Autodesk": {
+        "context": "Scaled Product Insights by 300%",
+        "industry": "Software / Design"
+      },
+      "Together.ai": {
+        "context": "Improving Performance in Financial Services RAG",
+        "industry": "AI / Infrastructure"
+      },
+      "Coinbase": {
+        "context": "Scales to Match Volatile Crypto Traffic",
+        "industry": "Cryptocurrency"
+      },
+      "National Instruments": {
+        "context": "Empowers Scientists and Engineers with AI",
+        "industry": "Test & Measurement"
+      },
+      "Paychex": {
+        "context": "Trains an AI Model Using Stored Data",
+        "industry": "HR / Payroll"
+      },
+      "AT&T": {
+        "context": "Leverages MongoDB and Atlas for AI Fraud Platforms",
+        "industry": "Telecommunications"
+      },
+      "McKesson": {
+        "context": "Modernized Supply Chain Operations with Digital Transformation",
+        "industry": "Healthcare / Pharma Distribution"
+      },
+      "Victoria's Secret": {
+        "context": "Migrated 2 Billion+ Documents with Custom Bidirectional Replication",
+        "industry": "Retail / Fashion"
+      },
+      "CarGurus": {
+        "context": "Boosts Developer Productivity with MongoDB Atlas",
+        "industry": "Automotive / Marketplace"
+      },
+      "Naologic": {
+        "context": "Transforms ERP Operations to Enhance AI Application Development",
+        "industry": "ERP / Enterprise Software"
+      },
+      "Ignition": {
+        "context": "Builds AI Software to Automate Go-To-Market Process",
+        "industry": "Sales Tech"
+      },
+      "Toyota Connected": {
+        "context": "Targets at Least 99.99% Availability",
+        "industry": "Automotive / Connected Cars"
+      },
+      "CTF Life": {
+        "context": "Leverages MongoDB Atlas to Deliver Customer-Centric Service",
+        "industry": "Insurance"
+      },
+      "Bendigo and Adelaide Bank": {
+        "context": "Generative AI helps Accelerate Modernisation",
+        "industry": "Banking"
+      },
+      "ClearSale": {
+        "context": "Potencializando a Detec\u00e7\u00e3o de Fraudes (Fraud Detection)",
+        "industry": "Fraud Prevention"
+      },
+      "Cisco": {
+        "context": "Leveraging MongoDB Atlas Vector Search Across Numerous Applications",
+        "industry": "Technology / Networking"
+      },
+      "Indeed": {
+        "context": "Optimized Atlas Spending",
+        "industry": "Job Search / HR Tech"
+      },
+      "PressLogic": {
+        "context": "Reduced Costs by 70% and Increased Data Stability by 10x with AI",
+        "industry": "Media / Publishing"
+      },
+      "Lombard Odier": {
+        "context": "Modernizes Legacy Banking Technology with Gen AI",
+        "industry": "Private Banking"
+      },
+      "The Financial Times": {
+        "context": "Chose MongoDB for its AI-Powered Search",
+        "industry": "Media / Publishing"
+      },
+      "The Materials Project": {
+        "context": "Rapidly Scaled to Over 616,000 Users",
+        "industry": "Research / Science"
+      },
+      "Infosys": {
+        "context": "Scale Smart: Choosing Between Vertical and Horizontal Scaling",
+        "industry": "IT Services"
+      },
+      "Accenture": {
+        "context": "Transforming Healthcare with MongoDB",
+        "industry": "Consulting"
+      },
+      "Oliveira Trust": {
+        "context": "Inova\u00e7\u00e3o e Seguran\u00e7a na Gest\u00e3o de Ativos Financeiros",
+        "industry": "Financial Services"
+      },
+      "Bell Canada": {
+        "context": "Enterprise partnership discussions",
+        "industry": "Telecommunications"
+      },
+      "Tavily": {
+        "context": "The Internet of AI Agents is Here - CEO Interview",
+        "industry": "AI / Search"
+      }
+    }
+  },
+  "summary": {
+    "enterprise_customers": 41
+  }
+}

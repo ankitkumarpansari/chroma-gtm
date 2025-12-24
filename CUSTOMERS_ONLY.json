@@ -1,0 +1,265 @@
+{
+  "description": "Customer companies using vector databases (from competitor YouTube channels)",
+  "sources": [
+    "Qdrant",
+    "Weaviate",
+    "Vespa",
+    "Pinecone"
+  ],
+  "excludes": [
+    "LangChain",
+    "All technology/tool names",
+    "All partner names"
+  ],
+  "total_customers": 62,
+  "customers": {
+    "AskNews": {
+      "source": "Qdrant",
+      "use_case": "News research platform"
+    },
+    "Baseten": {
+      "source": "Qdrant",
+      "use_case": "ML inference platform"
+    },
+    "Cognee": {
+      "source": "Qdrant",
+      "use_case": "AI memory platform"
+    },
+    "Delivery Hero": {
+      "source": "Qdrant",
+      "use_case": "Food delivery - search"
+    },
+    "GoodData": {
+      "source": "Qdrant",
+      "use_case": "Analytics - real-time RAG"
+    },
+    "Twelve Labs": {
+      "source": "Qdrant",
+      "use_case": "Video AI platform"
+    },
+    "iCompetence": {
+      "source": "Qdrant",
+      "use_case": "Product discovery"
+    },
+    "bakdata": {
+      "source": "Qdrant",
+      "use_case": "Data streaming"
+    },
+    "KI Reply": {
+      "source": "Qdrant",
+      "use_case": "GDPR compliance"
+    },
+    "Lettria": {
+      "source": "Qdrant",
+      "use_case": "GraphRAG platform"
+    },
+    "Razroo": {
+      "source": "Qdrant",
+      "use_case": "Synthetic data generation"
+    },
+    "Dust": {
+      "source": "Qdrant",
+      "use_case": "Work assistant"
+    },
+    "VirtualBrain": {
+      "source": "Qdrant",
+      "use_case": "RAG platform"
+    },
+    "Indexify": {
+      "source": "Qdrant",
+      "use_case": "Data extraction"
+    },
+    "Superlinked": {
+      "source": "Qdrant",
+      "use_case": "AI search"
+    },
+    "n8n": {
+      "source": "Qdrant",
+      "use_case": "Workflow automation"
+    },
+    "Arize AI": {
+      "source": "Qdrant",
+      "use_case": "ML observability"
+    },
+    "Linkup": {
+      "source": "Qdrant",
+      "use_case": "Web intelligence"
+    },
+    "Camel AI": {
+      "source": "Qdrant",
+      "use_case": "Multi-agent systems"
+    },
+    "Quotient": {
+      "source": "Qdrant",
+      "use_case": "RAG monitoring"
+    },
+    "Tensorlake": {
+      "source": "Qdrant",
+      "use_case": "Knowledge graphs"
+    },
+    "Sentrev": {
+      "source": "Qdrant",
+      "use_case": "Embedding evaluation"
+    },
+    "Cheshire Cat AI": {
+      "source": "Qdrant",
+      "use_case": "AI framework"
+    },
+    "AugmentCode": {
+      "source": "Qdrant",
+      "use_case": "AI coding"
+    },
+    "Equal": {
+      "source": "Qdrant",
+      "use_case": "AI agents"
+    },
+    "Antz AI": {
+      "source": "Qdrant",
+      "use_case": "Streaming agents"
+    },
+    "Morningstar": {
+      "source": "Weaviate",
+      "use_case": "Intelligence Engine"
+    },
+    "Box AI": {
+      "source": "Weaviate",
+      "use_case": "Document AI"
+    },
+    "You.com": {
+      "source": "Weaviate",
+      "use_case": "AI search engine"
+    },
+    "Metro AG": {
+      "source": "Weaviate",
+      "use_case": "Retail/Wholesale AI"
+    },
+    "Zencastr": {
+      "source": "Weaviate",
+      "use_case": "Podcast transcription search"
+    },
+    "Keenious": {
+      "source": "Weaviate",
+      "use_case": "Academic search (60M+ pubs)"
+    },
+    "Kraftful": {
+      "source": "Weaviate",
+      "use_case": "Product research platform"
+    },
+    "Vody": {
+      "source": "Weaviate",
+      "use_case": "Healthcare AI"
+    },
+    "Kapa AI": {
+      "source": "Weaviate",
+      "use_case": "Documentation AI"
+    },
+    "Super People": {
+      "source": "Weaviate",
+      "use_case": "AI-powered resumes"
+    },
+    "BAIK": {
+      "source": "Weaviate",
+      "use_case": "AI assistant for cyclists"
+    },
+    "Patronus AI": {
+      "source": "Weaviate",
+      "use_case": "AI evaluation"
+    },
+    "Haize Labs": {
+      "source": "Weaviate",
+      "use_case": "AI research"
+    },
+    "Cartesia AI": {
+      "source": "Weaviate",
+      "use_case": "AI infrastructure"
+    },
+    "Contextual AI": {
+      "source": "Weaviate",
+      "use_case": "RAG systems"
+    },
+    "Letta AI": {
+      "source": "Weaviate",
+      "use_case": "Agent memory"
+    },
+    "Alltius AI": {
+      "source": "Weaviate",
+      "use_case": "Enterprise AI"
+    },
+    "Neum AI": {
+      "source": "Weaviate",
+      "use_case": "Data pipelines"
+    },
+    "VectorFlow": {
+      "source": "Weaviate",
+      "use_case": "Vector data management"
+    },
+    "Mixpeek": {
+      "source": "Weaviate",
+      "use_case": "Multimodal AI"
+    },
+    "Portkey": {
+      "source": "Weaviate",
+      "use_case": "LLM gateway"
+    },
+    "Emissary": {
+      "source": "Weaviate",
+      "use_case": "AI agents"
+    },
+    "FeatureForm": {
+      "source": "Weaviate",
+      "use_case": "Feature stores"
+    },
+    "Tactic": {
+      "source": "Weaviate",
+      "use_case": "AI search"
+    },
+    "Orchest": {
+      "source": "Weaviate",
+      "use_case": "Data pipelines"
+    },
+    "Vinted": {
+      "source": "Vespa",
+      "use_case": "E-commerce marketplace"
+    },
+    "Notion": {
+      "source": "Turbopuffer (switched from Pinecone)",
+      "use_case": "Productivity platform"
+    },
+    "Zapier": {
+      "source": "Pinecone",
+      "use_case": "Automation platform"
+    },
+    "Gong": {
+      "source": "Pinecone",
+      "use_case": "Revenue intelligence"
+    },
+    "Shopify": {
+      "source": "Pinecone",
+      "use_case": "E-commerce platform"
+    },
+    "Canva": {
+      "source": "Pinecone",
+      "use_case": "Design platform"
+    },
+    "Hubspot": {
+      "source": "Pinecone",
+      "use_case": "CRM platform"
+    },
+    "DigitalOcean": {
+      "source": "Pinecone",
+      "use_case": "Cloud infrastructure"
+    },
+    "Calm": {
+      "source": "Pinecone",
+      "use_case": "Mental health app"
+    },
+    "Convoy": {
+      "source": "Pinecone",
+      "use_case": "Freight logistics"
+    },
+    "Chipper Cash": {
+      "source": "Pinecone",
+      "use_case": "Fintech - Africa"
+    }
+  }
+}

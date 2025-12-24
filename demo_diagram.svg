@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 550" width="1200" height="550">
+  <title>Chroma GTM Strategy Overview</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      
+      .font-header { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 15px; font-weight: 700; fill: #1a1a1a; }
+      .font-label { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 13px; font-weight: 500; fill: #1a1a1a; }
+      .font-body { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 12px; font-weight: 400; fill: #1a1a1a; }
+      .font-note { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 11px; font-weight: 400; fill: #555555; }
+      .font-small { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 10px; font-weight: 400; fill: #777777; }
+      .font-metric { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 24px; font-weight: 700; fill: #1a1a1a; }
+      .font-metric-label { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 10px; font-weight: 500; fill: #555555; }
+      .font-tag { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-size: 9px; font-weight: 600; fill: #ffffff; }
+    </style>
+    
+    <!-- Arrow marker -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1a1a1a" />
+    </marker>
+    
+    <!-- Dot marker for branch points -->
+    <marker id="dot" markerWidth="6" markerHeight="6" refX="3" refY="3">
+      <circle cx="3" cy="3" r="2.5" fill="#1a1a1a" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+<text x="600" y="35" class="font-header" text-anchor="middle">Chroma GTM Strategy Overview</text>
+<rect x="40" y="60" width="265" height="200" rx="4" ry="4" fill="#fff9db" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="52" y="82" class="font-header" text-anchor="start">📥 Inputs</text>
+<rect x="50" y="105" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="60" y="123" class="font-body" text-anchor="start">Signal Database</text>
+<rect x="50" y="139" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="60" y="157" class="font-body" text-anchor="start">Target Account List</text>
+<rect x="50" y="173" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="60" y="191" class="font-body" text-anchor="start">Competitor Intel</text>
+<rect x="325" y="60" width="265" height="200" rx="4" ry="4" fill="#d0bfff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="337" y="82" class="font-header" text-anchor="start">⚡ Active Outreach</text>
+<rect x="335" y="105" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="345" y="123" class="font-body" text-anchor="start">LinkedIn ABM Ads</text>
+<rect x="335" y="139" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="345" y="157" class="font-body" text-anchor="start">Email Sequences</text>
+<rect x="335" y="173" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="345" y="191" class="font-body" text-anchor="start">Content Marketing</text>
+<rect x="610" y="60" width="265" height="200" rx="4" ry="4" fill="#b2f2bb" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="622" y="82" class="font-header" text-anchor="start">🎯 Passive Capture</text>
+<rect x="620" y="105" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="630" y="123" class="font-body" text-anchor="start">SEO / Organic</text>
+<rect x="620" y="139" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="630" y="157" class="font-body" text-anchor="start">Open Source Funnel</text>
+<rect x="620" y="173" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="630" y="191" class="font-body" text-anchor="start">YouTube Content</text>
+<rect x="895" y="60" width="265" height="200" rx="4" ry="4" fill="#ffd8a8" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="907" y="82" class="font-header" text-anchor="start">📊 Outputs</text>
+<rect x="905" y="105" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="915" y="123" class="font-body" text-anchor="start">SQLs</text>
+<rect x="905" y="139" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="915" y="157" class="font-body" text-anchor="start">Cloud Signups</text>
+<rect x="905" y="173" width="245" height="28" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+<text x="915" y="191" class="font-body" text-anchor="start">Enterprise Deals</text>
+<g>
+    <rect x="150" y="300" width="140" height="50" rx="4" ry="4" fill="#fff9db" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="220" y="329" class="font-label" text-anchor="middle">Discover</text>
+  </g>
+<line x1="290" y1="325" x2="340" y2="325" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#arrowhead)" />
+<g>
+    <rect x="340" y="300" width="140" height="50" rx="4" ry="4" fill="#d0bfff" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="410" y="329" class="font-label" text-anchor="middle">Engage</text>
+  </g>
+<line x1="480" y1="325" x2="530" y2="325" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#arrowhead)" />
+<g>
+    <rect x="530" y="300" width="140" height="50" rx="4" ry="4" fill="#a5d8ff" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="600" y="329" class="font-label" text-anchor="middle">Qualify</text>
+  </g>
+<line x1="670" y1="325" x2="720" y2="325" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#arrowhead)" />
+<g>
+    <rect x="720" y="300" width="140" height="50" rx="4" ry="4" fill="#b2f2bb" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="790" y="329" class="font-label" text-anchor="middle">Convert</text>
+  </g>
+<line x1="860" y1="325" x2="910" y2="325" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#arrowhead)" />
+<g>
+    <rect x="910" y="300" width="140" height="50" rx="4" ry="4" fill="#ffd8a8" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="980" y="329" class="font-label" text-anchor="middle">Expand</text>
+  </g>
+<g>
+    <rect x="40" y="390" width="100" height="70" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="90" y="425" class="font-metric" text-anchor="middle">2,000</text>
+    <text x="90" y="445" class="font-metric-label" text-anchor="middle">Target Companies</text>
+  </g>
+<g>
+    <rect x="160" y="390" width="100" height="70" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="210" y="425" class="font-metric" text-anchor="middle">$5-10k</text>
+    <text x="210" y="445" class="font-metric-label" text-anchor="middle">Monthly Budget</text>
+  </g>
+<g>
+    <rect x="280" y="390" width="100" height="70" rx="4" ry="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"  />
+    <text x="330" y="425" class="font-metric" text-anchor="middle">25k</text>
+    <text x="330" y="445" class="font-metric-label" text-anchor="middle">GitHub Stars</text>
+  </g>
+<rect x="810" y="390" width="350" height="98" rx="4" ry="4" fill="#ffffff" stroke="#ff922b" stroke-width="2" stroke-dasharray="6,3" />
+<text x="822" y="412" class="font-header" text-anchor="start">💡 Key Insight</text>
+<text x="822" y="435" class="font-note" text-anchor="start">ABM + thought-leadership is the right approach</text>
+<text x="822" y="451" class="font-note" text-anchor="start">Focus on SQLs, not MQLs or generic traffic</text>
+<text x="822" y="467" class="font-note" text-anchor="start">Timing is critical - buyers rarely switch DBs</text>
+</svg>

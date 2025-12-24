@@ -1,0 +1,125 @@
+Qdrant Essentials | Finding Vector Similarity with Distance Metrics
+Qdrant Essentials | Increase Search Relevance with Sparse Vectors in Qdrant
+Qdrant Vector Space Day 2025 | Opening Keynotes
+Building a News Sleuth for the Deep Research Paradigm | AskNews | Robert Caulk
+High-Throughput, Low-Latency Embedding Pipelines for Real-World Applications | Baseten | Rachel Rapp
+Building Scalable AI Memory for Agents Across Graphs and Vectors | Cognee | Vasilije Markovic
+Vector Search with Gemini Embedding and Open EmbeddingGemma Models | Google DeepMind | Patrick Löber
+How to Cheat at Benchmarking Search Engines | Delivery Hero | Roman Grebennikov
+Vision-Language Models: A New Architecture for Embedding Models | Jina AI | Michael Günther
+Beyond Web Search: Real-Time Web Intelligence for AI-Native Agents | Linkup | Philippe Mizrahi
+Vector Search Powers Workflow Engineering for Context-Rich AI Systems | LlamaIndex | Clelia Bertelli
+Evaluate Your Qdrant-RAG Agents with No-Code n8n Evaluations | n8n | Marcel Claus-Ahrens
+Beyond Text-Only: LlamaIndex Retriever with Superlinked’s Mixture of Encoders | Filip Makraduli
+Agent-Powered Retrieval with Haystack and Qdrant: Promises and Pitfalls | deepset | Bilge Yücel
+Self-Improving Evaluations for Agentic RAG: Tracing and Feedback Loops | Arize AI | Dat Ngo
+Scaling Real‑Time RAG for Analytics with Qdrant | GoodData | Jan Soubusta
+Redefining Long-Term Memory Ingestion for Streaming, Autonomous Agents | Equal & Antz AI
+Hands-On GraphRAG: Using Knowledge Graphs to Improve Retrieval Grounding | Neo4j | Martin O’Hanlon
+Practical Multimodal Embeddings: Video Recommendations and Cross-Modal Search | TwelveLabs | Yadav
+Optimizing GDPR Compliance Retrieval with Hybrid Graph‑Augmented RAG Systems | KI Reply | Agrawal
+Multimodal Vectors for Instant, Personalized Product Discovery | iCompetence | Lampe & Schulz
+From Massive Text Streams to Searchable Knowledge with Apache Kafka and Qdrant | bakdata
+Stories from the AI Search Frontier | Superlinked | Daniel Svonava
+Qdrant Essentials | Course Overview
+Qdrant Essentials | Qdrant Cloud Overview
+Qdrant Essentials | Building Simple Vector Search in Qdrant
+Qdrant Essentials | Creating Vectors and Embeddings for Vector Search in Qdrant
+Qdrant Essentials | Chunking Data for Better Vector Search Results
+Qdrant Essentials | Build a Movie Recommendation Engine
+Qdrant Essentials | Fast Vector Search with Qdrant HNSW Indexing
+Qdrant Essentials | Combine Search & Filtering with Qdrant Filterable HNSW
+Qdrant Essentials | Sparse Vector Explanation and Usage
+Qdrant Essentials | Hybrid Search Explanation and Overview
+Qdrant Essentials | Implementing Hybrid Search in Qdrant: Merging Dense & Sparse Vectors
+Qdrant x Superlinked | Beyond Text: Mixture of Encoders
+Qdrant Essentials | Reduce Storage & Maintain Accuracy with Qdrant Vector Quantization
+Qdrant Essentials | Improve Search Relevance with Reranking in Qdrant
+Qdrant Essentials | Ingest Billions of Vectors into Qdrant for Large-Scale Applications
+Qdrant Essentials | Advanced Retrieval: Multivectors & Late Interaction in Qdrant
+Qdrant Essentials | Final Project
+Qdrant x LlamaIndex | Advanced RAG Patters and Agent Workflows
+Qdrant x Unstructured.io | Process and Vectorize Documents with Enterprise ETL and Vector Search
+Qdrant x Camel AI | Multi-Agent Systems with Auto-Retrieval
+Qdrant x Quotient | Inside RAG Monitoring and Evaluation
+Qdrant x Jina AI | Multivector and Late Interaction Embeddings
+Qdrant x Haystack | Build Smarter Recommenders with Agentic Search
+Qdrant x Tensorlake | Improve Collection Querying with Knowledge Graphs
+Qdrant & Neo4j - Relevant and Diverse Vector Search - MMR and Context Engineering
+Diversifying Relevant Search Results with MMR in Qdrant
+Hybrid Search in Legal AI with Qdrant & n8n
+Searching Messy Documents for Contextual Meaning | Mistral OCR and Qdrant Vector Search
+FAST and CHEAP Vector Retrieval with Accuracy | Qdrant Binary Quantization
+"Mastering Relevance in Search" with Doug Turnbull & Trey Grainger
+Score Boosting and Decay Functions in Qdrant | Business Logic in Vector Search
+How to Build a Multimodal Search Stack with One API | Embed, Store, Search: Guide to Cloud Inference
+Operationalizing GraphRAG: Lettria’s Scalable Architecture with Neo4j and Qdrant
+Introducing Qdrant Cloud Inference
+Rapid Prototyping RAG Agents with n8n & Qdrant
+Qdrant Data Migration Tool | Move Vector Data to Qdrant
+Introducing Qdrant's Official n8n Node: Hybrid Search Example
+Vector Space Talk: How Qdrant helped Razroo Scale Synthetic Data Generation
+Vector Space Talk: Video Recommendations with Twelve Labs
+Exploring Qdrant Cloud just got easier: recent UI improvements
+How to Get Started With Qdrant Cloud
+What’s New in Qdrant 1.14: Reranking, Indexing, and Performance Boosts | Office Hours w/ Luis Cossío
+Using MCP to Orchestrate AI Agents with OpenAI SDK, AugmentCode, and Qdrant
+Deep research is just really smart rag w/ Robert Caulk
+GraphRAG with Qdrant & Neo4j: Combining Vector Search and Knowledge Graphs
+Load Data to Qdrant: How to Chunk and Vectorize Text in 5 Minutes
+Finding the Right Embedding Model for Your AI Application with Sentrev
+Connecting to Qdrant With the n8n Self-Hosted AI Starter Kit
+How to Securely Expose Qdrant on Hybrid Cloud to External Applications
+GPU-Accelerated HNSW Vector Indexing - Ivan Pleshkov | Vector Space Talks #023
+Building Facial Recognition Systems with Qdrant
+Optimizing Document Retrieval with ColPali and Qdrant's Binary Quantization
+Visualizing Vector Embeddings: Qdrant’s WebUI Graph Tool
+RAG Movie Recommendations chatbot with Qdrant and n8n
+What is RAG? Building Better LLM Systems with Qdrant
+How Vector Search Algorithms Work: An Intro to Qdrant
+Recommendation system with Qdrant and sparse vectors (Collaborative Filtering)
+Advanced RAG - Self Querying Retrieval
+Optimize RAG Resource Use With Semantic Cache
+Deploy a Production-Ready Vector Database in 5 Minutes With Qdrant Hybrid Cloud
+Introducing Qdrant Hybrid Cloud
+Building Search/RAG for an OpenAPI spec - Nick Khami | Vector Space Talk #022
+Advancements and Challenges in RAG Systems - Syed Asad | Vector Space Talks #021
+Gen AI and Vector Search - Iveta Lohovska | Vector Space Talks #020
+Teaching Vector Databases at Scale - Alfredo Deza | Vector Space Talks #019
+Exploring Qdrant concepts - Collections
+How to meow on the long tail with Cheshire Cat AI? - Piero and Nicola | Vector Space Talks #018
+Chatbot with RAG, using LangChain, OpenAI, and Groq
+Best RAG to unleash the power of AI - Guillaume Marquis of VirtualBrain | Vector Space Talks #017
+Talk with YouTube without paying a cent - Francesco Saverio Zuppichini | Vector Space Talks #016
+Production-scale RAG for Real-Time News Distillation - Robert Caulk | Vector Space Talks #015
+Getting started with DSPy tutorial
+Embeddings, Similarity Search and Qdrant
+Insight Generation Platform for LifeScience Corporation - Hooman Sedghamiz | Vector Space Talks #014
+The challenges in using LLM-as-a-Judge - Sourabh Agrawal | Vector Space Talk #013
+Vector Search for Content-Based Video Recommendation - Gladys and Sam | Vector Space Talk #012
+Retrieval in Generative Language Model Workflows - Mikko Lehtimäki | Vector Space Talk #011
+Qdrant x Dust: How Vector Search helps make work work better - Stan Polu | Vector Space Talk #010
+Qdrant Team Las Palmas Off-site 2023 Recap!
+Indexify Unveiled - Diptanu Gon Choudhury | Vector Space Talk #009
+Qdrant team offsite 2023
+Insights from Diverse Projects in Image Search and RAG - Noé Achache | Vector Space Talk #008
+What is a Vector Database Discovery API? | Qdrant 1.7.0 Explained | Part 3
+Sparse Vectors | Qdrant 1.7.0 Explained | Part 2
+Custom Sharding | Qdrant 1.7.0 Explained! | Part 1
+Superpower Your Semantic Search Using Vector Database - Nicolas Mauti | Vector Space Talk #007
+Building LLM Powered Applications in Production - Hamza Farooq | Vector Space Talk #006
+Retrieval-Augmented Generation with Qdrant
+High-Performance Entity Matching Solution - Rishabh Bhardwaj | Vector Space Talks #005
+FastEmbed: Fast & Lightweight Embedding Generation - Nirant Kasliwal | Vector Space Talks #004
+When music just doesn't match our vibe, can AI help? - Filip Makraduli | Vector Space Talks #003
+Cohere Embed V3 - Nils Reimers | Vector Space Talks #002
+Binary Quantization - Andrey Vasnetsov | Vector Space Talk #001
+Build a Semantic Search App with Qdrant Cloud
+Qdrant Tutorial - Semantic Search for Beginners
+Music Recommendation System with Qdrant Vector Search and Audio Embeddings
+Image Classification with Qdrant Vector Semantic Search
+Natural Language Processing with Qdrant for Vector Similarity Search
+Getting Started with Qdrant
+Qdrant Vector Search in Rust | Arnaud Gourlay @ Rust Meetup Linz
+Running Qdrant Clusters in Distributed Deployment Mode
+Qdrant 0.8.0 has been released!

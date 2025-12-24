@@ -1,0 +1,52 @@
+<svg width="980" height="410" viewBox="0 0 980 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Chroma Programmatic SEO Strategy</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1a1a1a" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff" />
+<text x="490" y="45" font-size="18" font-weight="700" fill="#1a1a1a" text-anchor="middle">Chroma Programmatic SEO Strategy</text>
+<rect x="380" y="90" width="220" height="50" rx="6" fill="#f5f5f5" stroke="#1a1a1a" stroke-width="1.5" />
+<text x="490" y="120" font-size="13" font-weight="500" fill="#1a1a1a" text-anchor="middle">Programmatic SEO</text>
+<path d="M 490 140 L 490 165 L 152 165 L 152 200" stroke="#1a1a1a" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+<rect x="52" y="200" width="200" height="150" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5" />
+<text x="64" y="222" font-size="14" font-weight="600" fill="#1a1a1a" text-anchor="start">Long-tail Content</text>
+<rect x="60" y="238" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="70" y="258" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">Template-based pages</text>
+<rect x="60" y="270" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="70" y="290" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">Airtable/Canva model</text>
+<rect x="60" y="302" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="70" y="322" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">Dev-tools tailored</text>
+<path d="M 490 140 L 490 165 L 377 165 L 377 200" stroke="#1a1a1a" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+<rect x="277" y="200" width="200" height="150" rx="6" fill="#f5f5f5" stroke="#1a1a1a" stroke-width="1.5" />
+<text x="289" y="222" font-size="14" font-weight="600" fill="#1a1a1a" text-anchor="start">Comparison Pages</text>
+<rect x="285" y="238" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="295" y="258" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">&quot;pinecone alternative&quot;</text>
+<rect x="285" y="270" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="295" y="290" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">&quot;qdrant vs chroma&quot;</text>
+<rect x="285" y="302" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="295" y="322" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">Competitor targeting</text>
+<path d="M 490 140 L 490 165 L 602 165 L 602 200" stroke="#1a1a1a" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+<rect x="502" y="200" width="200" height="150" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5" />
+<text x="514" y="222" font-size="14" font-weight="600" fill="#1a1a1a" text-anchor="start">Target Audience</text>
+<rect x="510" y="238" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="520" y="258" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">Backend engineers</text>
+<rect x="510" y="270" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="520" y="290" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">ML practitioners</text>
+<rect x="510" y="302" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="520" y="322" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">Technical founders</text>
+<path d="M 490 140 L 490 165 L 827 165 L 827 200" stroke="#1a1a1a" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+<rect x="727" y="200" width="200" height="150" rx="6" fill="#f5f5f5" stroke="#1a1a1a" stroke-width="1.5" />
+<text x="739" y="222" font-size="14" font-weight="600" fill="#1a1a1a" text-anchor="start">Use Case Content</text>
+<rect x="735" y="238" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="745" y="258" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">RAG applications</text>
+<rect x="735" y="270" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="745" y="290" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">LLM apps guides</text>
+<rect x="735" y="302" width="184" height="28" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1" />
+<text x="745" y="322" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="start">Semantic search</text>
+</svg>

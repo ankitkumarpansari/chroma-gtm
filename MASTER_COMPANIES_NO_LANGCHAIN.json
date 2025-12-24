@@ -1,0 +1,2263 @@
+{
+  "source": "Competitor YouTube Channels (Qdrant, Weaviate, Vespa, Pinecone)",
+  "excludes": "LangChain",
+  "total_unique_companies": 143,
+  "companies": {
+    "customers": [
+      {
+        "name": "ANN Benchmarks",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "AliBi and Self",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Alltius AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Antz AI",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Applications of Nearest Neighbor Search",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Arctic (Snowflake)",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Arize AI",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "AskNews",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "AugmentCode",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "BAIK",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Baseten",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Box AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Calm",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Camel AI",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Canva",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Cartesia AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Cheshire Cat AI",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Chipper Cash",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Cognee",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Cohere Embedding Models",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Cohere Search AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Colpali",
+        "sources": [
+          "Vespa"
+        ]
+      },
+      {
+        "name": "Contextual AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Convoy",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Delivery Hero",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "DigitalOcean",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Dust",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Emissary",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Equal",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "FeatureForm",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Fine",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Full Stack Deep Learning",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "GPT4All",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Generative Search with Weaviate",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "GenerativeAI",
+        "sources": [
+          "Vespa"
+        ]
+      },
+      {
+        "name": "Gigaom",
+        "sources": [
+          "Vespa"
+        ]
+      },
+      {
+        "name": "Gong",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "GoodData",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Haize Labs",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Hubspot",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Indexify",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Information Retrieval Science",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "KI Reply",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Kapa AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Keenious",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Kraftful",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "LLM Agents",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Learning to Retrieve Passages without Supervision",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Letta AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Lettria",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Linkup",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Masterful AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Mem",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Metarank",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Metro AG",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Mixpeek",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Mixpeek and the AI Landscape",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Morningstar",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "MosaicML Cloud",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Neum AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Neural Search Frameworks",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Notion",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "OpenVerkiezingenNL",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Orchest",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Patronus AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "PodcastGPT",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Portkey",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Pyversity",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Quantization and FAISS",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Question Answering with Haystack",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Quotient",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Razroo",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Recommendation and Metarank",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Retrieval",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "SWE-bench",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Scientific Literature Mining",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Sentrev",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Shopify",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Super People",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Superlinked",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "TARS",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Tabular Machine Learning",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Tactic",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Tactic Generate",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Tensorlake",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Twelve Labs",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Unstructured",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "VL Adapter for Efficient CLIP Transfer",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Vector Search in Production",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "VectorFlow",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Vespa",
+        "sources": [
+          "Vespa"
+        ]
+      },
+      {
+        "name": "Vinted",
+        "sources": [
+          "Vespa"
+        ]
+      },
+      {
+        "name": "VirtualBrain",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Vody",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "WPSolr",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Weaviate User Experience",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Weaviate and AWS",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Weaviate and SAS",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "You.com",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "You.com and Spark",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Zapier",
+        "sources": [
+          "Pinecone"
+        ]
+      },
+      {
+        "name": "Zencastr",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "bakdata",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "iCompetence",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "n8n",
+        "sources": [
+          "Qdrant"
+        ]
+      }
+    ],
+    "partners": [
+      {
+        "name": "AWS",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Apache Kafka",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Cohere",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Confluent",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "DeepSeek",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Deepset",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Google",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Google DeepMind",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Google Gemini",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Groq",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Jina AI",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Meta",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Mistral",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "MosaicML",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Neo4j",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "Neural Magic",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Nomic AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "OpenAI",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "SAS",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Vertex AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Voyage AI",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "deepset",
+        "sources": [
+          "Qdrant"
+        ]
+      }
+    ],
+    "ai_tools": [
+      {
+        "name": "BERTopic",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "ColBERT",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "ColPali",
+        "sources": [
+          "Qdrant"
+        ]
+      },
+      {
+        "name": "DSPy",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Gorilla",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Haystack",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Instructor",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "LMQL",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "LangChain",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "LlamaIndex",
+        "sources": [
+          "Qdrant",
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "MemGPT",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "Ollama",
+        "sources": [
+          "Weaviate"
+        ]
+      },
+      {
+        "name": "RAGAS",
+        "sources": [
+          "Weaviate"
+        ]
+      }
+    ]
+  },
+  "all_companies": [
+    {
+      "company_name": "Antz AI",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Arize AI",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "AskNews",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "AugmentCode",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Baseten",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Camel AI",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Cheshire Cat AI",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Cognee",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Delivery Hero",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Dust",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Equal",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "GoodData",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Indexify",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "KI Reply",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Lettria",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Linkup",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Quotient",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Razroo",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Sentrev",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Superlinked",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Tensorlake",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Twelve Labs",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Unstructured",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "VirtualBrain",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "bakdata",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "iCompetence",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "n8n",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Apache Kafka",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "partners"
+      ]
+    },
+    {
+      "company_name": "Cohere",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Google DeepMind",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "partners"
+      ]
+    },
+    {
+      "company_name": "Google Gemini",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "partners"
+      ]
+    },
+    {
+      "company_name": "Groq",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "partners"
+      ]
+    },
+    {
+      "company_name": "Jina AI",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Mistral",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "partners"
+      ]
+    },
+    {
+      "company_name": "Neo4j",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "partners"
+      ]
+    },
+    {
+      "company_name": "OpenAI",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "deepset",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "partners"
+      ]
+    },
+    {
+      "company_name": "ColPali",
+      "sources": [
+        "Qdrant"
+      ],
+      "categories": [
+        "ai_tools"
+      ]
+    },
+    {
+      "company_name": "DSPy",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Haystack",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "LangChain",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "LlamaIndex",
+      "sources": [
+        "Qdrant",
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "ANN Benchmarks",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "AliBi and Self",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Alltius AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Applications of Nearest Neighbor Search",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Arctic (Snowflake)",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "BAIK",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Box AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Cartesia AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Cohere Embedding Models",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Cohere Search AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Contextual AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Emissary",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "FeatureForm",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Fine",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Full Stack Deep Learning",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "GPT4All",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Generative Search with Weaviate",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Haize Labs",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Information Retrieval Science",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Kapa AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Keenious",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Kraftful",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "LLM Agents",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Learning to Retrieve Passages without Supervision",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Letta AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Masterful AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Mem",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Metarank",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Metro AG",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Mixpeek",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Mixpeek and the AI Landscape",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Morningstar",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "MosaicML Cloud",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Neum AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Neural Search Frameworks",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "OpenVerkiezingenNL",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Orchest",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Patronus AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "PodcastGPT",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Portkey",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Pyversity",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Quantization and FAISS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Question Answering with Haystack",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Recommendation and Metarank",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Retrieval",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "SWE-bench",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Scientific Literature Mining",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Super People",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "TARS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Tabular Machine Learning",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Tactic",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Tactic Generate",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "VL Adapter for Efficient CLIP Transfer",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Vector Search in Production",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "VectorFlow",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Vody",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "WPSolr",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Weaviate User Experience",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Weaviate and AWS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Weaviate and SAS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "You.com",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "You.com and Spark",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Zencastr",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "AWS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Confluent",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "DeepSeek",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Deepset",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "GitHub",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Google",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Meta",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "MosaicML",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Neural Magic",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Nomic AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "SAS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Vertex AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Voyage AI",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "BERTopic",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "ColBERT",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Gorilla",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Instructor",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "LMQL",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "MemGPT",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Ollama",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "RAGAS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "ai_tools",
+        "all"
+      ]
+    },
+    {
+      "company_name": "FAISS",
+      "sources": [
+        "Weaviate"
+      ],
+      "categories": [
+        "competitors",
+        "all"
+      ]
+    },
+    {
+      "company_name": "GenerativeAI",
+      "sources": [
+        "Vespa"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Vespa",
+      "sources": [
+        "Vespa"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Vinted",
+      "sources": [
+        "Vespa"
+      ],
+      "categories": [
+        "customers",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Elasticsearch",
+      "sources": [
+        "Vespa"
+      ],
+      "categories": [
+        "competitors",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Colpali",
+      "sources": [
+        "Vespa"
+      ],
+      "categories": [
+        "technology_partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Gigaom",
+      "sources": [
+        "Vespa"
+      ],
+      "categories": [
+        "technology_partners",
+        "all"
+      ]
+    },
+    {
+      "company_name": "Notion",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Zapier",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Gong",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Shopify",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Canva",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Hubspot",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "DigitalOcean",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Calm",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Convoy",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    },
+    {
+      "company_name": "Chipper Cash",
+      "sources": [
+        "Pinecone"
+      ],
+      "categories": [
+        "customers"
+      ]
+    }
+  ]
+}

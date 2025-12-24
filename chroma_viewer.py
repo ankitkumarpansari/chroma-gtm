@@ -297,3 +297,4 @@ if not df.empty:
                 fig.update_traces(texttemplate='%{x}', textposition='outside')
                 fig.update_layout(margin=dict(t=40, b=20, l=20, r=20), height=280, showlegend=False, title_x=0.5, title_font_size=14, xaxis_title="", yaxis_title="", yaxis=dict(categoryorder='total ascending'))
                 st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
+

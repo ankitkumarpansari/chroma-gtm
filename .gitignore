@@ -1,20 +1,51 @@
-# Secrets - never commit
-.streamlit/secrets.toml
-.env
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Debug screenshots and artifacts
+debug_screenshot_*.png
+dropdown_*.png
+after_click.png
+final_state.png
+step_1_search_results.png
+test_result.png
+
+# Logs
+automation_log.txt
+*.log
+linkedin_automation.log
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 .Python
-venv/
+*.so
+.eggs/
+*.egg-info/
+*.egg
+
+# Environment
+.env
+.env.local
 .venv/
+venv/
+ENV/
 
-# Data files (optional - remove if you want to include)
-*.csv
-*.json
-
-# OS
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
 
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Duplicate extension folder
+linkedin-sales-nav-extension 2/
+
+# Zip files (can regenerate)
+*.zip
 

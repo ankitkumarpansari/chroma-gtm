@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales Nav Company Adder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 Sales Nav Adder</h1>
+      <p class="subtitle">274 verified companies ready to add</p>
+    </header>
+
+    <div id="status-bar" class="status-bar hidden">
+      <span id="status-text"></span>
+      <div id="progress-bar">
+        <div id="progress-fill"></div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="queue">Queue</button>
+      <button class="tab" data-tab="categories">Categories</button>
+      <button class="tab" data-tab="results">Results</button>
+      <button class="tab" data-tab="settings">Settings</button>
+    </div>
+
+    <div id="queue-tab" class="tab-content active">
+      <div class="controls">
+        <div class="control-row">
+          <label>Target List:</label>
+          <input type="text" id="target-list" value="Ankit Outreach" placeholder="List name">
+        </div>
+        <div class="control-row">
+          <label>Priority Filter:</label>
+          <select id="priority-filter">
+            <option value="all" selected>All Priorities (274)</option>
+            <option value="HIGH">HIGH only (98)</option>
+            <option value="MEDIUM-HIGH">MEDIUM-HIGH & above</option>
+            <option value="MEDIUM">MEDIUM & above</option>
+          </select>
+        </div>
+        <div class="control-row">
+          <label>Batch Size:</label>
+          <input type="number" id="batch-size" value="10" min="1" max="50">
+        </div>
+        <div class="control-row">
+          <label>Delay (seconds):</label>
+          <input type="number" id="delay-seconds" value="5" min="2" max="30">
+        </div>
+      </div>
+
+      <div class="queue-stats">
+        <div class="stat">
+          <span class="stat-value" id="total-count">0</span>
+          <span class="stat-label">Total</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="pending-count">0</span>
+          <span class="stat-label">Pending</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="saved-count">0</span>
+          <span class="stat-label">Saved</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="failed-count">0</span>
+          <span class="stat-label">Failed</span>
+        </div>
+      </div>
+
+      <div class="action-buttons">
+        <button id="start-btn" class="btn btn-primary">
+          ▶️ Start Adding
+        </button>
+        <button id="stop-btn" class="btn btn-danger hidden">
+          ⏹️ Stop
+        </button>
+        <button id="reset-btn" class="btn btn-secondary">
+          🔄 Reset
+        </button>
+      </div>
+
+      <div id="current-company" class="current-company hidden">
+        <span class="label">Processing:</span>
+        <span id="current-name"></span>
+      </div>
+
+      <div id="company-list" class="company-list">
+        <!-- Companies will be populated here -->
+      </div>
+    </div>
+
+    <div id="categories-tab" class="tab-content">
+      <div id="category-list" class="category-list">
+        <!-- Categories will be populated here -->
+      </div>
+    </div>
+
+    <div id="results-tab" class="tab-content">
+      <div class="results-summary">
+        <h3>Processing Results</h3>
+        <div id="results-list" class="results-list">
+          <p class="empty-state">No results yet. Start adding companies to see results here.</p>
+        </div>
+      </div>
+      <button id="export-btn" class="btn btn-secondary">
+        📥 Export Results
+      </button>
+    </div>
+
+    <div id="settings-tab" class="tab-content">
+      <div class="settings-group">
+        <h3>Automation Settings</h3>
+        <div class="setting-item">
+          <label>
+            <input type="checkbox" id="auto-save" checked>
+            Auto-save companies when found
+          </label>
+        </div>
+        <div class="setting-item">
+          <label>
+            <input type="checkbox" id="skip-saved" checked>
+            Skip already saved companies
+          </label>
+        </div>
+        <div class="setting-item">
+          <label>
+            <input type="checkbox" id="random-delay" checked>
+            Add random delay variation (±2s)
+          </label>
+        </div>
+      </div>
+      <div class="settings-group">
+        <h3>Data Management</h3>
+        <button id="clear-results" class="btn btn-secondary">Clear Results</button>
+        <button id="clear-all" class="btn btn-danger">Reset Everything</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Make sure you're on <a href="https://www.linkedin.com/sales/home" target="_blank">Sales Navigator</a></p>
+    </footer>
+  </div>
+
+  <script src="companies.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
+

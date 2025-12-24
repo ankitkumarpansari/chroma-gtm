@@ -1,0 +1,157 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Programmatic SEO Strategy</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Space Grotesk', sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1a1a1a" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10B981" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="100" fill="#10B981"/>
+  <text x="60" y="45" font-size="12" font-weight="500" fill="#A7F3D0">PILLAR 02</text>
+  <text x="60" y="75" font-size="24" font-weight="700" fill="#ffffff">Programmatic SEO Strategy</text>
+  <text x="1140" y="60" font-size="14" font-weight="400" fill="#A7F3D0" text-anchor="end">← Back to 00_master_overview.svg</text>
+
+  <!-- Inspiration Models -->
+  <rect x="60" y="130" width="1080" height="80" rx="8" fill="#ffffff" stroke="#E0E0E0" stroke-width="1" filter="url(#shadow)"/>
+  <text x="80" y="160" font-size="11" font-weight="600" fill="#10B981" letter-spacing="1">MODELED ON SUCCESS</text>
+  <text x="80" y="185" font-size="14" font-weight="500" fill="#1a1a1a">Airtable: Template galleries | Canva: Design templates | Zapier: Integration pages</text>
+  <text x="80" y="200" font-size="12" font-weight="400" fill="#666666">Long-tail content at scale → Capture fragmented search demand</text>
+
+  <!-- Content Engine Flow -->
+  <text x="60" y="250" font-size="11" font-weight="600" fill="#888888" letter-spacing="2">PROGRAMMATIC CONTENT ENGINE</text>
+
+  <!-- Flow diagram -->
+  <rect x="60" y="270" width="180" height="80" rx="8" fill="#1a1a1a" filter="url(#shadow)"/>
+  <text x="150" y="305" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">Structured Data</text>
+  <text x="150" y="325" font-size="11" font-weight="400" fill="#888888" text-anchor="middle">Competitors, features</text>
+  
+  <line x1="240" y1="310" x2="300" y2="310" stroke="#10B981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  
+  <rect x="300" y="270" width="180" height="80" rx="8" fill="#1a1a1a" filter="url(#shadow)"/>
+  <text x="390" y="305" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">Content Templates</text>
+  <text x="390" y="325" font-size="11" font-weight="400" fill="#888888" text-anchor="middle">Reusable structures</text>
+  
+  <line x1="480" y1="310" x2="540" y2="310" stroke="#10B981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  
+  <rect x="540" y="270" width="180" height="80" rx="8" fill="#1a1a1a" filter="url(#shadow)"/>
+  <text x="630" y="305" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">Auto-Generation</text>
+  <text x="630" y="325" font-size="11" font-weight="400" fill="#888888" text-anchor="middle">100s of pages</text>
+  
+  <line x1="720" y1="310" x2="780" y2="310" stroke="#10B981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  
+  <rect x="780" y="270" width="180" height="80" rx="8" fill="#1a1a1a" filter="url(#shadow)"/>
+  <text x="870" y="305" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">Optimization</text>
+  <text x="870" y="325" font-size="11" font-weight="400" fill="#888888" text-anchor="middle">Performance-based</text>
+  
+  <line x1="960" y1="310" x2="1020" y2="310" stroke="#10B981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  
+  <rect x="1020" y="270" width="120" height="80" rx="8" fill="#10B981" filter="url(#shadow)"/>
+  <text x="1080" y="305" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">Traffic</text>
+  <text x="1080" y="325" font-size="11" font-weight="400" fill="#A7F3D0" text-anchor="middle">+ Signups</text>
+
+  <!-- Page Types -->
+  <text x="60" y="400" font-size="11" font-weight="600" fill="#888888" letter-spacing="2">PAGE TYPES TO BUILD</text>
+
+  <!-- Type 1: Comparison Pages -->
+  <rect x="60" y="420" width="270" height="280" rx="8" fill="#ffffff" stroke="#10B981" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="60" y="420" width="270" height="50" rx="8 8 0 0" fill="#10B981"/>
+  <text x="195" y="452" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Comparison Pages</text>
+  <text x="80" y="495" font-size="12" font-weight="500" fill="#1a1a1a">Template Structure:</text>
+  <text x="80" y="520" font-size="11" font-weight="400" fill="#666666">• [Competitor] vs Chroma</text>
+  <text x="80" y="540" font-size="11" font-weight="400" fill="#666666">• [Competitor] alternative</text>
+  <text x="80" y="560" font-size="11" font-weight="400" fill="#666666">• Best [competitor] replacement</text>
+  <line x1="80" y1="580" x2="310" y2="580" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="80" y="605" font-size="12" font-weight="500" fill="#1a1a1a">Examples:</text>
+  <rect x="80" y="615" width="230" height="25" rx="4" fill="#ECFDF5"/>
+  <text x="95" y="633" font-size="11" font-weight="400" fill="#1a1a1a">pinecone-vs-chroma</text>
+  <rect x="80" y="645" width="230" height="25" rx="4" fill="#ECFDF5"/>
+  <text x="95" y="663" font-size="11" font-weight="400" fill="#1a1a1a">qdrant-alternative</text>
+  <rect x="80" y="675" width="230" height="25" rx="4" fill="#ECFDF5"/>
+  <text x="95" y="693" font-size="11" font-weight="400" fill="#1a1a1a">weaviate-vs-chroma</text>
+
+  <!-- Type 2: Integration Pages -->
+  <rect x="350" y="420" width="270" height="280" rx="8" fill="#ffffff" stroke="#3B82F6" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="350" y="420" width="270" height="50" rx="8 8 0 0" fill="#3B82F6"/>
+  <text x="485" y="452" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Integration Pages</text>
+  <text x="370" y="495" font-size="12" font-weight="500" fill="#1a1a1a">Template Structure:</text>
+  <text x="370" y="520" font-size="11" font-weight="400" fill="#666666">• [Framework] + Chroma guide</text>
+  <text x="370" y="540" font-size="11" font-weight="400" fill="#666666">• How to use Chroma with [X]</text>
+  <text x="370" y="560" font-size="11" font-weight="400" fill="#666666">• [Framework] vector database</text>
+  <line x1="370" y1="580" x2="600" y2="580" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="370" y="605" font-size="12" font-weight="500" fill="#1a1a1a">Examples:</text>
+  <rect x="370" y="615" width="230" height="25" rx="4" fill="#EFF6FF"/>
+  <text x="385" y="633" font-size="11" font-weight="400" fill="#1a1a1a">langchain-chroma-tutorial</text>
+  <rect x="370" y="645" width="230" height="25" rx="4" fill="#EFF6FF"/>
+  <text x="385" y="663" font-size="11" font-weight="400" fill="#1a1a1a">llamaindex-vector-store</text>
+  <rect x="370" y="675" width="230" height="25" rx="4" fill="#EFF6FF"/>
+  <text x="385" y="693" font-size="11" font-weight="400" fill="#1a1a1a">openai-embeddings-chroma</text>
+
+  <!-- Type 3: Use Case Pages -->
+  <rect x="640" y="420" width="270" height="280" rx="8" fill="#ffffff" stroke="#8B5CF6" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="640" y="420" width="270" height="50" rx="8 8 0 0" fill="#8B5CF6"/>
+  <text x="775" y="452" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Use Case Pages</text>
+  <text x="660" y="495" font-size="12" font-weight="500" fill="#1a1a1a">Template Structure:</text>
+  <text x="660" y="520" font-size="11" font-weight="400" fill="#666666">• Vector database for [use case]</text>
+  <text x="660" y="540" font-size="11" font-weight="400" fill="#666666">• Build [application] with Chroma</text>
+  <text x="660" y="560" font-size="11" font-weight="400" fill="#666666">• [Industry] vector search</text>
+  <line x1="660" y1="580" x2="890" y2="580" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="660" y="605" font-size="12" font-weight="500" fill="#1a1a1a">Examples:</text>
+  <rect x="660" y="615" width="230" height="25" rx="4" fill="#F5F3FF"/>
+  <text x="675" y="633" font-size="11" font-weight="400" fill="#1a1a1a">vector-db-for-chatbots</text>
+  <rect x="660" y="645" width="230" height="25" rx="4" fill="#F5F3FF"/>
+  <text x="675" y="663" font-size="11" font-weight="400" fill="#1a1a1a">semantic-search-ecommerce</text>
+  <rect x="660" y="675" width="230" height="25" rx="4" fill="#F5F3FF"/>
+  <text x="675" y="693" font-size="11" font-weight="400" fill="#1a1a1a">rag-document-qa</text>
+
+  <!-- Type 4: Technical Guides -->
+  <rect x="930" y="420" width="210" height="280" rx="8" fill="#ffffff" stroke="#F59E0B" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="930" y="420" width="210" height="50" rx="8 8 0 0" fill="#F59E0B"/>
+  <text x="1035" y="452" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">Technical Guides</text>
+  <text x="950" y="495" font-size="12" font-weight="500" fill="#1a1a1a">Template Structure:</text>
+  <text x="950" y="520" font-size="11" font-weight="400" fill="#666666">• How to [action]</text>
+  <text x="950" y="540" font-size="11" font-weight="400" fill="#666666">• [Concept] explained</text>
+  <text x="950" y="560" font-size="11" font-weight="400" fill="#666666">• [Technology] tutorial</text>
+  <line x1="950" y1="580" x2="1120" y2="580" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="950" y="605" font-size="12" font-weight="500" fill="#1a1a1a">Examples:</text>
+  <rect x="950" y="615" width="170" height="25" rx="4" fill="#FEF3C7"/>
+  <text x="965" y="633" font-size="11" font-weight="400" fill="#1a1a1a">hnsw-index-guide</text>
+  <rect x="950" y="645" width="170" height="25" rx="4" fill="#FEF3C7"/>
+  <text x="965" y="663" font-size="11" font-weight="400" fill="#1a1a1a">embedding-models</text>
+  <rect x="950" y="675" width="170" height="25" rx="4" fill="#FEF3C7"/>
+  <text x="965" y="693" font-size="11" font-weight="400" fill="#1a1a1a">vector-similarity</text>
+
+  <!-- Scale Targets -->
+  <text x="60" y="740" font-size="11" font-weight="600" fill="#888888" letter-spacing="2">SCALE TARGETS</text>
+
+  <rect x="60" y="760" width="1080" height="100" rx="8" fill="#1a1a1a" filter="url(#shadow)"/>
+  <text x="180" y="800" font-size="36" font-weight="700" fill="#10B981" text-anchor="middle">50+</text>
+  <text x="180" y="830" font-size="12" font-weight="400" fill="#888888" text-anchor="middle">Comparison pages</text>
+  <line x1="330" y1="780" x2="330" y2="840" stroke="#333333" stroke-width="1"/>
+  <text x="450" y="800" font-size="36" font-weight="700" fill="#3B82F6" text-anchor="middle">30+</text>
+  <text x="450" y="830" font-size="12" font-weight="400" fill="#888888" text-anchor="middle">Integration guides</text>
+  <line x1="600" y1="780" x2="600" y2="840" stroke="#333333" stroke-width="1"/>
+  <text x="720" y="800" font-size="36" font-weight="700" fill="#8B5CF6" text-anchor="middle">40+</text>
+  <text x="720" y="830" font-size="12" font-weight="400" fill="#888888" text-anchor="middle">Use case pages</text>
+  <line x1="870" y1="780" x2="870" y2="840" stroke="#333333" stroke-width="1"/>
+  <text x="990" y="800" font-size="36" font-weight="700" fill="#F59E0B" text-anchor="middle">20+</text>
+  <text x="990" y="830" font-size="12" font-weight="400" fill="#888888" text-anchor="middle">Technical guides</text>
+
+  <!-- Navigation -->
+  <text x="60" y="890" font-size="11" font-weight="500" fill="#888888">← 01_keywords.svg | Next: 03_ai_search.svg →</text>
+
+</svg>
+

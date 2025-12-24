@@ -1,0 +1,1923 @@
+[
+  {
+    "candidate_id": "candidate_02990dda-f5b6-4ab8-874d-22d044d09c89",
+    "name": "Tata Consultancy Services Limited",
+    "url": "https://www.tcs.com",
+    "description": "Tata Consultancy Services Limited (TCS) is a global IT services and consulting firm that regularly posts technology\u2011focused job openings, including roles that reference vector database technologies such as FAISS, Pinecone, Weaviate, and Milvus.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "1) Gen AI Developer \u2014 posting date 2025-11-20 (estimated) \u2014 snippet: \"Hands-on experience using Azure AI search, Lang chain, other Vector stores.\" \u2014 https://ca.linkedin.com/jobs/view/gen-ai-developer-at-tata-consultancy-services-4323662558\n2) Solution Architect - Agentic AI \u2014 posting date 2025-11-07 (scraped) \u2014 snippet: \"Prompt Engineering & RAG: Ability to craft effective prompts and chaining strategies for LLMs, familiar with retrieval-augmented generation methods. Retrieval Systems: Strong knowledge of search and retrieval technologies, including vector databases and semantic search.\" \u2014 https://www.ziprecruiter.com/c/Tata-Consultancy-Services/Job/Solution-Architect-Agentic-AI/-in-Philadelphia,PA?jid=ff87fcb1673fe6ed\n3) AI Engineer \u2014 posting date 2025-11-25 (estimated) \u2014 snippet: \"Design and scale RAG pipelines, vector search systems, and LLM evaluation workflows.\" \u2014 https://www.linkedin.com/jobs/view/ai-engineer-at-tata-consultancy-services-4326073718\n4) Software Platform Engineer \u2014 posting date (estimated within last 60 days) \u2014 snippet: \"Software Platform Engineer \u2014 role listing (snippet referencing AI/platform work).\" \u2014 https://www.ziprecruiter.com/c/Tata-Consultancy-Services/Job/Software-Platform-Engineer/-in-Cary,NC?jid=9b77fb76ca582844\n5) AI Architect \u2014 posting date (estimated within last 60 days) \u2014 snippet: \"... deploying AI/ML/GenAI pipelines leveraging vector databases and RAG frameworks.\" \u2014 https://www.indeed.com/viewjob?jk=bace3a53f8845841",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Tata Consultancy Service Solution Architect Agentic Ai Job ...",
+            "url": "https://www.ziprecruiter.com/c/Tata-Consultancy-Services/Job/Solution-Architect-Agentic-AI/-in-Philadelphia,PA?jid=ff87fcb1673fe6ed",
+            "excerpts": [
+              "\u2022 Retrieval Systems: Strong knowledge of search and retrieval technologies, including vector databases and semantic search.",
+              "\u2022 Prompt Engineering & RAG: Ability to craft effective prompts and chaining strategies for LLMs, familiar with retrieval-augmented generation methods."
+            ]
+          }
+        ],
+        "reasoning": "The answer listed multiple Tata Consultancy Services job postings from LinkedIn, ZipRecruiter, and Indeed that were dated within the last 60 days and contained keywords such as vector stores, RAG pipelines, semantic search, and vector databases. Each entry provides a job title, an estimated posting date, a relevant snippet, and a URL, satisfying the requirement for active vector\u2011database\u2011related postings.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Tata Consultancy Service Solution Architect Agentic Ai Job ...",
+            "url": "https://www.ziprecruiter.com/c/Tata-Consultancy-Services/Job/Solution-Architect-Agentic-AI/-in-Philadelphia,PA?jid=ff87fcb1673fe6ed",
+            "excerpts": [
+              "Solution Architect - Agentic AI",
+              "Tata Consultancy Service Limited Philadelphia, PA"
+            ]
+          }
+        ],
+        "reasoning": "The identified postings are for roles such as Gen AI Developer, Solution Architect, AI Engineer, Software Platform Engineer, and AI Architect, all of which are software, ML, or data engineering positions. This indicates the company is actively hiring engineers.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_0f39b52d-9518-4da9-81cb-7906c3adb369",
+    "name": "HP Inc.",
+    "url": "https://www.hp.com",
+    "description": "HP Inc. is a multinational technology corporation. Among its active job postings, a recent \"Principal AI Data Scientist\" role (posted 7 days ago) lists experience with vector databases, Retrieval\u2011Augmented Generation (RAG), and search\u2011engine technologies, satisfying the request for companies with recent openings that mention vector\u2011database or embedding\u2011related terms.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Hewlett Packard Labs -- Senior AI/ML Research Scientist",
+            "url": "https://careers.hpe.com/us/en/job/1186383/Hewlett-Packard-Labs-Senior-AI-ML-Research-Scientist",
+            "excerpts": [
+              "* Developing and prototyping novel algorithms for fine-turning, retrieval augmented generation, and in-context learning for various generative models."
+            ]
+          },
+          {
+            "title": "Java Full Stack Developer (Artificial Intelligence)",
+            "url": "https://careers.hpe.com/us/en/job/1194328/Java-Full-Stack-Developer-Artificial-Intelligence",
+            "excerpts": [
+              "* Proficiency in programming languages such as Python, Gen AI technology/framework and any Vector db (like for eg Mongodb) [Nice to have]"
+            ]
+          }
+        ],
+        "reasoning": "I examined the HP Inc. careers site (https://jobs.hp.com) for job postings in the last 60 days and found no listings that contain any of the specified vector\u2011database or related terms. Although HPE (Hewlett Packard Enterprise) listings mention RAG and vector\u2011db concepts, those belong to a separate entity and therefore do not satisfy the requirement for HP Inc. Consequently the entity does not have matching postings.",
+        "confidence": "low"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "HP Inc. Data Scientist Jobs | Glassdoor",
+            "url": "https://www.glassdoor.com/Jobs/HP-Inc-data-scientist-Jobs-EI_IE1093161.0,6_KO7,21.htm",
+            "excerpts": [
+              "Senior AI Software Engineer - HP IQ",
+              "24h"
+            ]
+          },
+          {
+            "title": "Hewlett Packard Enterprise Data Science Jobs, Employment | Indeed",
+            "url": "https://www.indeed.com/q-hewlett-packard-enterprise-data-science-jobs.html",
+            "excerpts": [
+              "* |## [Senior AI and Machine Learning Engineer](/rc/clk?jk=61c86845ff6bcfc3&bb=uUL4eWd0KJDL7FSI4WKuKIO7xQUftWewjop2f6czQJkFg_mpTfwoemM-IhgAPALsqeQrczX5cHMegbDEYglQu5tsILnLTvyRC5HGw9LLHTH1iRx5y_XrE04DW7hK6oDpPLIMFjnwL2J-UGJNBogejyYmadt8IP4CU3SK2IPdy5ZSRmtNq-tdbQ%3D%3D&xkcb=SoDA67M3rfOkwSQB3R0MbzkdCdPP&fccid=216eb700022de6f6&vjs=3)\n  \n  Hewlett Packard Enterprise\n  \n  Aguadilla, PR 00603\n  \n  Pay information not provided\n  \n    + Full-time |",
+              "* |## [AI Data Engineer](/rc/clk?jk=29c22c523ea239df&bb=uUL4eWd0KJDL7FSI4WKuKPVA6jALaHucglj6oIYNjFjmNgn7uE_Pr1pWCN7ocbOZDUbys7h49F-dRCCLUpGlpUcBQvpP3fLnEqT_3khSWtoWyfP3nsE0qk8TN9vHPxF65jm7UUDgYDtKoSbY0e_IVe1Je_yC2_4apDXeLo0mDYHyeSWZOzS8Jg%3D%3D&xkcb=SoDp67M3rfOkwSQB3R0ObzkdCdPP&fccid=216eb700022de6f6&vjs=3)\n  \n  Hewlett Packard Enterprise\n  \n  San Juan, PR 00918\n  \n  Pay information not provided\n  \n    + Full-time |"
+            ]
+          },
+          {
+            "title": "Java Full Stack Developer (Artificial Intelligence)",
+            "url": "https://careers.hpe.com/us/en/job/1194328/Java-Full-Stack-Developer-Artificial-Intelligence",
+            "excerpts": [
+              "Java Full Stack Developer (Artificial Intelligence)",
+              "Category: Engineering"
+            ]
+          },
+          {
+            "title": "Lead Machine Learning Engineer, Recommender Systems",
+            "url": "https://www.linkedin.com/jobs/view/lead-machine-learning-engineer-recommender-systems-at-hp-iq-4342515567",
+            "excerpts": [
+              "8+ years of software development experience with exposure to ML engineering \u00b7 Deep expertise in recommender systems, embeddings, and ranking models \u00b7 Proven ..."
+            ]
+          },
+          {
+            "title": "254 Hp Data Scientist jobs in United States (4 new) - LinkedIn",
+            "url": "https://www.linkedin.com/jobs/hp-data-scientist-jobs",
+            "excerpts": [
+              "Today's top 254 Hp Data Scientist jobs in United States. Leverage your professional network, and get hired. New Hp Data Scientist jobs added daily."
+            ]
+          },
+          {
+            "title": "HEWLETT PACKARD ENTERPRISE Data Scientist Jobs (Now Hiring)",
+            "url": "https://www.ziprecruiter.com/co/hewlett-packard-enterprise/Jobs/Data-Scientist",
+            "excerpts": [
+              "82 Hewlett Packard Enterprise Data Scientist jobs near you. 1-Click apply to Start your Data Scientist career at Hewlett Packard Enterprise!"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.hp.com/us-en/jobs.html",
+            "excerpts": [
+              "Show Next Slide Show Previous Slide Go to slide %{i} Close Clear Play?"
+            ]
+          }
+        ],
+        "reasoning": "The HP Inc. careers portal lists multiple open engineering roles (software, data, AI/ML) within the last 60 days, indicating active hiring of engineers. The presence of these listings on https://jobs.hp.com serves as evidence that the company is currently hiring engineers.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_118a0888-f024-451c-8f22-ea61801a0790",
+    "name": "Cox Enterprises",
+    "url": "https://www.coxenterprises.com",
+    "description": "Cox Enterprises is a diversified holding company with interests in communications, media, and automotive services. It currently lists an AI Engineer position (posted within the last 60 days) that explicitly mentions experience with vector database technologies such as pgvector and Pinecone, as well as RAG pipelines and semantic search, indicating active recruitment for roles involving vector embeddings.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Job title: AI Engineer (AJC); Posting date: 2025-12-05 (estimated); Snippet: \"Build LLM applications end-to-end: design, prototype, and productionize RAG pipelines, vector search, and agentic workflows... manage embeddings and vector indexes (e.g., pgvector/Snowflake vectors/Pinecone); implement metadata schemas, recency signals, and hybrid retrieval (BM25 + ANN).\"; URL: https://jobs.coxenterprises.com/en/jobs/r202569238/ai-engineer-ajc/ | Job title: AI/ML Cloud Architect (RapidScale); Posting date: 2025-12-10 (estimated); Snippet: \"Design and develop Generative AI solutions using cloud-based managed AI services (e.g. Amazon Bedrock, Amazon SageMaker, Google Cloud Vertex AI). Collaborate with data architects/engineers to build end-to-end AI pipelines.\"; URL: https://jobs.coxenterprises.com/en/jobs/r202566565/aiml-cloud-architect-rapidscale/",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "AI Engineer (AJC) - Atlanta - Cox Careers",
+            "url": "https://jobs.coxenterprises.com/en/jobs/r202569238/ai-engineer-ajc/",
+            "excerpts": [
+              "Own retrieval & data foundations: create ingestion and chunking pipelines; manage embeddings and vector indexes (e.g., pgvector/Snowflake vectors/Pinecone); implement metadata schemas, recency signals, and hybrid retrieval (BM25 + ANN).",
+              "Build LLM applications end-to-end: design, prototype, and productionize RAG pipelines, vector search, and agentic workflows that power personalization, content discovery, and on-site assistance.",
+              "Search & vectors: practical experience with vector databases or vector capabilities (e.g., Snowflake vector functions, pgvector, Pinecone), LangChain and hybrid retrieval techniques."
+            ]
+          }
+        ],
+        "reasoning": "Both job postings were reviewed for the presence of vector\u2011database or related terminology. The AI Engineer role explicitly mentions embeddings, vector indexes, Pinecone, and RAG pipelines, which directly satisfy the keyword criteria. The AI/ML Cloud Architect posting, while not naming a specific vector database, describes building end\u2011to\u2011end AI pipelines and generative AI solutions, indicating work with embeddings infrastructure. Because relevant terms appear within the last 60 days, the company matches the vector\u2011DB posting condition.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "AI Engineer (AJC) - Atlanta - Cox Careers",
+            "url": "https://jobs.coxenterprises.com/en/jobs/r202569238/ai-engineer-ajc/",
+            "excerpts": [
+              "AI Engineer (AJC)",
+              "[Apply Now](https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/AI-Engineer--AJC-_R202569238/apply?jid=r202569238&tid=)"
+            ]
+          },
+          {
+            "title": "AI/ML Cloud Architect (RapidScale) - Cox Careers",
+            "url": "https://jobs.coxenterprises.com/en/jobs/r202566565/aiml-cloud-architect-rapidscale/",
+            "excerpts": [
+              "We are seeking a highly skilled **AI/ML Cloud Architect** to join our innovative team."
+            ]
+          }
+        ],
+        "reasoning": "The presence of active AI Engineer and AI/ML Cloud Architect positions demonstrates that the company is currently hiring software engineers, ML engineers, or related AI/ML roles.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_12efd055-6b9d-4733-ada9-dca311a2c161",
+    "name": "Pinecone Inc.",
+    "url": "https://www.indeed.com/rc/clk?jk=b577778a6298c292",
+    "description": "Pinecone Inc. provides a managed vector database service used for AI, semantic search, RAG pipelines, and embeddings. The company has multiple active job postings in the last 60 days that mention vector\u2011database technologies.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "[{\"job_title\":\"Staff/Principal Software Engineer, Full Text Search\",\"posting_date\":\"2025-11-05 (estimated)\",\"snippet\":\"...build the next generation of our search capabilities...full-text search and its tight integration with vector search at scale...indexing, retrieval, and relevance...\",\"url\":\"https://www.pinecone.io/careers/82710744-762b-42fd-92b4-535085c21eb2/\"},{\"job_title\":\"Senior Software Engineer, Database Team\",\"posting_date\":\"2025-11-05 (estimated)\",\"snippet\":\"...design and build database features that power AI applications...\",\"url\":\"https://www.pinecone.io/careers/4ef4269b-94c4-4c7c-93ee-15a882caa767/\"},{\"job_title\":\"Software Engineer, Database Team (Tel Aviv)\",\"posting_date\":\"2025-11-05 (estimated)\",\"snippet\":\"...design and build database features that power AI applications...\",\"url\":\"https://www.pinecone.io/careers/6beffcfe-51f7-42b9-8259-f525863be85b/\"},{\"job_title\":\"Senior Software Engineer, Experience Platform Team\",\"posting_date\":\"2025-11-05 (estimated)\",\"snippet\":\"...metering and data pipelines...data and server architecture to API design...\",\"url\":\"https://www.pinecone.io/careers/eca8f469-b8e5-48e7-b999-aaa5b846cbbc/\"}]",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/",
+            "excerpts": [
+              "[R&D US Remote Staff/Principal Software Engineer, Full Text Search View Details](/careers/82710744-762b-42fd-92b4-535085c21eb2/)",
+              "[R&D New York City Senior Software Engineer, Database Team View Details](/careers/4ef4269b-94c4-4c7c-93ee-15a882caa767/)",
+              "[R&D Tel Aviv Software Engineer, Database Team View Details](/careers/6beffcfe-51f7-42b9-8259-f525863be85b/)",
+              "[R&D New York City Senior Software Engineer, Experience Platform Team View Details](/careers/eca8f469-b8e5-48e7-b999-aaa5b846cbbc/)"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/82710744-762b-42fd-92b4-535085c21eb2/",
+            "excerpts": [
+              "This role focuses on full-text search and its tight integration with vector search at scale.",
+              "Section Title: Staff/Principal Software Engineer, Full Text Search"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/4ef4269b-94c4-4c7c-93ee-15a882caa767/",
+            "excerpts": [
+              "**What You\u2019ll Do:**\nCollaborate with teammates to design and build database features that power AI applications.",
+              "**About Pinecone**\nPinecone is the leading vector database for building accurate and performant AI applications at scale in production."
+            ]
+          },
+          {
+            "title": "Principal Vector Data Engineer",
+            "url": "https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+            "excerpts": [
+              "Architect scalable, compliant embedding pipelines using modern vector database technologies (FAISS, Pinecone, Weaviate, Milvus, Chroma, etc.).",
+              "Hands-on experience with vector indexing/search systems (FAISS, Pinecone, Weaviate, Milvus, Odrant, Chroma)."
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/eca8f469-b8e5-48e7-b999-aaa5b846cbbc/",
+            "excerpts": [
+              "Pinecone is the leading vector database for building accurate and performant AI applications at scale in production.",
+              "Section Title: Senior Software Engineer, Experience Platform Team"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/6beffcfe-51f7-42b9-8259-f525863be85b/",
+            "excerpts": [
+              "Pinecone is the leading vector database for building accurate and performant AI applications at scale in production."
+            ]
+          }
+        ],
+        "reasoning": "The Pinecone careers pages were examined for postings within the 60\u2011day window (2025\u201110\u201111 to 2025\u201112\u201110). Four engineering roles were found that mention search, database, or platform work relevant to vector search, embeddings, or RAG. Posting dates were not shown, so an estimate of 2025\u201111\u201105 was used and marked as estimated. The job descriptions contain snippets referencing vector search integration, AI application support, and data pipelines, satisfying the keyword criteria.",
+        "confidence": "low"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Principal Vector Data Engineer",
+            "url": "https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+            "excerpts": [
+              "Principal Vector Data Engineer"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/82710744-762b-42fd-92b4-535085c21eb2/",
+            "excerpts": [
+              "We're looking for a Staff or Principal-level Software Engineer to join the Pinecone Engineering Team."
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/",
+            "excerpts": [
+              "[R&D US Remote Staff/Principal Software Engineer, Full Text Search View Details](/careers/82710744-762b-42fd-92b4-535085c21eb2/)",
+              "[R&D New York City Senior Software Engineer, Database Team View Details](/careers/4ef4269b-94c4-4c7c-93ee-15a882caa767/)",
+              "[R&D Tel Aviv Software Engineer, Database Team View Details](/careers/6beffcfe-51f7-42b9-8259-f525863be85b/)",
+              "[R&D New York City Senior Software Engineer, Experience Platform Team View Details](/careers/eca8f469-b8e5-48e7-b999-aaa5b846cbbc/)",
+              "Section Title: Build the future of Vector Databases > Open Roles"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/eca8f469-b8e5-48e7-b999-aaa5b846cbbc/",
+            "excerpts": [
+              "Section Title: Senior Software Engineer, Experience Platform Team",
+              "At least 5 years of experience in full-stack or backend development (NodeJS, Rust, Python, or Go)."
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/6beffcfe-51f7-42b9-8259-f525863be85b/",
+            "excerpts": [
+              "Section Title: Software Engineer, Database Team"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/4ef4269b-94c4-4c7c-93ee-15a882caa767/",
+            "excerpts": [
+              "Section Title: Software Engineer, Database Team",
+              "2+ years of work experience - programming in Rust, Go, C++, or a comparable language."
+            ]
+          }
+        ],
+        "reasoning": "The identified postings are engineering roles (software, senior, staff) indicating Pinecone is actively hiring software engineers and related positions.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_1fa5a6c5-4afa-489c-9fbe-41c2eaecfe5d",
+    "name": "Launch Legends",
+    "url": "https://www.ziprecruiter.com/c/Launch-Legends",
+    "description": "Launch Legends is a technology company that is actively hiring for senior roles focused on vector database engineering, including work with Milvus, Pinecone, FAISS, Weaviate, and Qdrant, as well as building RAG pipelines and semantic search infrastructure.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Senior Platform Vector Database Engineer \u2013 2025-12-10 (estimated) \u2013 \"You will own the planetary\u2011scale encrypted vector database that powers all RAG/KAG retrieval, agent memory, semantic search, and AI inference. Requirements \u2013 Must Have: 8+ years building production vector databases (Milvus, Pinecone, FAISS, Weavi, Qdrant).\" \u2013 https://www.ziprecruiter.com/c/Launch-Legends/Job/Senior-Platform-Vector-Database-Engineer/-in-Cheyenne,WY?jid=9570e61d8203ab64; Senior Platform Data Engineer \u2013 2025-12-03 (estimated) \u2013 \"Serve ML\u2011ready feature stores, vector databases, and knowledge graphs to trillion\u2011parameter GenAI models, agentic systems, and RAG/KAG pipelines.\" \u2013 https://remotive.com/remote/jobs/software-development/senior-platform-data-engineer-2834045; Senior Platform Vector Database Engineer \u2013 2025-12-09 (estimated) \u2013 \"We are seeking an exceptional Senior Platform Vector Database Engineer to join our pioneering team as an Equity Co\u2011Founder.\" \u2013 https://www.tealhq.com/job/senior-platform-vector-database-engineer_7ea1a86628e9e110a51f4ba0ed021e9f24b30; Senior Platform Data Engineer \u2013 2025-12-09 (estimated) \u2013 \"Hands\u2011on Trino federation, vector database integration, and self\u2011service data portals.\" \u2013 https://grabjobs.co/worldwide/job/full-time/others/remote-senior-platform-data-engineer-151067624",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Launch Legends Senior Platform Vector Database Engineer Job ...",
+            "url": "https://www.ziprecruiter.com/c/Launch-Legends/Job/Senior-Platform-Vector-Database-Engineer/-in-Cheyenne,WY?jid=9570e61d8203ab64",
+            "excerpts": [
+              "Senior Platform Vector Database Engineer",
+              "8+ years building production vector databases (Milvus, Pinecone, FAISS, Weavi, Qdrant)",
+              "You will own the planetary-scale encrypted vector database that powers all RAG/KAG retrieval, agent memory, semantic search, and AI inference",
+              "Posted date\n\n15 hours ago"
+            ]
+          },
+          {
+            "title": "[Hiring] Senior Platform Data Engineer @Launch Legends - Remotive",
+            "url": "https://remotive.com/remote/jobs/software-development/senior-platform-data-engineer-2834045",
+            "excerpts": [
+              "Senior Platform Data Engineer @Launch Legends",
+              "* Serve ML-ready feature stores, vector databases, and knowledge graphs to trillion-parameter GenAI models, agentic systems, and RAG/KAG pipelines.",
+              "* Deploy Trino federation layer delivering 25 \u03bcs queries across PostgreSQL, MongoDB, Aerospike, Milvus, and Ceph/IPFS.",
+              "Posted 1wk ago"
+            ]
+          }
+        ],
+        "reasoning": "The supplied citations were examined for job listings posted within the last 60 days that mention any of the specified vector\u2011database related keywords. Four listings were found that meet the criteria: two senior platform vector database engineer roles and two senior platform data engineer roles, each referencing Milvus, Pinecone, Weaviate, Qdrant, RAG pipelines, or semantic search. Posting dates were either given (e.g., \"15 hours ago\", \"1 wk ago\") or inferred as recent and marked as estimated. These listings constitute active postings matching the user intent.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Launch Legends Senior Platform Vector Database Engineer Job ...",
+            "url": "https://www.ziprecruiter.com/c/Launch-Legends/Job/Senior-Platform-Vector-Database-Engineer/-in-Cheyenne,WY?jid=9570e61d8203ab64",
+            "excerpts": [
+              "Senior Platform Vector Database Engineer"
+            ]
+          },
+          {
+            "title": "[Hiring] Senior Platform Data Engineer @Launch Legends - Remotive",
+            "url": "https://remotive.com/remote/jobs/software-development/senior-platform-data-engineer-2834045",
+            "excerpts": [
+              "Senior Platform Data Engineer @Launch Legends"
+            ]
+          }
+        ],
+        "reasoning": "The identified postings are senior engineering roles (platform vector database engineer, platform data engineer) that involve software, ML, and data engineering responsibilities, indicating the company is actively hiring engineers in relevant fields.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_272c4747-1c6d-4d0e-be64-954a61ed7881",
+    "name": "Riccione Resources",
+    "url": "https://www.ziprecruiter.com/c/Riccione-Resources",
+    "description": "Riccione Resources is a company that posted a Senior Backend Engineer position mentioning Vector Databases, indicating active recruitment for roles involving vector database technologies such as embeddings and RAG pipelines.",
+    "match_status": "generated"
+  },
+  {
+    "candidate_id": "candidate_2caed6e8-114a-4cce-923a-03e3a751beb8",
+    "name": "Robert Half Inc.",
+    "url": "https://www.roberthalf.com/",
+    "description": "Robert Half Inc. is a global staffing and recruiting firm that posts a wide variety of job listings, including recent technology positions that reference vector\u2011database technologies such as pgvector, Pinecone, Weaviate, Milvus, and Chroma, as well as concepts like embeddings infrastructure and RAG pipelines.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [],
+        "reasoning": "The roberthalf.com main site, its job search page, and the careers.roberthalf.com portal were examined for job postings within the last 60 days. None of the pages contained any of the target keywords (Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, vector embeddings). Therefore no matching postings were found.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Job Search: Find Your Next Role | Robert Half",
+            "url": "https://www.roberthalf.com/us/en/find-jobs",
+            "excerpts": [
+              "Technology Our vast nationwide jobs network offers opportunities for technology professionals from entry level to management and executive.\n[AI Engineer](/us/en/job-details/aiml-engineer) [Data Engineer](/us/en/job-details/data-engineer) [ERP Business Analyst](/us/en/job-details/erp-business-analyst) [IT Project Manager](/us/en/job-details/it-project-manager) [Security Architect](/us/en/job-details/security-architect) [Software Engineer](/us/en/job-details/software-engineer) [Find your next job](/us/en/jobs)"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.roberthalf.com/",
+            "excerpts": [
+              "Technology From\u202fcybersecurity\u202fprofessionals\u202fto\u202fdevelopers, we\u2019ll bring you top candidates with in-demand skills and experience and help manage the hiring process for you. [AI Engineer](/us/en/job-details/aiml-engineer) [Data Engineer](/us/en/job-details/data-engineer) [ERP Business Analyst](/us/en/job-details/erp-business-analyst) [IT Project Manager](/us/en/job-details/it-project-manager) [Security Architect](/us/en/job-details/security-architect) [Software Engineer](/us/en/job-details/software-engineer) [Learn more about our Technology hiring solutions](/us/en/tech-it)"
+            ]
+          },
+          {
+            "title": "AI Engineer \u2013 Agentic & Generative AI - Robert Half - LinkedIn",
+            "url": "https://www.linkedin.com/jobs/view/ai-engineer-%E2%80%93-agentic-generative-ai-at-robert-half-4326465775",
+            "excerpts": [
+              "Architect and implement RAG pipelines: Choose and configure vector databases (e.g., PGVector, Vertex AI Search, Pinecone, etc.) Build ingestion ..."
+            ]
+          }
+        ],
+        "reasoning": "The examined pages list technology roles such as AI Engineer, Data Engineer, and Software Engineer, indicating that Robert Half is actively hiring engineers in software, data, and AI/ML fields.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_2de85569-fc2f-4039-b102-09e6b0a707f4",
+    "name": "Algolia",
+    "url": "https://www.algolia.com/",
+    "description": "Algolia is a search and discovery platform that also offers vector search capabilities; its blog describes using Algolia indexes as a simple vector\u2011database\u2011as\u2011a\u2011service, indicating relevance to vector database technologies. The company maintains an active careers page showing ongoing hiring.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [],
+        "reasoning": "I examined Algolia's career listings on Greenhouse and the company website for job postings dated within the last 60 days (2025-10-11 to 2025-12-10). None of the postings contained the exact vendor names (Pinecone, Weaviate, Qdrant, Milvus, Chroma) or the exact phrases \"embeddings infrastructure\", \"RAG pipeline\", \"semantic search\" or \"vector embeddings\". Although some roles mention AI search and technologies like Faiss, they do not satisfy the required keyword criteria, so there are no matching postings.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Jobs at Algolia - Greenhouse",
+            "url": "http://job-boards.greenhouse.io/algolia",
+            "excerpts": [
+              "|[Senior AI / MLOps Engineer \u2013 e-Commerce Search & Information Retrieval Seattle, Washington](https://job-boards.greenhouse.io/algolia/jobs/5624741004) |",
+              "|[Senior Data Scientist \u2013 Product Analytics & Machine Learning Seattle, Washington](https://job-boards.greenhouse.io/algolia/jobs/5624748004) |",
+              "|[Senior Software Engineer - Search Infrastructure Paris, France](https://job-boards.greenhouse.io/algolia/jobs/5256159004) |",
+              "|[Software Engineer, Control Bucharest, Romania](https://job-boards.greenhouse.io/algolia/jobs/5618292004) |"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://job-boards.greenhouse.io/algolia/jobs/5624741004",
+            "excerpts": [
+              "We are seeking a skilled Senior AI / MLOps Engineer to enable our Data Scientists to move faster and our customers to receive smarter search & discovery experiences by turning prototypes into robust, scalable, and observable AI services.",
+              "Section Title: Senior AI / MLOps Engineer \u2013 e-Commerce Search & Information Retrieval"
+            ]
+          },
+          {
+            "title": "Careers & jobs at Algolia | Hiring worldwide | Algolia",
+            "url": "https://www.algolia.com/careers",
+            "excerpts": [
+              "# Join our team worldwide! Thrive in a culture built on trust, care, and continuous growth, where we support each other to reach new heights."
+            ]
+          }
+        ],
+        "reasoning": "Algolia\u2019s Greenhouse listings show multiple recent engineering positions (e.g., Senior AI / MLOps Engineer and Senior Data Scientist) posted within the 60\u2011day window, indicating the company is actively hiring software, ML, and data engineers.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_304a2b26-640d-4654-b580-3966296bee28",
+    "name": "NVIDIA Corporation",
+    "url": "https://www.nvidia.com",
+    "description": "NVIDIA Corporation is a leading technology company in accelerated computing and AI, headquartered in Santa Clara, CA. Its career portal shows active hiring, and a recent Dice job posting (posted 43 days ago) lists \u201cVector Databases\u201d among the required skills, indicating NVIDIA currently has job listings that mention vector\u2011database technologies.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Senior AI Infrastructure Engineer, AI Tooling - DGX Cloud (2025-10-28) \u2013 Responsibilities include working with Vector Databases for semantic search and RAG pipelines \u2013 https://www.dice.com/job-detail/24e4b1e6-8d1c-47f0-9e8d-6a0bfeeb3468",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Senior AI Infrastructure Engineer, AI Tooling - DGX Cloud",
+            "url": "https://www.dice.com/job-detail/24e4b1e6-8d1c-47f0-9e8d-6a0bfeeb3468",
+            "excerpts": [
+              "Vector Databases"
+            ]
+          }
+        ],
+        "reasoning": "The Dice job posted 43 days ago (2025-10-28) lists \u201cVector Databases\u201d among required skills, directly meeting the keyword criteria within the 60\u2011day window.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Senior AI Infrastructure Engineer, AI Tooling - DGX Cloud",
+            "url": "https://www.dice.com/job-detail/24e4b1e6-8d1c-47f0-9e8d-6a0bfeeb3468",
+            "excerpts": [
+              "Vector Databases"
+            ]
+          },
+          {
+            "title": "Like no Place You've Ever Worked",
+            "url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+            "excerpts": [
+              "Open Positions"
+            ]
+          }
+        ],
+        "reasoning": "Multiple recent job listings (e.g., Dice posting for Senior AI Infrastructure Engineer) show NVIDIA hiring software/AI engineers, confirming active hiring for relevant roles.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_4b18335b-65f7-4588-be88-f3477e16f93b",
+    "name": "Johnson & Johnson",
+    "url": "https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+    "description": "Johnson & Johnson is a multinational healthcare company. Its Innovative Medicine division posted a Principal Vector Data Engineer role that involves building vector embedding pipelines and using vector database technologies such as Pinecone, Weaviate, Milvus, and Chroma.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Principal Vector Data Engineer, 2025-11-30 (estimated), Architect scalable, compliant embedding pipelines using modern vector database technologies (FAISS, Pinecone, Weaviate, Milvus, Chroma, etc.). https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Principal Vector Data Engineer",
+            "url": "https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+            "excerpts": [
+              "Architect scalable, compliant embedding pipelines using modern vector database technologies (FAISS, Pinecone, Weaviate, Milvus, Chroma, etc.).",
+              "The Principal Vector Data Engineer is a technical and strategic leader operating at the intersection of AI, digital health, and therapeutic R&D."
+            ]
+          }
+        ],
+        "reasoning": "The job posting was retrieved within the search window (after 2025-10-11 and before 2025-12-10) and contains explicit mentions of Pinecone, Weaviate, Milvus, and Chroma, satisfying the vector\u2011database keyword requirement.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Principal Vector Data Engineer",
+            "url": "https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+            "excerpts": [
+              "r\n* Function [Data Analytics & Computational Sciences",
+              "Position Summary:**\n\nThe Principal Vector Data Engineer is a technical and strategic leader"
+            ]
+          }
+        ],
+        "reasoning": "Johnson & Johnson has an active job posting for a Principal Vector Data Engineer, indicating the company is hiring for an engineering role.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_4eca8d2c-4aef-4207-9961-7911c8ea6c0c",
+    "name": "InvestCloud Inc.",
+    "url": "https://www.indeed.com/cmp/Investcloud,-Inc?campaignid=mobvjcmp&from=mobviewjob&tk=1jc4qk1h2gc1g80m&fromjk=76a9430a8816ed3f",
+    "description": "InvestCloud Inc. is a fintech firm offering AI\u2011driven data and analytics solutions. Its recent Lead Data Scientist posting (dated 2025\u201111\u201110) lists vector database technologies as a preferred skill, indicating active hiring for roles involving embeddings, RAG pipelines, and semantic search.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Job title: Lead Data Scientist; Posting date: 2025-11-10; Snippet: \"Preferred Skills... Experience with Vector Database technologies; Experience with vector database technologies for retrieval-augmented generation (RAG).\"; URL: https://www.indeed.com/viewjob?jk=76a9430a8816ed3f",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Lead Data Scientist - Warren, NJ 07059",
+            "url": "https://www.indeed.com/viewjob?jk=76a9430a8816ed3f",
+            "excerpts": [
+              "You will be joining InvestCloud's newly formed AI, Data & Analytics team ... Preferred Skills. Experience with Vector Database technologies; Experience ..."
+            ]
+          },
+          {
+            "title": "Lead Data Scientist - InvestCloud - Warren, NJ | Ladders",
+            "url": "https://www.theladders.com/job/lead-data-scientist-investcloud-warren-nj_84713639",
+            "excerpts": [
+              "4 days ago",
+              "**Vector Stores:** (Preferred) various vector database technologies",
+              "* Experience with vector database technologies for retrieval-augmented generation (RAG)."
+            ]
+          },
+          {
+            "title": "InvestCloud, Inc. hiring Data Scientist in near you - Qureos",
+            "url": "https://app.qureos.com/jobs/data-scientist-1764319922465",
+            "excerpts": [
+              "* Working experience with Vector Database Technologies"
+            ]
+          }
+        ],
+        "reasoning": "The Indeed posting dated 2025-11-10 contains the keywords \"Vector Database technologies\" and \"retrieval-augmented generation (RAG)\", meeting the required criteria. The Ladders and ZipRecruiter listings also reference vector database technologies, providing additional confirmation.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Lead Data Scientist - InvestCloud - Warren, NJ | Ladders",
+            "url": "https://www.theladders.com/job/lead-data-scientist-investcloud-warren-nj_84713639",
+            "excerpts": [
+              "## Lead Data Scientist",
+              "4 days ago"
+            ]
+          }
+        ],
+        "reasoning": "The Lead Data Scientist role is a senior engineering position involving data science, machine learning, and software development, indicating InvestCloud is actively hiring engineers.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_590e2407-5c42-4a5e-b8ff-a18c181146d3",
+    "name": "Axtria, Inc.",
+    "url": "https://www.axtria.com",
+    "description": "Axtria, Inc. is an AI\u2011focused consulting firm that currently lists job openings mentioning vector\u2011database technologies (e.g., vector databases, LLMs) as part of its AI product management roles.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [],
+        "reasoning": "I reviewed Axtria\u2019s official careers page and individual job listings (Associate Director, Senior Manager, Manager) and third\u2011party postings on Naukri and TakeoffTalent dated within the last 60\u202fdays (since 2025\u201110\u201111). None of the descriptions contained any of the target keywords (Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, vector embeddings). Therefore there are no matching postings.",
+        "confidence": "low"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Fetched web page",
+            "url": "https://www.naukri.com/job-listings-director-data-science-axtria-india-private-limited-bengaluru-12-to-17-years-021225921729",
+            "excerpts": [
+              "Director - Data Science",
+              "Role Category: Data Science & Machine Learning",
+              "Posted: 1 week ago Applicants: 100+"
+            ]
+          }
+        ],
+        "reasoning": "The same search identified several recent Axtria openings (e.g., Director\u2011Data\u202fScience on Naukri, Associate Data Analyst on TakeoffTalent) that indicate the company is actively hiring for data/AI roles. Hence the company is hiring engineers.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_595d3c57-5b4c-4a88-9f4f-d449d3ce1155",
+    "name": "Neo4j, Inc.",
+    "url": "https://neo4j.com",
+    "description": "Neo4j, Inc. is a graph\u2011database company that also offers vector\u2011search capabilities for semantic search and RAG pipelines. While Neo4j provides infrastructure for embeddings and hybrid graph\u2011vector queries, no recent job postings (within the last 60 days) were found that explicitly mention vector\u2011database technologies such as Pinecone, Weaviate, Qdrant, Milvus, or Chroma.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "neo4j jobs | Dice.com",
+            "url": "https://www.dice.com/jobs/q-neo4j-jobs",
+            "excerpts": [
+              "[Sr. GenAI Engineer with Graph DB, Vector DB, Neo4j](https://www.dice.com/job-detail/7a4241bd-d245-45f3-91d8-c943e96b3a81)\n\nDall",
+              "Develop scalable workflows using LLMs, RAG, embeddings, vector databases, and agent frameworks."
+            ]
+          },
+          {
+            "title": "Founding Fullstack Engineer @Rose \u2013 Hexa",
+            "url": "https://www.welcometothejungle.com/en/companies/hexa/jobs/founding-fullstack-engineer-rose_paris",
+            "excerpts": [
+              "Backend: Python, Fast API, PostgreSQL, MongoDB Vector Database, Neo4j. Frontend: React, TypeScript AI/ML: LLMs, Vector embeddings, prompt engineering, Langgraph."
+            ]
+          }
+        ],
+        "reasoning": "Searched Neo4j\u2019s career pages and public job boards for postings within the last 60 days containing any of the specified vector\u2011DB or related terms. The only relevant pages found were product blogs and documentation discussing embeddings, and third\u2011party listings on Dice that reference Neo4j, but none were official Neo4j, Inc. job postings with the required keywords. Therefore no matching postings were identified.",
+        "confidence": "low"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "neo4j jobs | Dice.com",
+            "url": "https://www.dice.com/jobs/q-neo4j-jobs",
+            "excerpts": [
+              "[Sr. GenAI Engineer with Graph DB, Vector DB, Neo4j](https://www.dice.com/job-detail/7a4241bd-d245-45f3-91d8-c943e96b3a81)\n\nDall",
+              "Develop scalable workflows using LLMs, RAG, embeddings, vector databases, and agent frameworks."
+            ]
+          }
+        ],
+        "reasoning": "The same search did not reveal any Neo4j, Inc. job postings for software, ML, data, or AI/ML engineering roles in the last 60 days. Because no evidence of active hiring for these positions was found, the entity does not match the hiring criteria.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_648018fd-6f9e-4dce-be58-56ba96ae042e",
+    "name": "Character.AI",
+    "url": "https://character.ai",
+    "description": "Character.AI is a startup that creates AI\u2011driven storytelling and interactive entertainment experiences. It actively posts job openings on its careers page, focusing on roles in product, engineering, and AI research, but the listings do not specifically mention vector\u2011database technologies such as Pinecone, Weaviate, Milvus, or related RAG/semantic\u2011search terms.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [],
+        "reasoning": "I examined the Character.AI careers page and its Ashby jobs board for postings dated within the last 60 days (2025-10-11 to 2025-12-10). None of the listings contained any of the target keywords (Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, vector embeddings), so the entity does not have a matching vector-database job posting.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Join Us - Character.AI",
+            "url": "https://character.ai/careers",
+            "excerpts": [
+              "We're seeking passionate builders\nto shape AI-driven storytelling. [View Open Roles](https://jobs.ashbyhq.com/character/)"
+            ]
+          }
+        ],
+        "reasoning": "The careers page and Ashby jobs board list open roles across product, engineering, and AI research, indicating that Character.AI is actively hiring software, ML, and data engineers.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_6a3f80f1-99c7-44a2-836f-0b9f26070468",
+    "name": "DoubleVerify, Inc.",
+    "url": "https://www.doubleverify.com",
+    "description": "DoubleVerify, Inc. is a digital media measurement and verification company that offers solutions for brand safety, fraud detection, and viewability. The company currently has active job postings that mention vector database technologies, specifically a role highlighting knowledge of vector database integrations.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Current Openings - DoubleVerify",
+            "url": "https://doubleverify.com/current-openings/",
+            "excerpts": [
+              "Have a look at our current openings ; No Jobs Found! ; Account Manager \u00b7 Chicago, IL ; Account Manager \u00b7 New York ; Account Manager \u00b7 New York."
+            ]
+          }
+        ],
+        "reasoning": "I reviewed DoubleVerify career pages, LinkedIn jobs and external job boards covering the last 60 days (2025-10-11 to 2025-12-10) for any postings containing the target vector-database or embeddings terms. None of the pages contained such keywords, so there are no matching postings.",
+        "confidence": "low"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "DoubleVerify: Jobs - LinkedIn",
+            "url": "https://www.linkedin.com/company/doubleverify-inc/jobs",
+            "excerpts": [
+              "Jobs at DoubleVerify \u00b7 VP, HR Business Partner - International \u00b7 Senior DevOps Engineer II \u00b7 Sr. Accounts Payable Associate \u00b7 Data Engineer 2 \u00b7 Sr. Data Scientist II."
+            ]
+          }
+        ],
+        "reasoning": "The same sources were examined for any software, ML, data or AI engineering roles. While some engineering positions appeared, none were tied to vector-database or embeddings work, and no postings in the 60-day window indicate active hiring for those roles.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_6feaae9d-1811-4527-a6f1-c7dbb6661248",
+    "name": "Elastic NV",
+    "url": "https://www.elastic.co",
+    "description": "Elastic NV is a software company best known for Elasticsearch, a search and analytics engine that supports vector search, embeddings, and Retrieval\u2011Augmented Generation (RAG) pipelines, enabling semantic search capabilities.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [],
+        "reasoning": "The Elastic careers pages (https://www.elastic.co/careers and https://www.elastic.co/jobs) were examined for job listings posted within the last 60 days. No job descriptions containing any of the specified vector database or related keywords were found. A blog post about RAG and embeddings was identified, but it is not a job posting. Therefore, Elastic does not have active job postings that mention the target technologies.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Elastic Jobs & Careers - 8 Open Positions | Glassdoor",
+            "url": "https://www.glassdoor.com/Jobs/Elastic-Jobs-E751551.htm",
+            "excerpts": [
+              "* [Electronics Engineer](https://www.glassdoor.co.uk/job-listing/electronics-engineer-elastic-JV_IC4027130_KO0,20_KE21,28.htm?jl=1009784278096)",
+              "* [Human Factors Engineer](https://www.glassdoor.co.uk/job-listing/human-factors-engineer-elastic-JV_IC4027130_KO0,22_KE23,30.htm?jl=1009782767445)",
+              "* [IC Layout Engineer](https://www.glassdoor.co.uk/job-listing/ic-layout-engineer-elastic-JV_IC2662516_KO0,18_KE19,26.htm?jl=1009848349255)",
+              "* [Design Engineer](https://www.glassdoor.com/job-listing/design-engineer-elastic-JV_KO0,15_KE16,23.htm?jl=1009909729145)",
+              "* [Mechanical Design Engineer](https://www.glassdoor.co.uk/job-listing/mechanical-design-engineer-elastic-JV_IC4027130_KO0,26_KE27,34.htm?jl=1009781648543)"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.elastic.co/careers",
+            "excerpts": [
+              "Explore our open roles and start your Elastic career journey.",
+              "Apply for open roles"
+            ]
+          }
+        ],
+        "reasoning": "The Elastic careers pages list open roles and invite candidates to apply, indicating that the company is actively hiring software, ML, data, or AI/ML engineers. Although no vector\u2011specific postings were found, the presence of general engineering job listings confirms active hiring.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_8bb153de-a1fc-4738-9d57-00610e34dbaf",
+    "name": "The Walt Disney Company",
+    "url": "https://www.thewaltdisneycompany.com",
+    "description": "The Walt Disney Company is a global entertainment conglomerate that posts job openings on its career site. One recent posting (dated Dec\u202f09\u202f2025) for a Software Engineering AI Intern explicitly mentions developing and integrating vector database pipelines for document retrieval and semantic search, indicating the company is hiring roles involving vector database technologies.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Software Engineering AI Intern \u2013 Posted 2025-12-09 \u2013 \"Develop and integrate data ingestion and vector database pipelines for document retrieval and semantic search\" \u2013 https://www.disneycareers.com/en/job/glendale/software-engineering-ai-intern-summer-2026/391/89340388176",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Software Engineering AI Intern, Summer 2026",
+            "url": "https://www.disneycareers.com/en/job/glendale/software-engineering-ai-intern-summer-2026/391/89340388176",
+            "excerpts": [
+              "Develop and integrate data ingestion and vector database pipelines for document retrieval and semantic search",
+              "ate posted** Dec. 09, 202"
+            ]
+          }
+        ],
+        "reasoning": "The AI Intern posting, dated Dec\u202f09\u202f2025, explicitly references \"vector database pipelines\" and falls within the 60\u2011day window, satisfying the vector\u2011db job posting criterion.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Software Engineering AI Intern, Summer 2026",
+            "url": "https://www.disneycareers.com/en/job/glendale/software-engineering-ai-intern-summer-2026/391/89340388176",
+            "excerpts": [
+              "Software Engineering AI Intern, Summer 2026",
+              "ate posted** Dec. 09, 202"
+            ]
+          },
+          {
+            "title": "Machine Learning Engineer II",
+            "url": "https://jobs.disneycareers.com/job/new-york/machine-learning-engineer-ii/391/89311936960",
+            "excerpts": [
+              "Machine Learning Engineer II",
+              "Date posted** Dec. 08, 20"
+            ]
+          }
+        ],
+        "reasoning": "The AI Intern posting is for a software engineering role, and the Machine Learning Engineer II posting is for an engineering position; both demonstrate Disney is actively hiring engineers.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_8c5f6d68-469c-4f47-9296-0601be9d89e9",
+    "name": "Company B",
+    "url": "",
+    "description": "Company B could not be identified in the provided search results; therefore no description is available.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "url": "https://www.indeed.com/q-%22vector-database%22-jobs.html",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.att.jobs/job/plano/principal-full-stack-ai-engineer/117/89084562064",
+            "excerpts": []
+          },
+          {
+            "url": "https://ebxs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/308843",
+            "excerpts": []
+          },
+          {
+            "url": "https://weaviate.io/company/careers",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.ziprecruiter.com/Jobs/Vector-Databases",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.glassdoor.com/Job/remote-vector-database-jobs-SRCH_IL.0,6_IS11047_KO7,22.htm",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.indeed.com/q-%22vector-databases%22-jobs.html",
+            "excerpts": []
+          }
+        ],
+        "reasoning": "The provided listings do not include any postings from Company B that mention Pinecone, Weaviate, Qdrant, Milvus, Chroma, or related terms.",
+        "confidence": "low"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "url": "https://www.indeed.com/q-%22vector-database%22-jobs.html",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.att.jobs/job/plano/principal-full-stack-ai-engineer/117/89084562064",
+            "excerpts": []
+          },
+          {
+            "url": "https://ebxs.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/308843",
+            "excerpts": []
+          },
+          {
+            "url": "https://weaviate.io/company/careers",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.ziprecruiter.com/Jobs/Vector-Databases",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.glassdoor.com/Job/remote-vector-database-jobs-SRCH_IL.0,6_IS11047_KO7,22.htm",
+            "excerpts": []
+          },
+          {
+            "url": "https://www.indeed.com/q-%22vector-databases%22-jobs.html",
+            "excerpts": []
+          }
+        ],
+        "reasoning": "None of the job postings mention Company B, so we cannot confirm hiring of software, ML, or data engineers.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_8ff624e1-728f-4178-a4ca-b27070bd7be3",
+    "name": "Workhuman",
+    "url": "https://www.workhuman.com",
+    "description": "Workhuman provides employee experience and recognition solutions and currently has an active NLP Data Scientist job posting that requires experience with vector database technologies such as pgvector and Pinecone, matching the user\u2019s request for companies with recent vector\u2011database\u2011related postings.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Job title: NLP Data Scientist; Posting date: estimated 2025-11-15 (estimated); Snippet: \"Experience with vector database technologies (e.g., pgvector, Pinecone) and deep learning frameworks (e.g., TensorFlow, PyTorch).\"; URL: https://www.indeed.com/rc/clk?jk=a00bd2d74bdd5994&xkcb=SoC_67M3pE9hpjS7SJ0FbzkdCdPP&fccid=2ee5d5861035d939&vjs=3",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "How AI Can Transform Your Content Creation | Milo Riano ...",
+            "url": "https://www.linkedin.com/posts/miloriano_httpslnkdingrde2k5f-unlock-the-power-activity-7395988313750458368-8tPy",
+            "excerpts": [
+              "Smarter Content with Embeddings & Semantic Search Implement vector databases to retrieve relevant passages, facts, or prior work efficiently. ... work human."
+            ]
+          },
+          {
+            "title": "Vector Database jobs in Remote - Indeed",
+            "url": "https://www.indeed.com/q-vector-database-l-remote-jobs.html",
+            "excerpts": [
+              "[NLP Data Scientist](/rc/clk?jk=a00bd2d74bdd5994&bb=TwoatuTW9zKutEOzy7T2ZFehJRsw9XphAgvTYmfHkbdQvwllAJySIRcSc4osLu9QwCKYB7XWVh4kbWrelWvRyC-T_jwMKkIso2Tz6fNMwrdLx2vNjvDvAmob63jucjDNB7kbOK7xlm0utZPBwOjxcA%3D%3D&xkcb=SoC_67M3pE9hpjS7SJ0FbzkdCdPP&fccid=2ee5d5861035d939&vjs=3)",
+              "Workhuman",
+              "Remote in Framingham, MA",
+              "+ Experience with **vector** **database** technologies (e.g., pgvector, Pinecone) and deep learning frameworks (e.g., TensorFlow, PyTorch)."
+            ]
+          }
+        ],
+        "reasoning": "The Indeed job posting for a Workhuman NLP Data Scientist role, dated around 2025-11-15, explicitly mentions pgvector and Pinecone, satisfying the vector database keyword criteria within the last 60 days.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Vector Database jobs in Remote - Indeed",
+            "url": "https://www.indeed.com/q-vector-database-l-remote-jobs.html",
+            "excerpts": [
+              "+ Maintain and optimize RAG pipelines and **vector** search. + Strong experience with RAG architecture, **vector** embeddings, and semantic search.",
+              "[Software Engineer](/rc/clk?jk=391e01244e0ce2ba&bb=TwoatuTW9zKutEOzy7T2ZPO5R7Sc-Te7BUb3Z3_LvYHePFS7IPCQ__QmSRfGvww7Z2JyToubvtjlv1GkO2u7E_nEYn0yBUhmE1mUR4wevkDaqfuP2fTODuAPFGc3WNZcJjlxfLBff58ihjfYwMvc_g%3D%3D&xkcb=SoCF67M3pE9hpjS7SJ0DbzkdCdPP&fccid=ce82ad8714e1e4ea&vjs=3)",
+              "The Phia Group",
+              "Remote"
+            ]
+          }
+        ],
+        "reasoning": "The same NLP Data Scientist posting indicates Workhuman is actively hiring for a technical role, confirming the company is hiring engineers.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_927f94ac-2c3d-4da5-ba43-cfe1cc5d572a",
+    "name": "Axiom Path",
+    "url": "https://www.ziprecruiter.com/c/Axiom-Path",
+    "description": "Axiom Path is a technology company that actively posts software engineering positions mentioning vector database technologies, indicating hiring for roles that involve embeddings infrastructure, RAG pipelines, semantic search, or related vector\u2011based AI work.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Fetched web page",
+            "url": "https://www.ziprecruiter.com/c/Axiom-Path/Job/Software-Engineer-AI-Solutions-3470610/-in-Atlanta,GA?jid=2b4f2151a189d6d9",
+            "excerpts": [
+              "Strong understanding of vector databases and cloud-native architecture.",
+              "Section Title: Software Engineer - AI Solutions #3470610"
+            ]
+          }
+        ],
+        "reasoning": "I examined the job listings on the provided ZipRecruiter page. The only posting that mentions vector-related work uses the phrase \"vector databases\", which is not one of the target keywords (Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, vector embeddings). No posting within the last 60 days contains any of those keywords, so the entity does not match.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "AXIOM PATH Jobs (Now Hiring) Near Me Dec 2025 - ZipRecruiter",
+            "url": "https://www.ziprecruiter.com/co/axiom-path/Jobs",
+            "excerpts": [
+              "[## Software Engineer - AI Solutions #3470610](https://www.ziprecruiter.com/c/Axiom-Path/Job/Software-Engineer-AI-Solutions-3470610/-in-Atlanta,GA?jid=2b4f2151a189d6d9)",
+              "[## Cloud Engineer #3497574](https://www.ziprecruiter.com/c/Axiom-Path/Job/Cloud-Engineer-3497574/-in-Charlotte,NC?jid=b4696cffe9efcffe)"
+            ]
+          },
+          {
+            "title": "Fetched web page",
+            "url": "https://www.ziprecruiter.com/c/Axiom-Path/Job/Software-Engineer-AI-Solutions-3470610/-in-Atlanta,GA?jid=2b4f2151a189d6d9",
+            "excerpts": [
+              "Section Title: Software Engineer - AI Solutions #3470610",
+              "5+ years of professional experience in software engineering."
+            ]
+          }
+        ],
+        "reasoning": "The job listing \"Software Engineer - AI Solutions\" dated 2025-11-15 (estimated) is a software engineering role, indicating the company is actively hiring engineers. Therefore the entity matches the hiring criteria.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_a1859d63-6114-4f24-893d-f2edbaf0411b",
+    "name": "Prevail Recruiting",
+    "url": "https://prevailrecruiting.com",
+    "description": "Prevail Recruiting is a recruiting firm that posts job listings on behalf of client companies. In the search results, it is listed as the recruiter for a Pinecone \"AI Business Development Representative\" role that mentions vector database technologies (e.g., Pinecone, embeddings, RAG pipelines). The firm itself does not appear to host its own vector\u2011database\u2011related job postings, only to act as an intermediary.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Prevail Recruiting | LinkedIn",
+            "url": "https://www.linkedin.com/company/prevail-recruiting",
+            "excerpts": [
+              "Prevail Recruiting is a next-generation staffing agency combining industry-leading tools with the Top 10% recruiters in the industry to deliver faster, ..."
+            ]
+          }
+        ],
+        "reasoning": "The review of Prevail Recruiting\u2019s job page (https://www.prevailrecruiting.com/find-a-job) and the linked LOXO board (https://app.loxo.co/prevail-recruiting) showed listings from about a month ago but none contained the keywords Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, or vector embeddings. Although Pinecone\u2019s own career site mentions such terms, those postings belong to Pinecone, not Prevail Recruiting. Therefore no qualifying postings were found in the last 60 days.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Fetched web page",
+            "url": "https://www.pinecone.io/careers/",
+            "excerpts": [
+              "[R&D New York City Senior Software Engineer, Experience Platform Team View Details](/careers/eca8f469-b8e5-48e7-b999-aaa5b846cbbc/)",
+              "[R&D New York City Senior Software Engineer, Database Team View Details](/careers/4ef4269b-94c4-4c7c-93ee-15a882caa767/)",
+              "[R&D Tel Aviv Software Engineer, Database Team View Details](/careers/6beffcfe-51f7-42b9-8259-f525863be85b/)"
+            ]
+          }
+        ],
+        "reasoning": "The same job listings examined on Prevail Recruiting and LOXO did not include any software, ML, data, or AI engineering roles that matched the hiring criteria, and no separate engineering hiring announcements were found. Consequently, the company is not actively hiring engineers according to the available evidence.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_a836a3ea-8046-40ad-bcfc-baa13f28131b",
+    "name": "Pieces Technologies Inc",
+    "url": "https://www.indeed.com/cmp/Pieces-Technologies-Inc",
+    "description": "Pieces Technologies Inc is actively hiring for roles that involve vector database technologies, as evidenced by a recent Applied AI Scientist posting that mentions building data pipelines with vector support.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "[{\\\"job_title\\\":\\\"Applied AI Scientist\\\",\\\"posting_date\\\":\\\"2025-11-15\\\",\\\"date_note\\\":\\\"estimated\\\",\\\"snippet\\\":\\\"Develop data pipelines in AI engine to support a generic data store and data representation, including a meta-data layer for clinical semantics and a vector\u2026\\\",\\\"job_url\\\":\\\"https://www.indeed.com/rc/clk?jk=aad6ca556ad4d367&fccid=b8b3b56874cc25bb\\\"}]",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Vector Database Jobs, Employment - Indeed",
+            "url": "https://www.indeed.com/q-%22vector-database%22-jobs.html",
+            "excerpts": [
+              "* |## [Applied AI Scientist](/rc/clk?jk=aad6ca556ad4d367&bb=juNPxAOvpr1isYL-tJ1FfqzU1bW4b_JQ271VPgv97qKWFYOpr8x3VsFhh-9ABzsYB3QIoYAL8nicv5Ylq9TAuPTVfc4HieOL3Gqb1pRq3xXnmpTTEs2Izdq09zazRgmKto3JLDt4gpE6cALJIye7wUt5dbxmi-dE&xkcb=SoCx67M3pE9f9czbxp0KbzkdCdPP&fccid=b8b3b56874cc25bb&vjs=3)",
+              "    + Develop data pipelines in AI engine to support a generic data store and data representation, including a meta-data layer for clinical semantics and a vector\u2026"
+            ]
+          }
+        ],
+        "reasoning": "The Indeed company page for Pieces Technologies Inc lists an \"Applied AI Scientist\" position posted about 19 days ago. The job snippet mentions building data pipelines with vector support, which satisfies the requirement for a posting mentioning vector database technologies within the last 60 days. This evidence confirms the presence of a relevant job posting.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Vector Database Jobs, Employment - Indeed",
+            "url": "https://www.indeed.com/q-%22vector-database%22-jobs.html",
+            "excerpts": [
+              "* |## [Applied AI Scientist](/rc/clk?jk=aad6ca556ad4d367&bb=juNPxAOvpr1isYL-tJ1FfqzU1bW4b_JQ271VPgv97qKWFYOpr8x3VsFhh-9ABzsYB3QIoYAL8nicv5Ylq9TAuPTVfc4HieOL3Gqb1pRq3xXnmpTTEs2Izdq09zazRgmKto3JLDt4gpE6cALJIye7wUt5dbxmi-dE&xkcb=SoCx67M3pE9f9czbxp0KbzkdCdPP&fccid=b8b3b56874cc25bb&vjs=3)"
+            ]
+          }
+        ],
+        "reasoning": "The same Indeed listing shows the company is actively hiring for an Applied AI Scientist role that involves building vector\u2011enabled data pipelines, indicating the company is hiring engineers in AI/ML domains. This satisfies the criteria for actively hiring software/ML engineers.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_aea9a2ae-a8bc-45b0-add1-43837e8bc79f",
+    "name": "Milvus",
+    "url": "https://milvus.io",
+    "description": "Milvus is an open\u2011source vector database developed by Zilliz. It provides high\u2011performance similarity search, embeddings storage, and is commonly used in RAG pipelines and semantic search applications. The search results contain job postings that mention Milvus as a technology (e.g., a Pinecone senior\u2011software\u2011engineer posting lists Milvus among vector database options), but there are no recent job listings directly from Milvus/Zilliz themselves within the last 60 days.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Python + Milvus vector db Developer - Shine",
+            "url": "https://www.shine.com/jobs/python-milvus-vector-db-developer/programmingcom/18180567",
+            "excerpts": [
+              "Apply to Python + Milvus vector db Developer Job in Programming.com at Maharashtra. Find related Python + Milvus vector db Developer and IT Services ..."
+            ]
+          },
+          {
+            "title": "Senior AI Engineer (Backend & AI Systems)",
+            "url": "https://gtt.wd3.myworkdayjobs.com/external/job/us-remote/senior-ai-engineer--backend---ai-systems-_r0013993",
+            "excerpts": [
+              "Practical understanding of Vector Databases (e.g., ChromaDB, Milvus) and their role in AI applications like RAG. Hands-on mastery of Docker for building ...See more"
+            ]
+          },
+          {
+            "title": "Milvus Vector Database Jobs, Employment | Indeed",
+            "url": "https://www.indeed.com/q-milvus-vector-database-jobs.html",
+            "excerpts": [
+              "Vector **Database** Deployment \u2013 Deploy a **vector** search solution (FAISS, Pinecone, **Milvus** , etc.) to enable fast similarity search over embedded documents.",
+              "Build RAG pipelines using **vector** databases such as Pinecone, Chroma, FAISS or Milvus.",
+              "+ Data foundations: Design and operate the **vector** database/search layer (e.g., FAISS/pgvector/Milvus) and document-chunking/embedding pipelines that make\u2026",
+              "Knowledge of hybrid search and **vector** **database** optimization."
+            ]
+          },
+          {
+            "title": "Principal Vector Data Engineer",
+            "url": "https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+            "excerpts": [
+              "Architect scalable, compliant embedding pipelines using modern vector database technologies (FAISS, Pinecone, Weaviate, Milvus, Chroma, etc.).",
+              "Hands-on experience with vector indexing/search systems (FAISS, Pinecone, Weaviate, Milvus, Odrant, Chroma).",
+              "Familiarity with sentence-transformers, LangChain, or LlamaIndex for semantic search and RAG workflows."
+            ]
+          },
+          {
+            "title": "Vector Database Engineer | Los Angeles, CA | TQR",
+            "url": "https://www.topqualityrecruitment.com/jobs/7971",
+            "excerpts": [
+              "The Vector Database Engineer will be responsible for designing data models, optimizing queries and indexing strategies, building robust data ..."
+            ]
+          },
+          {
+            "title": "Vector Databases Jobs (NOW HIRING) Dec 2025 - ZipRecruiter",
+            "url": "https://www.ziprecruiter.com/Jobs/Vector-Databases",
+            "excerpts": [
+              "Browse 1000+ VECTOR DATABASES jobs from companies with openings that are hiring now. Find job postings near you and 1-click apply!"
+            ]
+          }
+        ],
+        "reasoning": "The review of Milvus/Zilliz career pages (https://zilliz.com/careers) and the LinkedIn company page (https://www.linkedin.com/company/the-milvus-project) showed no individual job postings dated within the last 60 days that contain any of the target keywords. Searches on major job aggregators (Indeed, ZipRecruiter, etc.) returned numerous postings that mention Milvus or other vector\u2011database technologies, but all of those listings are from third\u2011party companies, not from Milvus/Zilliz themselves. Because no qualifying postings were found on the entity\u2019s own channels, the entity does not have active job postings that match the criteria.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Python + Milvus vector db Developer - Shine",
+            "url": "https://www.shine.com/jobs/python-milvus-vector-db-developer/programmingcom/18180567",
+            "excerpts": [
+              "Apply to Python + Milvus vector db Developer Job in Programming.com at Maharashtra. Find related Python + Milvus vector db Developer and IT Services ..."
+            ]
+          },
+          {
+            "title": "Vector Databases Jobs (NOW HIRING) Dec 2025 - ZipRecruiter",
+            "url": "https://www.ziprecruiter.com/Jobs/Vector-Databases",
+            "excerpts": [
+              "Browse 1000+ VECTOR DATABASES jobs from companies with openings that are hiring now. Find job postings near you and 1-click apply!"
+            ]
+          },
+          {
+            "title": "Vector Database Engineer | Los Angeles, CA | TQR",
+            "url": "https://www.topqualityrecruitment.com/jobs/7971",
+            "excerpts": [
+              "The Vector Database Engineer will be responsible for designing data models, optimizing queries and indexing strategies, building robust data ..."
+            ]
+          },
+          {
+            "title": "Senior AI Engineer (Backend & AI Systems)",
+            "url": "https://gtt.wd3.myworkdayjobs.com/external/job/us-remote/senior-ai-engineer--backend---ai-systems-_r0013993",
+            "excerpts": [
+              "Practical understanding of Vector Databases (e.g., ChromaDB, Milvus) and their role in AI applications like RAG. Hands-on mastery of Docker for building ...See more"
+            ]
+          },
+          {
+            "title": "Principal Vector Data Engineer",
+            "url": "https://www.careers.jnj.com/en/jobs/r-037921/principal-vector-data-engineer/",
+            "excerpts": [
+              "The successful candidate will guide enterprise-scale vectorization efforts while ensuring compliance with clinical, regulatory, and GxP data standards."
+            ]
+          }
+        ],
+        "reasoning": "The same sources used to evaluate vector\u2011database job postings (Zilliz careers page, LinkedIn page, and job aggregators) did not reveal any recent engineer, ML, data, or AI positions posted directly by Milvus/Zilliz within the past 60 days. Therefore there is no evidence that the company is currently hiring software, ML, data, or AI engineers.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_b3913b59-2b42-4b7f-a71f-de8bf4613645",
+    "name": "Palantir Technologies",
+    "url": "https://www.palantir.com",
+    "description": "Palantir Technologies is a software company that currently lists many open positions on its Careers page, including engineering, product, and early\u2011talent roles. The listings are recent (scraped on 2025\u201112\u201108) but do not explicitly reference vector\u2011database technologies such as Pinecone, Weaviate, Qdrant, Milvus, or Chroma.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Palantir Foundry Job Details | NTT DATA Services",
+            "url": "https://careers-inc.nttdata.com/job/Bangalore-Palantir-Foundry-KA/1326037800/",
+            "excerpts": [
+              "\u2022 Strong experience working on SQL Query, Vector DB like Pinecone, Qdrant, Fiaas",
+              "**Date:** Oct 29, 2025",
+              "# Palantir Foundry"
+            ]
+          },
+          {
+            "title": "Careers - Palantir",
+            "url": "https://www.palantir.com/careers/",
+            "excerpts": [
+              "## Open Roles"
+            ]
+          }
+        ],
+        "reasoning": "Reviewed the two Palantir careers pages. Neither page contained any of the target keywords (Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, vector embeddings) in job titles or descriptions within the last 60 days, so no matching postings were found.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Palantir Foundry Job Details | NTT DATA Services",
+            "url": "https://careers-inc.nttdata.com/job/Bangalore-Palantir-Foundry-KA/1326037800/",
+            "excerpts": [
+              "We\u2019re hiring an AI Engineer to design, build, and productionize GenAI and agentic systems (RAG, tool-using agents, workflow/graph-based orchestration) on one or more hyperscalers (Azure, AWS, GCP)."
+            ]
+          },
+          {
+            "title": "Careers | Palantir",
+            "url": "https://www.palantir.com/careers/open-positions/",
+            "excerpts": [
+              "Backend Software Engineer",
+              "Forward Deployed Software Engineer \u2192",
+              "Forward Deployed Enablement Engineer - Customer Success \u2192",
+              "Forward Deployed AI Engineer \u2192"
+            ]
+          },
+          {
+            "title": "Careers - Palantir",
+            "url": "https://www.palantir.com/careers/",
+            "excerpts": [
+              "## Open Roles"
+            ]
+          }
+        ],
+        "reasoning": "The careers pages list multiple open engineering roles (e.g., Forward Deployed AI Engineer) indicating that Palantir is actively hiring software, ML, and related engineers.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_bc21004b-385f-4a87-b16f-9da8a52481a3",
+    "name": "P3 Adaptive",
+    "url": "https://www.p3adaptive.com",
+    "description": "P3 Adaptive is a technology company that offers AI solutions and currently has a remote Web Application Developer position mentioning vector databases and related AI frameworks, indicating active hiring for roles involving vector database technologies.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Web Application Developer - AI Solutions | 2025-11-13 (estimated) | Snippet: \"Connect LLMs to enterprise knowledge bases using vector search and RAG; Nice to Have: Vector databases\" | URL: https://www.indeed.com/viewjob?jk=ab372c130c83dac3",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Web Application Developer - AI Solutions - Remote",
+            "url": "https://www.indeed.com/viewjob?jk=ab372c130c83dac3",
+            "excerpts": [
+              "Web Application Developer - AI Solutions. P3 Adaptive. 5.05.0 out of 5 stars ... Vector databases; AI frameworks (LangChain, LlamaIndex, Semantic Kernel) ..."
+            ]
+          },
+          {
+            "title": "Web Application Developer - AI Solutions Job in Remote - Glassdoor",
+            "url": "https://www.glassdoor.com/job-listing/web-application-developer-ai-solutions-p3-adaptive-JV_KO0,38_KE39,50.htm?jl=1009935383325",
+            "excerpts": [
+              "* Connect LLMs to enterprise knowledge bases using vector search and RAG",
+              "* Vector databases",
+              "# **Web Application Developer - AI Solutions**",
+              "Job expired This job from Nov 11, 2025 is no longer available for applications."
+            ]
+          },
+          {
+            "title": "Web Application Developer - AI Solutions (Remote)",
+            "url": "https://www.ziprecruiter.com/c/P3-Adaptive/Job/Web-Application-Developer-AI-Solutions/-in-Remote,US?jid=171bcf3fbc695d51",
+            "excerpts": [
+              "* Connect LLMs to enterprise knowledge bases using vector search and RAG",
+              "* Vector databases"
+            ]
+          },
+          {
+            "title": "Web Application Developer - AI Solutions - P3 Adaptive | Built In",
+            "url": "https://builtin.com/job/web-application-developer-ai-solutions/7631657",
+            "excerpts": [
+              "* Connect LLMs to enterprise knowledge bases using vector search and RAG"
+            ]
+          },
+          {
+            "title": "P3 Adaptive Careers and Employment | Indeed.com",
+            "url": "https://www.indeed.com/cmp/P3-Adaptive",
+            "excerpts": [
+              "27 days ago",
+              "[View job](/cmp/P3-Adaptive/jobs?jk=ab372c130c83dac3)",
+              "### Web Application Developer - AI"
+            ]
+          }
+        ],
+        "reasoning": "The search of public job boards and the company careers page identified a recent posting titled Web Application Developer - AI Solutions. The description contains multiple vector\u2011database related terms such as \u201cvector search\u201d, \u201cRAG\u201d, and \u201cVector databases\u201d, satisfying the criteria for a matching posting within the last 60 days.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "P3 Adaptive Careers and Employment | Indeed.com",
+            "url": "https://www.indeed.com/cmp/P3-Adaptive",
+            "excerpts": [
+              "### Web Application Developer - AI",
+              "Remote"
+            ]
+          },
+          {
+            "title": "Web Application Developer - AI Solutions (Remote)",
+            "url": "https://www.ziprecruiter.com/c/P3-Adaptive/Job/Web-Application-Developer-AI-Solutions/-in-Remote,US?jid=171bcf3fbc695d51",
+            "excerpts": [
+              "Web Application Developer - AI Solutions"
+            ]
+          },
+          {
+            "title": "P3 ADAPTIVE Jobs (Now Hiring) Near Me Nov 2025 - ZipRecruiter",
+            "url": "https://www.ziprecruiter.com/co/P3-Adaptive/Jobs",
+            "excerpts": [
+              "Looking to work for P3 Adaptive? ZipRecruiter has 6 P3 Adaptive jobs available that are hiring now. Start your career at P3 Adaptive Today."
+            ]
+          }
+        ],
+        "reasoning": "The identified posting is for a Web Application Developer, which is a software engineering role. This indicates the company is actively hiring engineers.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_d211117f-5c32-4c4b-b15c-8889c1f2c6d0",
+    "name": "OpenAI",
+    "url": "https://openai.com/",
+    "description": "OpenAI is an artificial intelligence research and deployment company whose official website lists multiple open roles such as Research Engineer, Research Scientist, and Residency positions, indicating active hiring of engineers. The careers page does not contain any job descriptions mentioning vector database technologies like Pinecone, Weaviate, Qdrant, Milvus, Chroma, or related terms.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Careers",
+            "url": "https://openai.com/careers/",
+            "excerpts": [
+              "Research Engineer Research San Francisco",
+              "Research Scientist Research San Francisco",
+              "Residency 2026 Research San Francisco"
+            ]
+          }
+        ],
+        "reasoning": "All job titles and descriptions on the OpenAI careers page lack any of the specified vector\u2011database keywords (Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, vector embeddings). Therefore the company does not have qualifying postings in the last 60 days.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Careers",
+            "url": "https://openai.com/careers/",
+            "excerpts": [
+              "Research Engineer Research San Francisco",
+              "Research Scientist Research San Francisco",
+              "Residency 2026 Research San Francisco"
+            ]
+          }
+        ],
+        "reasoning": "The careers page lists multiple engineering and research engineer roles, confirming OpenAI is actively hiring software, ML, and AI engineers.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_d3099c8c-76b3-424c-8f39-ad2b18be47a3",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com",
+    "description": "Anthropic is a public\u2011benefit corporation headquartered in San Francisco that builds safe and reliable AI systems such as Claude.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Anthropic hiring Staff+ Software Engineer - Infrastructure",
+            "url": "https://www.linkedin.com/jobs/view/staff%2B-software-engineer-infrastructure-at-anthropic-4322350119",
+            "excerpts": [
+              "Nov 13, 2025 \u2014"
+            ]
+          },
+          {
+            "title": "Staff+ Software Engineer, Databases @ Anthropic",
+            "url": "https://jobs.menlovc.com/companies/anthropic/jobs/57027417-staff-software-engineer-databases",
+            "excerpts": [
+              "Experience with Redis, Temporal, vector databases"
+            ]
+          }
+        ],
+        "reasoning": "Search results show a vector\u2011DB mention in a job from August (older than 60 days) and a November posting without such terms, so no qualifying recent posting exists.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [],
+        "reasoning": "The careers page shows many open positions for software, ML, and data engineers, indicating active hiring.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_e44a061f-8c34-45de-a435-249fcf97df36",
+    "name": "Elsevier",
+    "url": "https://www.elsevier.com",
+    "description": "Elsevier is a global leader in advanced information and decision\u2011support services for science and healthcare, employing thousands of technologists and offering a range of AI\u2011driven products.",
+    "match_status": "matched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "Data Science Team Lead, Search & Evaluation | 2025-12-06 (estimated) | lead a group of applied scientists advancing lexical, vector, and hybrid retrieval systems; designing robust evaluation frameworks; retrieval\u2011augmented generation (RAG) and semantic search | https://relx.wd3.myworkdayjobs.com/en-US/ElsevierJobs/job/London/Data-Science-Team-Lead--Search---Evaluation-_R105207",
+        "is_matched": true
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": true
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Data Science Team Lead, Search & Evaluation - Elsevier Jobs",
+            "url": "https://relx.wd3.myworkdayjobs.com/en-US/ElsevierJobs/job/London/Data-Science-Team-Lead--Search---Evaluation-_R105207",
+            "excerpts": [
+              "lead a group of applied scientists advancing lexical, vector, and hybrid retrieval systems",
+              "retrieval-augmented generation (RAG) systems that integrate LLMs",
+              "semantic search"
+            ]
+          }
+        ],
+        "reasoning": "The job description explicitly mentions vector retrieval, RAG pipelines and semantic search, satisfying the vector\u2011DB technology requirement.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Data Science Team Lead, Search & Evaluation - Elsevier Jobs",
+            "url": "https://relx.wd3.myworkdayjobs.com/en-US/ElsevierJobs/job/London/Data-Science-Team-Lead--Search---Evaluation-_R105207",
+            "excerpts": [
+              "We are seeking a Search and Evaluation Data Science Team Lead to join Elsevier\u2019s Platform Data Science organisation",
+              "lead a group of applied scientists advancing lexical, vector, and hybrid retrieval systems"
+            ]
+          }
+        ],
+        "reasoning": "The recent job posting for a Data Science Team Lead involves advanced data and AI work, indicating Elsevier is actively hiring engineers and AI\u2011related talent.",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_ef188316-2256-4a85-9f1f-1601bc629fa6",
+    "name": "OnBoard",
+    "url": "https://www.onboardmeetings.com",
+    "description": "OnBoard provides a cloud\u2011based board management platform. Its recent Cloud Data Engineer job posting (dated October\u202f2025) describes work on AI\u2011enhanced search, vector indexing, and embeddings, indicating that the company has active job listings within the last 60\u202fdays that mention vector\u2011database\u2011related technologies.",
+    "match_status": "generated"
+  },
+  {
+    "candidate_id": "candidate_f4128782-1e5b-4951-ba4f-ad70e982e665",
+    "name": "Langfuse GmbH",
+    "url": "https://langfuse.com/",
+    "description": "Langfuse GmbH is an open\u2011source LLM observability platform that currently has active job postings (7+ open positions) and lists Milvus among its core technology stack, indicating work with a vector database.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Fetched web page",
+            "url": "https://langfuse.com/careers",
+            "excerpts": [
+              "[View Open Positions \u2192](https://jobs.ashbyhq.com/langfuse)",
+              "[See open roles](https://jobs.ashbyhq.com/langfuse)"
+            ]
+          }
+        ],
+        "reasoning": "The examined web pages for Langfuse (career page, integration documentation, and cookbook) were checked for job postings dated within the last 60 days that contain any of the specified vector\u2011database keywords. The career page only links to an external Ashby job board and did not provide individual postings in the scraped content. The integration and cookbook pages describe the use of Milvus but are documentation, not job listings. No job posting with a posting date in the required time frame and containing the required keywords was found, so the result is NA and the match flag is set to \"no\".",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Fetched web page",
+            "url": "https://langfuse.com/careers",
+            "excerpts": [
+              "[View Open Positions \u2192](https://jobs.ashbyhq.com/langfuse)",
+              "[See open roles](https://jobs.ashbyhq.com/langfuse)"
+            ]
+          }
+        ],
+        "reasoning": "The available sources only show a generic careers page linking to an external job board and do not list specific engineering role postings within the last 60 days. Because there is no concrete evidence of active hiring for software, ML, data, or AI/ML engineers in the required timeframe, the entity is considered not to match the hiring\u2011engineers criteria.",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_fd01587f-b021-4c99-b5a7-314b964ad28b",
+    "name": "ClickHouse",
+    "url": "https://clickhouse.com",
+    "description": "ClickHouse is a company that builds and supports the open\u2011source ClickHouse column\u2011oriented analytical database. Its product suite centers on high\u2011performance OLAP and does not explicitly involve vector\u2011database technologies or related AI search infrastructure.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [],
+        "reasoning": "Searched ClickHouse career pages and major job aggregators (LinkedIn, Indeed, Glassdoor) for postings in the last 60 days containing any of the specified vector\u2011database keywords. No postings mentioning Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, or vector embeddings were found.",
+        "confidence": "high"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [],
+        "reasoning": "The sources reviewed did not contain any listings or announcements indicating that ClickHouse is actively hiring software engineers, ML engineers, data engineers, or AI/ML roles. Consequently, the entity does not match the hiring\u2011engineers condition.",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "candidate_id": "candidate_fec3aabf-47a0-47a6-9be8-643f6d392863",
+    "name": "Vespa.ai",
+    "url": "http://Vespa.ai",
+    "description": "Vespa.ai is an AI search platform that offers vector search, large\u2011scale data handling, and machine\u2011learned ranking. The site does not show active job postings in the last 60 days nor mention hiring for vector\u2011database related roles, so it only partially satisfies the user intent.",
+    "match_status": "unmatched",
+    "output": {
+      "has_vector_db_job_posting": {
+        "type": "match_condition",
+        "value": "NA",
+        "is_matched": false
+      },
+      "is_hiring_engineers": {
+        "type": "match_condition",
+        "value": "",
+        "is_matched": false
+      }
+    },
+    "basis": [
+      {
+        "field": "has_vector_db_job_posting",
+        "citations": [
+          {
+            "title": "Vector Vespa Ai Jobs, Employment - Indeed",
+            "url": "https://www.indeed.com/q-vector-vespa-ai-jobs.html",
+            "excerpts": [
+              "# The search **vector vespa ai jobs** did not match any jobs."
+            ]
+          }
+        ],
+        "reasoning": "The review of Vespa.ai\u2019s careers page, solutions pages, and related content for the period covering the last 60 days (since 2025-10-11) found no job postings that mention any of the target keywords (Pinecone, Weaviate, Qdrant, Milvus, Chroma, embeddings infrastructure, RAG pipeline, semantic search, or vector embeddings). The sources contain descriptions of the platform\u2019s capabilities but no dated listings that satisfy the required criteria, therefore the entity does not have matching job postings.",
+        "confidence": "medium"
+      },
+      {
+        "field": "is_hiring_engineers",
+        "citations": [
+          {
+            "title": "Careers - Vespa.ai",
+            "url": "https://vespa.ai/careers/",
+            "excerpts": [
+              "We\u2019re hiring! Vespa is growing fast and we\u2019re always hiring. If you have what it takes to help solving the most challenging problems in our industry at the forefront of applying AI to data, please see if our open positions fits your profile."
+            ]
+          },
+          {
+            "title": "Vector Vespa Ai Jobs, Employment - Indeed",
+            "url": "https://www.indeed.com/q-vector-vespa-ai-jobs.html",
+            "excerpts": [
+              "# The search **vector vespa ai jobs** did not match any jobs."
+            ]
+          },
+          {
+            "title": "What is Vespa? Competitors, Complementary Techs & Usage",
+            "url": "https://sumble.com/tech/vespa",
+            "excerpts": [
+              "[AI Engineer 0\\.1% of all AI Engineer jobs mention Vespa View 125 jobs on Sumble](https://sumble.com/jobs?as=%7B%22operator%22%3A%22AND%22%2C%22children%22%3A%5B%7B%22operator%22%3A%22AND%22%2C%22fields%22%3A%7B%22job_function%22%3A%7B%22include%22%3A%5B%22AI%20Engineer%22%5D%7D%2C%22technology%22%3A%7B%22include%22%3A%5B%22vespa%22%5D%7D%7D%7D%5D%7D",
+              "[Machine Learning 52 Machine Learning jobs mention Vespa View 52 jobs on Sumble](https://sumble.com/jobs?as=%7B%22operator%22%3A%22AND%22%2C%22children%22%3A%5B%7B%22operator%22%3A%22AND%22%2C%22fields%22%3A%7B%22job_function%22%3A%7B%22include%22%3A%5B%22Machine%20Learning%22%5D%7D%2C%22technology%22%3A%7B%22include%22%3A%5B%22vespa%22%5D%7D%7D%7D%5D%7D)",
+              "[Software Engineer 209 Software Engineer jobs mention Vespa View 209 jobs on Sumble](https://sumble.com/jobs?as=%7B%22operator%22%3A%22AND%22%2C%22children%22%3A%5B%7B%22operator%22%3A%22AND%22%2C%22fields%22%3A%7B%22job_function%22%3A%7B%22include%22%3A%5B%22Software%20Engineer%22%5D%7D%2C%22technology%22%3A%7B%22include%22%3A%5B%22vespa%22%5D%7D%7D%7D%5D%7D)"
+            ]
+          }
+        ],
+        "reasoning": "Although Vespa.ai states on its careers page that it is hiring, there are no specific job listings for software engineers, ML engineers, data engineers, or AI/ML roles within the last 60 days. Consequently, the company does not meet the condition of actively hiring engineers in the defined categories.",
+        "confidence": "high"
+      }
+    ]
+  }
+]

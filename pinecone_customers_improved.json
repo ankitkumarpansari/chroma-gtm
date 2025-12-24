@@ -1,0 +1,28 @@
+{
+  "total_videos": 3,
+  "processed": 3,
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "min_confidence": 0.5,
+  "customers": {},
+  "videos": [
+    {
+      "video_id": "pY_7RSUnotk",
+      "url": "https://www.youtube.com/watch?v=pY_7RSUnotk",
+      "title": "Getting started with Pinecone monthly webinar (November 2025)",
+      "customers_mentioned": []
+    },
+    {
+      "video_id": "ju58amdX-OM",
+      "url": "https://www.youtube.com/watch?v=ju58amdX-OM",
+      "title": "Pinecone demo: AI-powered search and recommendation app",
+      "customers_mentioned": []
+    },
+    {
+      "video_id": "OSvDO9VtypU",
+      "url": "https://www.youtube.com/watch?v=OSvDO9VtypU",
+      "title": "AI/Agents in Production with Delphi, Seam AI, and APIsec",
+      "customers_mentioned": []
+    }
+  ]
+}

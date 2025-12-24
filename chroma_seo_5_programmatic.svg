@@ -1,0 +1,46 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Programmatic SEO</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1a1a1a" />
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff" />
+
+<text x="450" y="45" font-size="20" font-weight="700" fill="#1a1a1a" text-anchor="middle">Goal 4: Scale Through Programmatic SEO</text>
+<text x="450" y="72" font-size="13" font-weight="400" fill="#666666" text-anchor="middle">Modeled on Airtable &amp; Canva success</text>
+<line x1="60" y1="95" x2="840" y2="95" stroke="#e0e0e0" stroke-width="1" />
+<rect x="330" y="120" width="240" height="45" rx="4" fill="#f5f5f5" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="450" y="148" font-size="14" font-weight="600" fill="#1a1a1a" text-anchor="middle">Programmatic SEO Engine</text>
+<line x1="450" y1="165" x2="180" y2="190" stroke="#1a1a1a" stroke-width="1" />
+<text x="180" y="220" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Long-tail Templates</text>
+<line x1="110" y1="226" x2="250" y2="226" stroke="#1a1a1a" stroke-width="1" />
+<text x="180" y="255" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">Template-based pages</text>
+<text x="180" y="277" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">Scalable system</text>
+<text x="180" y="299" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">Automated generation</text>
+<line x1="450" y1="165" x2="360" y2="190" stroke="#1a1a1a" stroke-width="1" />
+<text x="360" y="220" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Comparison Pages</text>
+<line x1="290" y1="226" x2="430" y2="226" stroke="#1a1a1a" stroke-width="1" />
+<text x="360" y="255" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">&quot;pinecone alternative&quot;</text>
+<text x="360" y="277" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">&quot;qdrant vs chroma&quot;</text>
+<text x="360" y="299" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">Feature comparisons</text>
+<line x1="450" y1="165" x2="540" y2="190" stroke="#1a1a1a" stroke-width="1" />
+<text x="540" y="220" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Use Case Pages</text>
+<line x1="470" y1="226" x2="610" y2="226" stroke="#1a1a1a" stroke-width="1" />
+<text x="540" y="255" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">RAG applications</text>
+<text x="540" y="277" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">LLM app tutorials</text>
+<text x="540" y="299" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">Semantic search</text>
+<line x1="450" y1="165" x2="720" y2="190" stroke="#1a1a1a" stroke-width="1" />
+<text x="720" y="220" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Integration Pages</text>
+<line x1="650" y1="226" x2="790" y2="226" stroke="#1a1a1a" stroke-width="1" />
+<text x="720" y="255" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">LangChain + Chroma</text>
+<text x="720" y="277" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">LlamaIndex + Chroma</text>
+<text x="720" y="299" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">OpenAI + Chroma</text>
+<line x1="60" y1="420" x2="840" y2="420" stroke="#e0e0e0" stroke-width="1" />
+<text x="80" y="440" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="start">Execution:</text>
+<text x="160" y="440" font-size="13" font-weight="400" fill="#333333" text-anchor="start">Build templates -&gt; Generate at scale -&gt; Optimize based on performance -&gt; Iterate</text>
+</svg>

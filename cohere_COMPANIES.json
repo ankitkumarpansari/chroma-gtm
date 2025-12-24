@@ -1,0 +1,71 @@
+{
+  "channel": "Cohere",
+  "channel_url": "https://www.youtube.com/@CohereAI",
+  "total_videos": 450,
+  "companies": {
+    "enterprise_customers": {
+      "Bell Canada": {
+        "context": "Bell Canada and Dell Technologies discuss their partnership with Cohere"
+      },
+      "Dell Technologies": {
+        "context": "Bell Canada and Dell Technologies discuss their partnership with Cohere"
+      },
+      "Draftwise": {
+        "context": "Draftwise and Cohere: AI for lawyers"
+      },
+      "HyperWrite": {
+        "context": "HyperWrite Powers Its Generative AI Service with Cohere"
+      },
+      "McKinsey": {
+        "context": "Cohere and McKinsey Announce Strategic Collaboration to Help Enterprises Adopt Generative AI"
+      },
+      "Scale AI": {
+        "context": "Making Large Language Models Accessible | Scale AI Fireside chat"
+      },
+      "Surge AI": {
+        "context": "Create a Custom Language Model with Surge AI and Cohere"
+      }
+    },
+    "partners": {
+      "NVIDIA": {
+        "context": "Multiple CUDA and GPU optimization talks"
+      },
+      "OpenAI": {
+        "context": "Research comparisons and discussions"
+      },
+      "Google": {
+        "context": "Research collaborations mentioned"
+      },
+      "Meta": {
+        "context": "Research discussions"
+      }
+    },
+    "tools": {
+      "BERTopic": {
+        "context": "BERTopic for Topic Modeling series with Maarten Grootendorst"
+      },
+      "DSPy": {
+        "context": "Programming Foundation Models with DSPy"
+      },
+      "ColBERT": {
+        "context": "Multivector Semantic Search with ColBERT - Omar Khattab"
+      },
+      "Sentence Transformers": {
+        "context": "Sentence Transformers and Embedding Evaluation - Nils Reimers"
+      },
+      "SetFit": {
+        "context": "High quality text classification with few training examples with SetFit"
+      },
+      "Streamlit": {
+        "context": "Building Cohere API Demo App With Streamlit"
+      }
+    }
+  },
+  "summary": {
+    "enterprise_customers": 7,
+    "partners": 4,
+    "tools": 6,
+    "total": 17
+  },
+  "note": "Cohere YouTube is primarily research-focused. Few explicit customer case studies compared to other channels."
+}

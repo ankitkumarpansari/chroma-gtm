@@ -1,0 +1,2159 @@
+{
+  "channel": "LangChain",
+  "channel_url": "https://www.youtube.com/@LangChain/videos",
+  "total_videos": 408,
+  "total_companies": 103,
+  "companies": {
+    "enterprise_customers": [
+      "11x",
+      "Arcade",
+      "BlackRock",
+      "Box",
+      "Built",
+      "Business",
+      "CEO Kareem Amin",
+      "Character.AI",
+      "Chat",
+      "Cisco",
+      "City of Hope",
+      "Clay",
+      "Code",
+      "Coding",
+      "Cognition (Devin)",
+      "Configurable",
+      "Decagon",
+      "Deep",
+      "Discord",
+      "Email",
+      "Enrichment",
+      "Factory",
+      "First",
+      "Getting",
+      "Harrison Chase",
+      "Harvey",
+      "Harvey AI",
+      "Healthcare",
+      "Improving",
+      "Insights",
+      "Introducing",
+      "JP Morgan",
+      "LangChain",
+      "LangSmith",
+      "Langsmith",
+      "LinkedIn",
+      "Managing",
+      "Memory",
+      "Modern Treasury",
+      "Monday.com",
+      "Morningstar",
+      "Most",
+      "Multi",
+      "Open",
+      "Outshift by Cisco",
+      "PagerDuty",
+      "Pigment",
+      "Plastic Labs",
+      "Poe (Quora)",
+      "Powers",
+      "Production",
+      "Prosper",
+      "Quivr",
+      "Quora",
+      "Rakuten",
+      "Reliable",
+      "Replit",
+      "Research",
+      "Retrieval",
+      "Rippling",
+      "SQL",
+      "Shortwave",
+      "Simple",
+      "Source",
+      "Stockbroker",
+      "Superagent",
+      "Tabs",
+      "Their",
+      "Uber",
+      "Ultimate",
+      "Unify",
+      "Use",
+      "Using",
+      "Vizient",
+      "When",
+      "Writer"
+    ],
+    "llm_providers": [
+      "Anthropic",
+      "Anthropic Claude",
+      "DeepSeek",
+      "Google",
+      "Google Gemini",
+      "Meta",
+      "Meta Llama",
+      "Ollama",
+      "OpenAI",
+      "OpenAI GPT"
+    ],
+    "vector_databases": [
+      "Chroma",
+      "MongoDB",
+      "Pinecone",
+      "PostgreSQL"
+    ],
+    "ai_tools": [
+      "ColBERT",
+      "DSPy",
+      "MemGPT",
+      "Nomic",
+      "Voyage AI"
+    ],
+    "integration_partners": [
+      "Airbyte",
+      "Arcade AI",
+      "AssemblyAI",
+      "CodiumAI",
+      "Exa",
+      "Exa (Metaphor)",
+      "NVIDIA",
+      "n8n"
+    ],
+    "all": [
+      "11x",
+      "Airbyte",
+      "Anthropic",
+      "Anthropic Claude",
+      "Arcade",
+      "Arcade AI",
+      "AssemblyAI",
+      "BlackRock",
+      "Box",
+      "Built",
+      "Business",
+      "CEO Kareem Amin",
+      "Character.AI",
+      "Chat",
+      "Chroma",
+      "Cisco",
+      "City of Hope",
+      "Clay",
+      "Code",
+      "Coding",
+      "CodiumAI",
+      "Cognition (Devin)",
+      "ColBERT",
+      "Configurable",
+      "DSPy",
+      "Decagon",
+      "Deep",
+      "DeepSeek",
+      "Discord",
+      "Email",
+      "Enrichment",
+      "Exa",
+      "Exa (Metaphor)",
+      "Factory",
+      "First",
+      "Getting",
+      "Google",
+      "Google Gemini",
+      "Harrison Chase",
+      "Harvey",
+      "Harvey AI",
+      "Healthcare",
+      "Improving",
+      "Insights",
+      "Introducing",
+      "JP Morgan",
+      "LangChain",
+      "LangSmith",
+      "Langsmith",
+      "LinkedIn",
+      "Managing",
+      "MemGPT",
+      "Memory",
+      "Meta",
+      "Meta Llama",
+      "Modern Treasury",
+      "Monday.com",
+      "MongoDB",
+      "Morningstar",
+      "Most",
+      "Multi",
+      "NVIDIA",
+      "Nomic",
+      "Ollama",
+      "Open",
+      "OpenAI",
+      "OpenAI GPT",
+      "Outshift by Cisco",
+      "PagerDuty",
+      "Pigment",
+      "Pinecone",
+      "Plastic Labs",
+      "Poe (Quora)",
+      "PostgreSQL",
+      "Powers",
+      "Production",
+      "Prosper",
+      "Quivr",
+      "Quora",
+      "Rakuten",
+      "Reliable",
+      "Replit",
+      "Research",
+      "Retrieval",
+      "Rippling",
+      "SQL",
+      "Shortwave",
+      "Simple",
+      "Source",
+      "Stockbroker",
+      "Superagent",
+      "Tabs",
+      "Their",
+      "Uber",
+      "Ultimate",
+      "Unify",
+      "Use",
+      "Using",
+      "Vizient",
+      "Voyage AI",
+      "When",
+      "Writer",
+      "n8n"
+    ]
+  },
+  "video_data": [
+    {
+      "title": "LangSmith Fetch: CLI tool to debug agents from your terminal",
+      "companies": []
+    },
+    {
+      "title": "Polly: The AI Assistant for AI Engineering in LangSmith",
+      "companies": []
+    },
+    {
+      "title": "How to debug voice agents with LangSmith",
+      "companies": []
+    },
+    {
+      "title": "Build a voice agent with LangChain",
+      "companies": []
+    },
+    {
+      "title": "Production-Ready Agents: Automatic Tool Retries with Exponential Backoff",
+      "companies": []
+    },
+    {
+      "title": "Building a Linear issue agent with Langsmith Agent Builder",
+      "companies": [
+        "Langsmith"
+      ]
+    },
+    {
+      "title": "Building a Market Research Assistant with Langsmith Agent Builder",
+      "companies": [
+        "Langsmith",
+        "Research"
+      ]
+    },
+    {
+      "title": "Building an Email Assistant with Langsmith Agent Builder",
+      "companies": [
+        "Langsmith",
+        "Email"
+      ]
+    },
+    {
+      "title": "Summarization Middleware (Python)",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Agent Builder Now Available in Public Beta",
+      "companies": [
+        "LangSmith"
+      ]
+    },
+    {
+      "title": "Anthropic-Style Context Editing\u2026 Now for Every LLM in LangChainJS!",
+      "companies": [
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "Product Evals (for AI Applications) in Three Simple Steps",
+      "companies": []
+    },
+    {
+      "title": "AI Agents in Production: Lessons from Rippling and LangChain",
+      "companies": [
+        "Rippling"
+      ]
+    },
+    {
+      "title": "Using skills with Deep Agents CLI",
+      "companies": []
+    },
+    {
+      "title": "Managing Agent Context with LangChain: Summarization Middleware Explained",
+      "companies": [
+        "Managing"
+      ]
+    },
+    {
+      "title": "What are Deep Agents?",
+      "companies": []
+    },
+    {
+      "title": "Build a Research Agent with Deep Agents",
+      "companies": [
+        "Research"
+      ]
+    },
+    {
+      "title": "Model Call Limit Middleware (Python)",
+      "companies": []
+    },
+    {
+      "title": "Agents Gone Wild? Use Tool Call Limits in LangChainJS to Keep Them in Check!",
+      "companies": []
+    },
+    {
+      "title": "Building a Research Agent with Gemini 3 + Deep Agents",
+      "companies": [
+        "Google Gemini",
+        "Research"
+      ]
+    },
+    {
+      "title": "Model Fallback Middleware (Python)",
+      "companies": []
+    },
+    {
+      "title": "Stop Endless Back-and-Forth \u2014 Add Model Call Limits in LangChainJS",
+      "companies": []
+    },
+    {
+      "title": "LangChain Academy New Course: LangSmith Essentials",
+      "companies": []
+    },
+    {
+      "title": "To-Do List Middleware (Python)",
+      "companies": []
+    },
+    {
+      "title": "Why Most AI Agents Fail \u2014 and How a Simple Todo List Fixes It",
+      "companies": [
+        "Most"
+      ]
+    },
+    {
+      "title": "Execute code with sandboxes for Deep Agents",
+      "companies": [
+        "Box"
+      ]
+    },
+    {
+      "title": "Add a Human-in-the-Loop to Your LangChain Agent (Next.js + TypeScript Tutorial)",
+      "companies": [
+        "LangChain"
+      ]
+    },
+    {
+      "title": "Tool Call Limit Middleware (Python)",
+      "companies": []
+    },
+    {
+      "title": "How Agents Use Context Engineering",
+      "companies": []
+    },
+    {
+      "title": "Building a Typescript deep research agent",
+      "companies": []
+    },
+    {
+      "title": "Build a Streaming LangChain Agent in Next.js with useStream",
+      "companies": [
+        "LangChain"
+      ]
+    },
+    {
+      "title": "Human in the Loop Middleware (Python)",
+      "companies": []
+    },
+    {
+      "title": "Why We Built LangSmith for Improving Agent Quality",
+      "companies": [
+        "Improving"
+      ]
+    },
+    {
+      "title": "Deep Agent CLI: Coding Assistant with Memory",
+      "companies": [
+        "Deep",
+        "Coding"
+      ]
+    },
+    {
+      "title": "Inside LangSmith's No Code Agent Builder",
+      "companies": [
+        "Code"
+      ]
+    },
+    {
+      "title": "Get Started with LangSmith Agent Builder",
+      "companies": [
+        "LangSmith"
+      ]
+    },
+    {
+      "title": "LangChain Academy New Course: LangGraph Essentials",
+      "companies": []
+    },
+    {
+      "title": "LangChain Academy New Course: LangChain Essentials",
+      "companies": []
+    },
+    {
+      "title": "Get Started with LangSmith Multi-turn Evaluations",
+      "companies": []
+    },
+    {
+      "title": "Building LangChain and LangGraph 1.0",
+      "companies": []
+    },
+    {
+      "title": "LangChain: Engineer reliable agents",
+      "companies": []
+    },
+    {
+      "title": "Get Started with Insights Agent in LangSmith",
+      "companies": [
+        "Insights"
+      ]
+    },
+    {
+      "title": "Context Engineering for AI Agents with LangChain and Manus",
+      "companies": []
+    },
+    {
+      "title": "How We Built it: Clay - Fireside Chat with CEO Kareem Amin",
+      "companies": [
+        "CEO Kareem Amin",
+        "Clay"
+      ]
+    },
+    {
+      "title": "Getting Started with LangSmith (3/8): Debugging with Studio",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangSmith (2/8): Types of Runs",
+      "companies": []
+    },
+    {
+      "title": "Rewriting Deep Agents on top of LangChain 1.0",
+      "companies": []
+    },
+    {
+      "title": "LangChain Academy New Course: Deep Agents",
+      "companies": []
+    },
+    {
+      "title": "Adding Human-in-the-Loop to DeepAgents",
+      "companies": []
+    },
+    {
+      "title": "How PagerDuty Built AI Agents with LangGraph to Transform Incident Management",
+      "companies": [
+        "Built",
+        "PagerDuty"
+      ]
+    },
+    {
+      "title": "Using `deepagents` to Build Deep Research (Python)",
+      "companies": []
+    },
+    {
+      "title": "Deep Agents JS",
+      "companies": []
+    },
+    {
+      "title": "LangChain Academy New Course: Deep Research with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangChain Education",
+      "companies": []
+    },
+    {
+      "title": "Deep Agents UI",
+      "companies": []
+    },
+    {
+      "title": "Testing Driving GPT 5",
+      "companies": [
+        "OpenAI GPT"
+      ]
+    },
+    {
+      "title": "Introducing Open SWE: An Open-Source Asynchronous Coding Agent",
+      "companies": []
+    },
+    {
+      "title": "Tracing Claude Code to LangSmith",
+      "companies": [
+        "Anthropic Claude"
+      ]
+    },
+    {
+      "title": "n8n Tracing to LangSmith",
+      "companies": [
+        "n8n"
+      ]
+    },
+    {
+      "title": "Implementing deepagents: a technical walkthrough",
+      "companies": []
+    },
+    {
+      "title": "What are Deep Agents?",
+      "companies": []
+    },
+    {
+      "title": "Introducing Align Evals: Streamlining LLM Application Evaluation \ud83d\ude80",
+      "companies": []
+    },
+    {
+      "title": "How to apply context engineering",
+      "companies": []
+    },
+    {
+      "title": "Open Deep Research",
+      "companies": []
+    },
+    {
+      "title": "Context Engineering for Agents",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Assistants: Building Configurable AI Agents",
+      "companies": [
+        "Configurable"
+      ]
+    },
+    {
+      "title": "How Prosper Cut QA Costs by 90% for Financial Services with LangGraph Agents",
+      "companies": [
+        "Prosper"
+      ]
+    },
+    {
+      "title": "Building a multi-modal researcher with Gemini 2.5",
+      "companies": [
+        "Google Gemini"
+      ]
+    },
+    {
+      "title": "How to Build an Agent with Auth and Payments - LangGraph.js",
+      "companies": []
+    },
+    {
+      "title": "How City of Hope saved clinicians 1000+ hours with HopeLLM",
+      "companies": [
+        "City of Hope"
+      ]
+    },
+    {
+      "title": "From Quora to Poe: Adam D'Angelo on Building Platforms for LLMs and Agents | LangChain Interrupt",
+      "companies": [
+        "Quora",
+        "LangChain",
+        "Poe (Quora)"
+      ]
+    },
+    {
+      "title": "LangChain Academy New Course: Building Ambient Agents with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangSmith (8/8): Dashboards",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangSmith (7/8): Automations & Online Evaluation",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangSmith (6/8): Annotation Queues",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangSmith (5/8): Datasets & Evaluations",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangSmith (4/8): Playground & Prompts",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with LangSmith (1/8): Tracing",
+      "companies": []
+    },
+    {
+      "title": "How Unify Built AI Research Agents at Scale with LangGraph and LangSmith",
+      "companies": [
+        "Unify",
+        "Built"
+      ]
+    },
+    {
+      "title": "How Rakuten AI for Business AI Builds Production-Ready Agents with LangGraph",
+      "companies": [
+        "Business",
+        "Rakuten"
+      ]
+    },
+    {
+      "title": "Cisco TAC\u2019s GenAI Transformation: Building Enterprise Support Agents with LangSmith and LangGraph",
+      "companies": [
+        "Cisco"
+      ]
+    },
+    {
+      "title": "How Pigment Built an AI-Powered Business Planning Platform with LangGraph",
+      "companies": [
+        "Pigment"
+      ]
+    },
+    {
+      "title": "Using LangSmith Studio WITHOUT building your agent on LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Factory Co-Founder & CTO on Building Reliable AI Agents | LangChain Interrupt",
+      "companies": [
+        "Reliable",
+        "Factory",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "No Code LangSmith Evaluations",
+      "companies": []
+    },
+    {
+      "title": "Vizient\u2019s Healthcare AI Platform: Scaling LLM Queries with LangSmith and LangGraph",
+      "companies": [
+        "Healthcare",
+        "Vizient"
+      ]
+    },
+    {
+      "title": "Morningstar\u2019s AI Assistant \"Mo\": Saving 30% of Analysts' Time Spent on Research with LangGraph",
+      "companies": [
+        "Morningstar"
+      ]
+    },
+    {
+      "title": "Why LLM Data Processing Pipelines Fail: UC Berkeley Research Insights | LangChain Interrupt",
+      "companies": [
+        "LangChain"
+      ]
+    },
+    {
+      "title": "How 11x Rebuilt Their Alice Agent: From ReAct to Multi-Agent with LangGraph | LangChain Interrupt",
+      "companies": [
+        "11x",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "How LinkedIn Built Their First AI Agent for Hiring with LangGraph | LangChain Interrupt",
+      "companies": [
+        "LinkedIn",
+        "LangChain",
+        "First"
+      ]
+    },
+    {
+      "title": "How BlackRock Built Production AI Agents for Asset Management with LangGraph | LangChain Interrupt",
+      "companies": [
+        "LangChain",
+        "Production",
+        "BlackRock"
+      ]
+    },
+    {
+      "title": "How Modern Treasury Built AI Agents for Financial Payment Operations with LangGraph",
+      "companies": [
+        "Built",
+        "Modern Treasury"
+      ]
+    },
+    {
+      "title": "How Harvey Built Reliable AI Agents with LangSmith & Custom Tools",
+      "companies": [
+        "Harvey AI",
+        "Reliable",
+        "Harvey"
+      ]
+    },
+    {
+      "title": "How Outshift by Cisco achieved a 10x productivity boost with JARVIS, their AI Platform Engineer",
+      "companies": [
+        "Outshift by Cisco",
+        "Cisco"
+      ]
+    },
+    {
+      "title": "How Box Evolved from Simple AI to Agentic Systems for Enterprise | LangChain Interrupt",
+      "companies": [
+        "Simple",
+        "Box",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "How Uber Built AI Agents That Save 21,000 Developer Hours with LangGraph | LangChain Interrupt",
+      "companies": [
+        "Built",
+        "Uber",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "Learn How Monday.com Built Their AI Agent Workforce with LangGraph | LangChain Interrupt",
+      "companies": [
+        "Monday.com",
+        "Their",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "Building Replit Agent V2 with LangSmith | LangChain Interrupt",
+      "companies": [
+        "Replit",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "How We Built It: Tabs - Fireside Chat with Harrison Chase & Deepak Bapat",
+      "companies": [
+        "Harrison Chase",
+        "Tabs"
+      ]
+    },
+    {
+      "title": "How JP Morgan Built An AI Agent for Investment Research with LangGraph | LangChain Interrupt",
+      "companies": [
+        "JP Morgan",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "Andrew Ng: State of AI Agents | LangChain Interrupt",
+      "companies": [
+        "LangChain"
+      ]
+    },
+    {
+      "title": "Deploy Your Own Open Agent Platform",
+      "companies": [
+        "Open"
+      ]
+    },
+    {
+      "title": "How to Solve the #1 Blocker for Getting AI Agents in Production | LangChain Interrupt",
+      "companies": [
+        "Getting",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "Devin by Cognition: When AI Becomes Your Best Developer | LangChain Interrupt",
+      "companies": [
+        "Cognition (Devin)",
+        "When",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "How Cisco Powers AI Automation with LangGraph, LangSmith, and LangChain | LangChain Interrupt",
+      "companies": [
+        "Powers",
+        "Cisco",
+        "LangChain"
+      ]
+    },
+    {
+      "title": "LangChain Sandbox: Run Untrusted Python Safely for AI Agents",
+      "companies": [
+        "Box"
+      ]
+    },
+    {
+      "title": "Build No-Code Agents With Open Agent Platform",
+      "companies": [
+        "Open"
+      ]
+    },
+    {
+      "title": "Interrupt 2025 Keynote | Harrison Chase | LangChain",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Deployment: MCP Support For Your LangGraph Agents",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Studio v2: The Ultimate Agent Development Environment",
+      "companies": [
+        "Ultimate"
+      ]
+    },
+    {
+      "title": "Simulating & Evaluating Multi turn Conversations",
+      "companies": []
+    },
+    {
+      "title": "Agent Observability: Gain Insights into Tool Calls & Run Stats",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Deployment GA: The Easiest Way to Deploy Agents",
+      "companies": []
+    },
+    {
+      "title": "How to Run Multi-Modal Experiments in LangSmith Playground",
+      "companies": []
+    },
+    {
+      "title": "What Is LangSmith? Explained in 5 Minutes",
+      "companies": []
+    },
+    {
+      "title": "How to Create a RAG Agent with Reflection",
+      "companies": []
+    },
+    {
+      "title": "Catch Production Failures Early with Alerts in LangSmith",
+      "companies": []
+    },
+    {
+      "title": "How to Create a Self Healing Code Agent",
+      "companies": []
+    },
+    {
+      "title": "LLManager - Automate Approvals Through a Memory Agent",
+      "companies": []
+    },
+    {
+      "title": "How to Run an Evaluation in the LangSmith UI",
+      "companies": []
+    },
+    {
+      "title": "What is LangSmith Deployment? Explained in 4 Minutes",
+      "companies": []
+    },
+    {
+      "title": "Understanding multi-agent handoffs",
+      "companies": []
+    },
+    {
+      "title": "Generative UI Computer Use Agent with LangGraph.js",
+      "companies": [
+        "Use"
+      ]
+    },
+    {
+      "title": "How to evaluate agent trajectories with AgentEvals",
+      "companies": []
+    },
+    {
+      "title": "Building a multi-agent researcher with llms.txt",
+      "companies": []
+    },
+    {
+      "title": "Generating reliable structured outputs with Trustcall",
+      "companies": []
+    },
+    {
+      "title": "BigTool: Agents with large number of tools",
+      "companies": []
+    },
+    {
+      "title": "How We Built It: Writer - Fireside Chat with Harrison Chase & Waseem Alshikh",
+      "companies": [
+        "Writer",
+        "Harrison Chase"
+      ]
+    },
+    {
+      "title": "Strategies for debugging agents with LangGraph Studio",
+      "companies": []
+    },
+    {
+      "title": "LangGraph CodeAct",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Computer Use Agents",
+      "companies": []
+    },
+    {
+      "title": "How to Create Datasets for Individual Steps of Your Agent",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Studio: An IDE for visualizing and debugging agents",
+      "companies": []
+    },
+    {
+      "title": "Create a Dataset from Production Traces in LangSmith",
+      "companies": []
+    },
+    {
+      "title": "\"Vibe Coding\" LangGraph apps with llms.txt  and MCP",
+      "companies": []
+    },
+    {
+      "title": "Prompt Engineering in LangSmith Studio",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Builder",
+      "companies": []
+    },
+    {
+      "title": "Understanding MCP From Scratch",
+      "companies": []
+    },
+    {
+      "title": "Fully local multi-agent systems with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Introducing \"npx create-agent-chat-app\"",
+      "companies": []
+    },
+    {
+      "title": "Build a Generative UI App in LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Fully local deep research assistant with Gemma3",
+      "companies": []
+    },
+    {
+      "title": "Introducing Agent Chat UI",
+      "companies": [
+        "Introducing"
+      ]
+    },
+    {
+      "title": "LangGraph Reflection",
+      "companies": []
+    },
+    {
+      "title": "Vibe testing OpenAI GPT 4.5",
+      "companies": [
+        "OpenAI GPT",
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Evaluating LLMs with OpenEvals",
+      "companies": []
+    },
+    {
+      "title": "Multi-agent swarms with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Build a Full Stack Python Chatbot with LangGraph Platform",
+      "companies": []
+    },
+    {
+      "title": "Building an agent with Claude 3.7, Anthropic's new reasoning model",
+      "companies": [
+        "Anthropic",
+        "Anthropic Claude"
+      ]
+    },
+    {
+      "title": "Hierarchical multi-agent systems with LangGraph JS",
+      "companies": []
+    },
+    {
+      "title": "React JS Hook for your LangGraph Agent",
+      "companies": []
+    },
+    {
+      "title": "Open Deep Research",
+      "companies": []
+    },
+    {
+      "title": "How We Built It: Decagon - Fireside Chat with Harrison Chase & Bihan Jiang",
+      "companies": [
+        "Harrison Chase",
+        "Decagon"
+      ]
+    },
+    {
+      "title": "Using MCP with LangGraph agents",
+      "companies": []
+    },
+    {
+      "title": "Build Self-Improving Agents: LangMem Procedural Memory Tutorial",
+      "companies": []
+    },
+    {
+      "title": "Build Agents that Never Forget: LangMem Semantic Memory Tutorial",
+      "companies": []
+    },
+    {
+      "title": "Long-term Memory: LangMem SDK Conceptual Guide",
+      "companies": []
+    },
+    {
+      "title": "Web Search & File Uploads in Open Canvas",
+      "companies": []
+    },
+    {
+      "title": "Hierarchical multi-agent systems with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "SiteRAG - Open Source Chrome Extension for RAG",
+      "companies": []
+    },
+    {
+      "title": "Building a research assistant with o3-mini",
+      "companies": []
+    },
+    {
+      "title": "How to Evaluate Document Extraction",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Functional API Overview",
+      "companies": []
+    },
+    {
+      "title": "Building Effective Agents with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Building a fully local \"deep researcher\" with DeepSeek-R1",
+      "companies": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "title": "Run LLM Evals with Pytest and LangSmith",
+      "companies": []
+    },
+    {
+      "title": "Run LLM evals with Jest and LangSmith",
+      "companies": []
+    },
+    {
+      "title": "Understanding and Effectively Using AI Reasoning Models",
+      "companies": [
+        "Using"
+      ]
+    },
+    {
+      "title": "Scheduled Tasks in LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Open Source Agent Inbox for LangGraph",
+      "companies": [
+        "Box",
+        "Source"
+      ]
+    },
+    {
+      "title": "Open Source Social Media Agent",
+      "companies": []
+    },
+    {
+      "title": "LangChain Email Assistant (Hosted Version)",
+      "companies": [
+        "Email"
+      ]
+    },
+    {
+      "title": "LangChain Email Assistant (Developer Version)",
+      "companies": [
+        "Email"
+      ]
+    },
+    {
+      "title": "Adding Chat-LangChain To Slack",
+      "companies": []
+    },
+    {
+      "title": "Building and Evaluating a People Research Agent",
+      "companies": []
+    },
+    {
+      "title": "Building and Evaluating a Company Research Agent",
+      "companies": []
+    },
+    {
+      "title": "Structured Report Generation Blueprint with NVIDIA AI (Llama 3.3)",
+      "companies": [
+        "NVIDIA",
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "Beginner's Guide to Agent Evaluations",
+      "companies": []
+    },
+    {
+      "title": "Adding Custom Authentication to LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Building an LLM-powered Voice -To-Content assistant",
+      "companies": []
+    },
+    {
+      "title": "How We Built It: Character.AI - Fireside Chat with Harrison Chase & James Groeneveld",
+      "companies": [
+        "Harrison Chase",
+        "Character.AI"
+      ]
+    },
+    {
+      "title": "How To Run Open Canvas Locally",
+      "companies": []
+    },
+    {
+      "title": "LangGraph interrupt: Making it easier to build human-in-the-loop agents",
+      "companies": []
+    },
+    {
+      "title": "File attachments with examples datasets in LangSmith",
+      "companies": [
+        "Exa"
+      ]
+    },
+    {
+      "title": "Building an AI persona for any X/Twitter user from scratch",
+      "companies": []
+    },
+    {
+      "title": "Building a fully local research assistant from scratch with Ollama",
+      "companies": [
+        "Ollama",
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "LangChain Academy New Course: Introduction to LangSmith",
+      "companies": []
+    },
+    {
+      "title": "Command: a new tool for building multi-agent architectures in LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Smarter Memory with Semantic Search in LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Report mAIstro: Multi-agent research and report writing",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Template: Multi-Agent RAG Research",
+      "companies": []
+    },
+    {
+      "title": "Unlocking Voice Interaction with LangGraph Agents",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Studio: connect to a locally running agent",
+      "companies": []
+    },
+    {
+      "title": "Promptim: an experimental prompt optimization library",
+      "companies": []
+    },
+    {
+      "title": "Prompt Canvas: \"Cursor for Prompt Engineering\"",
+      "companies": []
+    },
+    {
+      "title": "Using remote graphs in a multi-agent setup",
+      "companies": []
+    },
+    {
+      "title": "Agent Authentication with Arcade AI and LangGraph",
+      "companies": [
+        "Arcade AI",
+        "Arcade"
+      ]
+    },
+    {
+      "title": "LangFuzz: Redteaming for Language Models",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Studio: Subgraphs",
+      "companies": []
+    },
+    {
+      "title": "Conceptual Guide: Multi Agent Architectures",
+      "companies": [
+        "Multi"
+      ]
+    },
+    {
+      "title": "Building Open Canvas With Memory",
+      "companies": []
+    },
+    {
+      "title": "Memory in the background",
+      "companies": []
+    },
+    {
+      "title": "trustcall: Reliable and efficient structure data extraction using JSON patch operations",
+      "companies": []
+    },
+    {
+      "title": "Long-Term Memory Agent Template",
+      "companies": [
+        "Memory"
+      ]
+    },
+    {
+      "title": "Memory for agents (conceptual video)",
+      "companies": []
+    },
+    {
+      "title": "How We Built It: Replit Agent - Fireside Chat with Harrison Chase & Michele Catasta",
+      "companies": [
+        "Replit",
+        "Harrison Chase"
+      ]
+    },
+    {
+      "title": "Talking to a LangChain ReAct Voice Agent",
+      "companies": []
+    },
+    {
+      "title": "Reliable, fully local RAG agents with LLaMA3.2-3b",
+      "companies": [
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "LangGraph Assistants",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Data Enrichment Agent Template",
+      "companies": [
+        "Enrichment"
+      ]
+    },
+    {
+      "title": "LangGraph Templates Launch",
+      "companies": []
+    },
+    {
+      "title": "Text to SQL Agent for Data Visualization",
+      "companies": [
+        "SQL"
+      ]
+    },
+    {
+      "title": "Build stateful conversational AI agents with LangGraph and assistant-ui",
+      "companies": []
+    },
+    {
+      "title": "LangChain Academy New Course: Introduction to LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Deep Dive on Agent Streaming with LangGraph.js",
+      "companies": []
+    },
+    {
+      "title": "Building a Stockbroker Agent in LangGraph.js",
+      "companies": [
+        "Stockbroker"
+      ]
+    },
+    {
+      "title": "Human in the Loop in LangGraph.js",
+      "companies": []
+    },
+    {
+      "title": "Introducing LangSmith Studio and Deployment for LangGraph.js",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Agents with Structured Output",
+      "companies": []
+    },
+    {
+      "title": "LangTweet: Using dynamic few-shot example selection to learn a tweeting style",
+      "companies": [
+        "Exa"
+      ]
+    },
+    {
+      "title": "LangGraph Engineer",
+      "companies": []
+    },
+    {
+      "title": "Dynamic few-shot examples with LangSmith datasets",
+      "companies": [
+        "Exa"
+      ]
+    },
+    {
+      "title": "LangSmith Studio: The first agent IDE",
+      "companies": []
+    },
+    {
+      "title": "Evaluate agents on SWE-Bench",
+      "companies": []
+    },
+    {
+      "title": "LangGraph - Controllability with Map Reduce",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Agents - Controllability - Sub-graphs",
+      "companies": []
+    },
+    {
+      "title": "Fully local RAG agents with Llama 3.1",
+      "companies": [
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "Fully local tool calling with Ollama",
+      "companies": [
+        "Ollama",
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "LangGraph Agents - Human-in-the-Loop: Editing Graph State",
+      "companies": []
+    },
+    {
+      "title": "Story Writing with LangGraph Cloud",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Agents - Human-In-The-Loop - User Feedback",
+      "companies": []
+    },
+    {
+      "title": "Build a Self-Corrective RAG App with LangGraph Cloud",
+      "companies": []
+    },
+    {
+      "title": "LangGraph Agents - Human-In-The-Loop Breakpoints",
+      "companies": []
+    },
+    {
+      "title": "Build a MemGPT Discord Agent in LangGraph Cloud",
+      "companies": [
+        "OpenAI GPT",
+        "Discord",
+        "MemGPT"
+      ]
+    },
+    {
+      "title": "Corrections + Few Shot Examples (Part 2) | LangSmith Evaluations",
+      "companies": [
+        "Exa"
+      ]
+    },
+    {
+      "title": "Build a Generative UI app with LangSmith Deployment",
+      "companies": []
+    },
+    {
+      "title": "Building and Testing Reliable Agents",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Deployment Launch",
+      "companies": []
+    },
+    {
+      "title": "Corrections + Few Shot Examples (Part 1) | LangSmith Evaluations",
+      "companies": [
+        "Exa"
+      ]
+    },
+    {
+      "title": "Agent Trajectory | LangSmith Evaluation - Part 26",
+      "companies": []
+    },
+    {
+      "title": "Local Tool Calling with llamacpp",
+      "companies": [
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "Single Step | LangSmith Evaluation - Part 25",
+      "companies": []
+    },
+    {
+      "title": "Agent Response | LangSmith Evaluation - Part 24",
+      "companies": []
+    },
+    {
+      "title": "Llama 3 tool calling agents with Firefunction-v2",
+      "companies": [
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "Building a Generative UI App With LangChain Python",
+      "companies": []
+    },
+    {
+      "title": "Building a Generative UI App With LangChain.js",
+      "companies": []
+    },
+    {
+      "title": "Intro to Generative UI with LangChain",
+      "companies": []
+    },
+    {
+      "title": "Building open source LLM agents with Llama 3",
+      "companies": [
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "Repetitions | LangSmith Evaluation - Part 23",
+      "companies": []
+    },
+    {
+      "title": "Self-correcting code assistants with Codestral",
+      "companies": []
+    },
+    {
+      "title": "Dataset Splits | LangSmith Evaluation - Part 22",
+      "companies": []
+    },
+    {
+      "title": "Online Evaluation (Guardrails) | LangSmith Evaluations - Part 21",
+      "companies": []
+    },
+    {
+      "title": "Online Evaluation (RAG) | LangSmith Evaluations - Part 20",
+      "companies": []
+    },
+    {
+      "title": "LangChain Documentation Update",
+      "companies": []
+    },
+    {
+      "title": "Building an Agent to Query a SQL Database and Analyze Data",
+      "companies": []
+    },
+    {
+      "title": "Backtesting  | LangSmith Evaluations - Part 19",
+      "companies": []
+    },
+    {
+      "title": "Pairwise Evaluation | LangSmith Evaluations - Part 17",
+      "companies": []
+    },
+    {
+      "title": "How to evaluate upgrading your app to GPT-4o | LangSmith Evaluations - Part 18",
+      "companies": [
+        "OpenAI GPT"
+      ]
+    },
+    {
+      "title": "RAG (evaluate intermediate steps) | LangSmith Evaluations - Part 16",
+      "companies": []
+    },
+    {
+      "title": "Build a Customer Support Bot | LangGraph",
+      "companies": []
+    },
+    {
+      "title": "How to Use LangSmith to Achieve a 30% Accuracy Improvement with No Prompt Engineering",
+      "companies": []
+    },
+    {
+      "title": "Regression Testing | LangSmith Evaluations - Part 15",
+      "companies": []
+    },
+    {
+      "title": "RAG Evaluation (Document Relevance) | LangSmith Evaluations - Part 14",
+      "companies": []
+    },
+    {
+      "title": "Build Computing Olympiad Agents with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "RAG Evaluation (Answer Hallucinations) | LangSmith Evaluations - Part 13",
+      "companies": []
+    },
+    {
+      "title": "RAG Evaluation (Answer Correctness) | LangSmith Evaluations - Part 12",
+      "companies": []
+    },
+    {
+      "title": "Flow Engineering with LangChain/LangGraph and CodiumAI",
+      "companies": [
+        "CodiumAI"
+      ]
+    },
+    {
+      "title": "Reliable, fully local RAG agents with LLaMA3",
+      "companies": [
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "Summary Evaluators | LangSmith Evaluations - Part 11",
+      "companies": []
+    },
+    {
+      "title": "Unit Tests | LangSmith Evaluations - Part 10",
+      "companies": []
+    },
+    {
+      "title": "Attach evaluators to datasets | LangSmith Evaluations - Part 9",
+      "companies": []
+    },
+    {
+      "title": "Video + Audio Extraction with Gemini",
+      "companies": [
+        "Google Gemini"
+      ]
+    },
+    {
+      "title": "Tool Calling with LangChain",
+      "companies": []
+    },
+    {
+      "title": "Evaluations in the prompt playground | LangSmith Evaluations - Part 8",
+      "companies": []
+    },
+    {
+      "title": "Eval Comparisons | LangSmith Evaluations - Part 7",
+      "companies": []
+    },
+    {
+      "title": "Custom Evaluators | LangSmith Evaluations - Part 6",
+      "companies": []
+    },
+    {
+      "title": "Pre-Built Evaluators | LangSmith Evaluations - Part 5",
+      "companies": []
+    },
+    {
+      "title": "Datasets From Traces | LangSmith Evaluations - Part 4",
+      "companies": []
+    },
+    {
+      "title": "Manually Curated Datasets | LangSmith Evaluations - Part 3",
+      "companies": []
+    },
+    {
+      "title": "Evaluation Primitives | LangSmith Evaluations - Part 2",
+      "companies": []
+    },
+    {
+      "title": "Why Evals Matter | LangSmith Evaluations - Part 1",
+      "companies": []
+    },
+    {
+      "title": "Optimization of LLM Systems with DSPy and LangChain/LangSmith",
+      "companies": [
+        "DSPy"
+      ]
+    },
+    {
+      "title": "Anthropic function calling for structured LLM outputs",
+      "companies": [
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "Building adaptive RAG from scratch with Command-R",
+      "companies": []
+    },
+    {
+      "title": "Optimization Use Case: Build a style-adaptive app with LangSmith automations",
+      "companies": []
+    },
+    {
+      "title": "Common Use Cases: Practical applications of LangSmith automation features",
+      "companies": []
+    },
+    {
+      "title": "Online Evaluation: Simplifying assessment of LLM responses",
+      "companies": []
+    },
+    {
+      "title": "Annotation Queues: Efficiently manage data review with feedback tools",
+      "companies": []
+    },
+    {
+      "title": "Automations: Streamlined data workflow for Datasets, Annotations, and Online Evaluations",
+      "companies": []
+    },
+    {
+      "title": "Threads: Unified chat views for conversation debugging",
+      "companies": []
+    },
+    {
+      "title": "Monitoring: Aggregate LLM stats and metadata grouping in LangSmith's interactive dashboard",
+      "companies": [
+        "Meta"
+      ]
+    },
+    {
+      "title": "Introduction: Monitoring and Automations Essentials with LangSmith",
+      "companies": []
+    },
+    {
+      "title": "Filtering: Advanced run analysis with new filters and AI Query in LangSmith",
+      "companies": []
+    },
+    {
+      "title": "Small OSS Models with LangGraph.js",
+      "companies": []
+    },
+    {
+      "title": "RAG From Scratch: Part 14 (ColBERT)",
+      "companies": [
+        "ColBERT"
+      ]
+    },
+    {
+      "title": "Building ToolLLM With LangGraph.js",
+      "companies": []
+    },
+    {
+      "title": "RAG From Scratch: Part 13 (RAPTOR)",
+      "companies": []
+    },
+    {
+      "title": "RAG from scratch: Part 12 (Multi-Representation Indexing)",
+      "companies": []
+    },
+    {
+      "title": "LangFriend: a Journal with Long-Term Memory",
+      "companies": []
+    },
+    {
+      "title": "RAG from scratch: Part 11 (Query Structuring)",
+      "companies": []
+    },
+    {
+      "title": "Open Source Extraction Service",
+      "companies": []
+    },
+    {
+      "title": "RAG for long context LLMs",
+      "companies": []
+    },
+    {
+      "title": "Deploying code agents without all the agonizing pain",
+      "companies": []
+    },
+    {
+      "title": "Cutting LLM Costs with MongoDB Semantic Caching",
+      "companies": [
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Self Learning GPTs: Using Feedback to Improve Your Application",
+      "companies": [
+        "OpenAI GPT"
+      ]
+    },
+    {
+      "title": "Claude-ception: Teaching Claude3 to prompt engineer itself",
+      "companies": [
+        "Anthropic Claude"
+      ]
+    },
+    {
+      "title": "RAG from scratch: Part 10 (Routing)",
+      "companies": []
+    },
+    {
+      "title": "Building STORM from scratch with LangGraph",
+      "companies": []
+    },
+    {
+      "title": "Building Google's Dramatron with LangGraph JS & Anthropic's Claude 3",
+      "companies": [
+        "Anthropic",
+        "Google",
+        "Anthropic Claude"
+      ]
+    },
+    {
+      "title": "Is RAG Really Dead? Testing Multi Fact Retrieval & Reasoning in GPT4-128k",
+      "companies": [
+        "OpenAI GPT"
+      ]
+    },
+    {
+      "title": "LangServe Chat Playground Launch",
+      "companies": []
+    },
+    {
+      "title": "Building long context RAG with RAPTOR from scratch",
+      "companies": []
+    },
+    {
+      "title": "Universal Document Loader with langchain-airbyte",
+      "companies": [
+        "Airbyte"
+      ]
+    },
+    {
+      "title": "Building a self-corrective coding assistant from scratch",
+      "companies": []
+    },
+    {
+      "title": "Reflection Agents",
+      "companies": []
+    },
+    {
+      "title": "RAG from scratch: Part 7 (Query Translation -- Decomposition)",
+      "companies": []
+    },
+    {
+      "title": "Building Corrective RAG from scratch with open-source, local LLMs",
+      "companies": []
+    },
+    {
+      "title": "LangSmith: In-Depth Platform Overview",
+      "companies": []
+    },
+    {
+      "title": "LangSmith in 10 Minutes",
+      "companies": []
+    },
+    {
+      "title": "RAG from scratch: Part 8 (Query Translation -- Step Back)",
+      "companies": []
+    },
+    {
+      "title": "RAG from scratch: Part 9 (Query Translation -- HyDE)",
+      "companies": []
+    },
+    {
+      "title": "RAG from scratch: Part 6 (Query Translation -- RAG Fusion)",
+      "companies": []
+    },
+    {
+      "title": "RAG from scratch: Part 5 (Query Translation -- Multi Query)",
+      "companies": []
+    },
+    {
+      "title": "LangChain Agents with Open Source Models!",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Planning Agents",
+      "companies": []
+    },
+    {
+      "title": "Gemini + Google Retrieval Agent from a LangChain Template",
+      "companies": [
+        "Google Gemini",
+        "Google",
+        "Retrieval"
+      ]
+    },
+    {
+      "title": "Self-reflective RAG with LangGraph: Self-RAG and CRAG",
+      "companies": []
+    },
+    {
+      "title": "WebVoyager",
+      "companies": [
+        "Voyage AI"
+      ]
+    },
+    {
+      "title": "RAG From Scratch: Part 4 (Generation)",
+      "companies": []
+    },
+    {
+      "title": "RAG From Scratch: Part 3 (Retrieval)",
+      "companies": []
+    },
+    {
+      "title": "RAG From Scratch: Part 2 (Indexing)",
+      "companies": []
+    },
+    {
+      "title": "RAG From Scratch: Part 1 (Overview)",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Persistence",
+      "companies": []
+    },
+    {
+      "title": "Open Source RAG with Nomic's New Embedding Model (and ChromaDB and Ollama)",
+      "companies": [
+        "Ollama",
+        "Chroma",
+        "Meta Llama",
+        "Nomic"
+      ]
+    },
+    {
+      "title": "OpenGPTs",
+      "companies": [
+        "OpenAI GPT"
+      ]
+    },
+    {
+      "title": "Building a web RAG chatbot: using LangChain, Exa (prev. Metaphor), LangSmith, and Hosted Langserve",
+      "companies": [
+        "Meta",
+        "Exa (Metaphor)",
+        "Exa"
+      ]
+    },
+    {
+      "title": "Streaming Events: Introducing a new `stream_events` method",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Multi-Agent Workflows",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Force-Calling a Tool",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Managing Agent Steps",
+      "companies": [
+        "Managing"
+      ]
+    },
+    {
+      "title": "LangGraph: Respond in a Specific Format",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Dynamically Returning a Tool Output Directly",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Human-in-the-Loop",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Chat Agent Executor",
+      "companies": [
+        "Chat"
+      ]
+    },
+    {
+      "title": "LangGraph: Agent Executor",
+      "companies": []
+    },
+    {
+      "title": "LangGraph: Intro",
+      "companies": []
+    },
+    {
+      "title": "Hosted LangServe + LangChain Templates",
+      "companies": []
+    },
+    {
+      "title": "Build and Deploy a RAG app with Pinecone Serverless",
+      "companies": [
+        "Pinecone"
+      ]
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Agents",
+      "companies": []
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Retrieval",
+      "companies": []
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Output Parsing",
+      "companies": []
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Streaming",
+      "companies": []
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Composability",
+      "companies": []
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Integrations",
+      "companies": []
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Observability",
+      "companies": []
+    },
+    {
+      "title": "LangChain v0.1.0 Launch: Introduction",
+      "companies": []
+    },
+    {
+      "title": "Auto-Prompt Builder (with Hosted LangServe)",
+      "companies": []
+    },
+    {
+      "title": "Build a Full Stack RAG App With TypeScript",
+      "companies": []
+    },
+    {
+      "title": "Getting Started with Multi-Modal LLMs",
+      "companies": []
+    },
+    {
+      "title": "SQL Research Assistant",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Highlights: Hub",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Highlights: Monitoring",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Highlights: Human Annotation",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Highlights: Evaluation",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Highlights: Datasets",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Highlights: Debugging",
+      "companies": []
+    },
+    {
+      "title": "LangSmith Highlights: Getting Started",
+      "companies": []
+    },
+    {
+      "title": "Benchmarking Methods for Semi-Structured RAG",
+      "companies": []
+    },
+    {
+      "title": "Skeleton-of-Thought: Building a New Template from Scratch",
+      "companies": []
+    },
+    {
+      "title": "Benchmarking RAG over LangChain Docs",
+      "companies": []
+    },
+    {
+      "title": "Building a Research Assistant from Scratch",
+      "companies": [
+        "Research"
+      ]
+    },
+    {
+      "title": "LangServe and LangChain Templates Webinar",
+      "companies": []
+    },
+    {
+      "title": "Using Natural Language to Query Postgres with Jacob",
+      "companies": [
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "LangChain Templates",
+      "companies": []
+    },
+    {
+      "title": "\"Theory of Mind\" Webinar with Plastic Labs",
+      "companies": [
+        "Plastic Labs"
+      ]
+    },
+    {
+      "title": "Data Privacy for LLMs",
+      "companies": []
+    },
+    {
+      "title": "Effectively Building with LLMs in the Browser with Jacob",
+      "companies": []
+    },
+    {
+      "title": "Cognitive Architectures for Language Agents",
+      "companies": []
+    },
+    {
+      "title": "Shortwave Assistant Deepdive Webinar",
+      "companies": [
+        "Shortwave"
+      ]
+    },
+    {
+      "title": "Lessons from Deploying LLMs with LangSmith",
+      "companies": []
+    },
+    {
+      "title": "Superagent Deepdive Webinar",
+      "companies": [
+        "Superagent"
+      ]
+    },
+    {
+      "title": "Building an LLM Application with Audio by AssemblyAI",
+      "companies": [
+        "AssemblyAI"
+      ]
+    },
+    {
+      "title": "Tabular Data Retrieval",
+      "companies": []
+    },
+    {
+      "title": "Fine-tuning in Your Voice Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"RAG Evaluation\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"Production Ingestion\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "Benchmarking Question/Answering Over CSV Data",
+      "companies": []
+    },
+    {
+      "title": "Building LLM applications with LangChain with Lance",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"Advanced Retrieval\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain Expression Language",
+      "companies": []
+    },
+    {
+      "title": "LangChain x Pinecone: Supercharging Llama-2 with RAG",
+      "companies": [
+        "Pinecone",
+        "Meta Llama"
+      ]
+    },
+    {
+      "title": "LangSmith Launch",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"Characters\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"Chains vs Agents\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"OpenAI functions\" Webinar",
+      "companies": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "LangChain \"OpenSource LLMs\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"Quivr Deepdive\" Webinar",
+      "companies": [
+        "Quivr"
+      ]
+    },
+    {
+      "title": "LangChain \"in Education\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain Retrieval Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"Hallucinations in Document Question-Answering\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain \"Agents in Production\" Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain Low-Code/No-Code Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain Prompt Injection Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain Agents Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain Output Parsing and Extraction Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain Document Question-Answering Webinar",
+      "companies": []
+    },
+    {
+      "title": "LangChain SQL Webinar",
+      "companies": []
+    },
+    {
+      "title": "Chat With Your Documents Using LangChain + JavaScript",
+      "companies": []
+    }
+  ]
+}
