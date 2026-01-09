@@ -49,3 +49,29 @@ linkedin-sales-nav-extension 2/
 # Zip files (can regenerate)
 *.zip
 
+# Meetings (personal/internal notes)
+meetings/
+
+# Attio sync (not used by team)
+attio_sync.py
+sync_companies_to_attio.py
+
+# Personal files
+ANKIT_WORK_BREAKDOWN_Q1_2026.md
+AI_LEADERS_DINNER_LIST.*
+
+# Progress/intermediate results
+*_progress.json
+*_results.json
+*_batch_results.json
+
+# Large generated data files
+*_video_urls*.txt
+*_video_urls*.json
+*_titles.txt
+*_videos.txt
+*_shorts.txt
+
+# HubSpot sync logs
+hubspot_sync_log.txt
+

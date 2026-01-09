@@ -5,22 +5,33 @@
 ---
 
 ## Last Updated
-- **Date**: 2024-12-23
+- **Date**: 2026-01-08
 - **Updated By**: Ankit Pansari
-- **Source**: Common Room eval + Demand Curve call + Strategy sessions with Jeff + TJ
+- **Source**: Sumble (Jan 8) + SEO/Content strategy (Jan 6) + Jan 5 sessions + previous meetings
 
 ---
 
 ## 1. Current GTM Priorities
 
-### Q1 2025 Focus
+### 2026 Revenue Target: $20M Run Rate
+
+| Revenue Source | Target | Notes |
+|----------------|--------|-------|
+| **PLG** | $1-2M ARR max | Supporting channel, not primary |
+| **Enterprise/OEM** | ~$18M | Must come from larger accounts |
+| **Total** | $20M run rate | Requires ~2x monthly growth |
+
+**Key insight**: PLG is a supporting channel. GTM plan must cover the gap via enterprise/OEM motions.
+
+### Q1 2026 Focus
 
 | Priority | Status | Description |
 |----------|--------|-------------|
-| 1. Series A Fundraise | 🟡 Active | Raise in Jan 2025 window before potential macro downturn |
-| 2. 8-Week Content Push | 🟡 Starting | Weekly announcements building into fundraise |
-| 3. Fix GTM Infrastructure | 🔴 Urgent | HubSpot/UTM tracking broken, need billing visibility |
-| 4. Search Agent GTM | 🟡 Planning | Position as attach product (1+1=3 with Chroma DB) |
+| 1. Fundraising Prep | 🔴 NOW | Demo, pitch deck, GTM plan, roadmap, financial model |
+| 2. Quarter-by-Quarter Plan | 🔴 TODAY | Week-by-week milestones for Jan-Feb |
+| 3. ISV Outreach | 🟡 Starting | 700 ISV emails to understand usage/value |
+| 4. Product Launches | 🟡 Q1 | MCMR, Search Agent, Big Indexes V1 |
+| 5. Fix GTM Infrastructure | 🟡 Ongoing | HubSpot/UTM, Common Room decision |
 
 ---
 
@@ -46,16 +57,34 @@
 
 ## 3. Key Competitors & Positioning
 
-### Direct Competitors
+### Direct Competitors (Vector DBs)
 
 | Competitor | Status | Notes |
 |------------|--------|-------|
 | Pinecone | ⚠️ Cautionary tale | Overspent on GTM before market ready; VCs fatigued with "vector DB"; dominates "split search" SEO |
-| TurboPuffer | 👀 Watch | Few ads but 200-500k impressions per testimonial; Cursor co-brand worked well; $64/mo floor pricing |
-| Vespa | 📊 Benchmark-heavy | Running LinkedIn ads with specific metrics (13ms latency, 250M docs); 10-50k+ impressions |
+| TurboPuffer | 👀 Watch | Used by Notion; Chroma outperforms on speed + accuracy in demo |
+| Vespa | 📊 Benchmark-heavy | Running LinkedIn ads with specific metrics (13ms latency, 250M docs) |
 | PGVector | 🎯 Target | PGVector companies = Search Agent sales targets |
 | Weaviate | Competitor | - |
 | Qdrant | Competitor | - |
+
+### Adjacent Competitors (Positioning)
+
+| Competitor | Their Position | Chroma Opportunity |
+|------------|----------------|-------------------|
+| **Elasticsearch/OpenSearch** | Legacy search, where budget lives | Primary displacement target: "2x faster, 10x cheaper" |
+| **Databricks** | Analytics/BI, structured data, ~$3M/year from large customers | Not agent-centric; Chroma owns unstructured |
+| **Datadog** | Observability, logs/metrics | Not AI-native; Chroma can be "Datadog for AI" |
+| **Raindrop** | "Datadog for AI" using ClickHouse | Doesn't own core data infra; structural limitation |
+
+### Sales Plays (Defined Jan 8)
+
+| Play | Trigger | Message |
+|------|---------|---------|
+| **Elastic displacement** | GenAI + Elasticsearch/OpenSearch in job posts | "2x faster, 10x cheaper, zero operational burden vs Elasticsearch/OpenSearch" |
+| **Net-new RAG/agent** | New RAG/agent project without context layer | "AI demands context. Chroma brings you the best context, the fastest, at the best price." |
+
+**Key insight**: Budget often sits in Elasticsearch/OpenSearch, not in vector DB line items. Target **teams** (specific AI/ML orgs inside big accounts) rather than just companies.
 
 ### Competitor Creative Patterns (What Works)
 - Testimonials with high impressions
@@ -75,6 +104,17 @@
 > "Won the open source game" (100M downloads, 25k GitHub stars)
 > "Every AI agent needs context; Chroma is the context layer"
 
+**WHITE SPACE positioning** (from Jan 6):
+> "Better search accuracy → lower token costs → better, faster, cheaper agents"
+
+Almost no one in market loudly owns "search accuracy" as key to better LLM/agent performance. This is Chroma's to own.
+
+**Economic framing**:
+- Reducing token spend
+- Increasing pass-through/success rate
+- Making agents faster for end users
+- "If I'm paying you, you should just make my search better and lower my costs"
+
 ### Key Narrative: "1+1=3"
 - Search Agent + Chroma DB together = dramatically higher reliability
 - Near 99.9%+ retrieval accuracy vs. standalone
@@ -84,24 +124,36 @@
 
 ## 4. Product Roadmap (GTM Relevant)
 
-### Near-Term (Attach Products)
+### Q1 2026 Launches
+| Product | Timeline | GTM Angle |
+|---------|----------|-----------|
+| **Multi-cloud, Multi-region (MCMR)** | Q1 | Including for X.ai; production readiness |
+| **Search Agent** | Q1 | Warp Grep–style; multiple excited prospects; "1+1=3" with Chroma DB |
+| **Big Indexes V1** | This quarter | Scale unlock for enterprise |
+
+### Near-Term
 | Product | GTM Angle |
 |---------|-----------|
-| **Search Agent** | Simple API on top of any DB; multi-hop agentic search; sell to PGVector users |
-| **Observability** | Agent traces & metrics; enterprise requirement |
+| **Observability** | Agent traces & metrics; "Datadog for AI" positioning |
+| **Semantic Analytics** | Clustering, BI over unstructured data; Vercel COO use case (Gong themes) |
 
 ### Medium-Term
 | Product | GTM Angle |
 |---------|-----------|
+| **Agent Local State** | Compare-and-swap for multiplayer agents |
 | **Sync/Connectors** | SaaS, S3, Postgres, Snowflake integration |
-| **Large Collections** | 50-100M+ docs; unlocks enterprise scale |
-| **GDPR Compliance** | Enterprise readiness (before HIPAA) |
+| **GDPR Compliance** | Enterprise readiness |
 
 ### Long-Term Vision
 | Product | GTM Angle |
 |---------|-----------|
 | **Context Layer** | Glean-like enterprise search |
 | **ChromaFS** | Agent state/file-system; "IDE for all knowledge work" |
+
+### Customer Demand Signals
+- **Search Agent**: Multiple prospects "really excited"; General Intelligence Company explicitly requested "Chroma Warp Grep style"
+- **Semantic Analytics**: Many customers want clustering/analysis; Vercel COO wants Gong call themes
+- **Observability**: Tools like Raindrop lack native unstructured/agent data infra
 
 ---
 
@@ -122,19 +174,35 @@
 - "Every AI app will behave like Claude Opus 4.5—context layer is what's missing"
 - Case studies: life sciences, financial services (not just startups)
 
-### Content Topics to Cover (from TJ sync)
+### Content Topics to Cover
 - Customer-managed keys
 - Multi-region/multicloud
 - X.ai partnership
-- Search agent
+- Search agent (research preview blog post)
 - Split search
 - 100M downloads milestone
+- **Search accuracy + token economics** (white space positioning)
+- **Framework × use case combinations** (programmatic SEO)
 
-### Content Rules (from TJ sync)
+### Content Rules
 - **Every update = text + video** (never just one)
 - **Sub-second clarity**: what is Chroma, what value it provides
 - **Benchmarks > vague messaging**: "20% latency reduction", "5x faster"
 - **Product screens > abstract graphics**
+- **Focus on accuracy, retrieval, token economics** (not broad topics)
+
+### Programmatic SEO Strategy (from Jan 6)
+- **Approach**: "Build X with Y using Chroma" pages (framework × use case)
+- **Examples**: "Build e-commerce RAG with Next.js", "RAG for finance"
+- **Avoid**: Generic "alternative to X" pages (brand-diluting)
+- **Concept**: Interactive pages where users pick framework + use case → AI flow → tailored Chroma integration
+
+### VIP Activation (from Jan 6)
+- **One-two punch**:
+  1. Transactional email: "$500 of credit has been added to your account"
+  2. Personal follow-up referencing credit, offering help
+- **High-value enterprises**: Shared Slack channel as next level (Capital One, etc.)
+- **Insight**: Credits are high-ROI lever (YC/Segment/Amplitude style)
 
 ### LinkedIn Organic Strategy
 - **Primary channel**: Founder/exec personal accounts (Jeff, Hamad)
@@ -189,6 +257,54 @@
 ---
 
 ## 6. Key Learnings from Meetings
+
+### 2026-01-08: Reo.dev Developer Signals Evaluation
+- **OSS → paid motion**: Treat 100M PyPI downloads as primary GTM engine, not vanity metrics
+- **"Build vs buy" narrative**: Developers already using OSS → sell enterprise features they're not aware of
+- **Signals captured**: GitHub (stars, forks, PRs), docs/product (JS beacon), CLI installs, technographics
+- **Enrichment**: ~20% ID rate without signup; claims ~200% better than Common Room
+- **Trial started**: JS beacon installed via GTM; HubSpot integration planned
+- **Key gap identified**: No systematic bottom-up → top-down motion; 40K signups under-enriched
+- **Pricing**: Medium plan ~$30K ARR
+
+### 2026-01-06: SEO, Content & Demand Gen with Jeff
+- **Programmatic SEO**: "Build X with Y using Chroma" (framework × use case), NOT generic "alt to X" pages
+- **White space positioning**: "Better search accuracy → lower token costs → better, faster, cheaper agents"
+- **VIP activation**: $500 credit + transactional email + personal follow-up
+- **Token cost anxiety**: Prospects worried about AI token costs; "we reduce your token cost" is compelling hook
+- **Search agent**: ~60x faster, moving to RL to exceed SOTA; research-preview blog post planned
+- **Analytics gap**: De-anonymization SDK not working; PostHog → HubSpot integration needed
+- **Enterprise form**: Underperforming (spam, low quality); need data before CRO changes
+- **Competitive intel**: Ramp has "Pinecone alternative" page (effective but brand-diluting); Weaviate runs "Free RAG consultation" LinkedIn ads
+
+### 2026-01-08: Sumble GTM Signals
+- **Use case**: Job-post signals for account prioritization and outbound triggering
+- **Account scoring**: # GenAI projects, hiring velocity, competitor mentions, tech stack
+- **Key need**: **Urgent accounts**, not just "good" accounts (e.g., Apple vs near-term win)
+- **Pain**: Too much raw data, not enough prioritization; contact data weak
+- **Sales plays defined**:
+  - Elastic displacement: "2x faster, 10x cheaper, zero operational burden"
+  - Net-new RAG/agent: "Chroma powers context for RAG and agents"
+- **Competitor insight**: Turbopuffer = strong closed-source competitor ("Snowflake" to Chroma's "Databricks")
+- **Next step**: Follow-up next week on account-scoring proposal
+
+### 2026-01-05: Factors.ai Evaluation
+- **Account identification**: 75% at account level (vs Common Room's 8-10% user-level, US only)
+- **LinkedIn attribution**: Impression-level, view-through attribution (key for ABM)
+- **Smart Reach**: Per-account impression caps, ~20% budget savings
+- **Stack fit**: Integrates with HubSpot, PostHog, LinkedIn, Google
+- **Trial**: 15 days with paid features unlocked, Growth plan ~$20K/year
+- **Leaning**: Factors for LinkedIn/ABM, Rio for GitHub/developer signals
+
+### 2026-01-05: Strategy & Fundraising with Jeff
+- **Revenue target**: $20M run rate by EOY; PLG caps at $1-2M, enterprise/OEM must cover ~$18M
+- **Fundraising**: Prep starts NOW; need pitch deck, GTM plan, roadmap, financial model
+- **Demo options**: Notion comparison (speed + accuracy) vs multi-app context graphs (shows platform nature)
+- **Product launches Q1**: MCMR (incl X.ai), Search Agent, Big Indexes V1
+- **PLG improvements needed**: Onboarding UX, email campaigns, lead forms, surveys, use case capture
+- **AI-powered onboarding**: Large prompt for Cursor/Claude that interviews and configures
+- **ISV initiative**: 700 emails to understand why they use Chroma (free vs value)
+- **Positioning**: "Single plane of glass" = semantic analytics + observability + continual learning
 
 ### 2024-12-23: Common Room Platform Evaluation
 - **Value prop**: Identity resolution + signal aggregation = "CDP for target account universe"
@@ -270,22 +386,49 @@
 - No reliable single system of record for GTM data
 - No robust identity resolution across GitHub, CRM, web, signals
 
-### GTM Infrastructure Evaluation (Decision by 2nd week of Jan)
+### GTM Infrastructure Evaluation (Decision by mid-Jan)
 
-| Tool | Category | Status | Notes |
-|------|----------|--------|-------|
-| **Common Room** | Identity resolution + signal aggregation | Evaluating | Custom demo Dec 29 or week of Jan 5 |
-| **High Touch** | Reverse ETL / data activation | Evaluating | - |
-| **Rio.dev** | GitHub signal tracking | Evaluating | Weak on identity resolution |
+| Tool | Category | Status | Best For | Limitation |
+|------|----------|--------|----------|------------|
+| **Reo.dev** | Developer signals + enrichment | 🟢 Trial started (beacon installed) | OSS signals, GitHub tracking, ~20% ID rate | Less LinkedIn depth |
+| **Factors.ai** | Attribution + ABM | 🟢 15-day trial started | 75% account-level ID, LinkedIn attribution | Less developer-focused |
+| **Sumble** | Job-post signals | 🟡 Follow-up next week | Account scoring, urgency | Contact data weak |
+| **Common Room** | Identity resolution | 🟡 Evaluating | GTM workflows, identity graph | 8-10% user ID (US only), weaker ABM |
+| **High Touch** | Reverse ETL | 🟡 Evaluating | Data activation | Not identity-focused |
+
+**Reo.dev claim**: ~200% better enrichment coverage than Common Room
+
+**Emerging stack decision**:
+> PostHog (product) + HubSpot (CRM) + Factors (attribution) + Sumble (signals/scoring) + LinkedIn/Google (activation)
+
+**Sumble details** (from Jan 8 meeting):
+- Job-post and signal data for account prioritization
+- Account scoring based on: # GenAI projects, hiring velocity, competitor mentions
+- Pain: great for accounts & signals, but contact data weak, needs HubSpot integration
+- Follow-up next week on account-scoring proposal
+
+**Reo.dev details** (from Jan 8 meeting):
+- Developer signal and enrichment platform for OSS → paid conversion
+- Captures: GitHub signals, docs/product interactions (JS beacon), CLI installs, technographics
+- ~20% ID rate even without signup; claims ~200% better than Common Room
+- Historical GitHub data (1-2 years) can be pulled
+- Trial started: JS beacon installed via GTM
+- Pricing: Medium plan ~$30K ARR (25K accounts/contacts, HubSpot integration)
+
+**Factors.ai details**:
+- Growth plan: ~$20K/year
+- SDK via GTM (~5 min install)
+- Smart Reach: per-account impression caps, ~20% budget savings
+- LinkedIn Marketing Attribution Partner (impression-level data)
 
 **Key insight from Common Room call**:
 > "The hard part isn't collecting signals — it's stitching them into one identity you can actually sell to."
 
 **What Chroma needs**:
-- Single system of record for GTM data
-- Identity resolution across GitHub, CRM, web, intent signals
-- Support for both enterprise (consultative) AND self-serve (PLG) motions
-- Actionable views for new STR/SDR
+- Account-level visibility into high-intent website visitors
+- Accurate attribution from LinkedIn/Google to SQLs/revenue
+- Leverage pre-existing qualified prospect list across channels
+- Low-lift implementation (limited internal bandwidth)
 
 **Semgrep case study** (Common Room customer):
 - Connect GitHub + product usage + other signals
@@ -325,14 +468,21 @@ Please reference:
 - Fundraising in Jan 2025
 - HubSpot/tracking infrastructure is broken
 
-### Ankit's Priorities
-1. 8-week content calendar execution
-2. Fix GTM infrastructure (HubSpot, UTMs) - *Critical for paid ads*
-3. Signal dashboard → shared app
-4. SDR agency negotiation
-5. Customer testimonials for fundraise
-6. Set up recurring sync with TJ for content topics
-7. Define prioritized topic list for content/videos
-8. ~~Evaluate performance marketing agencies~~ → Demand Curve engaged (pending NDA)
-9. Prepare GTM context package for Demand Curve (post-NDA)
-10. Define tracking & UTM framework with Prash
+### Ankit's Priorities (Updated Jan 5)
+
+**🔴 Urgent (Today)**
+1. Build quarter-over-quarter plan for $20M target
+2. Expand into January–February week-by-week milestones
+3. Start ISV outreach (700 emails)
+4. Write GTM approach one-pager with guardrails
+5. EOD planning review with Jeff
+
+**High Priority**
+6. 8-week content calendar execution
+7. Fix GTM infrastructure (HubSpot, UTMs) - *Critical for paid ads*
+8. Signal dashboard → shared app
+9. SDR agency negotiation
+10. Customer testimonials for fundraise
+11. Set up recurring sync with TJ for content topics
+12. Prepare GTM context package for Demand Curve (post-NDA)
+13. Define tracking & UTM framework with Prash

@@ -1,0 +1,1526 @@
+[
+  {
+    "name": "Jason Warner",
+    "company": "Poolside",
+    "linkedin": null,
+    "video": "AGI: The Path Forward"
+  },
+  {
+    "name": "Eiso Kant",
+    "company": "Poolside",
+    "linkedin": null,
+    "video": "AGI: The Path Forward"
+  },
+  {
+    "name": "Aman Khan",
+    "company": "Arize",
+    "linkedin": null,
+    "video": "Shipping AI That Works: An Evaluation Framework for PMs"
+  },
+  {
+    "name": "Jared Zoneraich",
+    "company": "PromptLayer",
+    "linkedin": null,
+    "video": "How Claude Code Works"
+  },
+  {
+    "name": "Joel Becker",
+    "company": "METR",
+    "linkedin": null,
+    "video": "Why METR is measuring Agent and Human productivity"
+  },
+  {
+    "name": "Asaf Bord",
+    "company": "Northwestern Mutual",
+    "linkedin": null,
+    "video": "Small Bets, Big Impact Building GenBI at a Fortune 100"
+  },
+  {
+    "name": "Max Kanat-Alexander",
+    "company": "Capital One",
+    "linkedin": null,
+    "video": "Developer Experience in the Age of AI Coding Agents"
+  },
+  {
+    "name": "Aparna Dhinakaran",
+    "company": "Arize",
+    "linkedin": "https://twitter.com/aparnadhinak",
+    "video": "The Unreasonable Effectiveness of Prompt Learning"
+  },
+  {
+    "name": "Beyang Liu",
+    "company": "Sourcegraph",
+    "linkedin": "https://www.linkedin.com/in/beyang-liu/",
+    "video": "Amp Code: Next Generation AI Coding"
+  },
+  {
+    "name": "Eno Reyes",
+    "company": "Factory AI",
+    "linkedin": "https://www.linkedin.com/in/enoreyes/",
+    "video": "Making Codebases Agent Ready"
+  },
+  {
+    "name": "Michele Catasta",
+    "company": "Replit",
+    "linkedin": null,
+    "video": "The 3 Pillars of Autonomy"
+  },
+  {
+    "name": "swyx",
+    "company": "Latent.Space",
+    "linkedin": "https://twitter.com/swyx",
+    "video": "The War on Slop"
+  },
+  {
+    "name": "Jake Nations",
+    "company": "Netflix",
+    "linkedin": null,
+    "video": "The Infinite Software Crisis"
+  },
+  {
+    "name": "Samir Mody",
+    "company": "The Browser Company of New York",
+    "linkedin": null,
+    "video": "From Arc to Dia: Lessons learned building AI Browsers"
+  },
+  {
+    "name": "Justin Reock",
+    "company": "DX (acq. Atlassian)",
+    "linkedin": null,
+    "video": "Leadership in AI Assisted Engineering"
+  },
+  {
+    "name": "Arman Hezarkhani",
+    "company": "Tenex",
+    "linkedin": null,
+    "video": "Paying Engineers like Salespeople"
+  },
+  {
+    "name": "Alex Lieberman",
+    "company": "Tenex",
+    "linkedin": null,
+    "video": "AI Leadership"
+  },
+  {
+    "name": "Dan Shipper",
+    "company": "Every, AI & I",
+    "linkedin": null,
+    "video": "Dispatch from the Future: building an AI-native Company"
+  },
+  {
+    "name": "NLW",
+    "company": "Super ai",
+    "linkedin": null,
+    "video": "AI Consulting in Practice"
+  },
+  {
+    "name": "Jacob Kahn",
+    "company": "FAIR Meta",
+    "linkedin": null,
+    "video": "Code World Model: Building World Models for Computation"
+  },
+  {
+    "name": "Natalie Serrino",
+    "company": "Gimlet Labs",
+    "linkedin": null,
+    "video": "AI Kernel Generation"
+  },
+  {
+    "name": "Lisa Orr",
+    "company": "Zapier",
+    "linkedin": null,
+    "video": "Your Support Team Should Ship Code"
+  },
+  {
+    "name": "Lei Zhang",
+    "company": "Bloomberg",
+    "linkedin": null,
+    "video": "What We Learned Deploying AI within Bloomberg's Engineering Organization"
+  },
+  {
+    "name": "Kat Kampf",
+    "company": "Google DeepMind",
+    "linkedin": null,
+    "video": "Building in the Gemini Era"
+  },
+  {
+    "name": "Ammaar Reshi",
+    "company": "Google DeepMind",
+    "linkedin": null,
+    "video": "Building in the Gemini Era"
+  },
+  {
+    "name": "Naman Jain",
+    "company": "Cursor",
+    "linkedin": null,
+    "video": "Coding Evals: From Code Snippets to Codebases"
+  },
+  {
+    "name": "Kitze",
+    "company": "Sizzy",
+    "linkedin": null,
+    "video": "From Vibe Coding To Vibe Engineering"
+  },
+  {
+    "name": "Olive Song",
+    "company": "MiniMax",
+    "linkedin": null,
+    "video": "Minimax M2: Building the #1 Open Model"
+  },
+  {
+    "name": "Kath Korevec",
+    "company": "Google Labs",
+    "linkedin": null,
+    "video": "Proactive Agents"
+  },
+  {
+    "name": "Martin Harrysson",
+    "company": "McKinsey & Company",
+    "linkedin": null,
+    "video": "Moving away from Agile: What's Next"
+  },
+  {
+    "name": "Natasha Maniar",
+    "company": "McKinsey & Company",
+    "linkedin": null,
+    "video": "Moving away from Agile: What's Next"
+  },
+  {
+    "name": "Nik Pash",
+    "company": "Cline",
+    "linkedin": null,
+    "video": "Hard Won Lessons from Building Effective AI Coding Agents"
+  },
+  {
+    "name": "Itamar Friedman",
+    "company": "Qodo",
+    "linkedin": null,
+    "video": "The State of AI Code Quality: Hype vs Reality"
+  },
+  {
+    "name": "Chris Lattner",
+    "company": "Modular CEO",
+    "linkedin": "https://www.linkedin.com/in/chris-lattner-5664498a/",
+    "video": null
+  },
+  {
+    "name": "Justine Tunney",
+    "company": "Mozilla, Llamafile",
+    "linkedin": "https://twitter.com/JustineTunney",
+    "video": null
+  },
+  {
+    "name": "Thomas Dohmke",
+    "company": "GitHub CEO",
+    "linkedin": "https://twitter.com/ashtom",
+    "video": null
+  },
+  {
+    "name": "Lin Qiao",
+    "company": "Fireworks CEO",
+    "linkedin": "https://www.linkedin.com/in/lin-qiao-22248b4/",
+    "video": null
+  },
+  {
+    "name": "Alex Albert",
+    "company": "Anthropic, Head of Developer Relations",
+    "linkedin": "https://twitter.com/alexalbert__",
+    "video": null
+  },
+  {
+    "name": "Romain Huet",
+    "company": "OpenAI, Head of Developer Experience",
+    "linkedin": "https://twitter.com/romainhuet/",
+    "video": null
+  },
+  {
+    "name": "Simon Willison",
+    "company": "Independent, Legendary AI Engineer",
+    "linkedin": "https://twitter.com/simonw/",
+    "video": null
+  },
+  {
+    "name": "Scott Wu",
+    "company": "Cognition (Devin) CEO",
+    "linkedin": "https://www.linkedin.com/in/scott-wu-8b94ab96/",
+    "video": null
+  },
+  {
+    "name": "Stefania Druga",
+    "company": "Google, Research Scientist Gemini",
+    "linkedin": "https://twitter.com/Stefania_druga",
+    "video": null
+  },
+  {
+    "name": "Daniel Han",
+    "company": "Unsloth CEO",
+    "linkedin": "https://www.linkedin.com/in/danielhanchen/",
+    "video": null
+  },
+  {
+    "name": "Devendra Chaplot",
+    "company": "Mistral, Research Scientist",
+    "linkedin": "https://www.linkedin.com/in/devendra-chaplot-b1605534/",
+    "video": null
+  },
+  {
+    "name": "Dylan Patel",
+    "company": "SemiAnalysis, Chief Analyst",
+    "linkedin": "https://twitter.com/dylan522p",
+    "video": null
+  },
+  {
+    "name": "Keelin McDonell",
+    "company": "Google, Product Manager Vertex AI",
+    "linkedin": "https://twitter.com/keelinmc",
+    "video": null
+  },
+  {
+    "name": "Sandra Kublik",
+    "company": "Cohere, Developer Advocate",
+    "linkedin": "https://twitter.com/itsSandraKublik",
+    "video": null
+  },
+  {
+    "name": "Vivek Muppalla",
+    "company": "Cohere, Director Of Engineering",
+    "linkedin": "https://www.linkedin.com/in/vivekmuppalla/",
+    "video": null
+  },
+  {
+    "name": "Lukas Biewald",
+    "company": "Weights & Biases CEO",
+    "linkedin": "https://www.linkedin.com/in/lbiewald",
+    "video": null
+  },
+  {
+    "name": "Cheng Lou",
+    "company": "Midjourney, Member of Technical Staff",
+    "linkedin": "https://www.linkedin.com/in/cheng-lou-8270a2176/",
+    "video": null
+  },
+  {
+    "name": "Shelby Heinecke",
+    "company": "Salesforce, Senior AI Research Manager",
+    "linkedin": "https://twitter.com/shelbyh_ai",
+    "video": null
+  },
+  {
+    "name": "Harrison Chase",
+    "company": "LangChain CEO",
+    "linkedin": "https://www.linkedin.com/in/harrison-chase-961287118/",
+    "video": null
+  },
+  {
+    "name": "Jerry Liu",
+    "company": "LlamaIndex CEO",
+    "linkedin": "https://www.linkedin.com/in/jerry-liu-64390071/",
+    "video": null
+  },
+  {
+    "name": "Ben Hylak",
+    "company": "Dawn Analytics CPO",
+    "linkedin": "https://www.linkedin.com/in/benhylak/",
+    "video": null
+  },
+  {
+    "name": "Kathleen Kenealy",
+    "company": "DeepMind, Staff Research Engineer",
+    "linkedin": "https://www.linkedin.com/in/kathleen-kenealy/",
+    "video": null
+  },
+  {
+    "name": "Noah Shpak",
+    "company": "Character.ai, Member of Technical Staff",
+    "linkedin": "https://www.linkedin.com/in/nshpak/",
+    "video": null
+  },
+  {
+    "name": "Karan Goel",
+    "company": "Cartesia CEO",
+    "linkedin": "https://twitter.com/krandiash",
+    "video": null
+  },
+  {
+    "name": "Michael Truell",
+    "company": "Cursor CEO",
+    "linkedin": "https://mntruell.com/",
+    "video": null
+  },
+  {
+    "name": "Antje Barth",
+    "company": "AWS, Principal Developer Advocate",
+    "linkedin": "https://www.linkedin.com/in/antje-barth/",
+    "video": null
+  },
+  {
+    "name": "Ahmed Menshawy",
+    "company": "Mastercard, Vice President of AI Engineering",
+    "linkedin": "https://linkedin.com/in/ahmed-menshawy",
+    "video": null
+  },
+  {
+    "name": "Heejin Jeong",
+    "company": "Together, Principal AI PM",
+    "linkedin": "https://www.linkedin.com/in/heejin-chloe-jeong/",
+    "video": null
+  },
+  {
+    "name": "Shreya Shankar",
+    "company": "UC Berkeley EECS & EPIC Lab",
+    "linkedin": "https://twitter.com/sh_reya",
+    "video": null
+  },
+  {
+    "name": "Zack Witten",
+    "company": "Anthropic, Staff Prompt Engineer",
+    "linkedin": "https://twitter.com/zswitten",
+    "video": null
+  },
+  {
+    "name": "Jason Liu",
+    "company": "Independent, Consultant (Instructor)",
+    "linkedin": "https://twitter.com/jxnlco",
+    "video": null
+  },
+  {
+    "name": "Ian Webster",
+    "company": "Discord, Senior Staff Software Engineer",
+    "linkedin": "https://linkedin.com/in/ianww",
+    "video": null
+  },
+  {
+    "name": "Sunny Madra",
+    "company": "Groq, GM of GroqCloud",
+    "linkedin": "https://www.linkedin.com/in/sundeepm/",
+    "video": null
+  },
+  {
+    "name": "Mark Moyou",
+    "company": "NVIDIA, Sr. Data Scientist",
+    "linkedin": "https://twitter.com/MarkMoyou",
+    "video": null
+  },
+  {
+    "name": "Nikhil Thota",
+    "company": "Perplexity, Member of Technical Staff",
+    "linkedin": "https://linkedin.com/in/thot",
+    "video": null
+  },
+  {
+    "name": "Shawn Jansepar",
+    "company": "Khan Academy, Director of Engineering",
+    "linkedin": "https://linkedin.com/in/jansepar",
+    "video": null
+  },
+  {
+    "name": "Ankur Goyal",
+    "company": "Braintrust CEO",
+    "linkedin": "https://twitter.com/ankrgyl",
+    "video": null
+  },
+  {
+    "name": "Phoebe Klett",
+    "company": "Normal Computing, ML Engineer",
+    "linkedin": "https://twitter.com/KlettPhoebe",
+    "video": null
+  },
+  {
+    "name": "Emil Eifrem",
+    "company": "Neo4j CEO",
+    "linkedin": "https://twitter.com/emileifrem",
+    "video": null
+  },
+  {
+    "name": "Atita Arora",
+    "company": "Qdrant, Solution Architect",
+    "linkedin": "https://twitter.com/atitaarora",
+    "video": null
+  },
+  {
+    "name": "Kwindla Hultman Kramer",
+    "company": "Daily CEO",
+    "linkedin": "https://twitter.com/kwindla",
+    "video": null
+  },
+  {
+    "name": "Bryan Bischof",
+    "company": "Hex, Head of AI",
+    "linkedin": "https://twitter.com/BEBischof",
+    "video": null
+  },
+  {
+    "name": "Stephen Hood",
+    "company": "Mozilla, Open Source AI Lead",
+    "linkedin": "https://twitter.com/stlhood",
+    "video": null
+  },
+  {
+    "name": "Scott Stephenson",
+    "company": "Deepgram CEO",
+    "linkedin": "https://twitter.com/deepgramscott",
+    "video": null
+  },
+  {
+    "name": "Daniel Whitenack",
+    "company": "Prediction Guard CEO",
+    "linkedin": "https://twitter.com/dwhitena",
+    "video": null
+  },
+  {
+    "name": "Thierry Moreau",
+    "company": "OctoAI, Co-Founder",
+    "linkedin": null,
+    "video": null
+  },
+  {
+    "name": "Dominik Kundel",
+    "company": "Twilio, Head of Product & Design",
+    "linkedin": "https://www.linkedin.com/in/dkundel/",
+    "video": null
+  },
+  {
+    "name": "Shyamal Anadkat",
+    "company": "OpenAI, Startup Solutions Lead",
+    "linkedin": "https://www.linkedin.com/in/zostale/",
+    "video": null
+  },
+  {
+    "name": "Toki Sherbakov",
+    "company": "OpenAI, Head of Solutions Architecture",
+    "linkedin": "https://twitter.com/tokisherbakov",
+    "video": null
+  },
+  {
+    "name": "Arjun Bansal",
+    "company": "Log10 CEO",
+    "linkedin": "https://linkedin.com/in/arjunbansal",
+    "video": null
+  },
+  {
+    "name": "Eugene Yan",
+    "company": "Amazon, Senior Applied Scientist",
+    "linkedin": "https://eugeneyan.com/",
+    "video": null
+  },
+  {
+    "name": "Jamie Turner",
+    "company": "Convex CEO",
+    "linkedin": "https://twitter.com/jamwt",
+    "video": null
+  },
+  {
+    "name": "Fryderyk Wiatrowski",
+    "company": "Zeta Labs, Co-founder",
+    "linkedin": "https://twitter.com/fawiatrowski",
+    "video": null
+  },
+  {
+    "name": "Greg Baugues",
+    "company": "HaiHai Labs, Founder",
+    "linkedin": "https://www.linkedin.com/in/gregbaugues/",
+    "video": null
+  },
+  {
+    "name": "Gunjan Patel",
+    "company": "Palo Alto Networks, Director of Engineering",
+    "linkedin": "https://www.linkedin.com/in/gunjanpatel1/",
+    "video": null
+  },
+  {
+    "name": "Hamel Husain",
+    "company": "Parlance Labs, Founder",
+    "linkedin": "https://www.linkedin.com/in/hamelhusain/",
+    "video": null
+  },
+  {
+    "name": "Hubert Misztela",
+    "company": "Novartis, AI Researcher/Director of Data Science",
+    "linkedin": "https://twitter.com/hubert_misztela",
+    "video": null
+  },
+  {
+    "name": "Ishan Anand",
+    "company": "Independent, Spreadsheets Are All You Need",
+    "linkedin": "https://linkedin.com/in/ishananand",
+    "video": null
+  },
+  {
+    "name": "Rahul Pandita",
+    "company": "GitHub, Automated Software Engineering Researcher",
+    "linkedin": "https://www.linkedin.com/in/panditarahul",
+    "video": null
+  },
+  {
+    "name": "Jeronim Morina",
+    "company": "AXA, Senior MLOps Engineer",
+    "linkedin": "https://linkedin.com/in/jeronim-morina",
+    "video": null
+  },
+  {
+    "name": "Deanna Emery",
+    "company": "Quotient, Founding AI Researcher",
+    "linkedin": "https://www.linkedin.com/in/deanna-emery/",
+    "video": null
+  },
+  {
+    "name": "Jo\u00e3o Moura",
+    "company": "crewAI CEO",
+    "linkedin": "https://www.linkedin.com/in/joaomdmoura/",
+    "video": null
+  },
+  {
+    "name": "Kyle Corbitt",
+    "company": "OpenPipe, Founder & CEO",
+    "linkedin": "https://twitter.com/corbtt",
+    "video": null
+  },
+  {
+    "name": "Karan Singh",
+    "company": "AWS, Generative AI PM",
+    "linkedin": "https://www.linkedin.com/in/karan-singh-a8aa7518/",
+    "video": null
+  },
+  {
+    "name": "Kevin Van Gundy",
+    "company": "Hypermode CEO",
+    "linkedin": "https://linkedin.com/in/kevinvangundy",
+    "video": null
+  },
+  {
+    "name": "Maxime Labonne",
+    "company": "Liquid AI, Senior Staff ML Scientist",
+    "linkedin": "https://twitter.com/maximelabonne",
+    "video": null
+  },
+  {
+    "name": "Morgante Pell",
+    "company": "Grit CEO",
+    "linkedin": "https://twitter.com/morgantepell",
+    "video": null
+  },
+  {
+    "name": "Pankaj Gupta",
+    "company": "Baseten, Co-Founder",
+    "linkedin": "https://twitter.com/defpan",
+    "video": null
+  },
+  {
+    "name": "Patrick Debois",
+    "company": "Independent, Ex. VP ENG Showpad",
+    "linkedin": "https://twitter.com/patrickdebois",
+    "video": null
+  },
+  {
+    "name": "Paul Henry",
+    "company": "BotDojo CEO",
+    "linkedin": "https://www.linkedin.com/in/pauldhenry/",
+    "video": null
+  },
+  {
+    "name": "Philip Kiely",
+    "company": "Baseten, Head of Developer Relations",
+    "linkedin": "https://twitter.com/philip_kiely",
+    "video": null
+  },
+  {
+    "name": "Phlo Young",
+    "company": "Independent, Rapper",
+    "linkedin": "https://twitter.com/YoungPhlo_",
+    "video": null
+  },
+  {
+    "name": "Benjamin Stein",
+    "company": "Perpetual CEO",
+    "linkedin": "https://linkedin.com/in/benjaminstein",
+    "video": null
+  },
+  {
+    "name": "Charles Frye",
+    "company": "Modal Labs, AI Engineer",
+    "linkedin": "https://twitter.com/charles_irl",
+    "video": null
+  },
+  {
+    "name": "Ryan Fox-Tyler",
+    "company": "Hypermode, SVP of Products and Engineering",
+    "linkedin": "https://www.linkedin.com/in/ryanfoxtyler/",
+    "video": null
+  },
+  {
+    "name": "R\u00e9mi Louf",
+    "company": ".txt (Outlines) CEO",
+    "linkedin": "https://twitter.com/remilouf",
+    "video": null
+  },
+  {
+    "name": "Emil Sedgh",
+    "company": "Rechat CTO",
+    "linkedin": "https://twitter.com/emilsedgh",
+    "video": null
+  },
+  {
+    "name": "Sumit Agarwal",
+    "company": "Ario CEO",
+    "linkedin": "https://www.linkedin.com/in/sumitagarwalusaf/",
+    "video": null
+  },
+  {
+    "name": "Damien Murphy",
+    "company": "Deepgram, Senior Applied Engineer",
+    "linkedin": "https://www.linkedin.com/in/damienm1/",
+    "video": null
+  },
+  {
+    "name": "Tanmai Gopal",
+    "company": "Hasura CEO",
+    "linkedin": "https://twitter.com/tanmaigo",
+    "video": null
+  },
+  {
+    "name": "Tom Redman",
+    "company": "Convex, Head of DX",
+    "linkedin": "https://twitter.com/redman",
+    "video": null
+  },
+  {
+    "name": "Sheila Gulati",
+    "company": "Tola Capital, Managing Director",
+    "linkedin": "https://www.linkedin.com/in/sheilagulati/",
+    "video": null
+  },
+  {
+    "name": "Vasek Mlejnsky",
+    "company": "E2B CEO",
+    "linkedin": "https://twitter.com/mlejva",
+    "video": null
+  },
+  {
+    "name": "Vibhor Kumar",
+    "company": "Tinder, AI Engineer",
+    "linkedin": "https://linkedin.com/in/kumarvibhor",
+    "video": null
+  },
+  {
+    "name": "Sualeh Asif",
+    "company": "Cursor, AI Engineer",
+    "linkedin": "https://www.sualehasif.me/",
+    "video": null
+  },
+  {
+    "name": "Derek Bingham",
+    "company": "AWS, Senior Developer Advocate",
+    "linkedin": "https://www.linkedin.com/in/derekwbingham/",
+    "video": null
+  },
+  {
+    "name": "Kevin Hou",
+    "company": "Windsurf, Head of Product Engineering",
+    "linkedin": "https://twitter.com/kevinhou22",
+    "video": null
+  },
+  {
+    "name": "Peter Cooper",
+    "company": "CooperPress, GitHub user #118",
+    "linkedin": "https://twitter.com/cooperx86",
+    "video": null
+  },
+  {
+    "name": "Nischal Nadhamuni",
+    "company": "Klarity CTO",
+    "linkedin": "https://twitter.com/_nischaln",
+    "video": null
+  },
+  {
+    "name": "Manuel Odendahl",
+    "company": "The Tree Center, Principal Engineer",
+    "linkedin": "https://linkedin.com/in/manuel-odendahl-a2369122",
+    "video": null
+  },
+  {
+    "name": "Vikhyat Korrapati",
+    "company": "M87 Labs CTO",
+    "linkedin": "https://twitter.com/vikhyatk",
+    "video": null
+  },
+  {
+    "name": "Santosh Radha",
+    "company": "Agnostiq (Covalent), Head of Product/Research",
+    "linkedin": "https://www.linkedin.com/in/santoshkumarradha/",
+    "video": null
+  },
+  {
+    "name": "Olmo Maldonado",
+    "company": "Zapier, Sr. AI Engineer",
+    "linkedin": "https://twitter.com/ibolmo",
+    "video": null
+  },
+  {
+    "name": "Alex Volkov",
+    "company": "Weights & Biases, AI Evangelist",
+    "linkedin": "https://twitter.com/altryne",
+    "video": null
+  },
+  {
+    "name": "Prakul Agarwal",
+    "company": "MongoDB, Sr. Product Manager ML",
+    "linkedin": "https://www.linkedin.com/in/prakulagarwal/",
+    "video": null
+  },
+  {
+    "name": "Azul Garza",
+    "company": "Nixtla, CTO & Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/azul-garza-ramirez/",
+    "video": null
+  },
+  {
+    "name": "Apoorva Joshi",
+    "company": "MongoDB, Sr. AI Developer Advocate",
+    "linkedin": "https://www.linkedin.com/in/apoorvajoshi95/",
+    "video": null
+  },
+  {
+    "name": "Henry Weller",
+    "company": "MongoDB, Product Manager",
+    "linkedin": "https://www.linkedin.com/in/henryweller/",
+    "video": null
+  },
+  {
+    "name": "Ben Perlmutter",
+    "company": "MongoDB, Sr. Engineer Chatbot Framework",
+    "linkedin": "https://www.linkedin.com/in/ben-perlmutter/",
+    "video": null
+  },
+  {
+    "name": "Pedro Torruella",
+    "company": "OctoAI, Staff DevRel Engineer",
+    "linkedin": "https://www.linkedin.com/in/ptorru/",
+    "video": null
+  },
+  {
+    "name": "Ivan Leo",
+    "company": "567 Labs (Instructor), Research Engineer",
+    "linkedin": "https://twitter.com/ivanleomk",
+    "video": null
+  },
+  {
+    "name": "Leo Pekelis",
+    "company": "Gradient, Chief Scientist",
+    "linkedin": "https://linkedin.com/in/leonid-pekelis",
+    "video": null
+  },
+  {
+    "name": "Fabian Valle",
+    "company": "MongoDB, Sr. Engineer",
+    "linkedin": "https://www.linkedin.com/in/fabian-valle-24b22b149/",
+    "video": null
+  },
+  {
+    "name": "Lance Martin",
+    "company": "LangChain, AI Engineer",
+    "linkedin": "https://www.linkedin.com/in/lance-martin-64a33b5/",
+    "video": null
+  },
+  {
+    "name": "Nicolai Baldin",
+    "company": "Synthesized.io CEO",
+    "linkedin": "https://www.linkedin.com/in/nbaldin/",
+    "video": null
+  },
+  {
+    "name": "Trey Doig",
+    "company": "Echo AI CTO",
+    "linkedin": "https://www.linkedin.com/in/treydoig/",
+    "video": null
+  },
+  {
+    "name": "Chang She",
+    "company": "LanceDB CEO",
+    "linkedin": "https://www.linkedin.com/in/changshe/",
+    "video": null
+  },
+  {
+    "name": "Ben Flast",
+    "company": "MongoDB, Director of Product",
+    "linkedin": "https://www.linkedin.com/in/benjamin-flast/",
+    "video": null
+  },
+  {
+    "name": "Peter Albert",
+    "company": "Zeta Labs, Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/peter-k-albert/",
+    "video": null
+  },
+  {
+    "name": "Quinn Slack",
+    "company": "Sourcegraph CEO",
+    "linkedin": "https://www.linkedin.com/in/quinnslack/",
+    "video": null
+  },
+  {
+    "name": "Philip Rathle",
+    "company": "Neo4j CTO",
+    "linkedin": "https://www.linkedin.com/in/prathle/",
+    "video": null
+  },
+  {
+    "name": "Raza Habib",
+    "company": "Humanloop, CEO and Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/humanloop-raza/",
+    "video": null
+  },
+  {
+    "name": "Aurimas Grici\u016bnas",
+    "company": "Neptune CPO",
+    "linkedin": "https://twitter.com/Aurimas_Gr",
+    "video": null
+  },
+  {
+    "name": "YK Sugi",
+    "company": "Sourcegraph, AI Developer Advocate",
+    "linkedin": "https://twitter.com/ykdojo",
+    "video": null
+  },
+  {
+    "name": "Phil Nash",
+    "company": "Datastax, Developer Relations Engineer",
+    "linkedin": "https://philna.sh/",
+    "video": null
+  },
+  {
+    "name": "Benjamin Fletcher",
+    "company": "EyeLevel.ai CEO",
+    "linkedin": "https://www.linkedin.com/in/benjamin-fletcher-bb73334/",
+    "video": null
+  },
+  {
+    "name": "Alex Malebranche",
+    "company": "GitHub, Global Engagement Lead",
+    "linkedin": "https://www.linkedin.com/in/boytwigg/",
+    "video": null
+  },
+  {
+    "name": "Dave Burnison",
+    "company": "GitHub, Senior Developer Advocate",
+    "linkedin": "https://www.linkedin.com/in/daveburnison/",
+    "video": null
+  },
+  {
+    "name": "Chris Rec",
+    "company": "WhyHow.AI, Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/chrisrec/",
+    "video": null
+  },
+  {
+    "name": "Karthik Suresh",
+    "company": "Ignition CPTO",
+    "linkedin": "https://www.linkedin.com/in/karthiksureshlbs/",
+    "video": null
+  },
+  {
+    "name": "Gabriel Paunescu",
+    "company": "Naologic CEO",
+    "linkedin": "https://www.linkedin.com/in/gabrielpaunescu/",
+    "video": null
+  },
+  {
+    "name": "Gabriela de Queiroz",
+    "company": "Microsoft, Director of AI for Startups",
+    "linkedin": "https://www.linkedin.com/in/gabrieladequeiroz/",
+    "video": null
+  },
+  {
+    "name": "Aishwarya Srinivasan",
+    "company": "Microsoft, Senior AI Advisor",
+    "linkedin": "https://linkedin.com/in/aishwarya-srinivasan",
+    "video": null
+  },
+  {
+    "name": "Cedric Vidal",
+    "company": "Microsoft, Principal AI Advocate",
+    "linkedin": "https://www.linkedin.com/in/cedricvidal/",
+    "video": null
+  },
+  {
+    "name": "David Smith",
+    "company": "Microsoft, Principal Cloud Advocate",
+    "linkedin": "https://www.linkedin.com/in/dmsmith/",
+    "video": null
+  },
+  {
+    "name": "Banjo Obayomi",
+    "company": "AWS, Senior Developer Advocate",
+    "linkedin": "https://twitter.com/banjtheman",
+    "video": null
+  },
+  {
+    "name": "Sarah Buchner",
+    "company": "Trunk Tools CEO",
+    "linkedin": "https://www.linkedin.com/in/sarah-buchner",
+    "video": null
+  },
+  {
+    "name": "Rob Cheung",
+    "company": "Substrate CEO",
+    "linkedin": "https://twitter.com/perceptnet",
+    "video": null
+  },
+  {
+    "name": "Andreas Kolleger",
+    "company": "Neo4j, Knowledge Engineer",
+    "linkedin": "https://www.linkedin.com/in/akollegger/",
+    "video": null
+  },
+  {
+    "name": "Kibeom Lee",
+    "company": "Sendbird, Lead Machine Learning Engineer",
+    "linkedin": "https://www.linkedin.com/in/kibeomlee/",
+    "video": null
+  },
+  {
+    "name": "Dimitrios Philliou",
+    "company": "GitHub, Product Manager",
+    "linkedin": "https://www.linkedin.com/in/dimitriosphilliou/",
+    "video": null
+  },
+  {
+    "name": "Satya Nitta",
+    "company": "Emergence, Co-founder and CEO",
+    "linkedin": "https://www.linkedin.com/in/satya-nitta-5554984/",
+    "video": null
+  },
+  {
+    "name": "Christina Warren",
+    "company": "GitHub, Senior Developer Advocate",
+    "linkedin": "https://www.linkedin.com/in/filmgirl/",
+    "video": null
+  },
+  {
+    "name": "Christopher Harrison",
+    "company": "GitHub, Senior Developer Advocate",
+    "linkedin": "https://www.linkedin.com/in/geektrainer/",
+    "video": null
+  },
+  {
+    "name": "Pablo Castro",
+    "company": "Microsoft, Distinguished Engineer",
+    "linkedin": "https://www.linkedin.com/in/pabloc/",
+    "video": null
+  },
+  {
+    "name": "Pamela Fox",
+    "company": "Microsoft, Principal Cloud Advocate (Python)",
+    "linkedin": "https://twitter.com/pamelafox",
+    "video": null
+  },
+  {
+    "name": "Harald Kirschner",
+    "company": "Microsoft, Principal Product Manager",
+    "linkedin": "https://www.linkedin.com/in/digitarald/",
+    "video": null
+  },
+  {
+    "name": "Lachlan Ainley",
+    "company": "Microsoft, Senior PMM",
+    "linkedin": "https://www.linkedin.com/in/lachlanainley/",
+    "video": null
+  },
+  {
+    "name": "Ray Thai",
+    "company": "Fireworks, Founding Product Manager",
+    "linkedin": "https://www.linkedin.com/in/raymondcthai/",
+    "video": null
+  },
+  {
+    "name": "Sarah Khalife",
+    "company": "GitHub, Principal Solutions Engineer",
+    "linkedin": "https://www.linkedin.com/in/sarahkhalife/",
+    "video": null
+  },
+  {
+    "name": "Yasir Al-Ibrahem",
+    "company": "GitHub, Principal Solutions Engineer",
+    "linkedin": "https://github.com/YasirAlibrahem",
+    "video": null
+  },
+  {
+    "name": "Nathan Peck",
+    "company": "AWS, Senior Developer Advocate",
+    "linkedin": "https://twitter.com/nathankpeck",
+    "video": null
+  },
+  {
+    "name": "Darko Mesaros",
+    "company": "AWS, Principal Developer Advocate",
+    "linkedin": "https://twitter.com/darkosubotica",
+    "video": null
+  },
+  {
+    "name": "Vinicius Senger",
+    "company": "AWS, Senior Developer Advocate",
+    "linkedin": "https://twitter.com/siliconvini",
+    "video": null
+  },
+  {
+    "name": "Holt Skinner",
+    "company": "Google, Developer Advocate",
+    "linkedin": "https://twitter.com/HoltSkinner12",
+    "video": null
+  },
+  {
+    "name": "Rick Lamers",
+    "company": "Groq, AI Researcher/Engineer",
+    "linkedin": "https://twitter.com/RickLamers",
+    "video": null
+  },
+  {
+    "name": "Paul Sebexen",
+    "company": "Lambda Labs, Cloud Engineering",
+    "linkedin": "https://www.linkedin.com/in/paul-sebexen-59204625",
+    "video": null
+  },
+  {
+    "name": "Tirumarai Selvan",
+    "company": "Hasura, Principal Product Manager",
+    "linkedin": "https://www.linkedin.com/in/tirumarai-selvan-384a8517/",
+    "video": null
+  },
+  {
+    "name": "Yash Sheth",
+    "company": "Galileo, Co-founder & COO",
+    "linkedin": "https://twitter.com/YashSheth46",
+    "video": null
+  },
+  {
+    "name": "Aaron Dignan",
+    "company": "Plumb, Co-Founder",
+    "linkedin": "https://www.linkedin.com/in/aarondignan/",
+    "video": null
+  },
+  {
+    "name": "Shreyas Sreenivas",
+    "company": "Exa, Founding Engineer",
+    "linkedin": "https://twitter.com/shreyas4_",
+    "video": null
+  },
+  {
+    "name": "Justin McCarty",
+    "company": "Ionic Commerce, CEO & Co-Founder",
+    "linkedin": "https://twitter.com/JustinDMcCarty",
+    "video": null
+  },
+  {
+    "name": "Taranveer Singh",
+    "company": "Chegg, AI/ML Lead",
+    "linkedin": "https://www.linkedin.com/in/taranveer/",
+    "video": null
+  },
+  {
+    "name": "Ievgen Vakulenko",
+    "company": "Crusoe, Product Manager",
+    "linkedin": "https://www.linkedin.com/in/evakulen/",
+    "video": null
+  },
+  {
+    "name": "Jamie Neuwirth",
+    "company": "Anthropic, Head of Startup Sales",
+    "linkedin": "https://twitter.com/jneuwirth4",
+    "video": null
+  },
+  {
+    "name": "Nicolas Schlaepfer",
+    "company": "Hyperspace, VP AI R&D",
+    "linkedin": "https://www.linkedin.com/in/nicolas-s-138564187/",
+    "video": null
+  },
+  {
+    "name": "Tamer Abuelsaad",
+    "company": "Emergence, Principal Engineer",
+    "linkedin": "https://github.com/EmergenceAI/Agent-E",
+    "video": null
+  },
+  {
+    "name": "Andrew Davis",
+    "company": "HiddenLayer, Chief Data Scientist",
+    "linkedin": "https://www.linkedin.com/in/andrew-davis-08985990/",
+    "video": null
+  },
+  {
+    "name": "Alison Cossette",
+    "company": "Neo4j, Data Science Strategist",
+    "linkedin": "https://twitter.com/alison_cossette",
+    "video": null
+  },
+  {
+    "name": "Grace Isford",
+    "company": "Lux Capital",
+    "linkedin": null,
+    "video": "Beyond the Consensus: Navigating AI's Frontier in 2025"
+  },
+  {
+    "name": "Greg Ceccarelli",
+    "company": "SpecStory",
+    "linkedin": null,
+    "video": "How To Build an AI Strategy That Fails"
+  },
+  {
+    "name": "Don Bosco Durai",
+    "company": "Privacera",
+    "linkedin": null,
+    "video": "Balancing Innovation with Security & Safety"
+  },
+  {
+    "name": "Colin Flaherty",
+    "company": "Augment Code",
+    "linkedin": null,
+    "video": "Building Self-Coding Agents"
+  },
+  {
+    "name": "Baptiste Rozi\u00e8re",
+    "company": "Mistral",
+    "linkedin": null,
+    "video": "Mistral for VPs of AI"
+  },
+  {
+    "name": "Leigh Pember",
+    "company": "Mistral",
+    "linkedin": null,
+    "video": "Mistral for VPs of AI"
+  },
+  {
+    "name": "Stephen Chin",
+    "company": "Neo4j",
+    "linkedin": null,
+    "video": "Anchoring Enterprise GenAI with Knowledge Graphs"
+  },
+  {
+    "name": "Jonathan Lowe",
+    "company": "Pfizer",
+    "linkedin": null,
+    "video": "Anchoring Enterprise GenAI with Knowledge Graphs"
+  },
+  {
+    "name": "Bruno Passos",
+    "company": "Booking.com",
+    "linkedin": null,
+    "video": "Building AI Agents with Real ROI in the Enterprise SDLC"
+  },
+  {
+    "name": "Waseem Alshikh",
+    "company": "Writer CTO",
+    "linkedin": null,
+    "video": "Building Trust in Enterprise AI"
+  },
+  {
+    "name": "Prashant Mital",
+    "company": "OpenAI",
+    "linkedin": null,
+    "video": "OpenAI for VPs of AI"
+  },
+  {
+    "name": "Barr Yaron",
+    "company": "Amplify Partners",
+    "linkedin": null,
+    "video": "Frontier Feud"
+  },
+  {
+    "name": "Shirsha Chaudhuri",
+    "company": "Thomson Reuters",
+    "linkedin": null,
+    "video": "Missing pieces of workflow automation"
+  },
+  {
+    "name": "Diamond Bishop",
+    "company": "Datadog",
+    "linkedin": null,
+    "video": "The Devops Engineer Who Never Sleeps"
+  },
+  {
+    "name": "Paul Gilbert",
+    "company": "Arista Networks",
+    "linkedin": null,
+    "video": "How to Build Your Own AI Data Center in 2025"
+  },
+  {
+    "name": "Alexander Bricken",
+    "company": "Anthropic",
+    "linkedin": null,
+    "video": "Anthropic for VPs of AI"
+  },
+  {
+    "name": "Joe Bayley",
+    "company": "Anthropic",
+    "linkedin": null,
+    "video": "Anthropic for VPs of AI"
+  },
+  {
+    "name": "Heath Black",
+    "company": "SignalFire",
+    "linkedin": null,
+    "video": "Insights on Building AI teams"
+  },
+  {
+    "name": "Xiaofeng Wang",
+    "company": "LinkedIn",
+    "linkedin": null,
+    "video": "Lessons from Building LinkedIn's GenAI Platform"
+  },
+  {
+    "name": "Douwe Kiela",
+    "company": "Contextual AI",
+    "linkedin": null,
+    "video": "Specialized RAG Agents"
+  },
+  {
+    "name": "Sayash Kapoor",
+    "company": "AI Snake Oil",
+    "linkedin": null,
+    "video": "Building and evaluating AI Agents That Matter"
+  },
+  {
+    "name": "Mukund Sridhar",
+    "company": "DeepMind",
+    "linkedin": null,
+    "video": "Going deep on Gemini Deep Research"
+  },
+  {
+    "name": "Aarush Selvan",
+    "company": "Google Gemini",
+    "linkedin": null,
+    "video": "Going deep on Gemini Deep Research"
+  },
+  {
+    "name": "Barry Zhang",
+    "company": "Anthropic",
+    "linkedin": null,
+    "video": "How We Build Effective Agents"
+  },
+  {
+    "name": "Zack Reneau-Wedeen",
+    "company": "Sierra",
+    "linkedin": null,
+    "video": "Sierra's Agent Development Life Cycle"
+  },
+  {
+    "name": "Will Brown",
+    "company": "Morgan Stanley",
+    "linkedin": null,
+    "video": "What RL Means for Agents"
+  },
+  {
+    "name": "Brennan Rosales",
+    "company": "BlackRock",
+    "linkedin": null,
+    "video": "Agents in Investment Management: Aladdin Copilot"
+  },
+  {
+    "name": "John Crepezzi",
+    "company": "Jane Street",
+    "linkedin": null,
+    "video": "Building AI-Powered Developer Tools at Jane Street"
+  },
+  {
+    "name": "Anju Kambadur",
+    "company": "Bloomberg",
+    "linkedin": null,
+    "video": "Challenges to Scaling Agents for Generative AI Products"
+  },
+  {
+    "name": "Mike Conover",
+    "company": "Brightwave",
+    "linkedin": null,
+    "video": "Trust, but Verify: High-Fidelity Reasoning in Agentic Workflows"
+  },
+  {
+    "name": "Evan Fossier",
+    "company": "Datadog",
+    "linkedin": null,
+    "video": "How do you know your agent works?"
+  },
+  {
+    "name": "Joey Pinhas",
+    "company": "Datadog",
+    "linkedin": null,
+    "video": "How do you know your agent works?"
+  },
+  {
+    "name": "Mustafa Ali",
+    "company": "Method Financial",
+    "linkedin": null,
+    "video": "How we scaled 500m AI agents in production with 2 engineers"
+  },
+  {
+    "name": "Nik Caryotakis",
+    "company": "SuperDial",
+    "linkedin": null,
+    "video": "Voice AI: Your Bot Isn't Special"
+  },
+  {
+    "name": "Rahul Sengottuvelu",
+    "company": "Ramp",
+    "linkedin": null,
+    "video": "Scaffold Wisely"
+  },
+  {
+    "name": "Dylan Babbs",
+    "company": "Profound",
+    "linkedin": null,
+    "video": "The Agentic Future of Search"
+  },
+  {
+    "name": "Colin Sidoti",
+    "company": "Clerk",
+    "linkedin": null,
+    "video": "The Agentic Future of Search"
+  },
+  {
+    "name": "Anirudh Kamath",
+    "company": "Browserbase",
+    "linkedin": null,
+    "video": "The Agentic Future of Search"
+  },
+  {
+    "name": "Gopal Raman",
+    "company": "South Park Commons",
+    "linkedin": null,
+    "video": "The Agentic Future of Search"
+  },
+  {
+    "name": "Karina Nguyen",
+    "company": "OpenAI",
+    "linkedin": null,
+    "video": "Creating Agents That Co-Create"
+  },
+  {
+    "name": "Maria de Lourdes Zollo",
+    "company": "Bee.Computer",
+    "linkedin": null,
+    "video": "Building Perfect Memory"
+  },
+  {
+    "name": "Ethan Sutin",
+    "company": "Bee.Computer",
+    "linkedin": null,
+    "video": "Building Perfect Memory"
+  },
+  {
+    "name": "Soumith Chintala",
+    "company": "Meta PyTorch",
+    "linkedin": null,
+    "video": "What does it take to build a personal, local, private AI Agent"
+  },
+  {
+    "name": "Chip Huyen",
+    "company": "Independent",
+    "linkedin": null,
+    "video": "Challenges of Building Agents"
+  },
+  {
+    "name": "Erik Bernhardsson",
+    "company": "Modal Labs",
+    "linkedin": null,
+    "video": "The Ideal AI Engineering Platform"
+  },
+  {
+    "name": "Ilan Bigio",
+    "company": "OpenAI",
+    "linkedin": null,
+    "video": "Function calling is all you need"
+  },
+  {
+    "name": "Mahesh Murag",
+    "company": "Anthropic",
+    "linkedin": null,
+    "video": "Building (Agents) with Model Context Protocol"
+  },
+  {
+    "name": "Noah Gundotra",
+    "company": "Solana",
+    "linkedin": null,
+    "video": "Solana Lets Agents Create Wealth"
+  },
+  {
+    "name": "Minki Jung",
+    "company": "Independent",
+    "linkedin": null,
+    "video": "Flow Engineering 101"
+  },
+  {
+    "name": "Omar Sanseviero",
+    "company": "DeepMind",
+    "linkedin": null,
+    "video": "Open ML Universe: Models, Agents, and Beyond"
+  },
+  {
+    "name": "Samuel Colvin",
+    "company": "Pydantic Logfire",
+    "linkedin": null,
+    "video": "An Opinionated Blueprint for the Future of GenAI Applications"
+  },
+  {
+    "name": "Deepam Mishra",
+    "company": "AWS",
+    "linkedin": null,
+    "video": "Building Agentic Workflows with DeepSeek and Amazon Nova"
+  },
+  {
+    "name": "Nick Huang",
+    "company": "LangChain",
+    "linkedin": null,
+    "video": "How Clay Performs Agent Evaluation"
+  },
+  {
+    "name": "Ratch Sujithan",
+    "company": "Clay GTM",
+    "linkedin": null,
+    "video": "How Clay Performs Agent Evaluation"
+  },
+  {
+    "name": "Mahmoud Abdelwahab",
+    "company": "Neon",
+    "linkedin": null,
+    "video": "Build a personal AI email agent"
+  },
+  {
+    "name": "Charles Packer",
+    "company": "Letta",
+    "linkedin": null,
+    "video": "Agent Memory and the LLM OS"
+  },
+  {
+    "name": "Suman Debnath",
+    "company": "AWS",
+    "linkedin": null,
+    "video": "Agentic RAG with Vision Language Models"
+  },
+  {
+    "name": "Nico Albanese",
+    "company": "Vercel",
+    "linkedin": null,
+    "video": "Advanced AI Engineering with AI SDK"
+  },
+  {
+    "name": "Dan Mason",
+    "company": "Stride",
+    "linkedin": null,
+    "video": "Multi-Agent Workflows with MCP"
+  },
+  {
+    "name": "Atin Sanyal",
+    "company": "Galileo",
+    "linkedin": null,
+    "video": "Evaluate This! Mitigating Hallucinations in RAG & AI Agents"
+  },
+  {
+    "name": "Erin Mikail",
+    "company": "Galileo",
+    "linkedin": null,
+    "video": "Evaluate This! Mitigating Hallucinations in RAG & AI Agents"
+  },
+  {
+    "name": "Praveen Durairaju",
+    "company": "Hasura",
+    "linkedin": null,
+    "video": "Path towards 100% Accurate & Repeatable Data Agents"
+  }
+]
