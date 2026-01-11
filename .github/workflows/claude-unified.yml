@@ -1,0 +1,300 @@
+name: Claude GTM Assistant
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+jobs:
+  claude-assistant:
+    if: >-
+      contains(github.event.issue.body, '@claude') ||
+      contains(github.event.issue.title, '@claude') ||
+      contains(github.event.comment.body, '@claude')
+    
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Parse query and detect intent
+        id: parse
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          # Get the query text
+          if [ "$EVENT_NAME" == "issue_comment" ]; then
+            QUERY="$COMMENT_BODY"
+          else
+            QUERY="$ISSUE_TITLE $ISSUE_BODY"
+          fi
+          
+          # Remove @claude from query
+          QUERY=$(echo "$QUERY" | sed 's/@[Cc]laude//g' | xargs)
+          echo "$QUERY" > /tmp/query.txt
+          
+          # Detect intent
+          QUERY_LOWER=$(echo "$QUERY" | tr '[:upper:]' '[:lower:]')
+          
+          if echo "$QUERY_LOWER" | grep -qE '^email\s' && echo "$QUERY" | grep -qE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'; then
+            MODE="email"
+            EMAIL=$(echo "$QUERY" | grep -oE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' | head -1)
+            echo "target=$EMAIL" >> $GITHUB_OUTPUT
+          elif echo "$QUERY_LOWER" | grep -qE '^research\s'; then
+            MODE="research"
+            TARGET=$(echo "$QUERY" | sed -E 's/^[Rr]esearch\s+//')
+            echo "target=$TARGET" >> $GITHUB_OUTPUT
+          elif echo "$QUERY_LOWER" | grep -qE '^linkedin\s'; then
+            MODE="linkedin"
+            TARGET=$(echo "$QUERY" | sed -E 's/^[Ll]inkedin\s+//')
+            echo "target=$TARGET" >> $GITHUB_OUTPUT
+          elif echo "$QUERY_LOWER" | grep -qE '^competitor'; then
+            MODE="competitor"
+            TARGET=$(echo "$QUERY" | sed -E 's/^[Cc]ompetitor[s]?\s+//')
+            echo "target=$TARGET" >> $GITHUB_OUTPUT
+          elif echo "$QUERY_LOWER" | grep -qE '^meeting'; then
+            MODE="meeting"
+            TARGET=$(echo "$QUERY" | sed -E 's/^[Mm]eeting[s]?\s*//')
+            echo "target=$TARGET" >> $GITHUB_OUTPUT
+          else
+            MODE="general"
+            echo "target=" >> $GITHUB_OUTPUT
+          fi
+          
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
+          echo "Detected mode: $MODE"
+      
+      - name: Load context based on mode
+        env:
+          MODE: ${{ steps.parse.outputs.mode }}
+          TARGET: ${{ steps.parse.outputs.target }}
+        run: |
+          # Core context
+          cat CLAUDE.md > /tmp/context.txt 2>/dev/null || true
+          echo "" >> /tmp/context.txt
+          cat context/GTM_CONTEXT.md >> /tmp/context.txt 2>/dev/null || true
+          echo "" >> /tmp/context.txt
+          cat context/MEETING_INDEX.md >> /tmp/context.txt 2>/dev/null || true
+          
+          # Mode-specific context
+          case "$MODE" in
+            email|linkedin)
+              echo "" >> /tmp/context.txt
+              cat LINKEDIN_OUTREACH_TEMPLATES.md >> /tmp/context.txt 2>/dev/null || true
+              ;;
+            competitor)
+              echo "" >> /tmp/context.txt
+              cat CHROMA_COMPETITORS.md >> /tmp/context.txt 2>/dev/null || true
+              ;;
+            meeting)
+              echo "" >> /tmp/context.txt
+              for f in $(ls -t meetings/notes/*.md 2>/dev/null | head -3); do
+                echo "--- $f ---" >> /tmp/context.txt
+                cat "$f" >> /tmp/context.txt
+              done
+              ;;
+            research)
+              echo "" >> /tmp/context.txt
+              cat CHROMA_COMPETITORS.md >> /tmp/context.txt 2>/dev/null || true
+              if [ -n "$TARGET" ]; then
+                grep -ri "$TARGET" *.json 2>/dev/null | head -20 >> /tmp/context.txt || true
+              fi
+              ;;
+            *)
+              echo "" >> /tmp/context.txt
+              cat CHROMA_COMPETITORS.md >> /tmp/context.txt 2>/dev/null || true
+              ;;
+          esac
+          
+          head -c 80000 /tmp/context.txt > /tmp/context_final.txt
+          echo "Context: $(wc -c < /tmp/context_final.txt) bytes"
+      
+      - name: Build prompt
+        env:
+          MODE: ${{ steps.parse.outputs.mode }}
+          TARGET: ${{ steps.parse.outputs.target }}
+        run: |
+          QUERY=$(cat /tmp/query.txt)
+          
+          case "$MODE" in
+            email)
+              NAME=$(echo "$TARGET" | sed 's/@.*//' | sed 's/[._]/ /g')
+              DOMAIN=$(echo "$TARGET" | sed 's/.*@//')
+              cat > /tmp/prompt.txt << PROMPT_END
+          Draft an outreach email to: $TARGET
+
+          - Email: $TARGET
+          - Likely name: $NAME
+          - Domain: $DOMAIN
+
+          1. Research what $DOMAIN company does (2-3 sentences)
+          2. Draft personalized email (under 150 words)
+          3. Clear CTA
+
+          Format:
+          ## About $DOMAIN
+          [overview]
+
+          ## Email Draft
+          **To:** $TARGET
+          **Subject:** [subject]
+
+          [body]
+          PROMPT_END
+              ;;
+            research)
+              cat > /tmp/prompt.txt << PROMPT_END
+          Research $TARGET as a Chroma prospect.
+
+          ## Company Overview
+          What they do, size, products
+
+          ## AI Relevance
+          AI products, use cases, tech stack
+
+          ## Chroma Fit (1-5)
+          ICP fit, use case fit, timing
+
+          ## Outreach Angle
+          Positioning, pain points, who to contact
+
+          ## Risks
+          Concerns or red flags
+          PROMPT_END
+              ;;
+            linkedin)
+              cat > /tmp/prompt.txt << PROMPT_END
+          Draft LinkedIn post about: $TARGET
+
+          Rules:
+          - Under 1300 chars
+          - Strong hook first line
+          - End with question/CTA
+          - Authentic, not corporate
+
+          Format:
+          ## Post
+          [ready to copy]
+
+          ## Alt Hooks
+          3 alternatives
+
+          ## Hashtags
+          5-7 hashtags
+          PROMPT_END
+              ;;
+            competitor)
+              cat > /tmp/prompt.txt << PROMPT_END
+          Competitor question: $TARGET
+
+          Give specific, actionable insights.
+          Reference our positioning vs competitors.
+          Include recommended actions.
+          PROMPT_END
+              ;;
+            meeting)
+              cat > /tmp/prompt.txt << PROMPT_END
+          Meeting request: $TARGET
+
+          $QUERY
+
+          Include key decisions, action items, and strategic insights.
+          PROMPT_END
+              ;;
+            *)
+              cat > /tmp/prompt.txt << PROMPT_END
+          $QUERY
+
+          Answer based on Chroma GTM context. Be specific and actionable.
+          PROMPT_END
+              ;;
+          esac
+      
+      - name: Call Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          CONTEXT=$(cat /tmp/context_final.txt | jq -Rs .)
+          PROMPT=$(cat /tmp/prompt.txt | jq -Rs .)
+          
+          SYSTEM="You are the GTM assistant for Chroma (AI context layer, 100M+ downloads).
+          
+          RULES:
+          - Never say vector database - use context layer
+          - Be concise, specific, no fluff
+          - Reference context docs when relevant
+          
+          CONTEXT:
+          $CONTEXT"
+          
+          SYSTEM_JSON=$(echo "$SYSTEM" | jq -Rs .)
+          
+          RESPONSE=$(curl -s -X POST https://api.anthropic.com/v1/messages \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -d "{
+              \"model\": \"claude-sonnet-4-20250514\",
+              \"max_tokens\": 2048,
+              \"messages\": [{\"role\": \"user\", \"content\": $PROMPT}],
+              \"system\": $SYSTEM_JSON
+            }")
+          
+          echo "$RESPONSE" | jq -r '.content[0].text // .error.message // "Error"' > /tmp/response.txt
+      
+      - name: Post response
+        uses: actions/github-script@v7
+        env:
+          MODE: ${{ steps.parse.outputs.mode }}
+        with:
+          script: |
+            const fs = require('fs');
+            const response = fs.readFileSync('/tmp/response.txt', 'utf8');
+            const mode = process.env.MODE;
+            
+            const emoji = {
+              email: '📧', research: '🔍', linkedin: '📱',
+              competitor: '⚔️', meeting: '📝', general: '🤖'
+            }[mode] || '🤖';
+            
+            const label = {
+              email: 'Email Draft', research: 'Company Research', 
+              linkedin: 'LinkedIn Post', competitor: 'Competitor Intel',
+              meeting: 'Meeting Summary', general: 'Response'
+            }[mode] || 'Response';
+            
+            const body = [
+              `## ${emoji} ${label}`,
+              '',
+              response,
+              '',
+              '---',
+              '<sub>💬 Reply with `@claude` for follow-ups</sub>'
+            ].join('\n');
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+      
+      - name: Handle errors
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '## ⚠️ Error\n\nSomething went wrong. Check the workflow logs or try again.'
+            });

@@ -1,14 +1,20 @@
 name: "🤖 Ask Claude"
-description: "Ask Claude any GTM question"
+description: "Ask Claude anything - emails, research, content, questions"
 title: "@claude "
-labels: ["claude-question"]
+labels: ["claude"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Just type your question in the title after `@claude` and submit!**
+        **Just type your request after `@claude` in the title and submit!**
         
-        Examples:
-        - `@claude What are our Q1 priorities?`
-        - `@claude How should we position against Pinecone?`
-        - `@claude Summarize recent meeting decisions`
+        ### Examples:
+        
+        | What you type | What happens |
+        |---------------|--------------|
+        | `@claude email ashvath@trynebula.ai` | Drafts personalized email |
+        | `@claude research Anthropic` | Researches company as prospect |
+        | `@claude linkedin 100M downloads milestone` | Drafts LinkedIn post |
+        | `@claude competitor how to beat Pinecone` | Competitive analysis |
+        | `@claude meeting summary from last week` | Summarizes recent meetings |
+        | `@claude What are our Q1 priorities?` | Answers from GTM context |
