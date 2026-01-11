@@ -6,9 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Just add company/contact info to the title and submit!**
+        **Just add the email address to the title and submit!**
         
         Examples:
-        - `[Email] Notion - Ivan Zhao, CEO`
-        - `[Email] Stripe - Patrick Collison`
-        - `[Email] OpenAI - follow up after demo`
+        - `[Email] ashvath@trynebula.ai`
+        - `[Email] ivan@notion.so`
+        - `[Email] patrick@stripe.com`
+        
+        Claude will research the company and draft a personalized email.
