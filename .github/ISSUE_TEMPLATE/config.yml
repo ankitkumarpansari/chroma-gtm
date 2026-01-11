@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "📚 GTM Documentation"
+    url: "https://github.com/ankitkumarpansari/chroma-signal/blob/main/README.md"
+    about: "Read the GTM documentation and guides"
+  - name: "💬 Quick Question (Slack)"
+    url: "https://chroma-core.slack.com/channels/gtm-signal"
+    about: "For quick questions, use the #gtm-signal Slack channel"
+

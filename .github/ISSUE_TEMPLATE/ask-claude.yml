@@ -1,0 +1,63 @@
+name: "🤖 Ask Claude"
+description: "Ask Claude a question about Chroma GTM"
+title: "[Claude] "
+labels: ["claude-question", "ai-assisted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤖 Ask Claude - Your GTM Assistant
+        
+        Claude has access to our GTM context including:
+        - **CLAUDE.md** - Project overview
+        - **GTM_CONTEXT.md** - Strategy & priorities  
+        - **MEETING_INDEX.md** - Recent decisions & action items
+        - **CHROMA_COMPETITORS.md** - Competitive intelligence
+        
+        Claude will respond within 1-2 minutes.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your Question"
+      description: "What would you like to ask Claude? Start with @claude"
+      placeholder: |
+        @claude What are our top 3 priorities this week?
+        
+        or
+        
+        @claude Draft an outreach email for [company name] based on our positioning
+        
+        or
+        
+        @claude Summarize the key decisions from recent meetings
+      value: "@claude "
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Question Category"
+      description: "What type of help do you need?"
+      options:
+        - "📊 Strategy & Priorities"
+        - "✍️ Content & Outreach Drafts"
+        - "🏢 Competitor Analysis"
+        - "📅 Meeting Summaries"
+        - "🎯 Account Research"
+        - "💡 General GTM Question"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: context
+    attributes:
+      label: "Additional Context Needed"
+      description: "Select if you want Claude to reference specific areas"
+      options:
+        - label: "Include recent meeting notes"
+        - label: "Include competitor positioning"
+        - label: "Include LinkedIn strategy"
+        - label: "Include content calendar"
+
