@@ -1,0 +1,181 @@
+name: Draft Outreach Email
+
+# Trigger on issues with specific label or title
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  draft-email:
+    # Only run for email draft requests
+    if: >-
+      contains(github.event.issue.title, '[Email]') ||
+      contains(github.event.issue.labels.*.name, 'draft-email')
+    
+    runs-on: ubuntu-latest
+    
+    permissions:
+      issues: write
+      contents: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install anthropic
+      
+      - name: Parse issue for email details
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          # Extract company, contact, role from issue body
+          # Expected format in issue:
+          # Company: Notion
+          # Contact: Ivan Zhao
+          # Role: CEO
+          # Template: intro
+          
+          COMPANY=$(echo "$ISSUE_BODY" | grep -i "^Company:" | cut -d':' -f2 | xargs)
+          CONTACT=$(echo "$ISSUE_BODY" | grep -i "^Contact:" | cut -d':' -f2 | xargs)
+          ROLE=$(echo "$ISSUE_BODY" | grep -i "^Role:" | cut -d':' -f2 | xargs)
+          TEMPLATE=$(echo "$ISSUE_BODY" | grep -i "^Template:" | cut -d':' -f2 | xargs)
+          
+          # Defaults
+          COMPANY=${COMPANY:-"Unknown Company"}
+          CONTACT=${CONTACT:-"there"}
+          ROLE=${ROLE:-"Leader"}
+          TEMPLATE=${TEMPLATE:-"intro"}
+          
+          echo "company=$COMPANY" >> $GITHUB_OUTPUT
+          echo "contact=$CONTACT" >> $GITHUB_OUTPUT
+          echo "role=$ROLE" >> $GITHUB_OUTPUT
+          echo "template=$TEMPLATE" >> $GITHUB_OUTPUT
+          
+          echo "Parsed: Company=$COMPANY, Contact=$CONTACT, Role=$ROLE, Template=$TEMPLATE"
+      
+      - name: Load GTM context
+        id: context
+        run: |
+          # Load context files
+          echo "=== CLAUDE.md ===" > /tmp/context.txt
+          cat CLAUDE.md >> /tmp/context.txt 2>/dev/null || true
+          
+          echo "" >> /tmp/context.txt
+          echo "=== GTM_CONTEXT.md ===" >> /tmp/context.txt
+          cat context/GTM_CONTEXT.md >> /tmp/context.txt 2>/dev/null || true
+          
+          echo "" >> /tmp/context.txt
+          echo "=== LINKEDIN_OUTREACH_TEMPLATES.md ===" >> /tmp/context.txt
+          cat LINKEDIN_OUTREACH_TEMPLATES.md >> /tmp/context.txt 2>/dev/null || true
+          
+          # Truncate
+          head -c 80000 /tmp/context.txt > /tmp/context_final.txt
+      
+      - name: Draft email with Claude
+        id: draft
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COMPANY: ${{ steps.parse.outputs.company }}
+          CONTACT: ${{ steps.parse.outputs.contact }}
+          ROLE: ${{ steps.parse.outputs.role }}
+          TEMPLATE: ${{ steps.parse.outputs.template }}
+        run: |
+          CONTEXT=$(cat /tmp/context_final.txt | jq -Rs .)
+          
+          # Build the prompt
+          cat > /tmp/prompt.txt << EOF
+          Draft a $TEMPLATE outreach email for:
+          
+          Company: $COMPANY
+          Contact: $CONTACT
+          Role: $ROLE
+          
+          Research what $COMPANY does and tailor the message.
+          Keep it under 150 words. Be specific, not generic.
+          Include a clear, low-friction call-to-action.
+          
+          Format your response as:
+          
+          SUBJECT: [subject line]
+          
+          [email body]
+          EOF
+          
+          PROMPT=$(cat /tmp/prompt.txt | jq -Rs .)
+          
+          SYSTEM_PROMPT="You are an expert B2B sales copywriter for Chroma.
+
+          CRITICAL: Never say 'vector database' - use 'context layer' or 'search infrastructure for AI'.
+          
+          Chroma positioning: Better search accuracy → lower token costs → better, faster, cheaper agents.
+          100M+ downloads, 25k+ GitHub stars.
+          
+          GTM Context:
+          $CONTEXT"
+          
+          SYSTEM_JSON=$(echo "$SYSTEM_PROMPT" | jq -Rs .)
+          
+          RESPONSE=$(curl -s -X POST https://api.anthropic.com/v1/messages \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -d "{
+              \"model\": \"claude-sonnet-4-20250514\",
+              \"max_tokens\": 1024,
+              \"messages\": [{\"role\": \"user\", \"content\": $PROMPT}],
+              \"system\": $SYSTEM_JSON
+            }")
+          
+          EMAIL=$(echo "$RESPONSE" | jq -r '.content[0].text // "Error generating email"')
+          echo "$EMAIL" > /tmp/email_draft.txt
+      
+      - name: Post draft to issue
+        uses: actions/github-script@v7
+        env:
+          COMPANY: ${{ steps.parse.outputs.company }}
+          CONTACT: ${{ steps.parse.outputs.contact }}
+        with:
+          script: |
+            const fs = require('fs');
+            const emailDraft = fs.readFileSync('/tmp/email_draft.txt', 'utf8');
+            const company = process.env.COMPANY;
+            const contact = process.env.CONTACT;
+            
+            const body = `## 📧 Email Draft for ${contact} at ${company}
+
+            ${emailDraft}
+
+            ---
+            
+            ### ✏️ Next Steps
+            1. Review and edit the draft above
+            2. Copy to your email client
+            3. Add recipient email address
+            4. Send!
+            
+            ---
+            <sub>🤖 Generated by Claude using Chroma GTM context</sub>
+            <sub>💡 Request changes by commenting with feedback</sub>`;
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+            
+            // Add label to indicate draft is ready
+            await github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['draft-ready']
+            });
+
