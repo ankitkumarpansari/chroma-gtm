@@ -1,68 +1,14 @@
-name: "📧 Draft Outreach Email"
-description: "Have Claude draft a personalized outreach email"
-title: "[Email] Draft for "
+name: "📧 Draft Email"
+description: "Draft an outreach email"
+title: "[Email] "
 labels: ["draft-email"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 📧 Email Draft Request
+        **Just add company/contact info to the title and submit!**
         
-        Claude will draft a personalized outreach email using our GTM context and positioning.
-        The draft will be posted as a comment within 1-2 minutes.
-
-  - type: input
-    id: company
-    attributes:
-      label: "Company"
-      description: "Target company name"
-      placeholder: "e.g., Notion, Stripe, OpenAI"
-    validations:
-      required: true
-
-  - type: input
-    id: contact
-    attributes:
-      label: "Contact"
-      description: "Contact person's name"
-      placeholder: "e.g., Ivan Zhao"
-    validations:
-      required: true
-
-  - type: input
-    id: role
-    attributes:
-      label: "Role"
-      description: "Contact's role/title"
-      placeholder: "e.g., CEO, VP Engineering, Head of AI"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: template
-    attributes:
-      label: "Template"
-      description: "Type of email to draft"
-      options:
-        - "intro - Initial outreach introducing Chroma"
-        - "follow_up - Follow-up after no response"
-        - "post_meeting - Thank you after a meeting"
-        - "case_study - Sharing relevant case study"
-        - "event - Invitation to event or webinar"
-      default: 0
-    validations:
-      required: true
-
-  - type: textarea
-    id: context
-    attributes:
-      label: "Additional Context"
-      description: "Any specific context to include (optional)"
-      placeholder: |
-        - They recently raised Series B
-        - Met them at AI Engineer Summit
-        - They're currently using Pinecone
-        - Focus on cost reduction angle
-    validations:
-      required: false
-
+        Examples:
+        - `[Email] Notion - Ivan Zhao, CEO`
+        - `[Email] Stripe - Patrick Collison`
+        - `[Email] OpenAI - follow up after demo`

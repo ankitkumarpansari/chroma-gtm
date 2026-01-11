@@ -1,47 +1,14 @@
 name: "🔍 Research Company"
-description: "Have Claude research a company as a potential prospect"
+description: "Research a company as a prospect"
 title: "[Research] "
 labels: ["research"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🔍 Company Research Request
+        **Just add the company name to the title and submit!**
         
-        Claude will research this company and provide:
-        - Company overview & AI relevance
-        - ICP fit assessment
-        - Outreach recommendations
-        - Key people to target
-
-  - type: input
-    id: company
-    attributes:
-      label: "Company Name"
-      description: "Which company do you want to research?"
-      placeholder: "e.g., Notion, Stripe, Anthropic"
-    validations:
-      required: true
-
-  - type: textarea
-    id: context
-    attributes:
-      label: "Additional Context"
-      description: "Any specific things you want to know? (optional)"
-      placeholder: |
-        - Are they using any vector databases?
-        - Who should we reach out to?
-        - What's their AI strategy?
-    validations:
-      required: false
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: "Priority"
-      options:
-        - "🔴 High - Need this ASAP"
-        - "🟡 Medium - This week"
-        - "🟢 Low - When possible"
-      default: 1
-
+        Examples:
+        - `[Research] Notion`
+        - `[Research] Anthropic`
+        - `[Research] Stripe`
