@@ -1,0 +1,111 @@
+name: Weekly GTM Report
+
+# Run every Monday at 8am EST (13:00 UTC)
+on:
+  schedule:
+    - cron: '0 13 * * 1'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for git log
+      
+      - name: Gather weekly activity
+        id: activity
+        run: |
+          # Get commits from last 7 days
+          echo "=== COMMITS THIS WEEK ===" > /tmp/activity.txt
+          git log --since="7 days ago" --pretty=format:"%h - %s (%an)" >> /tmp/activity.txt
+          
+          # Get changed files
+          echo -e "\n\n=== FILES CHANGED ===" >> /tmp/activity.txt
+          git diff --stat HEAD~20 HEAD -- '*.md' '*.json' 2>/dev/null | tail -20 >> /tmp/activity.txt
+          
+          # Get recent meeting notes
+          echo -e "\n\n=== RECENT MEETING NOTES ===" >> /tmp/activity.txt
+          ls -lt meetings/notes/*.md 2>/dev/null | head -5 >> /tmp/activity.txt
+      
+      - name: Generate weekly report with Claude
+        id: report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Load all context
+          cat context/GTM_CONTEXT.md > /tmp/context.txt
+          cat context/MEETING_INDEX.md >> /tmp/context.txt
+          cat /tmp/activity.txt >> /tmp/context.txt
+          
+          CONTEXT=$(cat /tmp/context.txt | head -c 80000 | jq -Rs .)
+          WEEK=$(date +"%B %d, %Y")
+          
+          PROMPT="Generate a comprehensive weekly GTM report for the week ending $WEEK.
+
+          Based on the context, meeting index, and recent activity, include:
+
+          ## 📊 Executive Summary
+          2-3 sentence overview of the week
+
+          ## ✅ Accomplishments
+          - What was completed this week
+          - Key meetings and outcomes
+
+          ## 🎯 Key Metrics & Progress
+          - Progress toward goals (reference specific numbers if available)
+          - Pipeline/lead updates
+
+          ## 🚧 Blockers & Challenges
+          - What's slowing us down
+          - Decisions needed
+
+          ## 📅 Next Week Priorities
+          - Top 3-5 priorities
+          - Key meetings scheduled
+
+          ## 💡 Strategic Insights
+          - Learnings from this week
+          - Market observations
+
+          Format professionally with markdown. Be specific, not generic."
+          
+          PROMPT_JSON=$(echo "$PROMPT" | jq -Rs .)
+          
+          RESPONSE=$(curl -s -X POST https://api.anthropic.com/v1/messages \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -d "{
+              \"model\": \"claude-sonnet-4-20250514\",
+              \"max_tokens\": 2048,
+              \"messages\": [{\"role\": \"user\", \"content\": $PROMPT_JSON}],
+              \"system\": \"You are a GTM analyst for Chroma. Create detailed, actionable reports. Context: $CONTEXT\"
+            }")
+          
+          REPORT=$(echo "$RESPONSE" | jq -r '.content[0].text // "Error generating report"')
+          echo "$REPORT" > /tmp/report.txt
+          
+          echo "week=$WEEK" >> $GITHUB_OUTPUT
+      
+      - name: Create weekly report issue
+        uses: actions/github-script@v7
+        env:
+          REPORT_WEEK: ${{ steps.report.outputs.week }}
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('/tmp/report.txt', 'utf8');
+            const week = process.env.REPORT_WEEK;
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📈 Weekly GTM Report - Week of ${week}`,
+              body: `${report}\n\n---\n<sub>🤖 Auto-generated every Monday at 8am EST</sub>\n<sub>💬 Comment with @claude to discuss or get more details</sub>`,
+              labels: ['weekly-report', 'automated']
+            });
+

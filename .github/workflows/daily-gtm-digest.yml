@@ -1,0 +1,90 @@
+name: Daily GTM Digest
+
+# Run every weekday at 9am EST (14:00 UTC)
+on:
+  schedule:
+    - cron: '0 14 * * 1-5'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  daily-digest:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Generate daily digest with Claude
+        id: digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Load context
+          cat context/GTM_CONTEXT.md > /tmp/context.txt
+          cat context/MEETING_INDEX.md >> /tmp/context.txt
+          
+          CONTEXT=$(cat /tmp/context.txt | head -c 50000 | jq -Rs .)
+          TODAY=$(date +"%A, %B %d, %Y")
+          
+          PROMPT="Based on the GTM context and meeting index, generate a brief daily digest for $TODAY.
+
+          Include:
+          1. 🎯 TOP 3 PRIORITIES TODAY (from urgent items in meeting index)
+          2. 📅 UPCOMING DEADLINES (anything time-sensitive)
+          3. 💡 ONE KEY INSIGHT (from recent meetings or strategy)
+          4. ✅ QUICK WINS (small tasks that can be done today)
+          
+          Keep it concise - this is a morning briefing, not a report.
+          Format with emojis and clear sections."
+          
+          PROMPT_JSON=$(echo "$PROMPT" | jq -Rs .)
+          
+          RESPONSE=$(curl -s -X POST https://api.anthropic.com/v1/messages \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -d "{
+              \"model\": \"claude-sonnet-4-20250514\",
+              \"max_tokens\": 1024,
+              \"messages\": [{\"role\": \"user\", \"content\": $PROMPT_JSON}],
+              \"system\": \"You are a GTM assistant for Chroma. Context: $CONTEXT\"
+            }")
+          
+          DIGEST=$(echo "$RESPONSE" | jq -r '.content[0].text // "Error generating digest"')
+          echo "$DIGEST" > /tmp/digest.txt
+          
+          # Also save date for the issue title
+          echo "date=$TODAY" >> $GITHUB_OUTPUT
+      
+      - name: Create daily digest issue
+        uses: actions/github-script@v7
+        env:
+          DIGEST_DATE: ${{ steps.digest.outputs.date }}
+        with:
+          script: |
+            const fs = require('fs');
+            const digest = fs.readFileSync('/tmp/digest.txt', 'utf8');
+            const date = process.env.DIGEST_DATE;
+            
+            // Create issue with the digest
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📊 Daily GTM Digest - ${date}`,
+              body: `# Daily GTM Digest\n\n${digest}\n\n---\n<sub>🤖 Auto-generated every weekday at 9am EST</sub>\n<sub>💬 Comment with @claude to ask follow-up questions</sub>`,
+              labels: ['daily-digest', 'automated']
+            });
+      
+      - name: Send to Slack (optional)
+        if: ${{ secrets.SLACK_WEBHOOK_URL != '' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          DIGEST=$(cat /tmp/digest.txt)
+          
+          curl -X POST "$SLACK_WEBHOOK_URL" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"text\": \"📊 *Daily GTM Digest*\n\n$DIGEST\"
+            }"
+

@@ -1,0 +1,60 @@
+name: "📱 Draft LinkedIn Post"
+description: "Have Claude draft a LinkedIn post"
+title: "[LinkedIn] "
+labels: ["content", "linkedin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📱 LinkedIn Post Request
+        
+        Claude will draft an engaging LinkedIn post with:
+        - Hook and body text
+        - Alternative opening lines
+        - Suggested hashtags
+        - Best posting time
+
+  - type: input
+    id: topic
+    attributes:
+      label: "Topic"
+      description: "What should the post be about?"
+      placeholder: "e.g., 100M downloads milestone, Search accuracy insights, AI agent trends"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Post Type"
+      options:
+        - "💡 Thought leadership"
+        - "🚀 Product/company update"
+        - "📊 Industry insight"
+        - "📖 Personal story/lesson"
+        - "🎯 Tips/how-to"
+      default: 0
+
+  - type: textarea
+    id: key_points
+    attributes:
+      label: "Key Points to Include"
+      description: "Any specific points or data to mention? (optional)"
+      placeholder: |
+        - We hit 100M downloads
+        - 25k GitHub stars
+        - Used by X, Y, Z companies
+    validations:
+      required: false
+
+  - type: dropdown
+    id: tone
+    attributes:
+      label: "Tone"
+      options:
+        - "Professional but approachable"
+        - "Technical/educational"
+        - "Casual/conversational"
+        - "Bold/provocative"
+      default: 0
+

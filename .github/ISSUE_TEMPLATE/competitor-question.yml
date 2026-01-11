@@ -1,0 +1,42 @@
+name: "🔍 Competitor Question"
+description: "Ask about competitors or request competitive analysis"
+title: "[Competitor] "
+labels: ["competitor-intel"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔍 Competitor Intelligence Request
+        
+        Claude will analyze competitors using our competitive intelligence docs.
+
+  - type: dropdown
+    id: competitor
+    attributes:
+      label: "Competitor"
+      description: "Which competitor is this about?"
+      options:
+        - "Pinecone"
+        - "Weaviate"
+        - "Qdrant"
+        - "TurboPuffer"
+        - "PGVector"
+        - "Elasticsearch/OpenSearch"
+        - "Multiple/General"
+        - "Other"
+      default: 6
+
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your Question"
+      description: "What do you want to know?"
+      placeholder: |
+        Examples:
+        - How should we position against Pinecone for enterprise deals?
+        - What are Weaviate's main weaknesses?
+        - Compare our pricing to TurboPuffer
+        - What messaging is Qdrant using on LinkedIn?
+    validations:
+      required: true
+

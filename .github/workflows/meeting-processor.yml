@@ -1,0 +1,139 @@
+name: Process Meeting Notes
+
+# Trigger when meeting notes are added
+on:
+  push:
+    paths:
+      - 'meetings/notes/*.md'
+  workflow_dispatch:
+    inputs:
+      meeting_file:
+        description: 'Meeting file to process (e.g., 2026-01-10_meeting.md)'
+        required: false
+
+jobs:
+  process-meeting:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need previous commit to find new files
+      
+      - name: Find new/changed meeting notes
+        id: find
+        run: |
+          if [ -n "${{ github.event.inputs.meeting_file }}" ]; then
+            # Manual trigger with specific file
+            FILE="meetings/notes/${{ github.event.inputs.meeting_file }}"
+          else
+            # Find changed meeting notes
+            FILE=$(git diff --name-only HEAD~1 HEAD -- 'meetings/notes/*.md' | head -1)
+          fi
+          
+          if [ -z "$FILE" ] || [ ! -f "$FILE" ]; then
+            echo "No meeting file found"
+            echo "found=false" >> $GITHUB_OUTPUT
+          else
+            echo "Processing: $FILE"
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "file=$FILE" >> $GITHUB_OUTPUT
+            
+            # Extract meeting name from filename
+            BASENAME=$(basename "$FILE" .md)
+            echo "name=$BASENAME" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Process meeting with Claude
+        if: steps.find.outputs.found == 'true'
+        id: process
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MEETING_FILE: ${{ steps.find.outputs.file }}
+        run: |
+          # Load the meeting notes
+          MEETING_CONTENT=$(cat "$MEETING_FILE" | jq -Rs .)
+          
+          # Load existing context
+          CONTEXT=$(cat context/GTM_CONTEXT.md context/MEETING_INDEX.md 2>/dev/null | head -c 30000 | jq -Rs .)
+          
+          PROMPT="Analyze this meeting note and provide:
+
+          ## 📋 Meeting Summary
+          3-4 sentence summary of what was discussed
+
+          ## ✅ Action Items
+          List all action items with owners if mentioned
+
+          ## 🎯 Key Decisions
+          Any decisions that were made
+
+          ## 📝 Updates Needed
+          What should be updated in GTM_CONTEXT.md based on this meeting?
+          (Be specific - quote what should change)
+
+          ## 🏷️ Tags
+          Suggest 3-5 tags for this meeting (e.g., #strategy, #competitor, #product)
+
+          Meeting content:
+          $MEETING_CONTENT"
+          
+          PROMPT_JSON=$(echo "$PROMPT" | jq -Rs .)
+          
+          RESPONSE=$(curl -s -X POST https://api.anthropic.com/v1/messages \
+            -H "Content-Type: application/json" \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -d "{
+              \"model\": \"claude-sonnet-4-20250514\",
+              \"max_tokens\": 1500,
+              \"messages\": [{\"role\": \"user\", \"content\": $PROMPT_JSON}],
+              \"system\": \"You are a GTM analyst. Extract actionable insights from meetings. Context: $CONTEXT\"
+            }")
+          
+          ANALYSIS=$(echo "$RESPONSE" | jq -r '.content[0].text // "Error processing meeting"')
+          echo "$ANALYSIS" > /tmp/analysis.txt
+      
+      - name: Create issue with analysis
+        if: steps.find.outputs.found == 'true'
+        uses: actions/github-script@v7
+        env:
+          MEETING_NAME: ${{ steps.find.outputs.name }}
+          MEETING_FILE: ${{ steps.find.outputs.file }}
+        with:
+          script: |
+            const fs = require('fs');
+            const analysis = fs.readFileSync('/tmp/analysis.txt', 'utf8');
+            const meetingName = process.env.MEETING_NAME;
+            const meetingFile = process.env.MEETING_FILE;
+            
+            // Format the meeting name nicely
+            const parts = meetingName.split('_');
+            const date = parts[0];
+            const topic = parts.slice(1).join(' ').replace(/-/g, ' ');
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📝 Meeting Processed: ${topic} (${date})`,
+              body: `# Meeting Analysis: ${topic}
+
+            **Date:** ${date}
+            **File:** \`${meetingFile}\`
+
+            ${analysis}
+
+            ---
+            
+            ### Next Steps
+            - [ ] Review action items above
+            - [ ] Update GTM_CONTEXT.md if needed
+            - [ ] Update MEETING_INDEX.md
+            
+            ---
+            <sub>🤖 Auto-generated when meeting notes are pushed</sub>
+            <sub>💬 Comment with @claude for follow-up questions</sub>`,
+              labels: ['meeting-notes', 'automated', 'needs-review']
+            });
+
