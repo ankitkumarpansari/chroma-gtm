@@ -27,6 +27,8 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            const fs = require('fs');
+            
             // Get all comments on this issue for conversation context
             const comments = await github.rest.issues.listComments({
               owner: context.repo.owner,
@@ -45,16 +47,13 @@ jobs:
             // Add all comments
             for (const comment of comments.data) {
               if (comment.user.login === 'github-actions[bot]') {
-                // This is Claude's response
                 history.push(`ASSISTANT: ${comment.body}`);
-              } else if (comment.body.toLowerCase().includes('@claude')) {
-                // This is a user request
+              } else if (comment.body && comment.body.toLowerCase().includes('@claude')) {
                 history.push(`USER: ${comment.body}`);
               }
             }
             
             // Save to file
-            const fs = require('fs');
             fs.writeFileSync('/tmp/conversation.txt', history.join('\n\n---\n\n'));
             
             console.log(`Loaded ${history.length} messages in conversation`);
@@ -83,32 +82,27 @@ jobs:
           
           echo "is_followup=$IS_FOLLOWUP" >> $GITHUB_OUTPUT
           
-          # Detect intent (only for new issues, not follow-ups)
+          # Detect intent
           QUERY_LOWER=$(echo "$QUERY" | tr '[:upper:]' '[:lower:]')
           
           if [ "$IS_FOLLOWUP" == "true" ]; then
-            # For follow-ups, use "followup" mode to continue conversation
             MODE="followup"
             echo "target=" >> $GITHUB_OUTPUT
-          elif echo "$QUERY_LOWER" | grep -qE '^email\s' && echo "$QUERY" | grep -qE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'; then
+          elif echo "$QUERY_LOWER" | grep -qE '^email' && echo "$QUERY" | grep -qE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'; then
             MODE="email"
             EMAIL=$(echo "$QUERY" | grep -oE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' | head -1)
             echo "target=$EMAIL" >> $GITHUB_OUTPUT
-          elif echo "$QUERY_LOWER" | grep -qE '^research\s'; then
+          elif echo "$QUERY_LOWER" | grep -qE '^research'; then
             MODE="research"
-            TARGET=$(echo "$QUERY" | sed -E 's/^[Rr]esearch\s+//')
+            TARGET=$(echo "$QUERY" | sed -E 's/^[Rr]esearch[[:space:]]*//')
             echo "target=$TARGET" >> $GITHUB_OUTPUT
-          elif echo "$QUERY_LOWER" | grep -qE '^linkedin\s'; then
+          elif echo "$QUERY_LOWER" | grep -qE '^linkedin'; then
             MODE="linkedin"
-            TARGET=$(echo "$QUERY" | sed -E 's/^[Ll]inkedin\s+//')
+            TARGET=$(echo "$QUERY" | sed -E 's/^[Ll]inkedin[[:space:]]*//')
             echo "target=$TARGET" >> $GITHUB_OUTPUT
           elif echo "$QUERY_LOWER" | grep -qE '^competitor'; then
             MODE="competitor"
-            TARGET=$(echo "$QUERY" | sed -E 's/^[Cc]ompetitor[s]?\s+//')
-            echo "target=$TARGET" >> $GITHUB_OUTPUT
-          elif echo "$QUERY_LOWER" | grep -qE '^meeting'; then
-            MODE="meeting"
-            TARGET=$(echo "$QUERY" | sed -E 's/^[Mm]eeting[s]?\s*//')
+            TARGET=$(echo "$QUERY" | sed -E 's/^[Cc]ompetitor[s]?[[:space:]]*//')
             echo "target=$TARGET" >> $GITHUB_OUTPUT
           else
             MODE="general"
@@ -116,261 +110,143 @@ jobs:
           fi
           
           echo "mode=$MODE" >> $GITHUB_OUTPUT
-          echo "Detected mode: $MODE, Is followup: $IS_FOLLOWUP"
+          echo "Detected mode: $MODE"
       
-      - name: Load context based on mode
-        env:
-          MODE: ${{ steps.parse.outputs.mode }}
-          TARGET: ${{ steps.parse.outputs.target }}
+      - name: Load context
         run: |
-          # Core context
-          cat CLAUDE.md > /tmp/context.txt 2>/dev/null || true
-          echo "" >> /tmp/context.txt
+          # Core context - using || true to prevent failures
+          touch /tmp/context.txt
+          cat CLAUDE.md >> /tmp/context.txt 2>/dev/null || true
           cat context/GTM_CONTEXT.md >> /tmp/context.txt 2>/dev/null || true
-          echo "" >> /tmp/context.txt
           cat context/MEETING_INDEX.md >> /tmp/context.txt 2>/dev/null || true
+          cat CHROMA_COMPETITORS.md >> /tmp/context.txt 2>/dev/null || true
           
-          # Mode-specific context
-          case "$MODE" in
-            email|linkedin|followup)
-              echo "" >> /tmp/context.txt
-              cat LINKEDIN_OUTREACH_TEMPLATES.md >> /tmp/context.txt 2>/dev/null || true
-              ;;
-            competitor)
-              echo "" >> /tmp/context.txt
-              cat CHROMA_COMPETITORS.md >> /tmp/context.txt 2>/dev/null || true
-              ;;
-            meeting)
-              echo "" >> /tmp/context.txt
-              for f in $(ls -t meetings/notes/*.md 2>/dev/null | head -3); do
-                echo "--- $f ---" >> /tmp/context.txt
-                cat "$f" >> /tmp/context.txt
-              done
-              ;;
-            research)
-              echo "" >> /tmp/context.txt
-              cat CHROMA_COMPETITORS.md >> /tmp/context.txt 2>/dev/null || true
-              if [ -n "$TARGET" ]; then
-                grep -ri "$TARGET" *.json 2>/dev/null | head -20 >> /tmp/context.txt || true
-              fi
-              ;;
-            *)
-              echo "" >> /tmp/context.txt
-              cat CHROMA_COMPETITORS.md >> /tmp/context.txt 2>/dev/null || true
-              ;;
-          esac
-          
-          head -c 60000 /tmp/context.txt > /tmp/context_final.txt
-          echo "Context: $(wc -c < /tmp/context_final.txt) bytes"
+          # Truncate to safe size
+          head -c 50000 /tmp/context.txt > /tmp/context_final.txt
+          echo "Context loaded: $(wc -c < /tmp/context_final.txt) bytes"
       
       - name: Build prompt
+        id: prompt
         env:
           MODE: ${{ steps.parse.outputs.mode }}
           TARGET: ${{ steps.parse.outputs.target }}
-          IS_FOLLOWUP: ${{ steps.parse.outputs.is_followup }}
         run: |
           QUERY=$(cat /tmp/query.txt)
-          CONVERSATION=$(cat /tmp/conversation.txt 2>/dev/null || echo "")
+          CONVERSATION=$(cat /tmp/conversation.txt 2>/dev/null || echo "No previous conversation")
           
-          case "$MODE" in
-            followup)
-              # For follow-ups, include full conversation history
-              cat > /tmp/prompt.txt << PROMPT_END
+          # Create prompt based on mode
+          if [ "$MODE" == "followup" ]; then
+            cat > /tmp/prompt.txt << 'EOF'
           CONVERSATION HISTORY:
-          $CONVERSATION
+          EOF
+            cat /tmp/conversation.txt >> /tmp/prompt.txt
+            echo "" >> /tmp/prompt.txt
+            echo "---" >> /tmp/prompt.txt
+            echo "NEW REQUEST: $QUERY" >> /tmp/prompt.txt
+            echo "" >> /tmp/prompt.txt
+            echo "Respond to the user's request. If modifying something, provide the full updated version." >> /tmp/prompt.txt
+          
+          elif [ "$MODE" == "email" ]; then
+            NAME=$(echo "$TARGET" | sed 's/@.*//' | sed 's/[._]/ /g')
+            DOMAIN=$(echo "$TARGET" | sed 's/.*@//')
+            FIRST_NAME=$(echo "$NAME" | awk '{print $1}')
+            
+            cat > /tmp/prompt.txt << EOF
+          Draft an outreach email to: $TARGET
 
-          ---
+          Recipient: $FIRST_NAME at $DOMAIN
 
-          NEW REQUEST: $QUERY
+          Write in Ankit's style:
+          - Friendly, conversational (Hey [Name],)
+          - Short paragraphs
+          - Mention something specific about their company
+          - Offer value (credits, call, Slack channel)
+          - Casual sign-off (Talk soon!)
+          - Include a PS with extra gesture
 
-          Based on the conversation above, respond to the user's new request.
-          If they're asking to modify something (like an email draft), provide the updated version.
-          Keep the same style and format as before.
-          PROMPT_END
-              ;;
-            email)
-              NAME=$(echo "$TARGET" | sed 's/@.*//' | sed 's/[._]/ /g')
-              DOMAIN=$(echo "$TARGET" | sed 's/.*@//')
-              FIRST_NAME=$(echo "$NAME" | awk '{print $1}')
-              cat > /tmp/prompt.txt << PROMPT_END
-          Draft an outreach email from Ankit to: $TARGET
-
-          RECIPIENT INFO:
-          - Email: $TARGET
-          - First name: $FIRST_NAME
-          - Company domain: $DOMAIN
-
-          ANKIT'S EMAIL STYLE (COPY THIS EXACTLY):
-          - Conversational and friendly, like talking to a friend
-          - Short paragraphs, easy to scan
-          - Personal touches - mention something specific about their company
-          - Offer value first (credits, help, resources)
-          - Casual sign-off, not formal
-          - Often includes a PS with something extra
-          - CC Jeff when relevant
-
-          EXAMPLE OF ANKIT'S STYLE:
-          ---
-          Hey Philip,
-
-          I see you are trying out Chroma Cloud. Let me know if you have any questions or need more credits to test.
-
-          If you are building a retrieval app, I want to point you to our newly launched Search API at https://docs.trychroma.com/cloud/search-api/overview
-
-          It supports generic vector search and hybrid with RRF.
-
-          I'm happy to hop on a call or set up a shared Slack channel, whatever works best for you.
-
-          I've been checking out Synca - really cool what you're building! There are a bunch of ways we can boost what Synca offers, especially around semantic search over knowledge bases, intelligent content retrieval for your AI agents.
-
-          Have cc'd Jeff, founder of Chroma to the thread. Talk soon!
-
-          PS: I am bumping up your credit to \$500 as a small gesture!
-          ---
-
-          NOW DRAFT AN EMAIL TO $FIRST_NAME at $DOMAIN:
-          1. First research what $DOMAIN company does
-          2. Write in Ankit's conversational style
-          3. Mention something specific about their product
-          4. Offer concrete value (credits, call, Slack channel)
-          5. Include a PS if appropriate
-
-          FORMAT YOUR RESPONSE AS:
+          Format response as:
 
           ## About $DOMAIN
-          [2-3 sentences about what they do]
+          [2-3 sentences]
 
           ## Email Draft
-
-          \`\`\`
           From: Ankit Pansari <ankit@trychroma.com>
-          To:   $TARGET
-          Cc:   Jeff Huber <jeff@trychroma.com>
-
-          Subject: [subject line]
+          To: $TARGET
+          Cc: Jeff Huber <jeff@trychroma.com>
+          Subject: [subject]
 
           Hey $FIRST_NAME,
 
-          [email body in Ankit's style]
+          [body]
 
-          [sign off]
+          Talk soon!
 
-          PS: [optional personal touch]
-          \`\`\`
-          PROMPT_END
-              ;;
-            research)
-              cat > /tmp/prompt.txt << PROMPT_END
+          PS: [gesture]
+          EOF
+          
+          elif [ "$MODE" == "research" ]; then
+            cat > /tmp/prompt.txt << EOF
           Research $TARGET as a Chroma prospect.
 
-          ## Company Overview
-          What they do, size, products
-
-          ## AI Relevance
-          AI products, use cases, tech stack
-
-          ## Chroma Fit (1-5)
-          ICP fit, use case fit, timing
-
-          ## Outreach Angle
-          Positioning, pain points, who to contact
-
-          ## Risks
-          Concerns or red flags
-          PROMPT_END
-              ;;
-            linkedin)
-              cat > /tmp/prompt.txt << PROMPT_END
+          Provide:
+          - Company Overview (what they do, size)
+          - AI Relevance (AI products, use cases)
+          - Chroma Fit Score (1-5)
+          - Outreach Angle
+          - Risks
+          EOF
+          
+          elif [ "$MODE" == "linkedin" ]; then
+            cat > /tmp/prompt.txt << EOF
           Draft LinkedIn post about: $TARGET
-
-          ANKIT'S LINKEDIN STYLE:
-          - Conversational, like talking to a smart friend
-          - Share genuine insights, not corporate speak
-          - Use short sentences and line breaks
-          - Be specific with numbers and examples
-          - End with a question that sparks discussion
-          - Authentic voice, shows personality
 
           Rules:
           - Under 1300 chars
           - Strong hook first line
-          - End with question/CTA
-          - Sound like a real person, not a brand
+          - Conversational, authentic
+          - End with question
 
-          Format:
-          ## Post
-          [ready to copy - write in first person as Ankit]
-
-          ## Alt Hooks
-          3 alternatives
-
-          ## Hashtags
-          5-7 hashtags
-          PROMPT_END
-              ;;
-            competitor)
-              cat > /tmp/prompt.txt << PROMPT_END
+          Provide: Post, 3 Alt Hooks, Hashtags
+          EOF
+          
+          elif [ "$MODE" == "competitor" ]; then
+            cat > /tmp/prompt.txt << EOF
           Competitor question: $TARGET
 
-          Give specific, actionable insights.
-          Reference our positioning vs competitors.
-          Include recommended actions.
-          Be direct and practical.
-          PROMPT_END
-              ;;
-            meeting)
-              cat > /tmp/prompt.txt << PROMPT_END
-          Meeting request: $TARGET
-
-          $QUERY
-
-          Include key decisions, action items, and strategic insights.
-          PROMPT_END
-              ;;
-            *)
-              cat > /tmp/prompt.txt << PROMPT_END
-          $QUERY
-
-          Answer based on Chroma GTM context. Be specific and actionable.
-          Talk like a helpful colleague, not a formal assistant.
-          PROMPT_END
-              ;;
-          esac
+          Give specific, actionable insights about competing with this.
+          EOF
+          
+          else
+            echo "$QUERY" > /tmp/prompt.txt
+            echo "" >> /tmp/prompt.txt
+            echo "Answer based on Chroma GTM context. Be helpful and specific." >> /tmp/prompt.txt
+          fi
+          
+          echo "Prompt built for mode: $MODE"
       
       - name: Call Claude API
+        id: api
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
+          # Check if API key exists
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ERROR: ANTHROPIC_API_KEY is not set"
+            echo "Error: API key not configured. Please add ANTHROPIC_API_KEY to repository secrets." > /tmp/response.txt
+            exit 0
+          fi
+          
+          # Prepare JSON-safe strings
           CONTEXT=$(cat /tmp/context_final.txt | jq -Rs .)
           PROMPT=$(cat /tmp/prompt.txt | jq -Rs .)
           
-          SYSTEM="You are helping Ankit Pansari with GTM tasks for Chroma.
-
-          ABOUT CHROMA:
-          - AI-native context layer (NEVER say vector database)
-          - 100M+ downloads, 25k+ GitHub stars
-          - Key product: Search API at docs.trychroma.com/cloud/search-api/overview
-          - Positioning: Better search accuracy, lower token costs, faster agents
-
-          ANKIT'S VOICE:
-          - Friendly and conversational, never corporate
-          - Gets straight to the point
-          - Offers concrete help (credits, calls, Slack channels)
-          - Shows genuine interest in what people are building
-          - Uses casual language (Hey, Talk soon, etc.)
-
-          CONVERSATION RULES:
-          - If this is a follow-up request, look at the conversation history
-          - When asked to modify something, provide the FULL updated version
-          - Keep the same format and style as before
-          - Be helpful and make the requested changes
-
-          CONTEXT:
-          $CONTEXT"
-          
+          SYSTEM="You are helping Ankit with GTM tasks for Chroma (AI context layer, 100M+ downloads). Be friendly and conversational. Never say vector database - say context layer."
           SYSTEM_JSON=$(echo "$SYSTEM" | jq -Rs .)
           
-          RESPONSE=$(curl -s -X POST https://api.anthropic.com/v1/messages \
+          echo "Calling Claude API..."
+          
+          # Make API call with error handling
+          HTTP_RESPONSE=$(curl -s -w "\n%{http_code}" -X POST https://api.anthropic.com/v1/messages \
             -H "Content-Type: application/json" \
             -H "x-api-key: $ANTHROPIC_API_KEY" \
             -H "anthropic-version: 2023-06-01" \
@@ -381,29 +257,45 @@ jobs:
               \"system\": $SYSTEM_JSON
             }")
           
-          echo "$RESPONSE" | jq -r '.content[0].text // .error.message // "Error"' > /tmp/response.txt
+          # Extract response body and status code
+          HTTP_BODY=$(echo "$HTTP_RESPONSE" | sed '$d')
+          HTTP_STATUS=$(echo "$HTTP_RESPONSE" | tail -n1)
+          
+          echo "HTTP Status: $HTTP_STATUS"
+          
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "API Error. Status: $HTTP_STATUS"
+            echo "Response: $HTTP_BODY"
+            ERROR_MSG=$(echo "$HTTP_BODY" | jq -r '.error.message // "Unknown API error"')
+            echo "Error calling Claude API: $ERROR_MSG (HTTP $HTTP_STATUS)" > /tmp/response.txt
+          else
+            # Extract the response text
+            ANSWER=$(echo "$HTTP_BODY" | jq -r '.content[0].text // "No response received"')
+            echo "$ANSWER" > /tmp/response.txt
+          fi
+          
+          echo "Response saved. First 200 chars:"
+          head -c 200 /tmp/response.txt
       
       - name: Post response
         uses: actions/github-script@v7
         env:
           MODE: ${{ steps.parse.outputs.mode }}
-          IS_FOLLOWUP: ${{ steps.parse.outputs.is_followup }}
         with:
           script: |
             const fs = require('fs');
             const response = fs.readFileSync('/tmp/response.txt', 'utf8');
             const mode = process.env.MODE;
-            const isFollowup = process.env.IS_FOLLOWUP === 'true';
             
             const emoji = {
               email: '📧', research: '🔍', linkedin: '📱',
-              competitor: '⚔️', meeting: '📝', general: '🤖', followup: '💬'
+              competitor: '⚔️', general: '🤖', followup: '💬'
             }[mode] || '🤖';
             
             const label = {
               email: 'Email Draft', research: 'Company Research', 
               linkedin: 'LinkedIn Post', competitor: 'Competitor Intel',
-              meeting: 'Meeting Summary', general: 'Response', followup: 'Updated'
+              general: 'Response', followup: 'Updated'
             }[mode] || 'Response';
             
             const body = [
@@ -412,7 +304,7 @@ jobs:
               response,
               '',
               '---',
-              '<sub>💬 Reply with `@claude` for more changes</sub>'
+              '<sub>💬 Reply with `@claude` for changes</sub>'
             ].join('\n');
             
             await github.rest.issues.createComment({
@@ -431,5 +323,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '## ⚠️ Error\n\nSomething went wrong. Check the workflow logs or try again.'
+              body: '## ⚠️ Error\n\nWorkflow failed. Check the [logs](' + context.serverUrl + '/' + context.repo.owner + '/' + context.repo.repo + '/actions) for details.'
             });
