@@ -22,6 +22,44 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
+      - name: Load conversation history
+        id: history
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // Get all comments on this issue for conversation context
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              per_page: 20
+            });
+            
+            // Build conversation history
+            let history = [];
+            
+            // Add original issue
+            const issue = context.payload.issue;
+            history.push(`USER: ${issue.title}\n${issue.body || ''}`);
+            
+            // Add all comments
+            for (const comment of comments.data) {
+              if (comment.user.login === 'github-actions[bot]') {
+                // This is Claude's response
+                history.push(`ASSISTANT: ${comment.body}`);
+              } else if (comment.body.toLowerCase().includes('@claude')) {
+                // This is a user request
+                history.push(`USER: ${comment.body}`);
+              }
+            }
+            
+            // Save to file
+            const fs = require('fs');
+            fs.writeFileSync('/tmp/conversation.txt', history.join('\n\n---\n\n'));
+            
+            console.log(`Loaded ${history.length} messages in conversation`);
+            return history.length;
+      
       - name: Parse query and detect intent
         id: parse
         env:
@@ -30,21 +68,29 @@ jobs:
           COMMENT_BODY: ${{ github.event.comment.body }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          # Get the query text
+          # Get the LATEST query (current request)
           if [ "$EVENT_NAME" == "issue_comment" ]; then
             QUERY="$COMMENT_BODY"
+            IS_FOLLOWUP="true"
           else
             QUERY="$ISSUE_TITLE $ISSUE_BODY"
+            IS_FOLLOWUP="false"
           fi
           
           # Remove @claude from query
           QUERY=$(echo "$QUERY" | sed 's/@[Cc]laude//g' | xargs)
           echo "$QUERY" > /tmp/query.txt
           
-          # Detect intent
+          echo "is_followup=$IS_FOLLOWUP" >> $GITHUB_OUTPUT
+          
+          # Detect intent (only for new issues, not follow-ups)
           QUERY_LOWER=$(echo "$QUERY" | tr '[:upper:]' '[:lower:]')
           
-          if echo "$QUERY_LOWER" | grep -qE '^email\s' && echo "$QUERY" | grep -qE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'; then
+          if [ "$IS_FOLLOWUP" == "true" ]; then
+            # For follow-ups, use "followup" mode to continue conversation
+            MODE="followup"
+            echo "target=" >> $GITHUB_OUTPUT
+          elif echo "$QUERY_LOWER" | grep -qE '^email\s' && echo "$QUERY" | grep -qE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'; then
             MODE="email"
             EMAIL=$(echo "$QUERY" | grep -oE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' | head -1)
             echo "target=$EMAIL" >> $GITHUB_OUTPUT
@@ -70,7 +116,7 @@ jobs:
           fi
           
           echo "mode=$MODE" >> $GITHUB_OUTPUT
-          echo "Detected mode: $MODE"
+          echo "Detected mode: $MODE, Is followup: $IS_FOLLOWUP"
       
       - name: Load context based on mode
         env:
@@ -86,7 +132,7 @@ jobs:
           
           # Mode-specific context
           case "$MODE" in
-            email|linkedin)
+            email|linkedin|followup)
               echo "" >> /tmp/context.txt
               cat LINKEDIN_OUTREACH_TEMPLATES.md >> /tmp/context.txt 2>/dev/null || true
               ;;
@@ -114,17 +160,34 @@ jobs:
               ;;
           esac
           
-          head -c 80000 /tmp/context.txt > /tmp/context_final.txt
+          head -c 60000 /tmp/context.txt > /tmp/context_final.txt
           echo "Context: $(wc -c < /tmp/context_final.txt) bytes"
       
       - name: Build prompt
         env:
           MODE: ${{ steps.parse.outputs.mode }}
           TARGET: ${{ steps.parse.outputs.target }}
+          IS_FOLLOWUP: ${{ steps.parse.outputs.is_followup }}
         run: |
           QUERY=$(cat /tmp/query.txt)
+          CONVERSATION=$(cat /tmp/conversation.txt 2>/dev/null || echo "")
           
           case "$MODE" in
+            followup)
+              # For follow-ups, include full conversation history
+              cat > /tmp/prompt.txt << PROMPT_END
+          CONVERSATION HISTORY:
+          $CONVERSATION
+
+          ---
+
+          NEW REQUEST: $QUERY
+
+          Based on the conversation above, respond to the user's new request.
+          If they're asking to modify something (like an email draft), provide the updated version.
+          Keep the same style and format as before.
+          PROMPT_END
+              ;;
             email)
               NAME=$(echo "$TARGET" | sed 's/@.*//' | sed 's/[._]/ /g')
               DOMAIN=$(echo "$TARGET" | sed 's/.*@//')
@@ -296,11 +359,11 @@ jobs:
           - Shows genuine interest in what people are building
           - Uses casual language (Hey, Talk soon, etc.)
 
-          RULES:
-          - Write like Ankit talks - friendly, direct, helpful
-          - Never use formal business language
-          - Always be specific, never generic
-          - Reference real Chroma features and docs
+          CONVERSATION RULES:
+          - If this is a follow-up request, look at the conversation history
+          - When asked to modify something, provide the FULL updated version
+          - Keep the same format and style as before
+          - Be helpful and make the requested changes
 
           CONTEXT:
           $CONTEXT"
@@ -324,21 +387,23 @@ jobs:
         uses: actions/github-script@v7
         env:
           MODE: ${{ steps.parse.outputs.mode }}
+          IS_FOLLOWUP: ${{ steps.parse.outputs.is_followup }}
         with:
           script: |
             const fs = require('fs');
             const response = fs.readFileSync('/tmp/response.txt', 'utf8');
             const mode = process.env.MODE;
+            const isFollowup = process.env.IS_FOLLOWUP === 'true';
             
             const emoji = {
               email: '📧', research: '🔍', linkedin: '📱',
-              competitor: '⚔️', meeting: '📝', general: '🤖'
+              competitor: '⚔️', meeting: '📝', general: '🤖', followup: '💬'
             }[mode] || '🤖';
             
             const label = {
               email: 'Email Draft', research: 'Company Research', 
               linkedin: 'LinkedIn Post', competitor: 'Competitor Intel',
-              meeting: 'Meeting Summary', general: 'Response'
+              meeting: 'Meeting Summary', general: 'Response', followup: 'Updated'
             }[mode] || 'Response';
             
             const body = [
@@ -347,7 +412,7 @@ jobs:
               response,
               '',
               '---',
-              '<sub>💬 Reply with `@claude` for follow-ups or edits</sub>'
+              '<sub>💬 Reply with `@claude` for more changes</sub>'
             ].join('\n');
             
             await github.rest.issues.createComment({
