@@ -15,6 +15,7 @@
 
 | Date | Meeting Title | Type | Participants | Notes | Key Topics |
 |------|---------------|------|--------------|-------|------------|
+| 2026-01-09 | Reify GTM Partner | Partner Evaluation | Ankit, Jeff, Brian (Reify) | [📋](../meetings/notes/2026-01-09_reify-gtm-partner.md) | Fractional CMO, Packaging, Architecture-first marketing, Positioning |
 | 2026-01-08 | Reo.dev Developer Signals | Vendor Evaluation | Ankit, Reo.dev team | [📋](../meetings/notes/2026-01-08_reo-dev-eval.md) | OSS signals, GitHub tracking, Developer enrichment, HubSpot integration |
 | 2026-01-08 | Sumble GTM Signals | Partner Exploration | Ankit, Jeff, Sam (Sumble) | [📋](../meetings/notes/2026-01-08_sumble-gtm-signals.md) | Account scoring, Job-post signals, Outbound, HubSpot integration |
 | 2026-01-06 | SEO, Content & Demand Gen with Jeff | Internal Strategy | Ankit, Jeff | [📋](../meetings/notes/2026-01-06_seo-content-strategy-jeff.md) | SEO, Programmatic content, VIP activation, Search accuracy positioning |
@@ -49,8 +50,15 @@
 - **2024-12-22 (TJ)**: Every update = text + video. LinkedIn organic via founder accounts > LinkedIn ads. Clarity + benchmarks in creative.
 
 ### 🎯 Positioning (Key Narrative)
+- **2026-01-09 (Reify)**: "Sell the architecture, not just the product." Move from "vector DB" to "modern search infrastructure for AI" / "database for agents"
+- **2026-01-09 (Reify)**: Create 3-5 named solution architectures (SQL search, token cost reduction, greenfield agents, brownfield augmentation)
 - **2026-01-06 (Jeff)**: "Better search accuracy → lower token costs → better, faster, cheaper agents" = white space no one owns
 - **2026-01-05 (Jeff)**: "Context layer + search agent + Databricks-like outcome" (not "vector DB")
+
+### 📦 Packaging (from Reify)
+- Website doesn't clearly communicate what's being sold
+- Need to name and describe: Open Source, Fully Hosted Cloud, BYOC/On-Prem, Enterprise
+- Clarifying "what can I buy" = critical to reduce funnel friction
 
 ### 🏢 Competitive Intel
 - **2026-01-08 (Sumble)**: Turbopuffer = strong closed-source competitor ("Snowflake" to Chroma's "Databricks"). Elasticsearch/OpenSearch = primary displacement target where budget lives.
@@ -148,6 +156,7 @@
 
 | Date | Decision | Context |
 |------|----------|---------|
+| 2026-01-09 | Evaluate Reify engagement | Fractional CMO for packaging, positioning, architecture content |
 | 2026-01-08 | Reo.dev trial started | JS beacon installed via GTM, HubSpot integration planned, ~15-day trial |
 | 2026-01-08 | Sumble partnership exploration | Account scoring proposal next week, Slack channel setup |
 | 2026-01-06 | Programmatic SEO experiment | "Build X with Y using Chroma" for frameworks/use cases (not generic "alt to X") |

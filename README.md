@@ -11,30 +11,29 @@ Chroma Signal is the internal tooling that powers Chroma's Go-To-Market operatio
 ```
 chroma-signal/
 ├── 📄 README.md                    # You are here
+├── 📄 CONTRIBUTING.md              # How to contribute & sync
 ├── 📄 CLAUDE.md                    # AI assistant context (for Cursor/Claude)
+├── 📄 sync.sh                      # Quick sync script
 │
 ├── 📂 context/                     # Strategy & Planning
 │   ├── GTM_CONTEXT.md              # Master GTM strategy document
 │   ├── GTM_TASKS.md                # Current tasks & priorities
 │   └── MEETING_INDEX.md            # Index of meeting notes
 │
-├── 📂 scripts/                     # Automation Scripts (see below)
+├── 📂 diagrams/                    # All SVG diagrams (SEO, architecture, etc.)
+├── 📂 customer-calls/              # Customer call system
+│   ├── templates/                  # Call note templates
+│   ├── playbooks/                  # Sales playbooks & battlecards
+│   └── README.md
+│
 ├── 📂 linkedin-sales-nav-extension/ # Chrome extension for Sales Navigator
 ├── 📂 seo_strategy/                # SEO strategy diagrams (SVG)
 ├── 📂 src/                         # Core source code modules
 ├── 📂 tests/                       # Test suite
 │
-├── 📂 docs/                        # Documentation
-│   ├── LINKEDIN_STRATEGY_PLAYBOOK.md
-│   ├── LINKEDIN_OUTREACH_TEMPLATES.md
-│   ├── DUXSOUP_CAMPAIGN_GUIDE.md
-│   └── ...
-│
-├── 📂 data/                        # Company & lead data (Git LFS)
-│   ├── *_COMPANIES_FINAL.json      # Verified competitor customers
-│   ├── chroma_signal_companies.json # Signal data
-│   ├── tier*.csv                   # Tiered company lists
-│   └── ...
+├── 📄 *.py                         # Automation scripts (root level)
+├── 📄 *.md                         # Documentation files
+├── 📄 *.json/*.csv                 # Company & lead data (Git LFS)
 │
 └── 📄 requirements.txt             # Python dependencies
 ```
@@ -103,10 +102,14 @@ python slack_lead_notifier.py
 | `find_linkedin_profiles.py` | Find LinkedIn profiles for leads |
 | `parallel_linkedin_search.py` | Parallel LinkedIn search (faster) |
 
-### CRM & Integrations
+### CRM & Integrations (HubSpot)
 | Script | Purpose |
 |--------|---------|
 | `sync_companies_to_hubspot.py` | Sync companies to HubSpot CRM |
+| `hubspot_master_sync.py` | Master HubSpot sync orchestration |
+| `hubspot_setup_properties.py` | Set up custom HubSpot properties |
+| `create_vector_db_property.py` | Create vector DB tracking property |
+| `enrich_ping_identity_to_hubspot.py` | Enrich specific accounts |
 | `slack_lead_notifier.py` | Send lead notifications to Slack |
 | `export_for_looker.py` | Export data for Looker dashboards |
 
@@ -225,12 +228,28 @@ Key dependencies (see `requirements.txt` for full list):
 
 ---
 
-## 🤝 Contributing
+## 🔄 Syncing with GitHub
 
-1. Create a feature branch: `git checkout -b feature/my-feature`
-2. Make your changes
-3. Test locally
-4. Push and create a PR
+### Quick Sync (Recommended)
+
+```bash
+# Use the sync script
+./sync.sh "Your commit message"
+```
+
+### Manual Sync
+
+```bash
+git add -A
+git commit -m "Your message"
+git push chroma-signal main
+```
+
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for detailed guidelines on:
+- File organization & naming conventions
+- What gets synced vs excluded
+- Git LFS setup
+- Commit message guidelines
 
 ---
 

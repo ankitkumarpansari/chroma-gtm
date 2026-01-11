@@ -1,11 +1,17 @@
 # Chroma GTM Task Tracker
 
-> **Last Updated**: January 8, 2026
+> **Last Updated**: January 9, 2026
 > **Owner**: Ankit Pansari
 
 ---
 
 ## 🔴 CRITICAL (This Week)
+
+### Reify Engagement Decision
+| Task | Source | Deadline | Status |
+|------|--------|----------|--------|
+| Review Reify agreement with Jeff | Reify (Jan 9) | ASAP after receiving | ⬜ |
+| Decide on Q1 fractional CMO engagement | Reify (Jan 9) | This week | ⬜ |
 
 ### Revenue Planning & Fundraising
 | Task | Source | Deadline | Status |
@@ -83,6 +89,9 @@
 | Drive consistent messaging: "better search accuracy → lower token cost" | Jeff (Jan 6) | Ongoing | ⬜ |
 | Prepare research-preview blog post (search agent: quality, speed, cost) | Jeff (Jan 6) | Next couple weeks | ⬜ |
 | Write framing doc: how Chroma complements Claude Opus 4.5 | Jeff (Dec 22) | Near-term | ⬜ |
+| Create 3-5 named solution architectures (SQL search, token reduction, etc.) | Reify (Jan 9) | If engagement starts | ⬜ |
+| Clarify packaging on website (Open Source, Cloud, BYOC, Enterprise) | Reify (Jan 9) | If engagement starts | ⬜ |
+| Build architecture-first landing pages with reference diagrams | Reify (Jan 9) | If engagement starts | ⬜ |
 
 ### SDR/Sales Setup
 | Task | Source | Deadline | Status |
@@ -124,6 +133,7 @@
 
 | Meeting | With | Date | Purpose |
 |---------|------|------|---------|
+| Reify agreement review | Brian (Reify) | After receiving docs | Decide on fractional CMO engagement |
 | Reo.dev follow-up | Reo.dev team | Monday (Jan 13?) | Review beacon, start trial |
 | Sumble follow-up | Sam (Sumble) | Next week | Account scoring proposal |
 | PostHog call | PostHog team | This week | HubSpot integration |
@@ -147,6 +157,7 @@
 
 | Tool | Purpose | Status | Cost |
 |------|---------|--------|------|
+| **Reify** | Fractional CMO (packaging, positioning) | 🟡 Agreement pending | Quarterly retainer |
 | **HubSpot** | CRM (system of record) | 🔴 Needs fixing | Existing |
 | **PostHog** | Product analytics | 🟡 Need HubSpot integration | Existing |
 | **Reo.dev** | OSS/developer signals | 🟢 Trial started | ~$30K/year |

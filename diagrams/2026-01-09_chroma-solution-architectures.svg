@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1400" width="1800" height="1400">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="9" refX="11" refY="4.5" orient="auto">
+      <polygon points="0 0, 12 4.5, 0 9" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1800" height="1400" fill="#ffffff"/>
+  
+  <!-- ==================== TITLE ==================== -->
+  <text x="900" y="60" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" fill="#333" font-weight="600">Chroma Solution Architectures</text>
+  <text x="900" y="100" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#777">"Sell the architecture, not just the product"</text>
+  
+  <!-- ==================== ARCHITECTURE 1: SQL/Schema Search ==================== -->
+  <text x="120" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#333" font-weight="600">1. SQL/Schema Search</text>
+  <text x="120" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#888">Agents over existing OLTP/OLAP DBs and APIs</text>
+  
+  <!-- Existing DBs -->
+  <rect x="120" y="250" width="180" height="100" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="210" y="295" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">PostgreSQL</text>
+  <text x="210" y="325" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">OLTP</text>
+  
+  <rect x="120" y="370" width="180" height="100" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="210" y="415" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">Snowflake</text>
+  <text x="210" y="445" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">OLAP</text>
+  
+  <!-- Arrow to Chroma -->
+  <path d="M 300 350 L 400 350" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Chroma (center) -->
+  <rect x="420" y="280" width="200" height="140" fill="#fff" stroke="#F97316" stroke-width="3" rx="10"/>
+  <text x="520" y="340" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#F97316" font-weight="600">Chroma</text>
+  <text x="520" y="375" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Semantic Index</text>
+  
+  <!-- Arrow to Agent -->
+  <path d="M 620 350 L 720 350" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Agent -->
+  <rect x="740" y="280" width="180" height="140" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="830" y="340" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">AI Agent</text>
+  <text x="830" y="375" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">SQL + Natural</text>
+  <text x="830" y="400" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Language</text>
+  
+  <!-- ==================== ARCHITECTURE 2: Token Cost Reduction ==================== -->
+  <text x="1000" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#333" font-weight="600">2. Token Cost Reduction</text>
+  <text x="1000" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#888">Start pure LLM → add Chroma to reduce spend</text>
+  
+  <!-- Before: Pure LLM -->
+  <rect x="1000" y="250" width="160" height="90" fill="#fff" stroke="#EF4444" stroke-width="2" rx="8" stroke-dasharray="5,5"/>
+  <text x="1080" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#EF4444">Pure LLM</text>
+  <text x="1080" y="320" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#999">$$$$ tokens</text>
+  
+  <!-- Arrow -->
+  <path d="M 1160 295 L 1230 295" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <text x="1195" y="280" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#22C55E">+</text>
+  
+  <!-- Chroma -->
+  <rect x="1250" y="250" width="160" height="90" fill="#fff" stroke="#F97316" stroke-width="3" rx="8"/>
+  <text x="1330" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#F97316" font-weight="600">Chroma</text>
+  <text x="1330" y="320" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#777">RAG layer</text>
+  
+  <!-- Arrow -->
+  <path d="M 1410 295 L 1480 295" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- After: Optimized -->
+  <rect x="1500" y="250" width="180" height="90" fill="#fff" stroke="#22C55E" stroke-width="2" rx="8"/>
+  <text x="1590" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#22C55E">Optimized</text>
+  <text x="1590" y="320" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#777">$ fewer tokens</text>
+  
+  <!-- Cost savings annotation -->
+  <text x="1330" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#22C55E" font-weight="500">↓ 60-80% token costs</text>
+  <text x="1330" y="410" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#888">Better search → better retrieval</text>
+  <text x="1330" y="435" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#888">→ fewer retries → lower spend</text>
+  
+  <!-- ==================== DIVIDER ==================== -->
+  <line x1="100" y1="520" x2="1700" y2="520" stroke="#E5E5E5" stroke-width="2"/>
+  
+  <!-- ==================== ARCHITECTURE 3: Greenfield Agents ==================== -->
+  <text x="120" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#333" font-weight="600">3. Greenfield Agents</text>
+  <text x="120" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#888">New agentic apps needing persistent memory/search</text>
+  
+  <!-- User -->
+  <rect x="120" y="670" width="140" height="100" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="190" y="715" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">User</text>
+  <text x="190" y="745" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Query</text>
+  
+  <!-- Arrow -->
+  <path d="M 260 720 L 330 720" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Agent Framework -->
+  <rect x="350" y="650" width="180" height="140" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="440" y="700" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#333">LangChain /</text>
+  <text x="440" y="730" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#333">LlamaIndex</text>
+  <text x="440" y="765" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Agent Framework</text>
+  
+  <!-- Bidirectional arrows to Chroma -->
+  <path d="M 530 690 L 620 690" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 620 750 L 530 750" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Chroma (center, emphasized) -->
+  <rect x="640" y="640" width="220" height="160" fill="#FFF7ED" stroke="#F97316" stroke-width="4" rx="12"/>
+  <text x="750" y="700" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#F97316" font-weight="700">Chroma</text>
+  <text x="750" y="740" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#777">Memory + Search</text>
+  <text x="750" y="770" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#777">+ Context</text>
+  
+  <!-- Arrow to LLM -->
+  <path d="M 530 720 L 530 860 L 750 860 L 750 810" stroke="#555" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- LLM -->
+  <rect x="920" y="670" width="160" height="100" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="1000" y="715" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">LLM</text>
+  <text x="1000" y="745" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">GPT / Claude</text>
+  
+  <!-- Arrow from Chroma to LLM -->
+  <path d="M 860 720 L 920 720" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- ==================== ARCHITECTURE 4: Brownfield Augmentation ==================== -->
+  <text x="1150" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#333" font-weight="600">4. Brownfield Augmentation</text>
+  <text x="1150" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#888">Add Chroma to existing DB infrastructure</text>
+  
+  <!-- Existing Stack -->
+  <rect x="1150" y="660" width="200" height="180" fill="#F5F5F5" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="1250" y="700" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#666" font-weight="500">Existing Stack</text>
+  
+  <rect x="1170" y="720" width="160" height="40" fill="#fff" stroke="#999" stroke-width="1" rx="4"/>
+  <text x="1250" y="747" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#333">MySQL / Postgres</text>
+  
+  <rect x="1170" y="770" width="160" height="40" fill="#fff" stroke="#999" stroke-width="1" rx="4"/>
+  <text x="1250" y="797" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#333">Redis / Elastic</text>
+  
+  <!-- Plus sign -->
+  <text x="1380" y="760" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" fill="#22C55E" font-weight="300">+</text>
+  
+  <!-- Chroma addition -->
+  <rect x="1420" y="690" width="200" height="140" fill="#FFF7ED" stroke="#F97316" stroke-width="3" rx="10"/>
+  <text x="1520" y="745" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#F97316" font-weight="600">Chroma</text>
+  <text x="1520" y="780" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Semantic Layer</text>
+  <text x="1520" y="805" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">AI-Ready Search</text>
+  
+  <!-- Arrow showing enhancement -->
+  <path d="M 1620 760 L 1700 760" stroke="#22C55E" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="1660" y="745" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#22C55E">AI</text>
+  
+  <!-- ==================== DIVIDER ==================== -->
+  <line x1="100" y1="920" x2="1700" y2="920" stroke="#E5E5E5" stroke-width="2"/>
+  
+  <!-- ==================== BOTTOM: Value Proposition ==================== -->
+  <text x="900" y="980" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#333" font-weight="600">Chroma Value Story</text>
+  
+  <!-- Value flow -->
+  <rect x="200" y="1020" width="280" height="80" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="340" y="1055" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">Better Search</text>
+  <text x="340" y="1085" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Accuracy + Speed</text>
+  
+  <path d="M 480 1060 L 560 1060" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <rect x="580" y="1020" width="280" height="80" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="720" y="1055" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">Better Retrieval</text>
+  <text x="720" y="1085" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Fewer Retries</text>
+  
+  <path d="M 860 1060 L 940 1060" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <rect x="960" y="1020" width="280" height="80" fill="#fff" stroke="#999" stroke-width="2" rx="8"/>
+  <text x="1100" y="1055" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#333">Lower Token Costs</text>
+  <text x="1100" y="1085" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">60-80% Reduction</text>
+  
+  <path d="M 1240 1060 L 1320 1060" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <rect x="1340" y="1020" width="280" height="80" fill="#FFF7ED" stroke="#F97316" stroke-width="3" rx="8"/>
+  <text x="1480" y="1055" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#F97316" font-weight="600">Better Agents</text>
+  <text x="1480" y="1085" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#777">Faster + Cheaper</text>
+  
+  <!-- ==================== POSITIONING ==================== -->
+  <rect x="400" y="1150" width="1000" height="100" fill="#F9FAFB" stroke="#E5E5E5" stroke-width="2" rx="12"/>
+  <text x="900" y="1195" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#333" font-weight="500">"Modern search infrastructure for AI"</text>
+  <text x="900" y="1230" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#777">The tangible, durable layer — models come and go; data and retrieval are stable</text>
+  
+  <!-- ==================== FOOTER ==================== -->
+  <text x="900" y="1380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#AAA">Chroma Solution Architectures • Based on Reify GTM Partner Meeting • Jan 9, 2026</text>
+  
+</svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1140" width="1680" height="1140">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="9" refX="11" refY="4.5" orient="auto">
+      <polygon points="0 0, 12 4.5, 0 9" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1680" height="1140" fill="#ffffff"/>
+  
+  <!-- ==================== TOP ROW: Reo.dev ==================== -->
+  <rect x="660" y="90" width="360" height="165" fill="#fff" stroke="#999" stroke-width="3" rx="12"/>
+  <text x="840" y="165" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#333" font-weight="500">Reo.dev</text>
+  <text x="840" y="216" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#777">(Trial)</text>
+  
+  <!-- Reo annotation -->
+  <text x="1050" y="156" font-family="system-ui, -apple-system, sans-serif" font-size="27" fill="#888">← OSS signals, GitHub,</text>
+  <text x="1080" y="195" font-family="system-ui, -apple-system, sans-serif" font-size="27" fill="#888">developer enrichment</text>
+  
+  <!-- Arrow from Reo to HubSpot -->
+  <path d="M 840 255 L 840 390" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- ==================== MIDDLE ROW ==================== -->
+  
+  <!-- Sumble (Left) -->
+  <rect x="120" y="435" width="345" height="195" fill="#fff" stroke="#999" stroke-width="3" rx="12"/>
+  <text x="292" y="516" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#333" font-weight="500">Sumble</text>
+  <text x="292" y="570" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#777">(Job posts)</text>
+  
+  <!-- HubSpot (Center) -->
+  <rect x="555" y="435" width="570" height="195" fill="#fff" stroke="#999" stroke-width="3" rx="12"/>
+  <text x="840" y="516" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#333" font-weight="500">HubSpot</text>
+  <text x="840" y="570" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#777">(System of Record)</text>
+  
+  <!-- Factors.ai (Right) -->
+  <rect x="1215" y="435" width="345" height="195" fill="#fff" stroke="#999" stroke-width="3" rx="12"/>
+  <text x="1387" y="516" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#333" font-weight="500">Factors.ai</text>
+  <text x="1387" y="570" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#777">(LinkedIn attribution)</text>
+  
+  <!-- Arrow from Sumble to HubSpot -->
+  <path d="M 465 532 L 540 532" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Arrow from Factors to HubSpot -->
+  <path d="M 1215 532 L 1140 532" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Arrow from HubSpot down -->
+  <path d="M 840 630 L 840 750" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- ==================== BRANCH CONNECTOR ==================== -->
+  
+  <!-- Horizontal line spanning all three bottom boxes -->
+  <line x1="292" y1="795" x2="1387" y2="795" stroke="#555" stroke-width="3"/>
+  
+  <!-- Arrows down to each box -->
+  <path d="M 292 795 L 292 885" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 840 795 L 840 885" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 1387 795 L 1387 885" stroke="#555" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- ==================== BOTTOM ROW: Execution Layer ==================== -->
+  
+  <!-- SmartLead -->
+  <rect x="120" y="930" width="345" height="165" fill="#fff" stroke="#999" stroke-width="3" rx="12"/>
+  <text x="292" y="1005" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#333" font-weight="500">SmartLead</text>
+  <text x="292" y="1056" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#777">(Email)</text>
+  
+  <!-- HeyReach -->
+  <rect x="630" y="930" width="420" height="165" fill="#fff" stroke="#999" stroke-width="3" rx="12"/>
+  <text x="840" y="1005" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#333" font-weight="500">HeyReach</text>
+  <text x="840" y="1056" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#777">(LinkedIn)</text>
+  
+  <!-- LinkedIn/Google Ads -->
+  <rect x="1215" y="930" width="345" height="165" fill="#fff" stroke="#999" stroke-width="3" rx="12"/>
+  <text x="1387" y="1005" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#333" font-weight="500">LinkedIn/</text>
+  <text x="1387" y="1056" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#777">Google Ads</text>
+  
+</svg>

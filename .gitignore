@@ -75,3 +75,12 @@ AI_LEADERS_DINNER_LIST.*
 # HubSpot sync logs
 hubspot_sync_log.txt
 
+# Google Doc exports (keep .md versions only)
+*_GDOC.txt
+
+# Customer calls with sensitive info (keep structure, exclude actual calls)
+customer-calls/calls/
+
+# Query exports (large, regeneratable)
+query.csv
+
