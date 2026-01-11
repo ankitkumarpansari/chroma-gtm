@@ -128,26 +128,72 @@ jobs:
             email)
               NAME=$(echo "$TARGET" | sed 's/@.*//' | sed 's/[._]/ /g')
               DOMAIN=$(echo "$TARGET" | sed 's/.*@//')
+              FIRST_NAME=$(echo "$NAME" | awk '{print $1}')
               cat > /tmp/prompt.txt << PROMPT_END
-          Draft an outreach email to: $TARGET
+          Draft an outreach email from Ankit to: $TARGET
 
+          RECIPIENT INFO:
           - Email: $TARGET
-          - Likely name: $NAME
-          - Domain: $DOMAIN
+          - First name: $FIRST_NAME
+          - Company domain: $DOMAIN
 
-          1. Research what $DOMAIN company does (2-3 sentences)
-          2. Draft personalized email (under 150 words)
-          3. Clear CTA
+          ANKIT'S EMAIL STYLE (COPY THIS EXACTLY):
+          - Conversational and friendly, like talking to a friend
+          - Short paragraphs, easy to scan
+          - Personal touches - mention something specific about their company
+          - Offer value first (credits, help, resources)
+          - Casual sign-off, not formal
+          - Often includes a PS with something extra
+          - CC Jeff when relevant
 
-          Format:
+          EXAMPLE OF ANKIT'S STYLE:
+          ---
+          Hey Philip,
+
+          I see you are trying out Chroma Cloud. Let me know if you have any questions or need more credits to test.
+
+          If you are building a retrieval app, I want to point you to our newly launched Search API at https://docs.trychroma.com/cloud/search-api/overview
+
+          It supports generic vector search and hybrid with RRF.
+
+          I'm happy to hop on a call or set up a shared Slack channel, whatever works best for you.
+
+          I've been checking out Synca - really cool what you're building! There are a bunch of ways we can boost what Synca offers, especially around semantic search over knowledge bases, intelligent content retrieval for your AI agents.
+
+          Have cc'd Jeff, founder of Chroma to the thread. Talk soon!
+
+          PS: I am bumping up your credit to \$500 as a small gesture!
+          ---
+
+          NOW DRAFT AN EMAIL TO $FIRST_NAME at $DOMAIN:
+          1. First research what $DOMAIN company does
+          2. Write in Ankit's conversational style
+          3. Mention something specific about their product
+          4. Offer concrete value (credits, call, Slack channel)
+          5. Include a PS if appropriate
+
+          FORMAT YOUR RESPONSE AS:
+
           ## About $DOMAIN
-          [overview]
+          [2-3 sentences about what they do]
 
           ## Email Draft
-          **To:** $TARGET
-          **Subject:** [subject]
 
-          [body]
+          \`\`\`
+          From: Ankit Pansari <ankit@trychroma.com>
+          To:   $TARGET
+          Cc:   Jeff Huber <jeff@trychroma.com>
+
+          Subject: [subject line]
+
+          Hey $FIRST_NAME,
+
+          [email body in Ankit's style]
+
+          [sign off]
+
+          PS: [optional personal touch]
+          \`\`\`
           PROMPT_END
               ;;
             research)
@@ -174,15 +220,23 @@ jobs:
               cat > /tmp/prompt.txt << PROMPT_END
           Draft LinkedIn post about: $TARGET
 
+          ANKIT'S LINKEDIN STYLE:
+          - Conversational, like talking to a smart friend
+          - Share genuine insights, not corporate speak
+          - Use short sentences and line breaks
+          - Be specific with numbers and examples
+          - End with a question that sparks discussion
+          - Authentic voice, shows personality
+
           Rules:
           - Under 1300 chars
           - Strong hook first line
           - End with question/CTA
-          - Authentic, not corporate
+          - Sound like a real person, not a brand
 
           Format:
           ## Post
-          [ready to copy]
+          [ready to copy - write in first person as Ankit]
 
           ## Alt Hooks
           3 alternatives
@@ -198,6 +252,7 @@ jobs:
           Give specific, actionable insights.
           Reference our positioning vs competitors.
           Include recommended actions.
+          Be direct and practical.
           PROMPT_END
               ;;
             meeting)
@@ -214,6 +269,7 @@ jobs:
           $QUERY
 
           Answer based on Chroma GTM context. Be specific and actionable.
+          Talk like a helpful colleague, not a formal assistant.
           PROMPT_END
               ;;
           esac
@@ -225,13 +281,27 @@ jobs:
           CONTEXT=$(cat /tmp/context_final.txt | jq -Rs .)
           PROMPT=$(cat /tmp/prompt.txt | jq -Rs .)
           
-          SYSTEM="You are the GTM assistant for Chroma (AI context layer, 100M+ downloads).
-          
+          SYSTEM="You are helping Ankit Pansari with GTM tasks for Chroma.
+
+          ABOUT CHROMA:
+          - AI-native context layer (NEVER say vector database)
+          - 100M+ downloads, 25k+ GitHub stars
+          - Key product: Search API at docs.trychroma.com/cloud/search-api/overview
+          - Positioning: Better search accuracy, lower token costs, faster agents
+
+          ANKIT'S VOICE:
+          - Friendly and conversational, never corporate
+          - Gets straight to the point
+          - Offers concrete help (credits, calls, Slack channels)
+          - Shows genuine interest in what people are building
+          - Uses casual language (Hey, Talk soon, etc.)
+
           RULES:
-          - Never say vector database - use context layer
-          - Be concise, specific, no fluff
-          - Reference context docs when relevant
-          
+          - Write like Ankit talks - friendly, direct, helpful
+          - Never use formal business language
+          - Always be specific, never generic
+          - Reference real Chroma features and docs
+
           CONTEXT:
           $CONTEXT"
           
@@ -277,7 +347,7 @@ jobs:
               response,
               '',
               '---',
-              '<sub>💬 Reply with `@claude` for follow-ups</sub>'
+              '<sub>💬 Reply with `@claude` for follow-ups or edits</sub>'
             ].join('\n');
             
             await github.rest.issues.createComment({
