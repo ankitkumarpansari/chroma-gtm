@@ -15,6 +15,9 @@
 
 | Date | Meeting Title | Type | Participants | Notes | Key Topics |
 |------|---------------|------|--------------|-------|------------|
+| 2026-01-14 | Google Ads Strategy & Conversion Tracking | Partner/Strategy | Ankit, Grace, Parik (Google) | [📋](../meetings/notes/2026-01-14_google-ads-strategy-grace.md) | Google Ads strategy, Customer Match, ABM, YouTube, PMAX, Campaign structure, Quality score |
+| 2026-01-14 | Google Ads Conversion Tracking | Vendor Support | Ankit, Google Ads support, Nazarine, Grace | [📋](../meetings/notes/2026-01-14_google-ads-conversion-tracking.md) | Conversion tracking, GTM setup, PostHog migration, API key tracking, Attribution |
+| 2026-01-09 | PostHog GTM Strategy | Customer/Strategy | Ankit, Sachin (PostHog) | [📋](../meetings/notes/2026-01-09_posthog-gtm-sachin.md) | PostHog as admin panel, Data model, Enrichment, HubSpot sync, Workflows |
 | 2026-01-09 | Reify GTM Partner | Partner Evaluation | Ankit, Jeff, Brian (Reify) | [📋](../meetings/notes/2026-01-09_reify-gtm-partner.md) | Fractional CMO, Packaging, Architecture-first marketing, Positioning |
 | 2026-01-08 | Reo.dev Developer Signals | Vendor Evaluation | Ankit, Reo.dev team | [📋](../meetings/notes/2026-01-08_reo-dev-eval.md) | OSS signals, GitHub tracking, Developer enrichment, HubSpot integration |
 | 2026-01-08 | Sumble GTM Signals | Partner Exploration | Ankit, Jeff, Sam (Sumble) | [📋](../meetings/notes/2026-01-08_sumble-gtm-signals.md) | Account scoring, Job-post signals, Outbound, HubSpot integration |
@@ -72,6 +75,7 @@
 | **Net-new RAG/agent** | New RAG/agent project | "Chroma powers context for RAG and agents" |
 
 ### 📺 Paid Ads
+- **2026-01-14 (Grace/Google)**: Three-pillar Google Ads structure: 1) Branded search (Chroma), 2) Non-branded/competitor search, 3) Performance Max. Customer Match on ~3,000-company prospect list + lookalikes for ABM. YouTube targeting for developer audience (how-to content). Optimization score improvements (+10% ≈ +14% conversions). Key insight: Fix conversion tracking before scaling; avoid cannibalizing organic branded traffic.
 - **2024-12-23 (Prash/Demand Curve)**: $5-10k/month budget. LinkedIn ABM (2k companies + job titles → 30-50k audience). Google/YouTube for retargeting competitor visitors. Reddit for devs.
 - **2024-12-22 (TJ)**: Meta ~8% CTR (best), LinkedIn <1% CTR. Don't manage dashboards—hire specialists. Wait for clarity before heavy spend.
 
@@ -79,11 +83,14 @@
 - **2024-12-23 (Demand Curve)**: NDA sent to Justin. Prash = senior paid lead. Focus on SQLs not MQLs. Proposal pending.
 
 ### 🔧 GTM Infrastructure / Tooling
+- **2026-01-14 (Google Ads Strategy)**: Customer Match strategy for ~3,000-company prospect list enables ABM across Search, YouTube, Gmail, Discover, Display. YouTube is key GTM surface for developer education. Campaign structure: branded (limited to avoid organic cannibalization), non-branded/competitor search, PMAX. Account optimization via negative keywords, extensions, quality score improvements. Conversion tracking must be fixed before scaling spend.
+- **2026-01-14 (Google Ads Technical)**: Migrated from broken PostHog offline import to GTM-based online conversion tracking for signups. Signup conversions dropped from 15-20/day to zero mid-November. New GTM click trigger on "Sign up" button implemented. API key creation tracking blocked by missing GTM on product pages—requires adding GTM snippet to product header. Key insight: API key creation = "paid signal" (high-intent downstream event). Stack fragmentation (marketing vs product) requires separate tracking setup.
+- **2026-01-09 (PostHog/Sachin)**: PostHog as central GTM intelligence layer / internal admin panel. Data model: people → teams → organizations. Enrichment via Clay + webhooks → write back to PostHog + HubSpot. Fix attribution before Google Ads spend.
 - **2026-01-08 (Sumble)**: Job-post signals, account scoring, urgent-account identification. Follow-up next week on scoring proposal.
 - **2026-01-05 (Factors.ai)**: 15-day trial started. 75% account-level ID, LinkedIn attribution, ABM. Growth plan ~$20K/year if successful.
 - **2024-12-23 (Common Room)**: Identity resolution + signal aggregation. 8-10% user-level ID (US only). Better GTM workflows, weaker ABM.
 - **Also evaluating**: High Touch (reverse ETL), Rio.dev (GitHub signals)
-- **Emerging stack**: PostHog (product) + HubSpot (CRM) + Factors (attribution) + Sumble (signals) + LinkedIn/Google (activation)
+- **Emerging stack**: PostHog (product + admin panel) + HubSpot (CRM) + Factors (attribution) + Sumble (signals) + LinkedIn/Google (activation)
 - **Key insight**: "Hard part isn't collecting signals—it's stitching them into one identity"
 
 ### Tool Comparison Summary
@@ -101,6 +108,13 @@
 ## Open Action Items (Cross-Meeting)
 
 ### 🔴 Urgent (This Week)
+- [ ] Fix conversion tracking (Google Ads) - *Today 2pm call; resolve before Friday check-in*
+- [ ] Add negative keywords for irrelevant queries (e.g., "AI tools") - *This week, ideally before Friday check-in*
+- [ ] Add ad extensions/assets (images, structured snippets, callouts) - *This week, before/around Friday check-in*
+- [ ] Send GA4 property ID to Grace/Google team - *ASAP/this week*
+- [ ] Prepare detailed keyword list for dev-tool/vector DB use cases - *Before next week's strategy session*
+- [ ] Install GTM on product (API key) pages - *Before next week's Google Ads follow-up*
+- [ ] Verify signup conversion firing and performance (Google Ads) - *By Friday follow-up call*
 - [ ] Build quarter-over-quarter plan for $20M target
 - [ ] Expand into January–February week-by-week milestones
 - [ ] Start ISV outreach (700 emails): why they use Chroma, value vs free
@@ -124,6 +138,9 @@
 - [ ] Monday: Reo.dev follow-up to review beacon, start trial
 
 ### High Priority
+- [ ] Review/understand current analytics tooling (PostHog and SDK setup) - *Before next week's Google Ads performance review*
+- [ ] Confirm GTM code deployment path for product (direct vs via PostHog/wrappers) - *Before rescheduling API key conversion verification*
+- [ ] Respond to Google's "awaiting inputs" email and reschedule API key conversion tracking - *After GTM deployment*
 - [ ] Fix HubSpot/UTM tracking
 - [ ] Build 8-week content calendar
 - [ ] Produce "open source victory" video (1-min LinkedIn format)
@@ -156,6 +173,9 @@
 
 | Date | Decision | Context |
 |------|----------|---------|
+| 2026-01-14 | Three-pillar Google Ads structure | Branded search (limited), non-branded/competitor search, Performance Max. Customer Match on 3,000-company list for ABM |
+| 2026-01-14 | Migrate to GTM-based signup conversion tracking | Abandon broken PostHog offline import, implement GTM click trigger for signups as primary Google Ads conversion |
+| 2026-01-14 | Track API key creation as "paid signal" | Set up GTM click trigger for API key creation once GTM is added to product pages |
 | 2026-01-09 | Evaluate Reify engagement | Fractional CMO for packaging, positioning, architecture content |
 | 2026-01-08 | Reo.dev trial started | JS beacon installed via GTM, HubSpot integration planned, ~15-day trial |
 | 2026-01-08 | Sumble partnership exploration | Account scoring proposal next week, Slack channel setup |

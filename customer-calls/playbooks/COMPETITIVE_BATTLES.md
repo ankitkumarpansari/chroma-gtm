@@ -231,3 +231,5 @@ When you win or lose a competitive deal:
 - [Discovery Questions](DISCOVERY_QUESTIONS.md)
 - [Customer Insights Summary](../INSIGHTS_SUMMARY.md)
 
+
+

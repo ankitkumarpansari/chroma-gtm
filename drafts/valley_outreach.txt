@@ -1,0 +1,20 @@
+From: Ankit Pansari <ankit@trychroma.com>
+To: zaydali@joinvalley.co
+Subject: Earlier call + our GTM stack
+
+Hey Zayd,
+
+Saw no slots in January - any chance we can do something sooner? Happy to work around your schedule.
+
+Quick context: I lead growth at Chroma (the open-source vector database - 100M+ downloads, 25k GitHub stars). We're building out our LinkedIn outreach motion and curious how Valley could help scale it.
+
+Our current GTM stack:
+- CRM: Attio
+- LinkedIn automation: Dux-Soup + custom Playwright scripts
+- Lead discovery: Chroma-powered semantic search + job post signals
+- Enrichment: Mix of Clay, Apollo, internal scripts
+- Email: Gmail API automation
+
+Looking to level up the LinkedIn piece specifically.
+
+Talk soon!

@@ -140,3 +140,5 @@ Deals >$50k ARR or Fortune 500 companies.
 | Date | Company | Reason | Could We Have Saved It? | Link |
 |------|---------|--------|------------------------|------|
 
+
+

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "chroma-workspace": {
+      "command": "python3",
+      "args": ["/Users/ankitpansari/Desktop/Chroma GTM/scripts/chroma/mcp_chroma_server.py"],
+      "env": {}
+    }
+  }
+}
+

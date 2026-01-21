@@ -1,0 +1,39 @@
+From: Ankit Pansari <ankit@trychroma.com>
+To:   kartik.mathur@snorkel.ai
+Cc:   Jeff Huber <jeff@trychroma.com>
+
+Subject: Chroma + Snorkel AI
+
+---
+
+Hey Kartik,
+
+I'm Ankit - I lead growth at Chroma. Saw you're leading AI Infrastructure at Snorkel and thought there might be some interesting overlap.
+
+You're building the data layer that teaches AI systems - we're building the context layer that helps them remember and retrieve. Feels like a natural pairing.
+
+A few ways Chroma could plug into what you're doing:
+
+- **Dataset curation**: Semantic deduplication, finding similar examples across large corpora, clustering training data by topic
+- **Evaluation pipelines**: Retrieving relevant test cases for benchmarks, semantic similarity scoring for model outputs
+- **Client solutions**: When you're building RAG apps for customers, Chroma handles the retrieval piece
+
+We work with a lot of AI infra teams - happy to share what we're seeing work well.
+
+Would love to chat if you're curious. Also happy to set up a shared Slack channel if that's easier.
+
+Have cc'd Jeff, our founder, to the thread. Talk soon!
+
+PS: Really cool that you're partnering with Anthropic on their data needs. We're big fans of what they're doing.
+
+---
+
+NOTES FOR ANKIT:
+- Lead type: AI Infrastructure company (Startup, Series B+)
+- Why Chroma fits: Snorkel builds datasets/benchmarks for AI - semantic search is useful for data curation, deduplication, and evaluation
+- Gesture: Offer $1,000 credits if they engage
+- Key insight: Snorkel's whole business is about data quality for AI training. Chroma can help them organize, dedupe, and retrieve from large datasets programmatically
+- Their partners: Anthropic (mentioned on their site) - adds credibility
+- Kartik's role: Director of Engineering for AI Infrastructure & Data Platform - perfect person to evaluate infra tools
+
+

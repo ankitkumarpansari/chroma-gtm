@@ -1,0 +1,640 @@
+{
+  "generated_at": "2026-01-19T13:54:50.922346",
+  "target_companies": [
+    {
+      "name": "Vectara",
+      "linkedin_name": "vectara",
+      "github_org": "vectara",
+      "website": "vectara.com",
+      "blog": "vectara.com/blog",
+      "priority": "Tier 1",
+      "score": 75,
+      "focus": "RAG platform"
+    },
+    {
+      "name": "Perplexity AI",
+      "linkedin_name": "perplexity-ai",
+      "github_org": "perplexity-ai",
+      "website": "perplexity.ai",
+      "blog": "blog.perplexity.ai",
+      "priority": "Tier 2",
+      "score": 65,
+      "focus": "AI search"
+    },
+    {
+      "name": "Hebbia",
+      "linkedin_name": "hebbia",
+      "github_org": "hebbia",
+      "website": "hebbia.ai",
+      "blog": "hebbia.ai/blog",
+      "priority": "Tier 2",
+      "score": 65,
+      "focus": "Enterprise RAG"
+    },
+    {
+      "name": "Glean",
+      "linkedin_name": "glean-work",
+      "github_org": "glean",
+      "website": "glean.com",
+      "blog": "glean.com/blog",
+      "priority": "Tier 2",
+      "score": 55,
+      "focus": "Enterprise search"
+    },
+    {
+      "name": "AlphaSense",
+      "linkedin_name": "alphasense",
+      "github_org": "alphasense",
+      "website": "alpha-sense.com",
+      "blog": "alpha-sense.com/blog",
+      "priority": "Tier 2",
+      "score": 50,
+      "focus": "Financial research"
+    },
+    {
+      "name": "Clay",
+      "linkedin_name": "clay-run",
+      "github_org": "clay-run",
+      "website": "clay.com",
+      "blog": "clay.com/blog",
+      "priority": "Tier 2",
+      "score": 50,
+      "focus": "Sales intelligence"
+    },
+    {
+      "name": "Gong",
+      "linkedin_name": "gong-io",
+      "github_org": "gong-io",
+      "website": "gong.io",
+      "blog": "gong.io/blog",
+      "priority": "Tier 2",
+      "score": 50,
+      "focus": "Revenue intelligence"
+    }
+  ],
+  "linkedin_searches": [
+    {
+      "company": "Vectara",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Vectara,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"ML Engineer\",selectionType:INCLUDED),(text:\"Machine Learning\",selectionType:INCLUDED),(text:\"AI Engineer\",selectionType:INCLUDED)))))",
+      "search_type": "ML/AI Engineers",
+      "manual_search": "Company: \"Vectara\" AND (title:\"ML Engineer\" OR title:\"Machine Learning\" OR title:\"AI Engineer\")"
+    },
+    {
+      "company": "Vectara",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Vectara,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"CTO\",selectionType:INCLUDED),(text:\"VP Engineering\",selectionType:INCLUDED),(text:\"Head of AI\",selectionType:INCLUDED)))))",
+      "search_type": "Leadership",
+      "manual_search": "Company: \"Vectara\" AND (title:\"CTO\" OR title:\"VP Engineering\" OR title:\"Head of AI\")"
+    },
+    {
+      "company": "Vectara",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Vectara,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"Engineer\",selectionType:INCLUDED))),(type:WHEN_JOINED,values:List((text:PAST_90_DAYS,selectionType:INCLUDED)))))",
+      "search_type": "Recent Engineering Hires",
+      "manual_search": "Company: \"Vectara\" AND title:\"Engineer\" (joined in last 90 days)"
+    },
+    {
+      "company": "Perplexity AI",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Perplexity%20AI,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"ML Engineer\",selectionType:INCLUDED),(text:\"Machine Learning\",selectionType:INCLUDED),(text:\"AI Engineer\",selectionType:INCLUDED)))))",
+      "search_type": "ML/AI Engineers",
+      "manual_search": "Company: \"Perplexity AI\" AND (title:\"ML Engineer\" OR title:\"Machine Learning\" OR title:\"AI Engineer\")"
+    },
+    {
+      "company": "Perplexity AI",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Perplexity%20AI,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"CTO\",selectionType:INCLUDED),(text:\"VP Engineering\",selectionType:INCLUDED),(text:\"Head of AI\",selectionType:INCLUDED)))))",
+      "search_type": "Leadership",
+      "manual_search": "Company: \"Perplexity AI\" AND (title:\"CTO\" OR title:\"VP Engineering\" OR title:\"Head of AI\")"
+    },
+    {
+      "company": "Perplexity AI",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Perplexity%20AI,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"Engineer\",selectionType:INCLUDED))),(type:WHEN_JOINED,values:List((text:PAST_90_DAYS,selectionType:INCLUDED)))))",
+      "search_type": "Recent Engineering Hires",
+      "manual_search": "Company: \"Perplexity AI\" AND title:\"Engineer\" (joined in last 90 days)"
+    },
+    {
+      "company": "Hebbia",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Hebbia,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"ML Engineer\",selectionType:INCLUDED),(text:\"Machine Learning\",selectionType:INCLUDED),(text:\"AI Engineer\",selectionType:INCLUDED)))))",
+      "search_type": "ML/AI Engineers",
+      "manual_search": "Company: \"Hebbia\" AND (title:\"ML Engineer\" OR title:\"Machine Learning\" OR title:\"AI Engineer\")"
+    },
+    {
+      "company": "Hebbia",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Hebbia,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"CTO\",selectionType:INCLUDED),(text:\"VP Engineering\",selectionType:INCLUDED),(text:\"Head of AI\",selectionType:INCLUDED)))))",
+      "search_type": "Leadership",
+      "manual_search": "Company: \"Hebbia\" AND (title:\"CTO\" OR title:\"VP Engineering\" OR title:\"Head of AI\")"
+    },
+    {
+      "company": "Hebbia",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Hebbia,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"Engineer\",selectionType:INCLUDED))),(type:WHEN_JOINED,values:List((text:PAST_90_DAYS,selectionType:INCLUDED)))))",
+      "search_type": "Recent Engineering Hires",
+      "manual_search": "Company: \"Hebbia\" AND title:\"Engineer\" (joined in last 90 days)"
+    },
+    {
+      "company": "Glean",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Glean,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"ML Engineer\",selectionType:INCLUDED),(text:\"Machine Learning\",selectionType:INCLUDED),(text:\"AI Engineer\",selectionType:INCLUDED)))))",
+      "search_type": "ML/AI Engineers",
+      "manual_search": "Company: \"Glean\" AND (title:\"ML Engineer\" OR title:\"Machine Learning\" OR title:\"AI Engineer\")"
+    },
+    {
+      "company": "Glean",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Glean,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"CTO\",selectionType:INCLUDED),(text:\"VP Engineering\",selectionType:INCLUDED),(text:\"Head of AI\",selectionType:INCLUDED)))))",
+      "search_type": "Leadership",
+      "manual_search": "Company: \"Glean\" AND (title:\"CTO\" OR title:\"VP Engineering\" OR title:\"Head of AI\")"
+    },
+    {
+      "company": "Glean",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Glean,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"Engineer\",selectionType:INCLUDED))),(type:WHEN_JOINED,values:List((text:PAST_90_DAYS,selectionType:INCLUDED)))))",
+      "search_type": "Recent Engineering Hires",
+      "manual_search": "Company: \"Glean\" AND title:\"Engineer\" (joined in last 90 days)"
+    },
+    {
+      "company": "AlphaSense",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:AlphaSense,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"ML Engineer\",selectionType:INCLUDED),(text:\"Machine Learning\",selectionType:INCLUDED),(text:\"AI Engineer\",selectionType:INCLUDED)))))",
+      "search_type": "ML/AI Engineers",
+      "manual_search": "Company: \"AlphaSense\" AND (title:\"ML Engineer\" OR title:\"Machine Learning\" OR title:\"AI Engineer\")"
+    },
+    {
+      "company": "AlphaSense",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:AlphaSense,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"CTO\",selectionType:INCLUDED),(text:\"VP Engineering\",selectionType:INCLUDED),(text:\"Head of AI\",selectionType:INCLUDED)))))",
+      "search_type": "Leadership",
+      "manual_search": "Company: \"AlphaSense\" AND (title:\"CTO\" OR title:\"VP Engineering\" OR title:\"Head of AI\")"
+    },
+    {
+      "company": "AlphaSense",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:AlphaSense,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"Engineer\",selectionType:INCLUDED))),(type:WHEN_JOINED,values:List((text:PAST_90_DAYS,selectionType:INCLUDED)))))",
+      "search_type": "Recent Engineering Hires",
+      "manual_search": "Company: \"AlphaSense\" AND title:\"Engineer\" (joined in last 90 days)"
+    },
+    {
+      "company": "Clay",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Clay,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"ML Engineer\",selectionType:INCLUDED),(text:\"Machine Learning\",selectionType:INCLUDED),(text:\"AI Engineer\",selectionType:INCLUDED)))))",
+      "search_type": "ML/AI Engineers",
+      "manual_search": "Company: \"Clay\" AND (title:\"ML Engineer\" OR title:\"Machine Learning\" OR title:\"AI Engineer\")"
+    },
+    {
+      "company": "Clay",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Clay,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"CTO\",selectionType:INCLUDED),(text:\"VP Engineering\",selectionType:INCLUDED),(text:\"Head of AI\",selectionType:INCLUDED)))))",
+      "search_type": "Leadership",
+      "manual_search": "Company: \"Clay\" AND (title:\"CTO\" OR title:\"VP Engineering\" OR title:\"Head of AI\")"
+    },
+    {
+      "company": "Clay",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Clay,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"Engineer\",selectionType:INCLUDED))),(type:WHEN_JOINED,values:List((text:PAST_90_DAYS,selectionType:INCLUDED)))))",
+      "search_type": "Recent Engineering Hires",
+      "manual_search": "Company: \"Clay\" AND title:\"Engineer\" (joined in last 90 days)"
+    },
+    {
+      "company": "Gong",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Gong,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"ML Engineer\",selectionType:INCLUDED),(text:\"Machine Learning\",selectionType:INCLUDED),(text:\"AI Engineer\",selectionType:INCLUDED)))))",
+      "search_type": "ML/AI Engineers",
+      "manual_search": "Company: \"Gong\" AND (title:\"ML Engineer\" OR title:\"Machine Learning\" OR title:\"AI Engineer\")"
+    },
+    {
+      "company": "Gong",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Gong,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"CTO\",selectionType:INCLUDED),(text:\"VP Engineering\",selectionType:INCLUDED),(text:\"Head of AI\",selectionType:INCLUDED)))))",
+      "search_type": "Leadership",
+      "manual_search": "Company: \"Gong\" AND (title:\"CTO\" OR title:\"VP Engineering\" OR title:\"Head of AI\")"
+    },
+    {
+      "company": "Gong",
+      "search_url": "https://www.linkedin.com/sales/search/people?query=(filters:List((type:COMPANY,values:List((text:Gong,selectionType:INCLUDED))),(type:TITLE,values:List((text:\"Engineer\",selectionType:INCLUDED))),(type:WHEN_JOINED,values:List((text:PAST_90_DAYS,selectionType:INCLUDED)))))",
+      "search_type": "Recent Engineering Hires",
+      "manual_search": "Company: \"Gong\" AND title:\"Engineer\" (joined in last 90 days)"
+    }
+  ],
+  "github_searches": [
+    {
+      "company": "Vectara",
+      "method": "GitHub",
+      "search_url": "https://github.com/orgs/vectara/people",
+      "repos_url": "https://github.com/vectara",
+      "note": "Check recent contributors to AI/ML repos"
+    },
+    {
+      "company": "Perplexity AI",
+      "method": "GitHub",
+      "search_url": "https://github.com/orgs/perplexity-ai/people",
+      "repos_url": "https://github.com/perplexity-ai",
+      "note": "Check recent contributors to AI/ML repos"
+    },
+    {
+      "company": "Hebbia",
+      "method": "GitHub",
+      "search_url": "https://github.com/orgs/hebbia/people",
+      "repos_url": "https://github.com/hebbia",
+      "note": "Check recent contributors to AI/ML repos"
+    },
+    {
+      "company": "Glean",
+      "method": "GitHub",
+      "search_url": "https://github.com/orgs/glean/people",
+      "repos_url": "https://github.com/glean",
+      "note": "Check recent contributors to AI/ML repos"
+    },
+    {
+      "company": "AlphaSense",
+      "method": "GitHub",
+      "search_url": "https://github.com/orgs/alphasense/people",
+      "repos_url": "https://github.com/alphasense",
+      "note": "Check recent contributors to AI/ML repos"
+    },
+    {
+      "company": "Clay",
+      "method": "GitHub",
+      "search_url": "https://github.com/orgs/clay-run/people",
+      "repos_url": "https://github.com/clay-run",
+      "note": "Check recent contributors to AI/ML repos"
+    },
+    {
+      "company": "Gong",
+      "method": "GitHub",
+      "search_url": "https://github.com/orgs/gong-io/people",
+      "repos_url": "https://github.com/gong-io",
+      "note": "Check recent contributors to AI/ML repos"
+    }
+  ],
+  "google_searches": [
+    {
+      "company": "Vectara",
+      "search": "site:vectara.com \"team\" OR \"about us\" OR \"our team\"",
+      "purpose": "Find team page"
+    },
+    {
+      "company": "Vectara",
+      "search": "site:vectara.com/blog \"machine learning\" OR \"ML\" OR \"AI\" OR \"embeddings\" OR \"vector\"",
+      "purpose": "Find engineers who blog"
+    },
+    {
+      "company": "Vectara",
+      "search": "\"Vectara\" \"NeurIPS\" OR \"ICML\" OR \"AI Summit\" OR \"MLOps\" speaker",
+      "purpose": "Find conference speakers"
+    },
+    {
+      "company": "Perplexity AI",
+      "search": "site:perplexity.ai \"team\" OR \"about us\" OR \"our team\"",
+      "purpose": "Find team page"
+    },
+    {
+      "company": "Perplexity AI",
+      "search": "site:blog.perplexity.ai \"machine learning\" OR \"ML\" OR \"AI\" OR \"embeddings\" OR \"vector\"",
+      "purpose": "Find engineers who blog"
+    },
+    {
+      "company": "Perplexity AI",
+      "search": "\"Perplexity AI\" \"NeurIPS\" OR \"ICML\" OR \"AI Summit\" OR \"MLOps\" speaker",
+      "purpose": "Find conference speakers"
+    },
+    {
+      "company": "Hebbia",
+      "search": "site:hebbia.ai \"team\" OR \"about us\" OR \"our team\"",
+      "purpose": "Find team page"
+    },
+    {
+      "company": "Hebbia",
+      "search": "site:hebbia.ai/blog \"machine learning\" OR \"ML\" OR \"AI\" OR \"embeddings\" OR \"vector\"",
+      "purpose": "Find engineers who blog"
+    },
+    {
+      "company": "Hebbia",
+      "search": "\"Hebbia\" \"NeurIPS\" OR \"ICML\" OR \"AI Summit\" OR \"MLOps\" speaker",
+      "purpose": "Find conference speakers"
+    },
+    {
+      "company": "Glean",
+      "search": "site:glean.com \"team\" OR \"about us\" OR \"our team\"",
+      "purpose": "Find team page"
+    },
+    {
+      "company": "Glean",
+      "search": "site:glean.com/blog \"machine learning\" OR \"ML\" OR \"AI\" OR \"embeddings\" OR \"vector\"",
+      "purpose": "Find engineers who blog"
+    },
+    {
+      "company": "Glean",
+      "search": "\"Glean\" \"NeurIPS\" OR \"ICML\" OR \"AI Summit\" OR \"MLOps\" speaker",
+      "purpose": "Find conference speakers"
+    },
+    {
+      "company": "AlphaSense",
+      "search": "site:alpha-sense.com \"team\" OR \"about us\" OR \"our team\"",
+      "purpose": "Find team page"
+    },
+    {
+      "company": "AlphaSense",
+      "search": "site:alpha-sense.com/blog \"machine learning\" OR \"ML\" OR \"AI\" OR \"embeddings\" OR \"vector\"",
+      "purpose": "Find engineers who blog"
+    },
+    {
+      "company": "AlphaSense",
+      "search": "\"AlphaSense\" \"NeurIPS\" OR \"ICML\" OR \"AI Summit\" OR \"MLOps\" speaker",
+      "purpose": "Find conference speakers"
+    },
+    {
+      "company": "Clay",
+      "search": "site:clay.com \"team\" OR \"about us\" OR \"our team\"",
+      "purpose": "Find team page"
+    },
+    {
+      "company": "Clay",
+      "search": "site:clay.com/blog \"machine learning\" OR \"ML\" OR \"AI\" OR \"embeddings\" OR \"vector\"",
+      "purpose": "Find engineers who blog"
+    },
+    {
+      "company": "Clay",
+      "search": "\"Clay\" \"NeurIPS\" OR \"ICML\" OR \"AI Summit\" OR \"MLOps\" speaker",
+      "purpose": "Find conference speakers"
+    },
+    {
+      "company": "Gong",
+      "search": "site:gong.io \"team\" OR \"about us\" OR \"our team\"",
+      "purpose": "Find team page"
+    },
+    {
+      "company": "Gong",
+      "search": "site:gong.io/blog \"machine learning\" OR \"ML\" OR \"AI\" OR \"embeddings\" OR \"vector\"",
+      "purpose": "Find engineers who blog"
+    },
+    {
+      "company": "Gong",
+      "search": "\"Gong\" \"NeurIPS\" OR \"ICML\" OR \"AI Summit\" OR \"MLOps\" speaker",
+      "purpose": "Find conference speakers"
+    }
+  ],
+  "contact_template": {
+    "timestamp": "2026-01-19T13:54:50.922396",
+    "companies": {
+      "Vectara": {
+        "priority": "Tier 1",
+        "score": 75,
+        "focus": "RAG platform",
+        "contacts": {
+          "technical_champions": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "github": "",
+              "twitter": "",
+              "recent_activity": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "influencers": []
+        },
+        "signals": {
+          "recent_hires": [],
+          "recent_content": [],
+          "github_activity": [],
+          "job_postings": []
+        }
+      },
+      "Perplexity AI": {
+        "priority": "Tier 2",
+        "score": 65,
+        "focus": "AI search",
+        "contacts": {
+          "technical_champions": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "github": "",
+              "twitter": "",
+              "recent_activity": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "influencers": []
+        },
+        "signals": {
+          "recent_hires": [],
+          "recent_content": [],
+          "github_activity": [],
+          "job_postings": []
+        }
+      },
+      "Hebbia": {
+        "priority": "Tier 2",
+        "score": 65,
+        "focus": "Enterprise RAG",
+        "contacts": {
+          "technical_champions": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "github": "",
+              "twitter": "",
+              "recent_activity": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "influencers": []
+        },
+        "signals": {
+          "recent_hires": [],
+          "recent_content": [],
+          "github_activity": [],
+          "job_postings": []
+        }
+      },
+      "Glean": {
+        "priority": "Tier 2",
+        "score": 55,
+        "focus": "Enterprise search",
+        "contacts": {
+          "technical_champions": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "github": "",
+              "twitter": "",
+              "recent_activity": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "influencers": []
+        },
+        "signals": {
+          "recent_hires": [],
+          "recent_content": [],
+          "github_activity": [],
+          "job_postings": []
+        }
+      },
+      "AlphaSense": {
+        "priority": "Tier 2",
+        "score": 50,
+        "focus": "Financial research",
+        "contacts": {
+          "technical_champions": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "github": "",
+              "twitter": "",
+              "recent_activity": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "influencers": []
+        },
+        "signals": {
+          "recent_hires": [],
+          "recent_content": [],
+          "github_activity": [],
+          "job_postings": []
+        }
+      },
+      "Clay": {
+        "priority": "Tier 2",
+        "score": 50,
+        "focus": "Sales intelligence",
+        "contacts": {
+          "technical_champions": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "github": "",
+              "twitter": "",
+              "recent_activity": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "influencers": []
+        },
+        "signals": {
+          "recent_hires": [],
+          "recent_content": [],
+          "github_activity": [],
+          "job_postings": []
+        }
+      },
+      "Gong": {
+        "priority": "Tier 2",
+        "score": 50,
+        "focus": "Revenue intelligence",
+        "contacts": {
+          "technical_champions": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "github": "",
+              "twitter": "",
+              "recent_activity": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "decision_makers": [
+            {
+              "name": "",
+              "title": "",
+              "linkedin": "",
+              "email": "",
+              "relevance": "High/Medium/Low"
+            }
+          ],
+          "influencers": []
+        },
+        "signals": {
+          "recent_hires": [],
+          "recent_content": [],
+          "github_activity": [],
+          "job_postings": []
+        }
+      }
+    }
+  },
+  "enrichment_tools": {
+    "email_finders": [
+      "Hunter.io - https://hunter.io",
+      "Apollo.io - https://apollo.io",
+      "RocketReach - https://rocketreach.com",
+      "Clearbit - https://clearbit.com",
+      "Lusha - https://lusha.com"
+    ],
+    "verification": [
+      "EmailListVerify - https://emaillistverify.com",
+      "NeverBounce - https://neverbounce.com"
+    ]
+  },
+  "outreach_tips": {
+    "subject_lines": [
+      "Quick question about {company}'s RAG implementation",
+      "Thoughts on {company}'s vector search scale challenges?",
+      "How {company} handles embedding storage at scale"
+    ],
+    "personalization_angles": {
+      "Vectara": "RAG accuracy and hybrid search",
+      "Perplexity": "Real-time semantic search at scale",
+      "Hebbia": "Enterprise RAG security and compliance",
+      "Glean": "Multi-modal enterprise search",
+      "AlphaSense": "Financial document embeddings",
+      "Clay": "Enrichment data vectorization",
+      "Gong": "Conversation analysis vectors"
+    }
+  }
+}

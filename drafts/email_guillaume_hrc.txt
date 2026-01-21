@@ -1,0 +1,27 @@
+From: Ankit Pansari <ankit@trychroma.com>
+To: guillaume.garcia@hrc-software.com
+Cc: Jeff Huber <jeff@trychroma.com>
+Subject: Chroma Cloud + HRC Software
+
+Hey Guillaume,
+
+I see you're trying out Chroma Cloud - welcome!
+
+Checked out HRC Software - excited to see what you're building!
+
+There are a bunch of ways Chroma can help, especially around semantic search, RAG, and intelligent content retrieval for AI applications.
+
+Happy to set you up with:
+- Extended credits to test at scale
+- Direct Slack channel for technical support
+- Call to discuss your use case
+
+If you're building a retrieval app, check out our Search API: https://docs.trychroma.com/cloud/search-api/overview
+
+I'm happy to hop on a call or set up a shared Slack channel, whatever works best for you.
+
+Have cc'd Jeff, founder of Chroma to the thread. Talk soon!
+
+PS: Bumped your credits to $1,000 to get you started!
+
+

@@ -6,6 +6,18 @@ Chroma Signal is the internal tooling that powers Chroma's Go-To-Market operatio
 
 ---
 
+## 🤖 For AI Agents (Cursor/Claude/Copilot)
+
+> **⚠️ START HERE**: Before writing ANY code, read these files in order:
+
+1. **[CLAUDE.md](CLAUDE.md)** - AI agent context, script registry, what exists
+2. **[SCRIPT_REGISTRY.md](SCRIPT_REGISTRY.md)** - Complete list of all 70+ scripts
+3. **[context/GTM_CONTEXT.md](context/GTM_CONTEXT.md)** - Strategy and priorities
+
+**Rule**: Search existing scripts before creating new ones!
+
+---
+
 ## 📁 Repository Structure
 
 ```

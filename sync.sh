@@ -48,3 +48,5 @@ echo ""
 echo -e "${GREEN}✅ Successfully synced to GitHub!${NC}"
 echo -e "${GREEN}   View at: https://github.com/chroma-core/chroma-signal${NC}"
 
+
+

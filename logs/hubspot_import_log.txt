@@ -1,0 +1,1195 @@
+======================================================================
+📥 HUBSPOT COHORT DATA IMPORT
+======================================================================
+   Started: 2026-01-13T21:36:35.045990
+   API Key: pat-na2-a2f9128c-b2f...
+
+🔗 Testing HubSpot connection...
+✅ HubSpot connection successful!
+   Loading existing companies from HubSpot...
+   Found 20 existing records
+
+======================================================================
+🔴 COHORT 1: Current Chroma Customers
+======================================================================
+   Loaded tier1: 100 companies
+   Loaded tier2: 522 companies
+   Loaded tier3: 244 companies
+   Loaded tier4: 157 companies
+
+📤 Importing 1023 companies for Cohort 1: Current Customers...
+   [1/1023] 🔄 Red Hat - updated
+   [2/1023] 🔄 Datafold - updated
+   [3/1023] 🔄 Ringcentral - updated
+   [4/1023] 🔄 Vmware - updated
+   [5/1023] 🔄 Iterable - updated
+   [21/1023] ✅ Wordware (Yc S24) - created
+   [22/1023] ✅ Honeyhive - created
+   [23/1023] ✅ Juicebox (Yc S22) - created
+   [24/1023] ✅ Duckie (Yc W24) - created
+   [25/1023] ✅ Chalk - created
+   [26/1023] ✅ Inducedai - created
+   [27/1023] ✅ Zero - created
+   [28/1023] ✅ Intuit - created
+   [29/1023] ✅ Ibm - created
+   [30/1023] ✅ Oracle - created
+
+======================================================================
+🟠 COHORT 2: In-Market Companies
+======================================================================
+   Loaded 1094 in-market companies
+
+📤 Importing 1094 companies for Cohort 2: In-Market...
+   [1/1094] ❌ Uber - create_failed
+   [2/1094] ❌ LinkedIn - create_failed
+   [3/1094] ❌ BlackRock - create_failed
+   [4/1094] ❌ JP Morgan - create_failed
+   [5/1094] ❌ Cisco - update_failed
+   [6/1094] ❌ Monday.com - create_failed
+   [7/1094] ❌ Box - create_failed
+   [8/1094] ❌ Rippling - create_failed
+   [9/1094] ❌ PagerDuty - create_failed
+   [10/1094] ❌ Rakuten - create_failed
+   [11/1094] ❌ Pigment - create_failed
+   [12/1094] ❌ Vizient - create_failed
+   [13/1094] ❌ Morningstar - create_failed
+   [14/1094] ❌ Modern Treasury - create_failed
+   [15/1094] ❌ Harvey AI - create_failed
+   [16/1094] ❌ 11x - create_failed
+   [17/1094] ❌ Prosper - create_failed
+   [18/1094] ❌ City of Hope - create_failed
+   [19/1094] ❌ Clay - create_failed
+   [20/1094] ❌ Tabs - create_failed
+   [21/1094] ❌ Writer - create_failed
+   [22/1094] ❌ Decagon - create_failed
+   [23/1094] ❌ Character.AI - create_failed
+   [24/1094] ❌ Replit - create_failed
+   [25/1094] ❌ Cognition (Devin) - create_failed
+   [26/1094] ❌ Factory - create_failed
+   [27/1094] ❌ Quora/Poe - create_failed
+   [28/1094] ❌ Unify - create_failed
+   [29/1094] ❌ Outshift (Cisco) - create_failed
+   [30/1094] ❌ Shortwave - create_failed
+   [31/1094] ❌ Superagent - create_failed
+   [32/1094] ❌ Quivr - create_failed
+   [33/1094] ❌ Plastic Labs - create_failed
+   [34/1094] ❌ Google - update_failed
+   [35/1094] ❌ Meta - create_failed
+   [36/1094] ❌ Mistral - create_failed
+   [37/1094] ❌ Cohere - create_failed
+   [38/1094] ❌ Groq - create_failed
+   [39/1094] ❌ DeepSeek - create_failed
+   [40/1094] ❌ Ollama - create_failed
+   [41/1094] ❌ Fireworks AI - create_failed
+   [42/1094] ❌ Airbyte - update_failed
+   [43/1094] ❌ AssemblyAI - create_failed
+   [44/1094] ❌ Exa - create_failed
+   [45/1094] ❌ CodiumAI - create_failed
+   [46/1094] ❌ NVIDIA - update_failed
+   [47/1094] ❌ Arcade AI - create_failed
+   [48/1094] ❌ Antz AI - create_failed
+   [49/1094] ❌ Arize AI - create_failed
+   [50/1094] ❌ AskNews - create_failed
+   [51/1094] ❌ AugmentCode - create_failed
+   [52/1094] ❌ Baseten - create_failed
+   [53/1094] ❌ Camel AI - create_failed
+   [54/1094] ❌ Cheshire Cat AI - create_failed
+   [55/1094] ❌ Cognee - create_failed
+   [56/1094] ❌ Delivery Hero - update_failed
+   [57/1094] ❌ Dust - create_failed
+   [58/1094] ❌ Equal - create_failed
+   [59/1094] ❌ GoodData - create_failed
+   [60/1094] ❌ Indexify - create_failed
+   [61/1094] ❌ KI Reply - create_failed
+   [62/1094] ❌ Lettria - create_failed
+   [63/1094] ❌ Linkup - create_failed
+   [64/1094] ❌ Quotient - create_failed
+   [65/1094] ❌ Razroo - create_failed
+   [66/1094] ❌ Sentrev - create_failed
+   [67/1094] ❌ Superlinked - create_failed
+   [68/1094] ❌ Tensorlake - update_failed
+   [69/1094] ❌ Twelve Labs - create_failed
+   [70/1094] ❌ Unstructured - create_failed
+   [71/1094] ❌ VirtualBrain - create_failed
+   [72/1094] ❌ bakdata - create_failed
+   [73/1094] ❌ iCompetence - create_failed
+   [74/1094] ❌ Apache Kafka - create_failed
+   [75/1094] ❌ Google DeepMind - create_failed
+   [76/1094] ❌ Google Gemini - create_failed
+   [77/1094] ❌ Neo4j - create_failed
+   [78/1094] ❌ deepset - create_failed
+   [79/1094] ❌ AliBi and Self - create_failed
+   [80/1094] ❌ Alltius AI - create_failed
+   [81/1094] ❌ Arctic (Snowflake) - create_failed
+   [82/1094] ❌ BAIK - create_failed
+   [83/1094] ❌ Box AI - create_failed
+   [84/1094] ❌ Cartesia AI - create_failed
+   [85/1094] ❌ Cohere Embedding Models - create_failed
+   [86/1094] ❌ Contextual AI - create_failed
+   [87/1094] ❌ Emissary - create_failed
+   [88/1094] ❌ FeatureForm - create_failed
+   [89/1094] ❌ Fine - create_failed
+   [90/1094] ❌ GPT4All - create_failed
+   [91/1094] ❌ Haize Labs - create_failed
+   [92/1094] ❌ Kapa AI - create_failed
+   [93/1094] ❌ Keenious - create_failed
+   [94/1094] ❌ Kraftful - create_failed
+   [95/1094] ❌ LLM Agents - create_failed
+   [96/1094] ❌ Letta AI - create_failed
+   [97/1094] ❌ Masterful AI - create_failed
+   [98/1094] ❌ Mem - create_failed
+   [99/1094] ❌ Metarank - create_failed
+   [100/1094] ❌ Metro AG - create_failed
+   [101/1094] ❌ Mixpeek - create_failed
+   [102/1094] ❌ Mixpeek and the AI Landscape - create_failed
+   [103/1094] ❌ MosaicML Cloud - create_failed
+   [104/1094] ❌ Neum AI - create_failed
+   [105/1094] ❌ OpenVerkiezingenNL - create_failed
+   [106/1094] ❌ Orchest - create_failed
+   [107/1094] ❌ Patronus AI - create_failed
+   [108/1094] ❌ PodcastGPT - create_failed
+   [109/1094] ❌ Portkey - create_failed
+   [110/1094] ❌ Pyversity - create_failed
+   [111/1094] ❌ Question Answering with Haystack - create_failed
+   [112/1094] ❌ Recommendation and Metarank - create_failed
+   [113/1094] ❌ SWE-bench - create_failed
+   [114/1094] ❌ Scientific Literature Mining - create_failed
+   [115/1094] ❌ Super People - create_failed
+   [116/1094] ❌ TARS - update_failed
+   [117/1094] ❌ Tactic - create_failed
+   [118/1094] ❌ Tactic Generate - create_failed
+   [119/1094] ❌ VL Adapter for Efficient CLIP Transfer - create_failed
+   [120/1094] ❌ VectorFlow - create_failed
+   [121/1094] ❌ Vody - create_failed
+   [122/1094] ❌ WPSolr - create_failed
+   [123/1094] ❌ Weaviate User Experience - create_failed
+   [124/1094] ❌ Weaviate and AWS - create_failed
+   [125/1094] ❌ Weaviate and SAS - create_failed
+   [126/1094] ❌ You.com - create_failed
+   [127/1094] ❌ You.com and Spark - create_failed
+   [128/1094] ❌ Zencastr - create_failed
+   [129/1094] ❌ AWS - create_failed
+   [130/1094] ❌ Confluent - create_failed
+   [131/1094] ❌ GitHub - create_failed
+   [132/1094] ❌ MosaicML - create_failed
+   [133/1094] ❌ Neural Magic - create_failed
+   [134/1094] ❌ Nomic AI - create_failed
+   [135/1094] ❌ SAS - create_failed
+   [136/1094] ❌ Vertex AI - create_failed
+   [137/1094] ❌ Voyage AI - create_failed
+   [138/1094] ❌ Vinted - create_failed
+   [139/1094] ❌ Notion - create_failed
+   [140/1094] ❌ Zapier - create_failed
+   [141/1094] ❌ Shopify - create_failed
+   [142/1094] ❌ Canva - create_failed
+   [143/1094] ❌ Hubspot - create_failed
+   [144/1094] ❌ DigitalOcean - create_failed
+   [145/1094] ❌ Calm - create_failed
+   [146/1094] ❌ Convoy - create_failed
+   [147/1094] ❌ Chipper Cash - create_failed
+   [148/1094] ❌ Tata Consultancy Services Limited - create_failed
+   [149/1094] ❌ Cox Enterprises - create_failed
+   [150/1094] ❌ Pinecone Inc. - create_failed
+   [151/1094] ❌ Launch Legends - create_failed
+   [152/1094] ❌ NVIDIA Corporation - create_failed
+   [153/1094] ❌ Johnson & Johnson - create_failed
+   [154/1094] ❌ InvestCloud Inc. - create_failed
+   [155/1094] ❌ The Walt Disney Company - create_failed
+   [156/1094] ❌ Workhuman - create_failed
+   [157/1094] ❌ Pieces Technologies Inc - create_failed
+   [158/1094] ❌ P3 Adaptive - create_failed
+   [159/1094] ❌ Elsevier - create_failed
+   [160/1094] ❌ Visa - create_failed
+   [161/1094] ❌ Align Technology - create_failed
+   [162/1094] ❌ Riccione Resources - create_failed
+   [163/1094] ❌ Anthropic - create_failed
+   [164/1094] ❌ Zilliz Inc. - create_failed
+   [165/1094] ❌ OpenAI - update_failed
+   [166/1094] ❌ Capital One - create_failed
+   [167/1094] ❌ Hugging Face Inc. - create_failed
+   [168/1094] ❌ AMK Technology Sdn Bhd - create_failed
+   [169/1094] ❌ International Business Machines Corporation - create_failed
+   [170/1094] ❌ 1898 & Co. - create_failed
+   [171/1094] ❌ Accenture España - create_failed
+   [172/1094] ❌ Weaviate GmbH - create_failed
+   [173/1094] ❌ Chroma Inc. - create_failed
+   [174/1094] ❌ ServiceNow Inc. - create_failed
+   [175/1094] ❌ Databricks, Inc. - create_failed
+   [176/1094] ❌ LangChain - create_failed
+   [177/1094] ❌ Elastic N.V. - create_failed
+   [178/1094] ❌ Netflix, Inc. - create_failed
+   [179/1094] ❌ Oracle Corporation - create_failed
+   [180/1094] ❌ Scribd Inc. - create_failed
+   [181/1094] ❌ Weaviate - create_failed
+   [182/1094] ❌ Deloitte - update_failed
+   [183/1094] ❌ Qdrant - create_failed
+   [184/1094] ❌ Accenture - update_failed
+   [185/1094] ❌ Finastra - create_failed
+   [186/1094] ❌ Capgemini - update_failed
+   [187/1094] ❌ The Phia Group - create_failed
+   [188/1094] ❌ Marqo - create_failed
+   [189/1094] ❌ Cercle - create_failed
+   [190/1094] ❌ Weights & Biases - update_failed
+   [191/1094] ❌ MongoDB Inc. - create_failed
+   [192/1094] ❌ Vectra AI - create_failed
+   [193/1094] ❌ Verta AI - create_failed
+   [194/1094] ❌ Pinecone - create_failed
+   [195/1094] ❌ LlamaIndex - create_failed
+   [196/1094] ❌ Amazon.com, Inc. - create_failed
+   [197/1094] ❌ Databricks - create_failed
+   [198/1094] ❌ Activeloop - create_failed
+   [199/1094] ❌ Jina AI - create_failed
+   [200/1094] ❌ Scale AI - update_failed
+   [201/1094] ❌ Google LLC - create_failed
+   [202/1094] ❌ Cohere Inc. - create_failed
+   [203/1094] ❌ Fiserv, Inc. - create_failed
+   [204/1094] ❌ Elsevier B.V. - create_failed
+   [205/1094] ❌ Wipro Limited - create_failed
+   [206/1094] ❌ Zoox, Inc. - create_failed
+   [207/1094] ❌ ByteDance Ltd. - create_failed
+   [208/1094] ❌ Aon plc - create_failed
+   [209/1094] ❌ Intel Corporation - create_failed
+   [210/1094] ❌ Intuit Inc. - create_failed
+   [211/1094] ❌ Apple Inc. - create_failed
+   [212/1094] ❌ CVS Health - create_failed
+   [213/1094] ❌ Exadel - create_failed
+   [214/1094] ❌ GSK plc - create_failed
+   [215/1094] ❌ UnitedHealth Group - create_failed
+   [216/1094] ❌ Salesforce Inc. - create_failed
+   [217/1094] ❌ McKinsey & Company - update_failed
+   [218/1094] ❌ The Home Depot - create_failed
+   [219/1094] ❌ FM Global - create_failed
+   [220/1094] ❌ Tesla, Inc. - create_failed
+   [221/1094] ❌ Recursion Pharmaceuticals - create_failed
+   [222/1094] ❌ Imagene AI - create_failed
+   [223/1094] ❌ Moderna, Inc. - create_failed
+   [224/1094] ❌ Deep 6 AI - create_failed
+   [225/1094] ❌ 23andMe, Inc. - create_failed
+   [226/1094] ❌ Johnson & Johnson - Principal Vector Data Engineer (Job ID: R-037921) - create_failed
+   [227/1094] ❌ Bristol-Myers Squibb - create_failed
+   [228/1094] ❌ Genentech - create_failed
+   [229/1094] ❌ Owkin - create_failed
+   [230/1094] ❌ Illumina Inc. - create_failed
+   [231/1094] ❌ Cedars-Sinai Medical Center - create_failed
+   [232/1094] ❌ Viz.ai - create_failed
+   [233/1094] ❌ Exact Sciences Inc. - create_failed
+   [234/1094] ❌ Tempus Inc. - create_failed
+   [235/1094] ❌ 10x Genomics, Inc. - create_failed
+   [236/1094] ❌ JPMorgan Chase & Co. - create_failed
+   [237/1094] ❌ CoBank - create_failed
+   [238/1094] ❌ Mastercard Incorporated - create_failed
+   [239/1094] ❌ TradeStation - create_failed
+   [240/1094] ❌ Voya Financial - create_failed
+   [241/1094] ❌ Thomson Reuters, Staff Software Engineer - AI I - create_failed
+   [242/1094] ❌ Stripe Inc. - create_failed
+   [243/1094] ❌ BNP Paribas - create_failed
+   [244/1094] ❌ Morgan Stanley - create_failed
+   [245/1094] ❌ Thomson Reuters - create_failed
+   [246/1094] ❌ Wells Fargo & Company - create_failed
+   [247/1094] ❌ Plaid Inc. - create_failed
+   [248/1094] ❌ S‑PRO - create_failed
+   [249/1094] ❌ Bajaj Finserv - create_failed
+   [250/1094] ❌ Greptile - create_failed
+   [251/1094] ❌ Lindy.ai - create_failed
+   [252/1094] ❌ Mintlify - create_failed
+   [253/1094] ❌ n8n - create_failed
+   [254/1094] ❌ Apollo.io - create_failed
+   [255/1094] ❌ Eightfold.ai - create_failed
+   [256/1094] ❌ Fintool - create_failed
+   [257/1094] ❌ Forethought - create_failed
+   [258/1094] ❌ GitBook - create_failed
+   [259/1094] ❌ Gong - create_failed
+   [260/1094] ❌ Gumloop - create_failed
+   [261/1094] ❌ Guru - create_failed
+   [262/1094] ❌ Intercom - create_failed
+   [263/1094] ❌ Jasper - create_failed
+   [264/1094] ❌ Mercor - create_failed
+   [265/1094] ❌ Moonhub - create_failed
+   [266/1094] ❌ Pieces for Developers - create_failed
+   [267/1094] ❌ Qualified - create_failed
+   [268/1094] ❌ ReadMe - create_failed
+   [269/1094] ❌ Relay.app - create_failed
+   [270/1094] ❌ Relevance AI - create_failed
+   [271/1094] ❌ Ada - create_failed
+   [272/1094] ❌ Amplitude - create_failed
+   [273/1094] ❌ Census - create_failed
+   [274/1094] ❌ Clari - create_failed
+   [275/1094] ❌ Coda - create_failed
+   [276/1094] ❌ FinChat - create_failed
+   [277/1094] ❌ Findem - create_failed
+   [278/1094] ❌ Frase - create_failed
+   [279/1094] ❌ Freshworks - create_failed
+   [280/1094] ❌ Hightouch - create_failed
+   [281/1094] ❌ Koyfin - create_failed
+   [282/1094] ❌ MarketMuse - create_failed
+   [283/1094] ❌ Mindtrip - create_failed
+   [284/1094] ❌ Mixpanel - create_failed
+   [285/1094] ❌ Numeric - create_failed
+   [286/1094] ❌ PostHog - update_failed
+   [287/1094] ❌ Retool - update_failed
+   [288/1094] ❌ Rogo - create_failed
+   [289/1094] ❌ Segment - create_failed
+   [290/1094] ❌ Spotnana - create_failed
+   [291/1094] ❌ Stack AI - create_failed
+   [292/1094] ❌ Surfer - create_failed
+   [293/1094] ❌ Truewind - create_failed
+   [294/1094] ❌ Zendesk - create_failed
+   [295/1094] ❌ ZoomInfo - create_failed
+   [296/1094] ❌ 1X Technologies - create_failed
+   [297/1094] ❌ 6sense - create_failed
+   [298/1094] ❌ 7 Traits Genomics - create_failed
+   [299/1094] ❌ 7taps - create_failed
+   [300/1094] ❌ 8Flow - create_failed
+   [301/1094] ❌ Aaru AI - create_failed
+   [302/1094] ❌ Abel Police - create_failed
+   [303/1094] ❌ Abnormal Security - create_failed
+   [304/1094] ❌ Abridge - create_failed
+   [305/1094] ❌ Accelerant - create_failed
+   [306/1094] ❌ ActionIQ - create_failed
+   [307/1094] ❌ ActiveCampaign - create_failed
+   [308/1094] ❌ Activepieces - create_failed
+   [309/1094] ❌ Adaptive Insurance - create_failed
+   [310/1094] ❌ Adept - create_failed
+   [311/1094] ❌ Adobe Firefly - create_failed
+   [312/1094] ❌ AgentGPT - create_failed
+   [313/1094] ❌ AgentOps - create_failed
+   [314/1094] ❌ Agentuity - create_failed
+   [315/1094] ❌ AgentX - create_failed
+   [316/1094] ❌ Agility Robotics - create_failed
+   [317/1094] ❌ Agno - create_failed
+   [318/1094] ❌ Ahrefs - create_failed
+   [319/1094] ❌ AiCure - create_failed
+   [320/1094] ❌ Aider - create_failed
+   [321/1094] ❌ Aidoc - create_failed
+   [322/1094] ❌ Airbase - create_failed
+   [323/1094] ❌ Airial - create_failed
+   [324/1094] ❌ AirOps - create_failed
+   [325/1094] ❌ Airplane - create_failed
+   [326/1094] ❌ Aisera - create_failed
+   [327/1094] ❌ Akur8 - create_failed
+   [328/1094] ❌ ALBIE - create_failed
+   [329/1094] ❌ Aldara - create_failed
+   [330/1094] ❌ Alex - create_failed
+   [331/1094] ❌ Algolia - create_failed
+   [332/1094] ❌ Alice Technologies - create_failed
+   [333/1094] ❌ Alloy - create_failed
+   [334/1094] ❌ Alltius - create_failed
+   [335/1094] ❌ Almanac - create_failed
+   [336/1094] ❌ AlphaSense - create_failed
+   [337/1094] ❌ Altana AI - create_failed
+   [338/1094] ❌ Amazon Q Developer - create_failed
+   [339/1094] ❌ Ambience Healthcare - create_failed
+   [340/1094] ❌ Ambiq - create_failed
+   [341/1094] ❌ Amira Learning - create_failed
+   [342/1094] ❌ Amperity - create_failed
+   [343/1094] ❌ Anduril - create_failed
+   [344/1094] ❌ Ankar - create_failed
+   [345/1094] ❌ Anomali - create_failed
+   [346/1094] ❌ Anterior - create_failed
+   [347/1094] ❌ Anyscale - create_failed
+   [348/1094] ❌ Anyword - create_failed
+   [349/1094] ❌ APIdog - create_failed
+   [350/1094] ❌ Appen - create_failed
+   [351/1094] ❌ Apptronik - create_failed
+   [352/1094] ❌ Aquicore - create_failed
+   [353/1094] ❌ Aracor AI - create_failed
+   [354/1094] ❌ Archbee - create_failed
+   [355/1094] ❌ ArchiLabs - create_failed
+   [356/1094] ❌ Argo AI - create_failed
+   [357/1094] ❌ Arkestro - create_failed
+   [358/1094] ❌ Armis - create_failed
+   [359/1094] ❌ Artbreeder - create_failed
+   [360/1094] ❌ ASAPP - create_failed
+   [361/1094] ❌ Ashby - create_failed
+   [362/1094] ❌ AskCodi - create_failed
+   [363/1094] ❌ Assembly - create_failed
+   [364/1094] ❌ Assembly HOA - create_failed
+   [365/1094] ❌ Astrobotic - create_failed
+   [366/1094] ❌ At-Bay - create_failed
+   [367/1094] ❌ Atalanta Therapeutics - create_failed
+   [368/1094] ❌ Athena Intelligence - create_failed
+   [369/1094] ❌ Atom Finance - create_failed
+   [370/1094] ❌ Attune - create_failed
+   [371/1094] ❌ Attuned Intelligence - create_failed
+   [372/1094] ❌ Augment - create_failed
+   [373/1094] ❌ Augmodo - create_failed
+   [374/1094] ❌ Auquan - create_failed
+   [375/1094] ❌ Aurora - create_failed
+   [376/1094] ❌ AutoGen - create_failed
+   [377/1094] ❌ Automax.ai - create_failed
+   [378/1094] ❌ Autoura - create_failed
+   [379/1094] ❌ Avidnote - create_failed
+   [380/1094] ❌ BA Insight - create_failed
+   [381/1094] ❌ BabyAGI - create_failed
+   [382/1094] ❌ BamSEC - create_failed
+   [383/1094] ❌ Bardeen - create_failed
+   [384/1094] ❌ Beacon Software - create_failed
+   [385/1094] ❌ Beam.ai - create_failed
+   [386/1094] ❌ Beamery - create_failed
+   [387/1094] ❌ Bean AI - create_failed
+   [388/1094] ❌ Bench - create_failed
+   [389/1094] ❌ Berkshire Grey - create_failed
+   [390/1094] ❌ Bestow - create_failed
+   [391/1094] ❌ Bilt - create_failed
+   [392/1094] ❌ Biofourmis - create_failed
+   [393/1094] ❌ Bird.ai - create_failed
+   [394/1094] ❌ BlackLine - create_failed
+   [395/1094] ❌ Bloomberg - create_failed
+   [396/1094] ❌ Bloomfire - create_failed
+   [397/1094] ❌ Bloomreach - create_failed
+   [398/1094] ❌ Blue Canoe - create_failed
+   [399/1094] ❌ BlueConic - create_failed
+   [400/1094] ❌ Bolt.new - create_failed
+   [401/1094] ❌ Booke.ai - create_failed
+   [402/1094] ❌ Boosted.ai - create_failed
+   [403/1094] ❌ Botkeeper - create_failed
+   [404/1094] ❌ Boxever - create_failed
+   [405/1094] ❌ Brainly - create_failed
+   [406/1094] ❌ Braintrust - create_failed
+   [407/1094] ❌ Braintrust Data - create_failed
+   [408/1094] ❌ Branch Insurance - create_failed
+   [409/1094] ❌ Braveheart Bio - create_failed
+   [410/1094] ❌ Braze - create_failed
+   [411/1094] ❌ Brex - create_failed
+   [412/1094] ❌ Brickwise - create_failed
+   [413/1094] ❌ Briq - create_failed
+   [414/1094] ❌ Bruno - create_failed
+   [415/1094] ❌ Bucket Robotics - create_failed
+   [416/1094] ❌ Buddy.ai - create_failed
+   [417/1094] ❌ Buildertrend - create_failed
+   [418/1094] ❌ Buildots - create_failed
+   [419/1094] ❌ Built AI - create_failed
+   [420/1094] ❌ Built Robotics - create_failed
+   [421/1094] ❌ Butterfly Network - create_failed
+   [422/1094] ❌ Calendly - create_failed
+   [423/1094] ❌ CallRail - create_failed
+   [424/1094] ❌ CAMP4 Therapeutics - create_failed
+   [425/1094] ❌ Canvas - create_failed
+   [426/1094] ❌ Capacity - create_failed
+   [427/1094] ❌ Cape Analytics - create_failed
+   [428/1094] ❌ Caption Health - create_failed
+   [429/1094] ❌ Captions - create_failed
+   [430/1094] ❌ Carbon Arc - create_failed
+   [431/1094] ❌ CareCloud - create_failed
+   [432/1094] ❌ Careerist - create_failed
+   [433/1094] ❌ Caresyntax - create_failed
+   [434/1094] ❌ Carnegie Learning - create_failed
+   [435/1094] ❌ Carnegie Robotics - create_failed
+   [436/1094] ❌ Carrot Fertility - create_failed
+   [437/1094] ❌ CB Insights - create_failed
+   [438/1094] ❌ Centific - update_failed
+   [439/1094] ❌ Century Tech - create_failed
+   [440/1094] ❌ Cerebras - create_failed
+   [441/1094] ❌ Charge Robotics - create_failed
+   [442/1094] ❌ Checkr - create_failed
+   [443/1094] ❌ Cherre - create_failed
+   [444/1094] ❌ Chewy - create_failed
+   [445/1094] ❌ Chorus.ai - create_failed
+   [446/1094] ❌ Clasp Therapeutics - create_failed
+   [447/1094] ❌ Clearcover - create_failed
+   [448/1094] ❌ Clearscope - create_failed
+   [449/1094] ❌ Climaty AI - create_failed
+   [450/1094] ❌ Clio - create_failed
+   [451/1094] ❌ CloudFactory - create_failed
+   [452/1094] ❌ Cnvrg.io - create_failed
+   [453/1094] ❌ Coactive AI - create_failed
+   [454/1094] ❌ Coalition - create_failed
+   [455/1094] ❌ CodaMetrix - create_failed
+   [456/1094] ❌ Code Metal - create_failed
+   [457/1094] ❌ CodeGPT - create_failed
+   [458/1094] ❌ Codeium - create_failed
+   [459/1094] ❌ Codeium/Windsurf - create_failed
+   [460/1094] ❌ Cody - create_failed
+   [461/1094] ❌ Cognism - create_failed
+   [462/1094] ❌ Cognition - create_failed
+   [463/1094] ❌ Cohere Health - create_failed
+   [464/1094] ❌ Colossyan - create_failed
+   [465/1094] ❌ Comet ML - create_failed
+   [466/1094] ❌ Commure - create_failed
+   [467/1094] ❌ Composabl - create_failed
+   [468/1094] ❌ CompStak - create_failed
+   [469/1094] ❌ Confluence - create_failed
+   [470/1094] ❌ Connected Papers - create_failed
+   [471/1094] ❌ Consensus - create_failed
+   [472/1094] ❌ Continue.dev - create_failed
+   [473/1094] ❌ ContractPodAi - create_failed
+   [474/1094] ❌ Convercent - create_failed
+   [475/1094] ❌ Copy.ai - create_failed
+   [476/1094] ❌ Corcentric - create_failed
+   [477/1094] ❌ Coupa - create_failed
+   [478/1094] ❌ Course Hero - create_failed
+   [479/1094] ❌ Covariant - create_failed
+   [480/1094] ❌ Coveo - create_failed
+   [481/1094] ❌ Cover Genius - create_failed
+   [482/1094] ❌ Crescendo.ai - create_failed
+   [483/1094] ❌ Cresta - create_failed
+   [484/1094] ❌ CrewAI - create_failed
+   [485/1094] ❌ CrowdStrike - create_failed
+   [486/1094] ❌ CS Disco - create_failed
+   [487/1094] ❌ Cube - create_failed
+   [488/1094] ❌ Curative Health - create_failed
+   [489/1094] ❌ Cursor - create_failed
+   [490/1094] ❌ Cursor (Anysphere) - create_failed
+   [491/1094] ❌ Customer.io - create_failed
+   [492/1094] ❌ CVAT - create_failed
+   [493/1094] ❌ Cybereason - create_failed
+   [494/1094] ❌ D-ID - create_failed
+   [495/1094] ❌ D3x - create_failed
+   [496/1094] ❌ DAGsHub - create_failed
+   [497/1094] ❌ Darktrace - create_failed
+   [498/1094] ❌ Darrow - create_failed
+   [499/1094] ❌ Darsel - create_failed
+   [500/1094] ❌ Dash Bio - create_failed
+   [501/1094] ❌ Dashworks - create_failed
+   [502/1094] ❌ Dataloop - create_failed
+   [503/1094] ❌ Dataminr - create_failed
+   [504/1094] ❌ Datarails - create_failed
+   [505/1094] ❌ DataRobot - create_failed
+   [506/1094] ❌ DataSnipper - create_failed
+   [507/1094] ❌ Datavant - create_failed
+   [508/1094] ❌ Dealpath - create_failed
+   [509/1094] ❌ Decart - create_failed
+   [510/1094] ❌ Deel - update_failed
+   [511/1094] ❌ Deep Instinct - create_failed
+   [512/1094] ❌ Deepgram - create_failed
+   [513/1094] ❌ Deepnote - create_failed
+   [514/1094] ❌ DeepScribe - create_failed
+   [515/1094] ❌ Demandbase - create_failed
+   [516/1094] ❌ Descript - create_failed
+   [517/1094] ❌ Determined AI - create_failed
+   [518/1094] ❌ DevRev - create_failed
+   [519/1094] ❌ Digits - create_failed
+   [520/1094] ❌ Dimensions - create_failed
+   [521/1094] ❌ Distyl AI - create_failed
+   [522/1094] ❌ Docket AI - create_failed
+   [523/1094] ❌ Docoh - create_failed
+   [524/1094] ❌ Docsumo - create_failed
+   [525/1094] ❌ Document360 - create_failed
+   [526/1094] ❌ Docyt - create_failed
+   [527/1094] ❌ Domino Data Lab - create_failed
+   [528/1094] ❌ DoNotPay - create_failed
+   [529/1094] ❌ Dotdigital - create_failed
+   [530/1094] ❌ Dover - create_failed
+   [531/1094] ❌ DreamBox Learning - create_failed
+   [532/1094] ❌ Drift - create_failed
+   [533/1094] ❌ Drivetrain - create_failed
+   [534/1094] ❌ Druid AI - create_failed
+   [535/1094] ❌ Duolingo - create_failed
+   [536/1094] ❌ Duolingo Max - create_failed
+   [537/1094] ❌ Dusty Robotics - create_failed
+   [538/1094] ❌ E2B - create_failed
+   [539/1094] ❌ Echo Labs - create_failed
+   [540/1094] ❌ EchoAPI - create_failed
+   [541/1094] ❌ Eden AI - create_failed
+   [542/1094] ❌ Edsoma - create_failed
+   [543/1094] ❌ Eigen Technologies - create_failed
+   [544/1094] ❌ Eightfold AI - create_failed
+   [545/1094] ❌ Elai.io - create_failed
+   [546/1094] ❌ Elastic - create_failed
+   [547/1094] ❌ Eleos Health - create_failed
+   [548/1094] ❌ ElevenLabs - create_failed
+   [549/1094] ❌ Elicit - create_failed
+   [550/1094] ❌ EliseAI - create_failed
+   [551/1094] ❌ Ellipsis - create_failed
+   [552/1094] ❌ Emarsys - create_failed
+   [553/1094] ❌ Emergence AI - create_failed
+   [554/1094] ❌ Encord - create_failed
+   [555/1094] ❌ Enertiv - create_failed
+   [556/1094] ❌ EnFi - create_failed
+   [557/1094] ❌ Enova - create_failed
+   [558/1094] ❌ Espressive - create_failed
+   [559/1094] ❌ Ethos AI - create_failed
+   [560/1094] ❌ Ethos Life - create_failed
+   [561/1094] ❌ Eudia - create_failed
+   [562/1094] ❌ Eve - create_failed
+   [563/1094] ❌ EvenUp - create_failed
+   [564/1094] ❌ Evidently AI - create_failed
+   [565/1094] ❌ EvolutionaryScale - create_failed
+   [566/1094] ❌ Excellence - create_failed
+   [567/1094] ❌ Fairmarkit - create_failed
+   [568/1094] ❌ Fal - create_failed
+   [569/1094] ❌ Farsight - create_failed
+   [570/1094] ❌ Federato - create_failed
+   [571/1094] ❌ Fellou - create_failed
+   [572/1094] ❌ Fieldwire - create_failed
+   [573/1094] ❌ Figure AI - create_failed
+   [574/1094] ❌ File.AI - create_failed
+   [575/1094] ❌ Filevine - create_failed
+   [576/1094] ❌ Filigran - create_failed
+   [577/1094] ❌ Finny AI - create_failed
+   [578/1094] ❌ Firstbase - create_failed
+   [579/1094] ❌ Five9 - create_failed
+   [580/1094] ❌ Fixie.ai - create_failed
+   [581/1094] ❌ Flashpoint - create_failed
+   [582/1094] ❌ Flatiron Health - create_failed
+   [583/1094] ❌ FlexDesk - create_failed
+   [584/1094] ❌ Fliki - create_failed
+   [585/1094] ❌ FloQast - create_failed
+   [586/1094] ❌ Fluent BioSciences - create_failed
+   [587/1094] ❌ Flyr - create_failed
+   [588/1094] ❌ Focal Point - create_failed
+   [589/1094] ❌ FogPharma - create_failed
+   [590/1094] ❌ Forge Automation - create_failed
+   [591/1094] ❌ Forter - create_failed
+   [592/1094] ❌ Freed - create_failed
+   [593/1094] ❌ Freepik - create_failed
+   [594/1094] ❌ Galaxy Bot - create_failed
+   [595/1094] ❌ Gem - create_failed
+   [596/1094] ❌ Gemini Code Assist - create_failed
+   [597/1094] ❌ Generative Alpha - create_failed
+   [598/1094] ❌ Genmo - create_failed
+   [599/1094] ❌ Genspark - create_failed
+   [600/1094] ❌ GEP - create_failed
+   [601/1094] ❌ GitLab Duo - create_failed
+   [602/1094] ❌ Gladly - create_failed
+   [603/1094] ❌ Glean - create_failed
+   [604/1094] ❌ Gloat - create_failed
+   [605/1094] ❌ Gorgias - create_failed
+   [606/1094] ❌ GoStudent - create_failed
+   [607/1094] ❌ GPTBots - create_failed
+   [608/1094] ❌ Greenhouse - create_failed
+   [609/1094] ❌ Greenlight - create_failed
+   [610/1094] ❌ GrowthBar - create_failed
+   [611/1094] ❌ GrupBlox - create_failed
+   [612/1094] ❌ GuestOS - create_failed
+   [613/1094] ❌ Guild - create_failed
+   [614/1094] ❌ Haiper - create_failed
+   [615/1094] ❌ HarfangLab - create_failed
+   [616/1094] ❌ Harmonic - create_failed
+   [617/1094] ❌ Harvey - create_failed
+   [618/1094] ❌ Haven Life - create_failed
+   [619/1094] ❌ Health Catalyst - create_failed
+   [620/1094] ❌ Healthie - create_failed
+   [621/1094] ❌ HeartFlow - create_failed
+   [622/1094] ❌ Hebbia - create_failed
+   [623/1094] ❌ Helicone - create_failed
+   [624/1094] ❌ Hellas Direct - create_failed
+   [625/1094] ❌ Help Scout - create_failed
+   [626/1094] ❌ Hex - create_failed
+   [627/1094] ❌ HeyGen - create_failed
+   [628/1094] ❌ Hi Marley - create_failed
+   [629/1094] ❌ HiddenLayer - create_failed
+   [630/1094] ❌ Highspot - create_failed
+   [631/1094] ❌ Hippo - create_failed
+   [632/1094] ❌ Hippocratic AI - create_failed
+   [633/1094] ❌ hireEZ - create_failed
+   [634/1094] ❌ Hireology - create_failed
+   [635/1094] ❌ HireVue - create_failed
+   [636/1094] ❌ Hive - create_failed
+   [637/1094] ❌ Honey Health - create_failed
+   [638/1094] ❌ Hopper - create_failed
+   [639/1094] ❌ Hoppscotch - create_failed
+   [640/1094] ❌ Horizon3.ai - create_failed
+   [641/1094] ❌ HowNow - create_failed
+   [642/1094] ❌ Hudson Labs - create_failed
+   [643/1094] ❌ Huginn - create_failed
+   [644/1094] ❌ Humanloop - create_failed
+   [645/1094] ❌ Humanly - create_failed
+   [646/1094] ❌ Hunters - create_failed
+   [647/1094] ❌ Hyper Nimbus - create_failed
+   [648/1094] ❌ Hyro.ai - create_failed
+   [649/1094] ❌ Ibotta - create_failed
+   [650/1094] ❌ Icertis - create_failed
+   [651/1094] ❌ ICEYE - create_failed
+   [652/1094] ❌ iCIMS - create_failed
+   [653/1094] ❌ Ideogram - create_failed
+   [654/1094] ❌ iMerit - create_failed
+   [655/1094] ❌ Inception AI - create_failed
+   [656/1094] ❌ Indemn - create_failed
+   [657/1094] ❌ Infinitus - create_failed
+   [658/1094] ❌ Inflection AI - create_failed
+   [659/1094] ❌ Innovaccer - create_failed
+   [660/1094] ❌ Insider - create_failed
+   [661/1094] ❌ Intel 471 - create_failed
+   [662/1094] ❌ Intercom (Fin) - create_failed
+   [663/1094] ❌ InVideo - create_failed
+   [664/1094] ❌ Invisible Technologies - create_failed
+   [665/1094] ❌ iPNOTE - create_failed
+   [666/1094] ❌ Iris.ai - create_failed
+   [667/1094] ❌ Ironclad - create_failed
+   [668/1094] ❌ IronLedger - create_failed
+   [669/1094] ❌ ISSEN - create_failed
+   [670/1094] ❌ Iterable - update_failed
+   [671/1094] ❌ Ivalua - create_failed
+   [672/1094] ❌ JAGGAER - create_failed
+   [673/1094] ❌ Jellyvision - create_failed
+   [674/1094] ❌ Jenni AI - create_failed
+   [675/1094] ❌ JetBrains AI - create_failed
+   [676/1094] ❌ Jirav - create_failed
+   [677/1094] ❌ Josef - create_failed
+   [678/1094] ❌ Juniper Square - create_failed
+   [679/1094] ❌ Juro - create_failed
+   [680/1094] ❌ Justpoint - create_failed
+   [681/1094] ❌ Kahoot! - create_failed
+   [682/1094] ❌ Kaptio - create_failed
+   [683/1094] ❌ Kapture CX - update_failed
+   [684/1094] ❌ Kapwing - create_failed
+   [685/1094] ❌ Keelvar - create_failed
+   [686/1094] ❌ Keeper App - create_failed
+   [687/1094] ❌ Kensho - create_failed
+   [688/1094] ❌ Kernal Bio - create_failed
+   [689/1094] ❌ Khanmigo - create_failed
+   [690/1094] ❌ Kiddom - create_failed
+   [691/1094] ❌ Kili Technology - create_failed
+   [692/1094] ❌ Kin Insurance - create_failed
+   [693/1094] ❌ Kira Systems - create_failed
+   [694/1094] ❌ Klaviyo - create_failed
+   [695/1094] ❌ Kling AI - create_failed
+   [696/1094] ❌ Kong Insomnia - create_failed
+   [697/1094] ❌ Kore.ai - update_failed
+   [698/1094] ❌ Krea AI - create_failed
+   [699/1094] ❌ Krisp - create_failed
+   [700/1094] ❌ Label Studio - create_failed
+   [701/1094] ❌ Labelbox - create_failed
+   [702/1094] ❌ Lacework - create_failed
+   [703/1094] ❌ Ladder - create_failed
+   [704/1094] ❌ Langfuse - create_failed
+   [705/1094] ❌ Latenode - create_failed
+   [706/1094] ❌ Lateral - create_failed
+   [707/1094] ❌ Lattice - create_failed
+   [708/1094] ❌ LawGeex - create_failed
+   [709/1094] ❌ Lawyaw - create_failed
+   [710/1094] ❌ Layla - create_failed
+   [711/1094] ❌ LeadIQ - create_failed
+   [712/1094] ❌ LeaseAI - create_failed
+   [713/1094] ❌ LegalMation - create_failed
+   [714/1094] ❌ Legora - create_failed
+   [715/1094] ❌ Lemonade - create_failed
+   [716/1094] ❌ Lens.org - create_failed
+   [717/1094] ❌ Lensa - create_failed
+   [718/1094] ❌ Leonardo.AI - create_failed
+   [719/1094] ❌ LevaData - create_failed
+   [720/1094] ❌ Lever - create_failed
+   [721/1094] ❌ Lex Machina - create_failed
+   [722/1094] ❌ Lexion - create_failed
+   [723/1094] ❌ LexisNexis Risk - create_failed
+   [724/1094] ❌ Leya - create_failed
+   [725/1094] ❌ Lightmatter - create_failed
+   [726/1094] ❌ Lightning AI - create_failed
+   [727/1094] ❌ Lightricks - create_failed
+   [728/1094] ❌ Likely.ai - create_failed
+   [729/1094] ❌ Lila Sciences - create_failed
+   [730/1094] ❌ LinkSquares - create_failed
+   [731/1094] ❌ Liquid AI - create_failed
+   [732/1094] ❌ Litmaps - create_failed
+   [733/1094] ❌ Liulishuo - create_failed
+   [734/1094] ❌ Lleverage - create_failed
+   [735/1094] ❌ LMArena - create_failed
+   [736/1094] ❌ Locus Robotics - create_failed
+   [737/1094] ❌ Lofty AI - create_failed
+   [738/1094] ❌ LogRhythm - create_failed
+   [739/1094] ❌ Loom - create_failed
+   [740/1094] ❌ Lovable - create_failed
+   [741/1094] ❌ Lucia - create_failed
+   [742/1094] ❌ Lucidworks - create_failed
+   [743/1094] ❌ Lucy - create_failed
+   [744/1094] ❌ Luma AI - create_failed
+   [745/1094] ❌ Lumeris - create_failed
+   [746/1094] ❌ Luminance - create_failed
+   [747/1094] ❌ Lusha - create_failed
+   [748/1094] ❌ Lytics - create_failed
+   [749/1094] ❌ M7 Health - create_failed
+   [750/1094] ❌ Machina Labs - create_failed
+   [751/1094] ❌ Magic - create_failed
+   [752/1094] ❌ Magic AI - create_failed
+   [753/1094] ❌ Magic Leap - create_failed
+   [754/1094] ❌ MagicSchool - create_failed
+   [755/1094] ❌ Magnific AI - create_failed
+   [756/1094] ❌ Mailchimp - create_failed
+   [757/1094] ❌ Majestic Labs - create_failed
+   [758/1094] ❌ Make - create_failed
+   [759/1094] ❌ Make (Integromat) - create_failed
+   [760/1094] ❌ Mandiant - create_failed
+   [761/1094] ❌ Manus AI - create_failed
+   [762/1094] ❌ Mapped - create_failed
+   [763/1094] ❌ Marathon Education - create_failed
+   [764/1094] ❌ MarsCode - create_failed
+   [765/1094] ❌ Martian - create_failed
+   [766/1094] ❌ Maven Clinic - create_failed
+   [767/1094] ❌ Maya AI - create_failed
+   [768/1094] ❌ Mbodi - create_failed
+   [769/1094] ❌ Measurabl - create_failed
+   [770/1094] ❌ Medumo - create_failed
+   [771/1094] ❌ Memrise - create_failed
+   [772/1094] ❌ Merge - create_failed
+   [773/1094] ❌ Merlin AI - create_failed
+   [774/1094] ❌ MESA - create_failed
+   [775/1094] ❌ Metropolis - create_failed
+   [776/1094] ❌ Midjourney - create_failed
+   [777/1094] ❌ Mindbreeze - create_failed
+   [778/1094] ❌ MixMode - create_failed
+   [779/1094] ❌ MobyTrade - create_failed
+   [780/1094] ❌ Modal - create_failed
+   [781/1094] ❌ Modernizing Medicine - create_failed
+   [782/1094] ❌ Modular - create_failed
+   [783/1094] ❌ Moonshot AI - create_failed
+   [784/1094] ❌ Mosaic - create_failed
+   [785/1094] ❌ Moveworks - create_failed
+   [786/1094] ❌ mParticle - create_failed
+   [787/1094] ❌ Murf.ai - create_failed
+   [788/1094] ❌ MySivi - create_failed
+   [789/1094] ❌ Nabla - create_failed
+   [790/1094] ❌ Navan - create_failed
+   [791/1094] ❌ nCino - create_failed
+   [792/1094] ❌ NCR Voyix - create_failed
+   [793/1094] ❌ Nectir AI - create_failed
+   [794/1094] ❌ Neota Logic - create_failed
+   [795/1094] ❌ Neptune.ai - create_failed
+   [796/1094] ❌ Neura Robotics - create_failed
+   [797/1094] ❌ NeuronWriter - create_failed
+   [798/1094] ❌ NewCode.ai - create_failed
+   [799/1094] ❌ Next Insurance - create_failed
+   [800/1094] ❌ NICE CXone - create_failed
+   [801/1094] ❌ NightCafe - create_failed
+   [802/1094] ❌ Node-RED - create_failed
+   [803/1094] ❌ Nomi Health - create_failed
+   [804/1094] ❌ Notable Health - create_failed
+   [805/1094] ❌ Novig - create_failed
+   [806/1094] ❌ Nuclino - create_failed
+   [807/1094] ❌ Nuro - create_failed
+   [808/1094] ❌ Observe.AI - create_failed
+   [809/1094] ❌ Olive - create_failed
+   [810/1094] ❌ Olive Legal - create_failed
+   [811/1094] ❌ Omnea - create_failed
+   [812/1094] ❌ OneTrust - create_failed
+   [813/1094] ❌ Onit - create_failed
+   [814/1094] ❌ Onna - create_failed
+   [815/1094] ❌ OpenEvidence - create_failed
+   [816/1094] ❌ Openly - create_failed
+   [817/1094] ❌ OpenRouter - create_failed
+   [818/1094] ❌ OpenSpace - create_failed
+   [819/1094] ❌ Optifye - create_failed
+   [820/1094] ❌ Opus Clip - create_failed
+   [821/1094] ❌ Orca Security - create_failed
+   [822/1094] ❌ Osmo - create_failed
+   [823/1094] ❌ Otter.ai - create_failed
+   [824/1094] ❌ Outranking - create_failed
+   [825/1094] ❌ Outreach - create_failed
+   [826/1094] ❌ Overjet - create_failed
+   [827/1094] ❌ Overland AI - create_failed
+   [828/1094] ❌ Oyster - create_failed
+   [829/1094] ❌ Pachyderm - create_failed
+   [830/1094] ❌ Pactum - create_failed
+   [831/1094] ❌ Pandai - create_failed
+   [832/1094] ❌ Pangea - create_failed
+   [833/1094] ❌ Papaya Global - create_failed
+   [834/1094] ❌ Paperpal - create_failed
+   [835/1094] ❌ Parabola - create_failed
+   [836/1094] ❌ Paradox - create_failed
+   [837/1094] ❌ Paradox (Olivia) - create_failed
+   [838/1094] ❌ Parallel - create_failed
+   [839/1094] ❌ Parea - create_failed
+   [840/1094] ❌ Parea AI - create_failed
+   [841/1094] ❌ PARES - create_failed
+   [842/1094] ❌ PathAI - create_failed
+   [843/1094] ❌ Peerbound - create_failed
+   [844/1094] ❌ Pendo - create_failed
+   [845/1094] ❌ People.ai - create_failed
+   [846/1094] ❌ Periodic Labs - create_failed
+   [847/1094] ❌ Persado - create_failed
+   [848/1094] ❌ Petal - create_failed
+   [849/1094] ❌ Phenom - create_failed
+   [850/1094] ❌ Photoroom - create_failed
+   [851/1094] ❌ Phrasee - create_failed
+   [852/1094] ❌ Pictory - create_failed
+   [853/1094] ❌ Pieces Technologies - create_failed
+   [854/1094] ❌ Pika Labs - create_failed
+   [855/1094] ❌ Pilot - create_failed
+   [856/1094] ❌ Pindrop - create_failed
+   [857/1094] ❌ Pinerary - create_failed
+   [858/1094] ❌ Ping Identity - create_failed
+   [859/1094] ❌ Pipedream - create_failed
+   [860/1094] ❌ Pitchbook - create_failed
+   [861/1094] ❌ PlanGrid - create_failed
+   [862/1094] ❌ Play.ht - create_failed
+   [863/1094] ❌ Playground AI - create_failed
+   [864/1094] ❌ Podcastle - create_failed
+   [865/1094] ❌ Pointhound - create_failed
+   [866/1094] ❌ Polarsteps - create_failed
+   [867/1094] ❌ Polymath Robotics - create_failed
+   [868/1094] ❌ Poolside AI - create_failed
+   [869/1094] ❌ Postman - create_failed
+   [870/1094] ❌ Powder - create_failed
+   [871/1094] ❌ Predoc - create_failed
+   [872/1094] ❌ Prefect - update_failed
+   [873/1094] ❌ Preply - create_failed
+   [874/1094] ❌ Procore - create_failed
+   [875/1094] ❌ Procure AI - create_failed
+   [876/1094] ❌ Procurify - create_failed
+   [877/1094] ❌ Promptlayer - create_failed
+   [878/1094] ❌ Prop-AI - create_failed
+   [879/1094] ❌ Propaya - create_failed
+   [880/1094] ❌ Propexo - create_failed
+   [881/1094] ❌ Protect AI - create_failed
+   [882/1094] ❌ Pryon - create_failed
+   [883/1094] ❌ Puzzle - create_failed
+   [884/1094] ❌ Qodo - create_failed
+   [885/1094] ❌ Qodo (CodiumAI) - create_failed
+   [886/1094] ❌ Quanta Financial - create_failed
+   [887/1094] ❌ Querium - create_failed
+   [888/1094] ❌ Raindrop - create_failed
+   [889/1094] ❌ Ramp - create_failed
+   [890/1094] ❌ RapiDoc - create_failed
+   [891/1094] ❌ Rasa - create_failed
+   [892/1094] ❌ RavenPack - create_failed
+   [893/1094] ❌ Raycaster - create_failed
+   [894/1094] ❌ Rayyan - create_failed
+   [895/1094] ❌ Read AI - create_failed
+   [896/1094] ❌ Realtime Robotics - create_failed
+   [897/1094] ❌ Recorded Future - create_failed
+   [898/1094] ❌ Reflection AI - create_failed
+   [899/1094] ❌ Reflexivity - create_failed
+   [900/1094] ❌ Regard - create_failed
+   [901/1094] ❌ Reka AI - create_failed
+   [902/1094] ❌ Relativity - create_failed
+   [903/1094] ❌ Remote - create_failed
+   [904/1094] ❌ Remove.bg - create_failed
+   [905/1094] ❌ Reonomy - create_failed
+   [906/1094] ❌ Replica Studios - create_failed
+   [907/1094] ❌ Research Rabbit - create_failed
+   [908/1094] ❌ Resemble AI - create_failed
+   [909/1094] ❌ Rev - create_failed
+   [910/1094] ❌ ReviewTrackers - create_failed
+   [911/1094] ❌ Rigor - create_failed
+   [912/1094] ❌ Riiid - create_failed
+   [913/1094] ❌ Riiid (Santa) - create_failed
+   [914/1094] ❌ Roame - create_failed
+   [915/1094] ❌ Robust Intelligence - create_failed
+   [916/1094] ❌ Root Insurance - create_failed
+   [917/1094] ❌ Rove - create_failed
+   [918/1094] ❌ RowFlow - create_failed
+   [919/1094] ❌ Rubicon - create_failed
+   [920/1094] ❌ Rudderstack - create_failed
+   [921/1094] ❌ Runway - create_failed
+   [922/1094] ❌ Runway Financial - create_failed
+   [923/1094] ❌ Rytr - create_failed
+   [924/1094] ❌ SalesLoft - create_failed
+   [925/1094] ❌ Sama - create_failed
+   [926/1094] ❌ Sana Labs - create_failed
+   [927/1094] ❌ Sanas - create_failed
+   [928/1094] ❌ SandboxAQ - create_failed
+   [929/1094] ❌ SAP Ariba - create_failed
+   [930/1094] ❌ Saronic - create_failed
+   [931/1094] ❌ Scalenut - create_failed
+   [932/1094] ❌ Scholarcy - create_failed
+   [933/1094] ❌ SciSpace - create_failed
+   [934/1094] ❌ Scite - create_failed
+   [935/1094] ❌ Scoutbee - create_failed
+   [936/1094] ❌ Scratchpad - create_failed
+   [937/1094] ❌ Scribe - create_failed
+   [938/1094] ❌ Seamless.AI - create_failed
+   [939/1094] ❌ Seekout - create_failed
+   [940/1094] ❌ Seismic - create_failed
+   [941/1094] ❌ Seldon - create_failed
+   [942/1094] ❌ Semantic Scholar - create_failed
+   [943/1094] ❌ Semrush - create_failed
+   [944/1094] ❌ SendGrid - create_failed
+   [945/1094] ❌ Sense - create_failed
+   [946/1094] ❌ Sensei Robotics - create_failed
+   [947/1094] ❌ Sentieo - create_failed
+   [948/1094] ❌ SentinelOne - create_failed
+   [949/1094] ❌ SEO.AI - create_failed
+   [950/1094] ❌ ServiceTitan - create_failed
+   [951/1094] ❌ Seso - create_failed
+   [952/1094] ❌ Shelf.io - create_failed
+   [953/1094] ❌ Sherpa - create_failed
+   [954/1094] ❌ Shield AI - create_failed
+   [955/1094] ❌ Shift Technology - create_failed
+   [956/1094] ❌ Sierra - create_failed
+   [957/1094] ❌ Sievo - create_failed
+   [958/1094] ❌ SimpleLegal - create_failed
+   [959/1094] ❌ Simular - create_failed
+   [960/1094] ❌ Sinequa - create_failed
+   [961/1094] ❌ SirionLabs - create_failed
+   [962/1094] ❌ Sixfold - create_failed
+   [963/1094] ❌ Skild AI - create_failed
+   [964/1094] ❌ Skyline AI - create_failed
+   [965/1094] ❌ Slite - create_failed
+   [966/1094] ❌ Snapsheet - create_failed
+   [967/1094] ❌ Snorkel AI - create_failed
+   [968/1094] ❌ Snyk - create_failed
+   [969/1094] ❌ Sourcegraph - create_failed
+   [970/1094] ❌ Sourcely - create_failed
+   [971/1094] ❌ Spectra Logic - create_failed
+   [972/1094] ❌ Speechify - create_failed
+   [973/1094] ❌ Spellbook - create_failed
+   [974/1094] ❌ SpendHQ - create_failed
+   [975/1094] ❌ Spreedly - create_failed
+   [976/1094] ❌ Sprout Social - create_failed
+   [977/1094] ❌ Squirrel AI - create_failed
+   [978/1094] ❌ Squirrel AI (Yixue) - create_failed
+   [979/1094] ❌ Stability AI - create_failed
+   [980/1094] ❌ StackStorm - create_failed
+   [981/1094] ❌ Stampli - create_failed
+   [982/1094] ❌ Standard Bots - create_failed
+   [983/1094] ❌ Stardrift - create_failed
+   [984/1094] ❌ Starmind - create_failed
+   [985/1094] ❌ Statespace - create_failed
+   [986/1094] ❌ Stoplight - create_failed
+   [987/1094] ❌ Street Context - create_failed
+   [988/1094] ❌ Strive - create_failed
+   [989/1094] ❌ Suki - create_failed
+   [990/1094] ❌ Sumble - create_failed
+   [991/1094] ❌ Summer Health - create_failed
+   [992/1094] ❌ Suno - create_failed
+   [993/1094] ❌ SuperAGI - create_failed
+   [994/1094] ❌ SuperAnnotate - create_failed
+   [995/1094] ❌ Superblocks - update_failed
+   [996/1094] ❌ Supio - create_failed
+   [997/1094] ❌ Surfer SEO - create_failed
+   [998/1094] ❌ Swagger/SwaggerHub - create_failed
+   [999/1094] ❌ Syft Analytics - create_failed
+   [1000/1094] ❌ Symbotic - create_failed
+   [1001/1094] ❌ Symphony AI - create_failed
+   [1002/1094] ❌ Synthesia - create_failed
+   [1003/1094] ❌ Tab - create_failed
+   [1004/1094] ❌ Tabnine - create_failed
+   [1005/1094] ❌ Tala Health - create_failed
+   [1006/1094] ❌ Talkdesk - create_failed
+   [1007/1094] ❌ Tango - create_failed
+   [1008/1094] ❌ Tanka - create_failed
+   [1009/1094] ❌ Teachmint - create_failed
+   [1010/1094] ❌ Tealium - create_failed
+   [1011/1094] ❌ Tecton - create_failed
+   [1012/1094] ❌ Temporal - create_failed
+   [1013/1094] ❌ Tempus - create_failed
+   [1014/1094] ❌ Tennr - create_failed
+   [1015/1094] ❌ TensorWave - create_failed
+   [1016/1094] ❌ TetraScience - create_failed
+   [1017/1094] ❌ Tettra - create_failed
+   [1018/1094] ❌ Textio - create_failed
+   [1019/1094] ❌ Tezi - create_failed
+   [1020/1094] ❌ The Bot Co - create_failed
+   [1021/1094] ❌ Thinking Machines Lab - create_failed
+   [1022/1094] ❌ Thinknum - create_failed
+   [1023/1094] ❌ Thoughtful AI - create_failed
+   [1024/1094] ❌ ThreatConnect - create_failed
+   [1025/1094] ❌ TinyFish - create_failed
+   [1026/1094] ❌ Toast - update_failed
+   [1027/1094] ❌ Tractable - create_failed
+   [1028/1094] ❌ Tractian - create_failed
+   [1029/1094] ❌ Trainual - create_failed
+   [1030/1094] ❌ Transcarent - create_failed
+   [1031/1094] ❌ TravelAI - create_failed
+   [1032/1094] ❌ Tray.io - create_failed
+   [1033/1094] ❌ Treasure Data - create_failed
+   [1034/1094] ❌ Trinka - create_failed
+   [1035/1094] ❌ Tripian - create_failed
+   [1036/1094] ❌ Turing - update_failed
+   [1037/1094] ❌ Ultimate Software - create_failed
+   [1038/1094] ❌ Ultimate.ai - create_failed
+   [1039/1094] ❌ Ultra - create_failed
+   [1040/1094] ❌ Una - create_failed
+   [1041/1094] ❌ Uniphore - create_failed
+   [1042/1094] ❌ Upscale AI - create_failed
+   [1043/1094] ❌ Uptake - create_failed
+   [1044/1094] ❌ v0.dev - create_failed
+   [1045/1094] ❌ V7 Labs - create_failed
+   [1046/1094] ❌ Valla - create_failed
+   [1047/1094] ❌ Vareto - create_failed
+   [1048/1094] ❌ Vectara - create_failed
+   [1049/1094] ❌ Veed.io - create_failed
+   [1050/1094] ❌ Veeva - create_failed
+   [1051/1094] ❌ Veho - create_failed
+   [1052/1094] ❌ Vena - create_failed
+   [1053/1094] ❌ Veo Robotics - create_failed
+   [1054/1094] ❌ Veracyte - create_failed
+   [1055/1094] ❌ Versatile - create_failed
+   [1056/1094] ❌ Visible Alpha - create_failed
+   [1057/1094] ❌ Voiceflow - create_failed
+   [1058/1094] ❌ Vora AI - create_failed
+   [1059/1094] ❌ Vori Health - create_failed
+   [1060/1094] ❌ VTS - create_failed
+   [1061/1094] ❌ Wallaroo - create_failed
+   [1062/1094] ❌ Warp - create_failed
+   [1063/1094] ❌ Waymo - create_failed
+   [1064/1094] ❌ webAI - create_failed
+   [1065/1094] ❌ WebEngage - create_failed
+   [1066/1094] ❌ WellSaid Labs - create_failed
+   [1067/1094] ❌ Wheel - create_failed
+   [1068/1094] ❌ WhyLabs - create_failed
+   [1069/1094] ❌ Willow - create_failed
+   [1070/1094] ❌ Windmill - create_failed
+   [1071/1094] ❌ Windsor.ai - create_failed
+   [1072/1094] ❌ Wisedocs - create_failed
+   [1073/1094] ❌ Wiz - create_failed
+   [1074/1094] ❌ Wokelo - create_failed
+   [1075/1094] ❌ Wonder Dynamics - create_failed
+   [1076/1094] ❌ Wordtune - create_failed
+   [1077/1094] ❌ Workato - update_failed
+   [1078/1094] ❌ Workvivo - create_failed
+   [1079/1094] ❌ World Labs - create_failed
+   [1080/1094] ❌ Writefull - create_failed
+   [1081/1094] ❌ Writer.com - create_failed
+   [1082/1094] ❌ Writesonic - create_failed
+   [1083/1094] ❌ XBOW - create_failed
+   [1084/1094] ❌ XGenomes - create_failed
+   [1085/1094] ❌ YCharts - create_failed
+   [1086/1094] ❌ Yewno - create_failed
+   [1087/1094] ❌ Yext - create_failed
+   [1088/1094] ❌ YonedaLabs - create_failed
+   [1089/1094] ❌ Yoodli - create_failed
+   [1090/1094] ❌ Zeni - create_failed
+   [1091/1094] ❌ ZenML - create_failed
+   [1092/1094] ❌ Zip - create_failed
+   [1093/1094] ❌ Zip Security - create_failed
+   [1094/1094] ❌ Zipline - create_failed
+
+======================================================================
+🟡 COHORT 3: Competitor Customers
+======================================================================
+   Loaded langchain: 0 companies
+   Loaded qdrant: 0 companies
+   Loaded weaviate: 0 companies
+   Loaded vespa: 0 companies
+   Loaded pinecone: 0 companies
+   No companies to import for Cohort 3: Competitors
+
+======================================================================
+🟢 COHORT 4: SI Partners
+======================================================================
+   Loaded 20 SI partners
+
+📤 Importing 20 companies for Cohort 4: SI Partners...
+   [1/20] 🔄 Infosys - updated
+   [2/20] 🔄 Cognizant - updated
+   [3/20] 🔄 Keyvalue Software Systems - updated
+   [4/20] 🔄 Deloitte - updated
+   [5/20] 🔄 Ibm - updated
+
+======================================================================
+📊 IMPORT SUMMARY
+======================================================================
+
+   Cohort 1: Current Customers:
+      Total: 1023
+      ✅ Created: 1003
+      🔄 Updated: 20
+      ❌ Failed: 0
+
+   Cohort 2: In-Market:
+      Total: 1094
+      ✅ Created: 0
+      🔄 Updated: 0
+      ❌ Failed: 1094
+
+   Cohort 3: Competitors:
+      Total: 0
+      ✅ Created: 0
+      🔄 Updated: 0
+      ❌ Failed: 0
+
+   Cohort 4: SI Partners:
+      Total: 20
+      ✅ Created: 0
+      🔄 Updated: 20
+      ❌ Failed: 0
+
+   GRAND TOTAL:
+      ✅ Created: 1003
+      🔄 Updated: 40
+      ❌ Failed: 1094
+
+   Completed: 2026-01-13T21:49:56.053767
+
+🔗 View in HubSpot: https://app.hubspot.com

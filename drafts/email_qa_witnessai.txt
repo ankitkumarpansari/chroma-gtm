@@ -1,0 +1,23 @@
+From: Ankit Pansari <ankit@trychroma.com>
+To: qa-witnessai@witness.ai
+Cc: Jeff Huber <jeff@trychroma.com>
+Subject: Chroma Cloud + WitnessAI
+
+Hey,
+
+I see you're trying out Chroma Cloud - welcome!
+
+WitnessAI is a big name in enterprise AI security and governance - excited to see what you're building with real-time visibility and AI-native protection for models and autonomous agents.
+
+Happy to set you up with:
+- Extended credits to test at scale
+- Direct Slack channel for technical support
+- Call to discuss your use case
+
+Our CTO Hammad recently gave a talk on context engineering that might be relevant: https://www.youtube.com/watch?v=vsfbplnJyA8
+
+Let me know if helpful!
+
+Talk soon!
+
+

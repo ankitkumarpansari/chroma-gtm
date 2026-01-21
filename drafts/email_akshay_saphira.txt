@@ -1,0 +1,24 @@
+From: Ankit Pansari <ankit@trychroma.com>
+To: akshay@saphira.ai
+Cc: Jeff Huber <jeff@trychroma.com>
+Subject: Chroma Cloud + Saphira AI
+
+Hey Akshay,
+
+I see you're trying out Chroma Cloud - welcome!
+
+Checked out Saphira AI - really cool what you're building! AI-powered compliance automation for functional safety, electrical safety, and cybersecurity across robotics, automotive, and aerospace is exactly the kind of use case where Chroma shines, especially around semantic search over engineering documents, requirements, and test data.
+
+There are a bunch of ways Chroma can boost what you're doing, especially around:
+- Semantic search over your compliance knowledge base
+- RAG for generating FMEAs and safety cases from linked requirements
+- Intelligent retrieval of standards-aligned documentation
+- Fast vector search across requirements, code, tests, and engineering data
+
+Happy to hop on a call or set up a shared Slack channel.
+
+Have cc'd Jeff, founder of Chroma to the thread. Talk soon!
+
+PS: Bumped your credits to $1,000 as a small gesture!
+
+

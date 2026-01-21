@@ -1,3 +1,9 @@
+# Chroma workspace index (local, regeneratable)
+.chroma_workspace_index/
+
+# Cursor workspace files
+.cursor/
+
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
@@ -83,4 +89,19 @@ customer-calls/calls/
 
 # Query exports (large, regeneratable)
 query.csv
+
+# Gmail API credentials (SENSITIVE - never commit!)
+scripts/credentials.json
+scripts/token.pickle
+*.pickle
+
+# Google Sheets credentials (SENSITIVE - never commit!)
+credentials/
+google_service_account.json
+
+# Email context (synced, not source of truth)
+context/EMAILS.md
+context/LEADS_INBOX.md
+context/FOLLOW_UPS.md
+context/email_threads/
 

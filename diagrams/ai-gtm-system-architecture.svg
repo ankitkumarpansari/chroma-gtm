@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#64748B"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#F97316"/>
+    </marker>
+  </defs>
+  
+  <rect width="1200" height="1000" fill="#FAFAFA"/>
+  
+  <text x="600" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" fill="#0F172A" font-weight="600">AI-Powered GTM System</text>
+  <text x="600" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#64748B">Context - Actions - Outputs - Better Context</text>
+  
+  <text x="60" y="110" font-family="system-ui, sans-serif" font-size="12" fill="#64748B" font-weight="500">CONTEXT LAYER</text>
+  
+  <rect x="60" y="130" width="160" height="80" fill="#FFF7ED" stroke="#F97316" stroke-width="2" rx="8"/>
+  <text x="140" y="162" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#0F172A" font-weight="600">CLAUDE.md</text>
+  <text x="140" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Your identity</text>
+  <text x="140" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Read first always</text>
+  
+  <rect x="240" y="130" width="180" height="80" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="8"/>
+  <text x="330" y="162" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#0F172A" font-weight="500">GTM_CONTEXT.md</text>
+  <text x="330" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">ICP, positioning</text>
+  <text x="330" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Value props</text>
+  
+  <rect x="440" y="130" width="180" height="80" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="8"/>
+  <text x="530" y="162" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#0F172A" font-weight="500">COMPETITORS.md</text>
+  <text x="530" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Battle cards</text>
+  <text x="530" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">What to say</text>
+  
+  <rect x="640" y="130" width="180" height="80" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="8"/>
+  <text x="730" y="162" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#0F172A" font-weight="500">TEMPLATES.md</text>
+  <text x="730" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Email styles</text>
+  <text x="730" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Your voice</text>
+  
+  <rect x="840" y="130" width="200" height="80" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="8"/>
+  <text x="940" y="162" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#0F172A" font-weight="500">MEETING_INDEX.md</text>
+  <text x="940" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">All meetings</text>
+  <text x="940" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#F97316">Updated every call</text>
+  
+  <line x1="140" y1="210" x2="140" y2="230" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="330" y1="210" x2="330" y2="230" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="530" y1="210" x2="530" y2="230" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="730" y1="210" x2="730" y2="230" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="940" y1="210" x2="940" y2="230" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="140" y1="230" x2="940" y2="230" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="540" y1="230" x2="540" y2="260" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)"/>
+  
+  <rect x="390" y="270" width="300" height="90" fill="#FFF7ED" stroke="#F97316" stroke-width="2" rx="10"/>
+  <text x="540" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="24" fill="#F97316" font-weight="600">CLAUDE</text>
+  <text x="540" y="335" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748B">Reads context - Generates outputs</text>
+  <text x="540" y="352" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">Cursor or GitHub Issues</text>
+  
+  <line x1="540" y1="360" x2="540" y2="395" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)"/>
+  
+  <text x="60" y="420" font-family="system-ui, sans-serif" font-size="12" fill="#64748B" font-weight="500">ACTIONS</text>
+  
+  <rect x="60" y="440" width="180" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="150" y="468" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">Draft Email</text>
+  <text x="150" y="488" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#64748B">@claude email john@acme.ai</text>
+  <text x="150" y="502" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Researches and personalizes</text>
+  
+  <rect x="260" y="440" width="180" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="350" y="468" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">Research Company</text>
+  <text x="350" y="488" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#64748B">@claude research Stripe</text>
+  <text x="350" y="502" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Overview and fit score</text>
+  
+  <rect x="460" y="440" width="180" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="550" y="468" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">LinkedIn Post</text>
+  <text x="550" y="488" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#64748B">@claude linkedin AI trends</text>
+  <text x="550" y="502" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Hook, body, hashtags</text>
+  
+  <rect x="660" y="440" width="180" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="750" y="468" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">Competitor Intel</text>
+  <text x="750" y="488" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#64748B">@claude vs Competitor X</text>
+  <text x="750" y="502" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Positioning and counters</text>
+  
+  <rect x="160" y="525" width="180" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="250" y="553" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">Meeting Notes</text>
+  <text x="250" y="573" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Extract from transcript</text>
+  <text x="250" y="587" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Decisions and actions</text>
+  
+  <rect x="360" y="525" width="180" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="450" y="553" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">Find Leads</text>
+  <text x="450" y="573" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748B">Find AI startups in SF</text>
+  <text x="450" y="587" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Enriched list</text>
+  
+  <rect x="560" y="525" width="180" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="650" y="553" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">Refine Output</text>
+  <text x="650" y="573" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#64748B">@claude make it shorter</text>
+  <text x="650" y="587" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#94A3B8">Remembers and improves</text>
+  
+  <line x1="60" y1="620" x2="860" y2="620" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <text x="60" y="660" font-family="system-ui, sans-serif" font-size="12" fill="#64748B" font-weight="500">THE COMPOUNDING LOOP</text>
+  <text x="60" y="680" font-family="system-ui, sans-serif" font-size="11" fill="#94A3B8">Every interaction makes the system smarter</text>
+  
+  <rect x="60" y="700" width="800" height="130" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1" rx="10"/>
+  
+  <rect x="80" y="720" width="130" height="90" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="145" y="750" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">STEP 1</text>
+  <text x="145" y="770" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0F172A" font-weight="500">You ask Claude</text>
+  <text x="145" y="790" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748B">Draft email to partner</text>
+  
+  <path d="M 210 765 L 235 765" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)"/>
+  
+  <rect x="240" y="720" width="130" height="90" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="305" y="750" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">STEP 2</text>
+  <text x="305" y="770" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0F172A" font-weight="500">Claude drafts</text>
+  <text x="305" y="790" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748B">Using your context</text>
+  
+  <path d="M 370 765 L 395 765" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)"/>
+  
+  <rect x="400" y="720" width="130" height="90" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="465" y="750" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">STEP 3</text>
+  <text x="465" y="770" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0F172A" font-weight="500">You give feedback</text>
+  <text x="465" y="790" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748B">Make it more casual</text>
+  
+  <path d="M 530 765 L 555 765" stroke="#64748B" stroke-width="1" marker-end="url(#arrow)"/>
+  
+  <rect x="560" y="720" width="130" height="90" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" rx="6"/>
+  <text x="625" y="750" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">STEP 4</text>
+  <text x="625" y="770" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0F172A" font-weight="500">Update context</text>
+  <text x="625" y="790" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" fill="#64748B">TEMPLATES.md</text>
+  
+  <path d="M 690 765 L 715 765" stroke="#F97316" stroke-width="2" marker-end="url(#arrow-accent)"/>
+  
+  <rect x="720" y="720" width="120" height="90" fill="#FFF7ED" stroke="#F97316" stroke-width="2" rx="6"/>
+  <text x="780" y="750" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#F97316">RESULT</text>
+  <text x="780" y="770" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#0F172A" font-weight="600">Next time better</text>
+  <text x="780" y="790" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#F97316">Claude remembers</text>
+  
+  <path d="M 780 810 L 780 840 L 145 840 L 145 810" stroke="#F97316" stroke-width="1.5" fill="none" stroke-dasharray="4 4" marker-end="url(#arrow-accent)"/>
+  
+  <rect x="60" y="870" width="800" height="50" fill="#FFF7ED" stroke="#F97316" stroke-width="1" rx="8"/>
+  <text x="460" y="902" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#0F172A" font-weight="500">Every correction you make updates context - Claude never makes that mistake again</text>
+  
+  <text x="460" y="970" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#94A3B8">AI-Powered GTM System - The more you use it, the better it gets</text>
+  
+</svg>

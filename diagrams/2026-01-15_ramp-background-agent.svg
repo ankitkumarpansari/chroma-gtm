@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <!-- Background: Tailwind slate-900 -->
+  <rect width="1600" height="1000" fill="#0f172a"/>
+
+  <!-- Header -->
+  <text x="800" y="56" text-anchor="middle" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="32" font-weight="600">
+    Ramp Background Coding Agent (Inspect)
+  </text>
+  <text x="800" y="88" text-anchor="middle" fill="#64748b" font-family="system-ui, sans-serif" font-size="16">
+    Key system components, workflow, and optimizations
+  </text>
+
+  <!-- Row 1: Core pillars -->
+  <!-- Card 1: Sandbox -->
+  <rect x="60" y="130" width="470" height="210" rx="8" fill="#1e293b"/>
+  <text x="295" y="165" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">
+    Sandbox (Modal)
+  </text>
+  <text x="85" y="200" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Fast sandbox spin-up via snapshots</text>
+  <text x="85" y="225" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Repo images rebuilt every 30 min</text>
+  <text x="85" y="250" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Restore sessions from snapshots</text>
+  <text x="85" y="275" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Full dev stack pre-installed</text>
+  <text x="85" y="300" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Allow reads before full sync</text>
+
+  <!-- Card 2: Agent -->
+  <rect x="565" y="130" width="470" height="210" rx="8" fill="#1e293b"/>
+  <text x="800" y="165" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">
+    Agent (OpenCode)
+  </text>
+  <text x="590" y="200" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Server-first agent with typed SDK</text>
+  <text x="590" y="225" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Plugins to gate edits until sync done</text>
+  <text x="590" y="250" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Multi-client workflows supported</text>
+  <text x="590" y="275" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Agent can spawn sub-sessions</text>
+  <text x="590" y="300" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Queue prompts while running</text>
+
+  <!-- Card 3: API -->
+  <rect x="1070" y="130" width="470" height="210" rx="8" fill="#1e293b"/>
+  <text x="1305" y="165" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">
+    API (Cloudflare)
+  </text>
+  <text x="1095" y="200" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Durable Objects per session (SQLite)</text>
+  <text x="1095" y="225" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Agents SDK for real-time streaming</text>
+  <text x="1095" y="250" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Multi-client state synchronization</text>
+  <text x="1095" y="275" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Multiplayer attribution per prompt</text>
+  <text x="1095" y="300" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• GitHub auth for PRs</text>
+
+  <!-- Row 2: Workflow -->
+  <rect x="60" y="380" width="1480" height="230" rx="8" fill="#1e293b"/>
+  <text x="800" y="415" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">
+    End-to-End Workflow
+  </text>
+  <text x="110" y="460" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">
+    <tspan fill="#38bdf8" font-weight="600">1.</tspan> User prompt → classifier selects repo (Slack / Web / Extension)
+  </text>
+  <text x="110" y="490" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">
+    <tspan fill="#38bdf8" font-weight="600">2.</tspan> Sandbox warms and syncs → agent reads immediately
+  </text>
+  <text x="110" y="520" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">
+    <tspan fill="#38bdf8" font-weight="600">3.</tspan> Agent writes code → tests / visual checks → snapshots
+  </text>
+  <text x="110" y="550" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">
+    <tspan fill="#38bdf8" font-weight="600">4.</tspan> Sandbox pushes branch → API opens PR with user token
+  </text>
+  <text x="110" y="580" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">
+    <tspan fill="#38bdf8" font-weight="600">5.</tspan> Webhooks track PR status → session stays shareable
+  </text>
+
+  <!-- Row 3: Bottom cards -->
+  <!-- Card: Clients -->
+  <rect x="60" y="660" width="470" height="280" rx="8" fill="#1e293b"/>
+  <text x="295" y="695" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">
+    Clients
+  </text>
+  <text x="85" y="735" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Slack bot with repo classifier</text>
+  <text x="85" y="765" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Web app with hosted VS Code</text>
+  <text x="85" y="795" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Streamed desktop for visual checks</text>
+  <text x="85" y="825" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Chrome extension for React UI edits</text>
+  <text x="85" y="855" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Multiplayer sessions across clients</text>
+
+  <!-- Card: Speed Optimizations -->
+  <rect x="565" y="660" width="470" height="280" rx="8" fill="#1e293b"/>
+  <text x="800" y="695" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">
+    Speed Optimizations
+  </text>
+  <text x="590" y="735" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Prebuild repo images and caches</text>
+  <text x="590" y="765" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Warm sandboxes on prompt start</text>
+  <text x="590" y="795" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Allow read access before sync ends</text>
+  <text x="590" y="825" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Block edits until sync complete</text>
+  <text x="590" y="855" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Spawn helper sessions for research</text>
+
+  <!-- Card: Adoption & Metrics -->
+  <rect x="1070" y="660" width="470" height="280" rx="8" fill="#1e293b"/>
+  <text x="1305" y="695" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">
+    Adoption &amp; Metrics
+  </text>
+  <text x="1095" y="735" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Sessions are fast and low-cost</text>
+  <text x="1095" y="765" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Usage grows via public workflows</text>
+  <text x="1095" y="795" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Track PRs merged as success metric</text>
+  <text x="1095" y="825" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Live "humans prompting" count</text>
+  <text x="1095" y="855" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14">• Vertical adoption in weeks</text>
+
+  <!-- Highlight stat -->
+  <rect x="1095" y="880" width="420" height="40" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+  <text x="1305" y="907" text-anchor="middle" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="16" font-weight="600">
+    ~30% of PRs merged written by Inspect
+  </text>
+
+  <!-- Footer -->
+  <text x="800" y="976" text-anchor="middle" fill="#475569" font-family="system-ui, sans-serif" font-size="12">
+    Source: builders.ramp.com/post/why-we-built-our-background-agent
+  </text>
+</svg>
